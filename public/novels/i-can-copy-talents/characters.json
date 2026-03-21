@@ -1,0 +1,3579 @@
+{
+  "characters": [
+    {
+      "id": "ye-tian",
+      "name": "Ye Tian",
+      "nameChinese": "叶天",
+      "image": "ye-tian.png",
+      "role": "protagonista",
+      "bio": "Protagonista transmigrado. Nivel Rey extremo (7 estrellas, rango 7 en Lista de Reyes). Talento de Cultivo Sol Naciente. 25+ talentos incluyendo Tiempo, Velocidad Pseudo-Arcano, Fuego Dominio. 9.6 poderes dragón de ataque. Registrado como 'Tian Ye' en Super Base Zhonghai. Mercenario Hierro Negro.",
+      "info": {
+        "edad": "~17 años",
+        "genero": "Masculino",
+        "reino": "Nivel Rey (extremo, 7 estrellas)",
+        "talentoCultivo": "Sol Naciente (25+ talentos)",
+        "afiliacion": "Independiente",
+        "ubicacion": "Super Base Zhonghai",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 1"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Copia",
+          "type": "copy",
+          "status": "activo",
+          "description": "Permite ver los talentos de personas y bestias, y copiarlos mediante contacto físico. Cooldown de 1 mes entre copias. El talento copiado reemplaza al anterior del mismo tipo.",
+          "acquiredChapter": 1
+        },
+        {
+          "name": "Talento de Cultivo",
+          "type": "cultivation",
+          "rank": "Extraordinario",
+          "status": "copiado",
+          "description": "Débil→Medio(Chen Dong)→Alto(Yue Ling)→Supremo(Sun Feng)→Extraordinario(Rey Yunhe). Sin límite hasta nivel rey.",
+          "acquiredChapter": 3
+        },
+        {
+          "name": "Talento de Velocidad",
+          "type": "speed",
+          "rank": "Elemental",
+          "status": "activo",
+          "description": "Copiado de la Marta Lunar Plateada muerta. Triplica la velocidad base, comparable a un Artista Marcial ordinario.",
+          "acquiredChapter": 5
+        },
+        {
+          "name": "Talento de Sable",
+          "type": "blade",
+          "rank": "Medio",
+          "status": "copiado",
+          "description": "Copiado de Li Yunxing. Otorga intuición innata sobre cómo cortar con máxima letalidad. Puede competir con aprendices de 400-500 catties.",
+          "acquiredChapter": 8
+        },
+        {
+          "name": "Talento de Sombra",
+          "type": "shadow",
+          "rank": "Elemental",
+          "status": "activo",
+          "description": "Copiado del asesino Li Cun (muerto). Permite ocultarse en las sombras. Invisible incluso para Artistas Marciales Élite. Requiere estar en zonas con sombra; no se puede atacar ni recibir ataques en estado de sombra.",
+          "acquiredChapter": 15
+        },
+        {
+          "name": "Sable Sombrío (Asesinato Sombrío)",
+          "type": "blade",
+          "rank": "Nivel Bronce",
+          "status": "activo",
+          "description": "Técnica de sable de nivel bronce obtenida de Li Cun. Un solo movimiento: Asesinato Sombrío, rápido como el relámpago. Dominado a nivel introductorio en 3 días gracias al talento medio de sable.",
+          "acquiredChapter": 15
+        },
+        {
+          "name": "Talento de Curación",
+          "type": "healing",
+          "rank": "Supremo",
+          "status": "activo",
+          "description": "Copiado de una medusa faro muerta en el Lago de la Muerte. Permite curar heridas y recuperarse más rápido. Quinto talento de Ye Tian.",
+          "acquiredChapter": 23
+        },
+        {
+          "name": "Forja Corporal",
+          "type": "cultivation",
+          "rank": "18/18 movimientos",
+          "status": "activo",
+          "description": "Dominó los 18 movimientos de forja corporal en 10 días.",
+          "acquiredChapter": 3
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-yu",
+          "characterName": "Ye Yu",
+          "type": "Hermana menor"
+        },
+        {
+          "characterId": "zhang-bao",
+          "characterName": "Zhang Bao",
+          "type": "Compañero de clase"
+        },
+        {
+          "characterId": "chen-dong",
+          "characterName": "Chen Dong",
+          "type": "Fuente de talento (cultivo)"
+        },
+        {
+          "characterId": "li-yunxing",
+          "characterName": "Li Yunxing",
+          "type": "Fuente de talento (sable)"
+        },
+        {
+          "characterId": "li-cun",
+          "characterName": "Li Cun",
+          "type": "Fuente de talento (sombra) — asesinado"
+        },
+        {
+          "characterId": "mo-shaobei",
+          "characterName": "Mo Shaobei",
+          "type": "Enemigo mortal"
+        },
+        {
+          "characterId": "yue-ling",
+          "characterName": "Yue Ling",
+          "type": "Aliada + Fuente de talento (cultivo alto)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap1",
+          "chapterNumber": 1,
+          "note": "Transmigra al cuerpo de un joven de 15 años. Descubre su Talento Débil. Al ver a Ye Yu, una interfaz aparece mostrando sus talentos.",
+          "statsSnapshot": {
+            "reino": "Aprendiz Marcial",
+            "talento": "Débil",
+            "fuerza": "Sin entrenar",
+            "ubicacion": "Habitación / Linhai"
+          }
+        },
+        {
+          "chapterId": "cap2",
+          "chapterNumber": 2,
+          "note": "Confirma el Talento de Copia. Decide buscar un talento medio. Sale a recorrer las calles escaneando talentos.",
+          "statsSnapshot": {
+            "reino": "Aprendiz Marcial",
+            "talento": "Débil → busca Medio",
+            "fuerza": "Sin entrenar",
+            "ubicacion": "Calles de Linhai"
+          }
+        },
+        {
+          "chapterId": "cap3",
+          "chapterNumber": 3,
+          "note": "En la Quinta Academia domina los 18 movimientos. Localiza a Chen Dong, confirma su Talento Medio, y lo copia con un tropezón fingido.",
+          "statsSnapshot": {
+            "reino": "Aprendiz Marcial",
+            "talento": "Medio (copiado)",
+            "fuerza": "En entrenamiento",
+            "ubicacion": "Quinta Academia"
+          }
+        },
+        {
+          "chapterId": "cap4",
+          "chapterNumber": 4,
+          "note": "Fusiona el talento medio (10 min de dolor). Entrena un mes, alcanza 200 catties. Una bestia irrumpe en la base al anochecer.",
+          "statsSnapshot": {
+            "reino": "Aprendiz Marcial",
+            "talento": "Medio (fusionado)",
+            "fuerza": "200 catties",
+            "ubicacion": "Quinta Academia / Linhai"
+          }
+        },
+        {
+          "chapterId": "cap5",
+          "chapterNumber": 5,
+          "note": "Sobrevive al ataque de la Marta Lunar Plateada. Descubre que el Talento de Copia funciona con bestias. Copia el Talento de Velocidad Elemental de la marta muerta.",
+          "statsSnapshot": {
+            "reino": "Aprendiz Marcial",
+            "talento": "Medio + Velocidad (copiado)",
+            "fuerza": "200 catties",
+            "ubicacion": "Calles de Linhai"
+          }
+        },
+        {
+          "chapterId": "cap6",
+          "chapterNumber": 6,
+          "note": "Fusiona el talento de velocidad (triplica rapidez). Entrena un mes, alcanza 300 catties. Zhang Bao le cuenta sobre la prueba de campo y la sangre de bestia.",
+          "statsSnapshot": {
+            "reino": "Aprendiz Marcial",
+            "talento": "Medio + Velocidad Elemental",
+            "fuerza": "300 catties",
+            "ubicacion": "Quinta Academia / Linhai"
+          }
+        },
+        {
+          "chapterId": "cap7",
+          "chapterNumber": 7,
+          "note": "Se inscribe en la prueba firmando contrato de vida o muerte. Compra sable de hierro y arco. Viaja al valle de prueba con 160 estudiantes.",
+          "statsSnapshot": {
+            "reino": "Aprendiz Marcial",
+            "talento": "Medio + Velocidad",
+            "fuerza": "300+ catties",
+            "ubicacion": "Valle de prueba"
+          }
+        },
+        {
+          "chapterId": "cap8",
+          "chapterNumber": 8,
+          "note": "Escanea a los estudiantes de la Primera Academia (5 con talento medio). Conoce a Li Yunxing de la Segunda Academia, le copia el Talento de Sable Medio mediante un apretón de manos. Fusiona el talento y entra a la prueba.",
+          "statsSnapshot": {
+            "reino": "Aprendiz Marcial",
+            "talento": "Medio + Velocidad + Sable Medio",
+            "fuerza": "300+ catties",
+            "ubicacion": "Zona silvestre"
+          }
+        },
+        {
+          "chapterId": "cap9",
+          "chapterNumber": 9,
+          "note": "Caza bestias menores (23 pts). Elimina una manada de lobos dentados salvando a Zhang Bao, conteniendo su velocidad a 1.5x. Zhang Bao le revela la existencia de una pseudo-bestia serpiente moteada de 500 pts.",
+          "statsSnapshot": {
+            "fuerza": "300+ catties",
+            "ubicacion": "Zona silvestre (interior)"
+          }
+        },
+        {
+          "chapterId": "cap10",
+          "chapterNumber": 10,
+          "note": "Observa a los aprendices luchar contra la serpiente (que resultó ser bestia real de 12m, no pseudo-bestia). La serpiente huye herida; Ye Tian la persigue con su velocidad y la remata en una cueva. Recolecta la sangre del corazón (5 sangres de bajo nivel equivalentes).",
+          "statsSnapshot": {
+            "fuerza": "300+ catties",
+            "ubicacion": "Cueva de la serpiente"
+          }
+        },
+        {
+          "chapterId": "cap11",
+          "chapterNumber": 11,
+          "note": "Descubre Líquido del Centro de la Tierra en la cueva. Toma los ojos de la serpiente (1.000 pts). Descubre que la sangre de bestia permite superar el límite de 10 sesiones de forja (hasta 20-30). Cultiva intensamente.",
+          "statsSnapshot": {
+            "fuerza": "~400 catties",
+            "ubicacion": "Cueva (zona silvestre)"
+          }
+        },
+        {
+          "chapterId": "cap12",
+          "chapterNumber": 12,
+          "note": "Gana el primer lugar con 1.163 pts. Mo Shaobei lo confronta. Recibe 3 sangres de bestia intermedia + 100.000 ¥. Comienza a cultivar con sangre intermedia (x8 velocidad).",
+          "statsSnapshot": {
+            "fuerza": "420+ catties",
+            "ubicacion": "Base Linhai"
+          }
+        },
+        {
+          "chapterId": "cap13",
+          "chapterNumber": 13,
+          "note": "Investiga el Líquido del Centro de la Tierra (mejora talento hasta medio). Se lo da a Ye Yu, cuyo talento sube a medio. Envía a su hermana a la escuela. Tras un mes con sangre intermedia, alcanza 800 catties.",
+          "statsSnapshot": {
+            "reino": "Aprendiz Marcial (alto nivel)",
+            "fuerza": "800 catties",
+            "ubicacion": "Base Linhai"
+          }
+        },
+        {
+          "chapterId": "cap14",
+          "chapterNumber": 14,
+          "note": "Mo Shaobei contrata al asesino Li Cun (Sombra) por 1 millón para matarlo. Ye Tian lo detecta con su habilidad pasiva de detección a 3 metros. Ataca primero con velocidad y sable, mata a Li Cun tras un combate donde demuestra ser superior. Copia el Talento de Sombra Elemental del cadáver.",
+          "statsSnapshot": {
+            "talento": "Medio + Velocidad + Sable + Sombra (copiado)",
+            "fuerza": "800 catties",
+            "ubicacion": "Arboleda de la Quinta Academia"
+          }
+        },
+        {
+          "chapterId": "cap15",
+          "chapterNumber": 15,
+          "note": "Fusiona el Talento de Sombra (4 talentos totales). Obtiene del cadáver de Li Cun: sable negro (Soldado Yuan), manual Sable Sombrío (bronce), y 3M+ yuanes. Domina el Asesinato Sombrío en 3 días. Se infiltra en la mansión Mo haciéndose pasar por la Sombra y asesina a Li Hai.",
+          "statsSnapshot": {
+            "talento": "4 talentos",
+            "fuerza": "800 catties",
+            "ubicacion": "Mansión Mo (infiltración)"
+          }
+        },
+        {
+          "chapterId": "cap16",
+          "chapterNumber": 16,
+          "note": "Irrumpe en la habitación de Mo Shaobei y lo asesina con dos golpes del Asesinato Sombrío (le corta la mano y luego la cabeza). Escapa usando el Talento de Sombra sin ser detectado. La familia Mo culpa a la Sombra y a familias rivales.",
+          "statsSnapshot": {
+            "fuerza": "800 catties",
+            "ubicacion": "Mansión Mo → escape"
+          }
+        },
+        {
+          "chapterId": "cap17",
+          "chapterNumber": 17,
+          "note": "Espera 10 días a que la situación se calme. Sale de la Base Linhai hacia Xiaoqingshan para cazar bestias. Pelea contra un Toro Acorazado (el sable de hierro no penetra, usa el Sable Sombrío). Llega a Xiaoqingshan tras esquivar bestias peligrosas usando el Talento de Sombra. Encuentra una cueva para cultivar.",
+          "statsSnapshot": {
+            "fuerza": "800 catties",
+            "ubicacion": "Xiaoqingshan (cueva)"
+          }
+        },
+        {
+          "chapterId": "cap18",
+          "chapterNumber": 18,
+          "note": "Cultiva 5 días con sangre de bestia, alcanza 900 catties. Caza bestias y cultiva durante un mes. Comprehende el potencial del sable. El Asesinato Sombrío alcanza Gran Perfección. La comprensión rompe el cuello de botella: ASCIENDE A ARTISTA MARCIAL (1.000+ catties). Regresa a la Base Linhai. Se dirige al mercado negro de guerreros.",
+          "statsSnapshot": {
+            "reino": "Artista Marcial",
+            "fuerza": "1.000+ catties",
+            "ubicacion": "Base Linhai"
+          }
+        },
+        {
+          "chapterId": "cap19",
+          "chapterNumber": 19,
+          "note": "Entra al mercado negro. Compra Método de Yuan Li y sangre de bestia. Yue Ling lo detecta como genio joven e invita al Pabellón Marcial. Rechaza."
+        },
+        {
+          "chapterId": "cap20",
+          "chapterNumber": 20,
+          "note": "Rechaza unirse al Pabellón Marcial para proteger su secreto. Practica el Método de Yuan Li. Descubre amplificación x3 en cultivo."
+        },
+        {
+          "chapterId": "cap21",
+          "chapterNumber": 21,
+          "note": "Se muda a zona de villas (10M ¥). Investiga el Lago de la Muerte y las medusas faro (talento de curación). Decide ir a copiar ese talento."
+        },
+        {
+          "chapterId": "cap22",
+          "chapterNumber": 22,
+          "note": "Compra mapa del Lago de la Muerte. Viaja al lago. Encuentra a Yue Ling gravemente herida tras emboscada, inconsciente y a punto de morir."
+        },
+        {
+          "chapterId": "cap23",
+          "chapterNumber": 23,
+          "note": "Rescata a Yue Ling. Encuentra medusa faro muerta y copia su Talento de Curación (5° talento). Decide esperar 3 meses para volver al lago. Regresa a Base Linhai.",
+          "statsSnapshot": {
+            "talento": "5 talentos (+ Curación)",
+            "ubicacion": "Base Linhai"
+          }
+        },
+        {
+          "chapterId": "cap24",
+          "chapterNumber": 24,
+          "note": "Compra sangre de bestia intermedia (10M ¥). Fusiona Talento de Curación. Tras 3 meses de cultivo intenso asciende a Artista Marcial Élite. Regresa al Lago de la Muerte. Detecta pez garra de tigre (talento medio de línea de sangre)."
+        },
+        {
+          "chapterId": "cap25",
+          "chapterNumber": 25,
+          "note": "Caza bestias en el Lago de la Muerte. Rango de detección del Talento de Copia aumentó a 10 metros. Encuentra y copia talento de medusa faro superior. Detecta ave de llamas y hormiga de poder divino."
+        },
+        {
+          "chapterId": "cap26",
+          "chapterNumber": 26,
+          "note": "Investiga hormigas de poder divino (talento de fuerza). Se entera de una misión de limpieza de bestias organizada por la Base Linhai. Se inscribe."
+        },
+        {
+          "chapterId": "cap27",
+          "chapterNumber": 27,
+          "note": "Reconoce al Capitán Lobo del Viento en la misión. Decide ayudarlo en agradecimiento. Se une a su grupo de 10 personas."
+        },
+        {
+          "chapterId": "cap28",
+          "chapterNumber": 28,
+          "note": "Misión de limpieza a 30km de Linhai. Combate bestias con el grupo. Detecta un lagarto con talento de fuego."
+        },
+        {
+          "chapterId": "cap29",
+          "chapterNumber": 29,
+          "note": "Revela ser Artista Marcial Élite al grupo del Lobo del Viento. Se enfrenta a lagartos escupefuego con talento de fuego."
+        },
+        {
+          "chapterId": "cap30",
+          "chapterNumber": 30,
+          "note": "Combate contra la manada de lagartos escupefuego. El líder lagarto despierta y ataca."
+        },
+        {
+          "chapterId": "cap31",
+          "chapterNumber": 31,
+          "note": "Derrota al líder lagarto. Copia talento de fuego. Limpia la zona. Se separa del grupo del Lobo del Viento para ir al nido de hormigas de poder divino."
+        },
+        {
+          "chapterId": "cap32",
+          "chapterNumber": 32,
+          "note": "Llega al nido de hormigas. Un Gran Artista Marcial (Viejo Qing) lidera la operación. Observa a un guerrero con talento de tierra. Le permiten quedarse."
+        },
+        {
+          "chapterId": "cap33",
+          "chapterNumber": 33,
+          "note": "Observa al guerrero con talento de tierra. Copia talento de fuerza de una hormiga de poder divino. El Viejo Qing detecta una bestia de alto nivel en el nido."
+        },
+        {
+          "chapterId": "cap34",
+          "chapterNumber": 34,
+          "note": "Pelea contra la hormiga de poder divino de alto nivel. Copia Talento de Fuerza Alto. Su poder alcanza nivel comparable a Gran Artista Marcial."
+        },
+        {
+          "chapterId": "cap35",
+          "chapterNumber": 35,
+          "note": "Regresa a Base Linhai. Confronta a Mo Yuan de la familia Mo. Lo intimida con su potencial del sable."
+        },
+        {
+          "chapterId": "cap36",
+          "chapterNumber": 36,
+          "note": "Le rompe el brazo a Mo Yuan como lección. La familia Mo envía 10 Artistas Marciales Élite a su villa."
+        },
+        {
+          "chapterId": "cap37",
+          "chapterNumber": 37,
+          "note": "Mo Xingchen y 10 Artistas Marciales Élite asedian su villa. Ye Tian los enfrenta. Mo Changsheng (Gran Artista Marcial de la familia Mo) jura venganza."
+        },
+        {
+          "chapterId": "cap38",
+          "chapterNumber": 38,
+          "note": "Derrota a los Artistas Marciales Élite de la familia Mo. Regresa a casa con Ye Yu."
+        },
+        {
+          "chapterId": "cap39",
+          "chapterNumber": 39,
+          "note": "La familia Lin investiga la masacre de la familia Mo. Lin Ze menciona a Ye Tian como sospechoso pero lo descartan por ser 'solo' Artista Marcial Élite."
+        },
+        {
+          "chapterId": "cap40",
+          "chapterNumber": 40,
+          "note": "Lin Wanli investiga a Ye Tian. Prepara suplementos para que Ye Yu pueda cultivar antes de tiempo. Ye Yu finalmente puede cultivar."
+        },
+        {
+          "chapterId": "cap41",
+          "chapterNumber": 41,
+          "note": "Enseña personalmente a Ye Yu el método de forja corporal. Ye Yu lo domina en 7-8 días. Investiga bestias rápidas y decide buscar al lobo leopardo negro."
+        },
+        {
+          "chapterId": "cap42",
+          "chapterNumber": 42,
+          "note": "Va al Bosque Chiba buscando lobos leopardo negros. Encuentra un lobo leopardo dorado con talento de velocidad superior luchando contra un gorila."
+        },
+        {
+          "chapterId": "cap43",
+          "chapterNumber": 43,
+          "note": "Observa la batalla gorila vs lobos leopardo. Copia el Talento de Velocidad Supremo del lobo leopardo dorado. Se esconde en un árbol gigante para fusionarlo."
+        },
+        {
+          "chapterId": "cap44",
+          "chapterNumber": 44,
+          "note": "Fusiona Talento de Velocidad Supremo. Derrota al leopardo dragón de seda dorada que se rinde y lo llama amo (Xiao Jin)."
+        },
+        {
+          "chapterId": "cap45",
+          "chapterNumber": 45,
+          "note": "Xiao Jin lo guía a su territorio con un árbol dorado. El fruto dorado madura gracias al Yuan Qi acumulado."
+        },
+        {
+          "chapterId": "cap46",
+          "chapterNumber": 46,
+          "note": "Consume el fruto dorado. Asciende a Gran Artista Marcial. Descubre que puede copiar talentos a distancia (sin contacto). Decide copiar talento de cultivo alto de Lin Wanli."
+        },
+        {
+          "chapterId": "cap47",
+          "chapterNumber": 47,
+          "note": "Deja a Xiao Jin recolectando recursos. Regresa a Base Linhai con Ye Yu."
+        },
+        {
+          "chapterId": "cap48",
+          "chapterNumber": 48,
+          "note": "Ye Yu tiene 300 catties. Recibe desafío de Sun Feng para mañana en Plaza Huiming."
+        },
+        {
+          "chapterId": "cap49",
+          "chapterNumber": 49,
+          "note": "Copia Talento de Cultivo Alto de Sun Feng durante la conversación. Duelo en Plaza Huiming. Sun Feng descubre su Velocidad Supremo."
+        },
+        {
+          "chapterId": "cap50",
+          "chapterNumber": 50,
+          "note": "Derrota a Sun Feng en el duelo. Fusiona Talento de Cultivo Alto. La familia Sun no actúa durante 10+ días."
+        },
+        {
+          "chapterId": "cap51",
+          "chapterNumber": 51,
+          "note": "Investiga la familia Sun. Sun Qinghe (padre de Sun Feng, Gran Artista Marcial) planea atacarlo."
+        },
+        {
+          "chapterId": "cap52",
+          "chapterNumber": 52,
+          "note": "Sun Qinghe lo ataca. Ye Tian lo derrota y mata. Obtiene técnicas de sable defensivas de nivel bronce. Llama a padre e hijo Sun 'buenas personas'."
+        },
+        {
+          "chapterId": "cap53",
+          "chapterNumber": 53,
+          "note": "La familia Sun envía 9 Gran Artistas Marciales liderados por Sun Kong. Ye Tian se prepara para el enfrentamiento."
+        },
+        {
+          "chapterId": "cap54",
+          "chapterNumber": 54,
+          "note": "Derrota a los 9 Gran Artistas Marciales de la familia Sun. Sun Kong se rinde. Aparece el Gran Maestro Yao Ye."
+        },
+        {
+          "chapterId": "cap55",
+          "chapterNumber": 55,
+          "note": "Confronta al Gran Maestro Yao Ye. Lo obliga a retroceder. La familia Sun capitula completamente."
+        },
+        {
+          "chapterId": "cap56",
+          "chapterNumber": 56,
+          "note": "La familia Sun es destruida por el Anciano Li. Ye Tian reconocido como el más fuerte de Base Linhai. Cultiva y planea ir al Bosque Chiba."
+        },
+        {
+          "chapterId": "cap57",
+          "chapterNumber": 57,
+          "note": "Va al Bosque Chiba. Copia Talento de Defensa Medio de la pitón de escamas negras."
+        },
+        {
+          "chapterId": "cap58",
+          "chapterNumber": 58,
+          "note": "Entrena con Xiao Jin. Una bestia de alto nivel detecta a Xiao Jin."
+        },
+        {
+          "chapterId": "cap59",
+          "chapterNumber": 59,
+          "note": "Xiao Jin detectado por bestia de alto nivel. Escapan del Bosque Chiba a toda velocidad."
+        },
+        {
+          "chapterId": "cap60",
+          "chapterNumber": 60,
+          "note": "Llega a cercanías de Base Mar Demonio. Conoce a Yue Zhong del Pabellón Marcial. Próximo viaje en un mes."
+        },
+        {
+          "chapterId": "cap61",
+          "chapterNumber": 61,
+          "note": "Regresa a Base Linhai. Ve llegar la caravana del Pabellón Marcial con bestias gigantes como monturas."
+        },
+        {
+          "chapterId": "cap62",
+          "chapterNumber": 62,
+          "note": "Viaja con la caravana del Pabellón Marcial a la Base Mar Demonio. Xiao Jin se queda solo."
+        },
+        {
+          "chapterId": "cap63",
+          "chapterNumber": 63,
+          "note": "Obtiene tarjeta de identidad en la Base Mar Demonio. Ye Yu decide ir a la escuela."
+        },
+        {
+          "chapterId": "cap64",
+          "chapterNumber": 64,
+          "note": "Inscribe a Ye Yu en escuela de artes marciales. Yue Ling (ahora Gran Artista Marcial etapa avanzada con talento Supremo) lo invita al reino secreto."
+        },
+        {
+          "chapterId": "cap65",
+          "chapterNumber": 65,
+          "note": "Acepta entrar al reino secreto con Yue Ling. Investiga genios de Base Mar Demonio. 17 días de cultivo."
+        },
+        {
+          "chapterId": "cap66",
+          "chapterNumber": 66,
+          "note": "Va a la familia Yue. Escanea talentos de la familia. ~1.000 Gran Artistas Marciales reunidos para el reino secreto."
+        },
+        {
+          "chapterId": "cap67",
+          "chapterNumber": 67,
+          "note": "Escanea 100 talentos a la vez (nueva capacidad). Detecta poderoso de nivel rey con talento de cultivo extraordinario. Se acerca para copiar."
+        },
+        {
+          "chapterId": "cap68",
+          "chapterNumber": 68,
+          "note": "Copia Talento de Cultivo Extraordinario del Rey Yunhe. Lo fusiona exitosamente. Cultivo: Supremo → EXTRAORDINARIO."
+        },
+        {
+          "chapterId": "cap69",
+          "chapterNumber": 69,
+          "note": "Entra al reino secreto. Muestra panel de talentos (Cultivo Extraordinario confirmado). Localiza la grieta espacial."
+        },
+        {
+          "chapterId": "cap70",
+          "chapterNumber": 70,
+          "note": "Explora el reino secreto con Yue Ling. Planea cazar al Lobo Luna Celestial (talento espacial medio)."
+        },
+        {
+          "chapterId": "cap71",
+          "chapterNumber": 71,
+          "note": "Localiza al Lobo Luna Celestial. Yue Ling prepara disco de formación para ralentizar su teletransportación."
+        },
+        {
+          "chapterId": "cap72",
+          "chapterNumber": 72,
+          "note": "Derrota al Lobo Luna Celestial. Obtiene 2 Flores del Alma Celestial y otros tesoros. Encuentra un pasaje secreto."
+        },
+        {
+          "chapterId": "cap73",
+          "chapterNumber": 73,
+          "note": "Explora pasaje secreto. Encuentra Lobo Luna del Vacío y Loto Dorado de la Tierra. Cosecha masiva de tesoros."
+        },
+        {
+          "chapterId": "cap74",
+          "chapterNumber": 74,
+          "note": "Loto Dorado evoluciona Talento de Copia (500m, 2/mes). Copia Talento Espacial Medio del Lobo Luna Celestial. Sable sube a Alto. Panel de talentos mostrado."
+        },
+        {
+          "chapterId": "cap75",
+          "chapterNumber": 75,
+          "note": "Domina percepción espacial, impronta espacial y teletransportación posicional. Abre espacio personal de 125m³."
+        },
+        {
+          "chapterId": "cap76",
+          "chapterNumber": 76,
+          "note": "Mata a Zhang Kai y sus 4 compañeros con Asesinato Sombrío. Obtiene Hierba de Talento del Espíritu de Fuego y la cede a Yue Ling."
+        },
+        {
+          "chapterId": "cap77",
+          "chapterNumber": 77,
+          "note": "Sale del reino secreto por la grieta espacial. Yue Ling engaña a los Gran Maestros sobre lo obtenido."
+        },
+        {
+          "chapterId": "cap78",
+          "chapterNumber": 78,
+          "note": "Yue Ling entrega la Hierba de Fuego a la familia Yue. El Rey Yunhe se interesa en el tesoro desconocido."
+        },
+        {
+          "chapterId": "cap79",
+          "chapterNumber": 79,
+          "note": "Caza bestias solo en el reino secreto. Descubre y doma a la Rata Tesoro Dorada Púrpura (Xiao Zi) con talento de búsqueda de tesoros."
+        },
+        {
+          "chapterId": "cap80",
+          "chapterNumber": 80,
+          "note": "Xiao Zi lo guía a Piedras de Yuan Qi. Observa a Yun Feng (Extraordinario) siendo emboscado por el clan Helian."
+        },
+        {
+          "chapterId": "cap81",
+          "chapterNumber": 81,
+          "note": "Escanea talentos de Yun Feng. Descubre pangolín subterráneo. Entra por pasaje acuático a minar Piedras Yuan Qi."
+        },
+        {
+          "chapterId": "cap82",
+          "chapterNumber": 82,
+          "note": "Mina ~1.800 Piedras Yuan Qi mientras Yun Feng pelea arriba. Escapa antes de ser descubierto."
+        },
+        {
+          "chapterId": "cap83",
+          "chapterNumber": 83,
+          "note": "Xiao Zi entrega 412 Piedras más. Recolecta 50+ hierbas milenarias. Sale del reino secreto."
+        },
+        {
+          "chapterId": "cap84",
+          "chapterNumber": 84,
+          "note": "Rechaza vender a Xiao Zi (200 billones). Solo 300/1000 Gran Artistas Marciales sobrevivieron. Vende tesoros por 325 billones."
+        },
+        {
+          "chapterId": "cap85",
+          "chapterNumber": 85,
+          "note": "Copia y fusiona Talento de Búsqueda de Tesoros Alto de Xiao Zi. Da a Xiao Zi como mascota de Ye Yu."
+        },
+        {
+          "chapterId": "cap86",
+          "chapterNumber": 86,
+          "note": "Asiste a subasta del Pabellón Marcial. Copia Talento de Cultivo Extraordinario de Chang Yuan. Compra experiencia del Rey Huracán."
+        },
+        {
+          "chapterId": "cap87",
+          "chapterNumber": 87,
+          "note": "Gana la Técnica de Forja Corporal de Sangre Púrpura por 100 billones."
+        },
+        {
+          "chapterId": "cap88",
+          "chapterNumber": 88,
+          "note": "Identifica huevo de dragón como Dragón Celestial de Sangre de Guerra. Lo compra por 80 billones."
+        },
+        {
+          "chapterId": "cap89",
+          "chapterNumber": 89,
+          "note": "Lee experiencia del Rey Huracán. Aprende Forja de Sangre Púrpura. Alcanza 1M catties. Copia Defensa Alto y Hueso Vajra Alto."
+        },
+        {
+          "chapterId": "cap90",
+          "chapterNumber": 90,
+          "note": "Mata a 5 Gran Maestros que lo seguían. Entra al Bosque Mar de Nubes buscando bestias con talentos supremos."
+        },
+        {
+          "chapterId": "cap91",
+          "chapterNumber": 91,
+          "note": "Copia talentos de defensa de osos acorazados. Defensa sube a SUPREMO. Rompe límite de refinamiento de piel."
+        },
+        {
+          "chapterId": "cap92",
+          "chapterNumber": 92,
+          "note": "Fuerza sube a SUPREMO. Alcanza 100x potencia de ataque (200 poderes de elefante). Comienza refinamiento de carne."
+        },
+        {
+          "chapterId": "cap93",
+          "chapterNumber": 93,
+          "note": "Rompe límite de carne. Se une a equipo temporal de 5 Gran Maestros. Busca Bestias Vajra."
+        },
+        {
+          "chapterId": "cap94",
+          "chapterNumber": 94,
+          "note": "Descubre Dragón Veloz juvenil (Extraordinario). Copia Hueso Vajra de Bestias Vajra. Gran Maestros traicionan al equipo. Ye Tian sobrevive."
+        },
+        {
+          "chapterId": "cap95",
+          "chapterNumber": 95,
+          "note": "Mata a los 5 Gran Maestros traidores. Mata al Dragón Veloz. Hueso Vajra sube a SUPREMO. Huevo de dragón devora sangre."
+        },
+        {
+          "chapterId": "cap96",
+          "chapterNumber": 96,
+          "note": "Rompe límite de huesos. Masacra clan Dragón Serpiente. Alimenta huevo con su sangre. Regresa a base."
+        },
+        {
+          "chapterId": "cap97",
+          "chapterNumber": 97,
+          "note": "Copia Cultivo Extraordinario de Zhao Ke → Cultivo sube a ESTRELLA MATUTINA. Copia Talento de Control de Bestias Alto de Li Pei."
+        },
+        {
+          "chapterId": "cap98",
+          "chapterNumber": 98,
+          "note": "El Dragón Celestial de Sangre de Guerra nace (10 talentos, línea de sangre Sol Naciente). Lo subdoma. Come cáscara y salta a bestia de alto nivel."
+        },
+        {
+          "chapterId": "cap99",
+          "chapterNumber": 99,
+          "note": "Vincula al Dragón. Copia Talento Devorador de Sangre Supremo. Rompe límite de refinamiento de sangre."
+        },
+        {
+          "chapterId": "cap100",
+          "chapterNumber": 100,
+          "note": "50 días en sala de gravedad celestial. Rompe límite de órganos. Logra BASE PERFECTA. Defensa/Fuerza/Hueso Vajra/Devorador suben a Pseudo-Arcano."
+        },
+        {
+          "chapterId": "cap101",
+          "chapterNumber": 101,
+          "note": "Prueba amplificación pseudo-arcana (30x). Rompe límite 100x llegando a 180x. ASCIENDE A GRAN MAESTRO. 1.3 poder de elefante base."
+        },
+        {
+          "chapterId": "cap102",
+          "chapterNumber": 102,
+          "note": "Copia Talento de Formación Alto de Nie Qi y Talento de Espada Alto. Se registra en Asociación de Magos de Formaciones."
+        },
+        {
+          "chapterId": "cap103",
+          "chapterNumber": 103,
+          "note": "Examen de mago de formaciones. Aprueba la segunda etapa."
+        },
+        {
+          "chapterId": "cap104",
+          "chapterNumber": 104,
+          "note": "Apuesta con He Dong. Aprueba tercera etapa del examen."
+        },
+        {
+          "chapterId": "cap105",
+          "chapterNumber": 105,
+          "note": "Revela talento de formación Alto. Obtiene 1000 puntos bonus. Descubre Torre de Formaciones Shanghe."
+        },
+        {
+          "chapterId": "cap106",
+          "chapterNumber": 106,
+          "note": "Entra a la Torre Shanghe. Limpia 3 pisos. Compra diseño de Formación Juyuan (x6)."
+        },
+        {
+          "chapterId": "cap107",
+          "chapterNumber": 107,
+          "note": "Fusiona Formación a SUPREMO. Crea Formación Juyuan Intermedia. Copia Talento de Vuelo Alto y Talento de Hueso de Sangre Medio de Xiao Xue."
+        },
+        {
+          "chapterId": "cap108",
+          "chapterNumber": 108,
+          "note": "Marea de bestias amenaza Base Linhai. Deja a Ye Yu con Yue Ling. Parte volando sobre Xiao Xue a defender Linhai."
+        },
+        {
+          "chapterId": "cap109",
+          "chapterNumber": 109,
+          "note": "Llega a Base Linhai volando sobre Xiao Xue. Reunión de emergencia. Los líderes descubren que es Gran Maestro."
+        },
+        {
+          "chapterId": "cap110",
+          "chapterNumber": 110,
+          "note": "Prepara la defensa: 489 discos de formación primarios + 18 intermedios en 5 días. Instala formaciones defensivas y ofensivas."
+        },
+        {
+          "chapterId": "cap111",
+          "chapterNumber": 111,
+          "note": "La grieta espacial se abre. La marea de bestias comienza. Las formaciones contienen la primera oleada."
+        },
+        {
+          "chapterId": "cap112",
+          "chapterNumber": 112,
+          "note": "Pelea contra el Oso de Guerra de Espalda Negra (bestia rey). Copia talento de Ojo de Águila. Xiao Xue desata Alma de Dragón y Rugido de Dragón."
+        },
+        {
+          "chapterId": "cap113",
+          "chapterNumber": 113,
+          "note": "Mata a la bestia rey. Aniquila la marea restante. 12.123 guerreros + ~20.000 civiles muertos. Parte hacia Base Mar Demonio."
+        },
+        {
+          "chapterId": "cap114",
+          "chapterNumber": 114,
+          "note": "Llega a Base Mar Demonio bajo asedio. Simio dorado (bestia rey invencible). Refina discos de formación. Cultiva hasta 13 poderes de elefante."
+        },
+        {
+          "chapterId": "cap115",
+          "chapterNumber": 115,
+          "note": "Mantiene formaciones con talento devorador de sangre. Mata a la Bestia de Guerra Espíritu Gigante que rompe la formación."
+        },
+        {
+          "chapterId": "cap116",
+          "chapterNumber": 116,
+          "note": "Copia Talento de Transferencia de Alma Alto del Simio Espíritu Dorado muerto. Yun Mengli derrota a la bestia rey invencible con arco divino dorado."
+        },
+        {
+          "chapterId": "cap117",
+          "chapterNumber": 117,
+          "note": "Fusiona Talento de Transferencia de Alma. Recompensas post-marea. Yue Ling lo invita a reunión de reyes. Encuentra a Yun Feng en la Torre de Nubes."
+        },
+        {
+          "chapterId": "cap118",
+          "chapterNumber": 118,
+          "note": "Reunión de 73 reyes. Grieta espacial de 3 estrellas a 60.000 km. Plan para sellarla con formación de nivel superior. 6 días de preparación."
+        },
+        {
+          "chapterId": "cap119",
+          "chapterNumber": 119,
+          "note": "16 poderes de elefante. Parte con Xiao Xue a la grieta espacial. 3 bases unidas. Batalla contra bestias rey. Cocodrilo Dragón Megalodonte aparece."
+        },
+        {
+          "chapterId": "cap120",
+          "chapterNumber": 120,
+          "note": "Mata al Cocodrilo Dragón Megalodonte. Formación completada. Ser de ojos dorados aparece en la grieta. Copia 3er talento de sable Alto de Li Zhenbei. Voluntario para vigilar la grieta."
+        },
+        {
+          "chapterId": "cap121",
+          "chapterNumber": 121,
+          "note": "Fusiona sable a SUPREMO. Usa Transferencia de Alma para poseer una Bestia Tianlin. Entra al Mundo Bestia a través de la grieta."
+        },
+        {
+          "chapterId": "cap122",
+          "chapterNumber": 122,
+          "note": "3 días cazando en Mundo Bestia (gravedad 20x, Yuan Qi 3x). Alcanza nivel Bestia Suprema. Descubre Montaña de la Bestia Sagrada (100.000m). Detecta Bestia Tianlin con línea de sangre Estrella Matutina."
+        },
+        {
+          "chapterId": "cap123",
+          "chapterNumber": 123,
+          "note": "Sube la Montaña de la Bestia Sagrada. Descubre el Monumento Celestial de la Iluminación. Encuentra talentos Estrella Matutina y Sustitución de Muerte. Crea técnica de sable en el Espacio de Iluminación."
+        },
+        {
+          "chapterId": "cap124",
+          "chapterNumber": 124,
+          "note": "Crea Tajo Tianji (nivel plata, x12 ataque). Intención de sable 20%→60%. Defensa sube a Pseudo-Arcano (30%)."
+        },
+        {
+          "chapterId": "cap125",
+          "chapterNumber": 125,
+          "note": "Mono de Tres Ojos ataca el monumento. Copia Espacial Alto y Sustitución de Muerte Medio. Bestia Tianlin gigante destruye todo. Alma regresa a la Tierra. Descubre nivel Luna Brillante."
+        },
+        {
+          "chapterId": "cap126",
+          "chapterNumber": 126,
+          "note": "Fusiona Espacial Alto (espacio x10, Cuchilla Espacial) y Sustitución de Muerte. Refina Vena Dimensión Yang (21 elefantes). Vigila grieta 2 meses. Regresa a base. 3 meses de cultivo → 53 elefantes."
+        },
+        {
+          "chapterId": "cap127",
+          "chapterNumber": 127,
+          "note": "Perfecciona Tajo Tianji (38.160 poder elefante máx). Visita a Yue Ling para info sobre Super Base Zhonghai. Le da el manual de Tajo Tianji."
+        },
+        {
+          "chapterId": "cap128",
+          "chapterNumber": 128,
+          "note": "Estudia mapa (1M km a Zhonghai). Entrena meses → 80 elefantes + 120 patrones de formación. Copia talentos Rastreo Alto y Hielo Alto. Planea ir a Torre Shanghe."
+        },
+        {
+          "chapterId": "cap129",
+          "chapterNumber": 129,
+          "note": "Torre Shanghe pisos 4-8. Obtiene Formación Juyuan Avanzada (x10). Construye altar de formación subterráneo."
+        },
+        {
+          "chapterId": "cap130",
+          "chapterNumber": 130,
+          "note": "40 días cultivo (100 elefantes). Abre acupunto Yunmen. ASCIENDE A NIVEL REY. Esperanza de vida 500+ años."
+        },
+        {
+          "chapterId": "cap131",
+          "chapterNumber": 131,
+          "note": "Se despide de Ye Yu y Yue Ling. Vuela con Xiao Xue cruzando el Río Changling. Llega al portal de Super Base Zhonghai."
+        },
+        {
+          "chapterId": "cap132",
+          "chapterNumber": 132,
+          "note": "Entra a Zhonghai (prueba de 12 pulgadas = 12.000 elefantes). Conoce a Wang Yan. Descubre la raza Bruja (Saka) y Humanos de Tres Ojos."
+        },
+        {
+          "chapterId": "cap133",
+          "chapterNumber": 133,
+          "note": "Domina Técnica de Respiración de Tortuga. Lee sobre las 4 facciones de Zhonghai. Compra villa en Distrito Jinghu."
+        },
+        {
+          "chapterId": "cap134",
+          "chapterNumber": 134,
+          "note": "Visita Alianza de Cultivadores Dispersos. Copia 1er talento Estrella Matutina. Ve pelea Li Yueling vs Qin He."
+        },
+        {
+          "chapterId": "cap135",
+          "chapterNumber": 135,
+          "note": "Copia 2do Estrella Matutina de Li Yueling → Cultivo fusiona a LUNA BRILLANTE (x3 velocidad). 1 mes → 680 elefantes. 489.600 poder de ataque."
+        },
+        {
+          "chapterId": "cap136",
+          "chapterNumber": 136,
+          "note": "Visita Torre del Dios de la Guerra. Ve Lista de Reyes, Santa (Shui Qianyue #8) y de Emperadores. Se registra como 'Tian Ye'. Copia restringida a 3m en la torre."
+        },
+        {
+          "chapterId": "cap137",
+          "chapterNumber": 137,
+          "note": "Limpia pisos 1-4 de la Torre. Rango 504 en Lista de Reyes. 4 estrellas de poder de combate."
+        },
+        {
+          "chapterId": "cap138",
+          "chapterNumber": 138,
+          "note": "Limpia piso 5 con teletransportación. Falla piso 6 tras 1 minuto. Rango 62 en Lista de Reyes. 5 estrellas."
+        },
+        {
+          "chapterId": "cap139",
+          "chapterNumber": 139,
+          "note": "Entra al Monumento del Dios de la Guerra. Copia Cultivo Luna Brillante y Defensa Pseudo-Arcano (40%) de Shui Qianyue."
+        },
+        {
+          "chapterId": "cap140",
+          "chapterNumber": 140,
+          "note": "Fusiona Defensa a Pseudo-Arcano 60% (x50). Intención de sable 70%. Descubre sistema oculto de puntos. 1 poder dragón = 1M poderes elefante."
+        },
+        {
+          "chapterId": "cap141",
+          "chapterNumber": 141,
+          "note": "Copia Fuego Dominio Pseudo-Arcano. Fusiona Cultivo a SOL NACIENTE. Visita sede Alianza Cultivadores."
+        },
+        {
+          "chapterId": "cap142",
+          "chapterNumber": 142,
+          "note": "1.800 elefantes (1.3 dragones). Se registra como mercenario Hierro Negro 1 estrella. Acepta misión de la Santa Doncella Xiyue (Secta del Dios Luna)."
+        },
+        {
+          "chapterId": "cap143",
+          "chapterNumber": 143,
+          "note": "Conoce a Wang Xiyue (Santa Doncella Luna Poniente). Copia su Velocidad Pseudo-Arcano. Entra a reino secreto de 3 estrellas."
+        },
+        {
+          "chapterId": "cap144",
+          "chapterNumber": 144,
+          "note": "Descubre Rata Plateada Espacio-Temporal con Talento de Tiempo Elemental + Espacio Débil. Copia Talento de Tiempo Elemental."
+        },
+        {
+          "chapterId": "cap145",
+          "chapterNumber": 145,
+          "note": "Captura la Rata Plateada. Recibe técnica Qingyuan (2do rango). Fusiona Velocidad Pseudo-Arcano (1%) y Tiempo Elemental."
+        },
+        {
+          "chapterId": "cap146",
+          "chapterNumber": 146,
+          "note": "Talento de Tiempo: aceleración/desaceleración x3. 20+ días cultivo → extremo nivel rey (10.000 Vientiane). Copia Fuerza Pseudo-Arcano (50%) y Defensa (20%) de Qin Zhantian."
+        },
+        {
+          "chapterId": "cap147",
+          "chapterNumber": 147,
+          "note": "9.6 poderes dragón de ataque. Defensa Pseudo-Arcano 70%. Limpia pisos 6-7 de Torre. Rango 7 en Lista de Reyes. 7 estrellas."
+        },
+        {
+          "chapterId": "cap148",
+          "chapterNumber": 148,
+          "note": "Wang Yan decide invertir en él. Miembro oficial de la Torre (Anillo del Dios de la Guerra). Intención de sable 75%. Wang Yan le ofrece una oportunidad."
+        }
+      ]
+    },
+    {
+      "id": "ye-yu",
+      "name": "Ye Yu",
+      "nameChinese": "叶雨",
+      "image": "ye-yu.png",
+      "role": "principal",
+      "bio": "Hermana menor de Ye Tian. Talento de Cultivo Medio (mejorado con Líquido del Centro de la Tierra) y Talento de Hielo Elemental (dormido). Empezó a cultivar en cap40 tras recibir suplementos. Domina el método de forja corporal. Tiene ~300 catties de fuerza (Aprendiz Marcial). Protegida por Xiao Jin y Xiao Zi. Estudia en la escuela de artes marciales de Base Mar Demonio.",
+      "info": {
+        "edad": "~15 años",
+        "genero": "Femenino",
+        "reino": "Aprendiz Marcial",
+        "talentoCultivo": "Medio + Hielo Elemental (dormido)",
+        "afiliacion": "Escuela de Artes Marciales",
+        "ubicacion": "Base Mar Demonio (escuela de artes marciales)",
+        "estado": "Viva",
+        "primerAparicion": "Capítulo 1"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Cultivo",
+          "type": "cultivation",
+          "rank": "Medio",
+          "status": "activo",
+          "description": "Mejorado de Inferior a Medio con Líquido del Centro de la Tierra (Cap. 13).",
+          "acquiredChapter": 13
+        },
+        {
+          "name": "Talento de Hielo",
+          "type": "ice",
+          "rank": "Elemental",
+          "status": "dormido",
+          "description": "Rarísimo (uno entre diez mil). Aún sin despertar."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Hermano mayor"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap1",
+          "chapterNumber": 1,
+          "note": "Visita a Ye Tian. La interfaz revela sus talentos: Cultivo Inferior + Hielo Elemental (sin despertar)."
+        },
+        {
+          "chapterId": "cap2",
+          "chapterNumber": 2,
+          "note": "Ye Tian descubre que su talento es «Copiable» pero no lo copia. Recibe subsidios de la base."
+        },
+        {
+          "chapterId": "cap4",
+          "chapterNumber": 4,
+          "note": "Está en casa leyendo libros de artes marciales. Escucha a Ye Tian gritar de dolor durante la fusión del talento y pregunta si está bien."
+        },
+        {
+          "chapterId": "cap13",
+          "chapterNumber": 13,
+          "note": "Ye Tian le da el Líquido del Centro de la Tierra. Su talento de cultivo sube de Inferior a Primario (3 min) y luego a Medio (~1 hora). Ye Tian la envía a la escuela."
+        },
+        {
+          "chapterId": "cap17",
+          "chapterNumber": 17,
+          "note": "Ye Tian le inventa que la academia organizó un cultivo cerrado y no volverá por un tiempo. Ella le cree sin sospechar."
+        },
+        {
+          "chapterId": "cap18",
+          "chapterNumber": 18,
+          "note": "Ye Tian regresa tras un mes en la naturaleza y la ve estudiando en casa. Se siente aliviado de que esté bien."
+        },
+        {
+          "chapterId": "cap21",
+          "chapterNumber": 21,
+          "note": "Se muda con Ye Tian a una villa en la zona central de la base. Ye Tian quiere protegerla mejor al estar más cerca del centro."
+        },
+        {
+          "chapterId": "cap24",
+          "chapterNumber": 24,
+          "note": "Ye Tian le dice que saldrá por unos meses de cultivo. Ella se queda en la villa estudiando."
+        },
+        {
+          "chapterId": "cap37",
+          "chapterNumber": 37,
+          "note": "La familia Mo planea capturarla para forzar a Ye Tian a rendirse. Ye Tian la protege."
+        },
+        {
+          "chapterId": "cap38",
+          "chapterNumber": 38,
+          "note": "Ye Tian regresa a casa tras derrotar a la familia Mo. Ella está a salvo en la villa."
+        },
+        {
+          "chapterId": "cap40",
+          "chapterNumber": 40,
+          "note": "Ye Tian le da suplementos para adelantar su cultivo. Finalmente puede empezar a cultivar."
+        },
+        {
+          "chapterId": "cap41",
+          "chapterNumber": 41,
+          "note": "Ye Tian le enseña personalmente el método de forja corporal. Lo domina en 7-8 días y comienza a cultivar por su cuenta."
+        },
+        {
+          "chapterId": "cap47",
+          "chapterNumber": 47,
+          "note": "Recibe a Ye Tian en casa. Lo extrañaba mucho."
+        },
+        {
+          "chapterId": "cap48",
+          "chapterNumber": 48,
+          "note": "Tiene 300 catties de fuerza. Ha cultivado diligentemente."
+        },
+        {
+          "chapterId": "cap61",
+          "chapterNumber": 61,
+          "note": "Ve la caravana del Pabellón Marcial llegar a Base Linhai con curiosidad."
+        },
+        {
+          "chapterId": "cap63",
+          "chapterNumber": 63,
+          "note": "Obtiene identidad en Base Mar Demonio. Prefiere ir a la escuela que quedarse en casa."
+        },
+        {
+          "chapterId": "cap64",
+          "chapterNumber": 64,
+          "note": "Entra a la escuela de artes marciales de Base Mar Demonio. Talento medio de cultivo."
+        },
+        {
+          "chapterId": "cap85",
+          "chapterNumber": 85,
+          "note": "Recibe a Xiao Zi como mascota. Xiao Zi subjuga a Xiao Jin como su 'hermanito'."
+        },
+        {
+          "chapterId": "cap90",
+          "chapterNumber": 90,
+          "note": "Mencionada. Xiao Zi y Xiao Jin la protegen."
+        },
+        {
+          "chapterId": "cap96",
+          "chapterNumber": 96,
+          "note": "Cerca de Artista Marcial Élite. Ye Tian regresa a casa."
+        },
+        {
+          "chapterId": "cap98",
+          "chapterNumber": 98,
+          "note": "Presente cuando nace el dragón."
+        },
+        {
+          "chapterId": "cap99",
+          "chapterNumber": 99,
+          "note": "Xiao Jin transferido a ella como protector."
+        },
+        {
+          "chapterId": "cap108",
+          "chapterNumber": 108,
+          "note": "Ye Tian la deja con Yue Ling antes de ir a Linhai."
+        },
+        {
+          "chapterId": "cap116",
+          "chapterNumber": 116,
+          "note": "Mencionada. Ye Tian piensa en protegerla."
+        },
+        {
+          "chapterId": "cap126",
+          "chapterNumber": 126,
+          "note": "Ye Tian se reúne con ella al regresar a Base Mar Demonio."
+        },
+        {
+          "chapterId": "cap128",
+          "chapterNumber": 128,
+          "note": "Mencionada. Ye Tian planea el viaje dejándola segura."
+        },
+        {
+          "chapterId": "cap129",
+          "chapterNumber": 129,
+          "note": "Ye Tian construye altar de formación bajo su casa."
+        },
+        {
+          "chapterId": "cap131",
+          "chapterNumber": 131,
+          "note": "Se despide de Ye Tian antes de su viaje a Zhonghai."
+        },
+        {
+          "chapterId": "cap130",
+          "chapterNumber": 130,
+          "note": "Mencionada. Ye Tian asciende a nivel rey."
+        },
+        {
+          "chapterId": "cap132",
+          "chapterNumber": 132,
+          "note": "Mencionada en la despedida."
+        }
+      ]
+    },
+    {
+      "id": "yue-ling",
+      "name": "Yue Ling",
+      "nameChinese": "月灵",
+      "image": "yue-ling.png",
+      "role": "principal",
+      "bio": "Directora del Pabellón Marcial. Originalmente Artista Marcial Élite con talento medio. Tras obtener la Hierba de Talento del Espíritu de Fuego del reino secreto, su talento ascendió a Supremo y avanzó a Gran Artista Marcial etapa avanzada. Le debe la vida a Ye Tian (la rescató en el Lago de la Muerte). Aliada cercana que le proporciona información y lo invitó al reino secreto y a la reunión de reyes.",
+      "info": {
+        "genero": "Femenino",
+        "reino": "Gran Artista Marcial (etapa avanzada)",
+        "talentoCultivo": "Supremo (mejorado con Hierba de Fuego)",
+        "afiliacion": "Pabellón Marcial (Directora)",
+        "ubicacion": "Base Linhai",
+        "estado": "Viva",
+        "primerAparicion": "Capítulo 19"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Cultivo",
+          "type": "cultivation",
+          "rank": "Medio",
+          "status": "activo",
+          "description": "Artista Marcial Élite con talento medio."
+        },
+        {
+          "name": "Arte Secreta",
+          "type": "cultivation",
+          "status": "activo",
+          "description": "Técnica poderosa pero con efecto secundario: debilidad e inconsciencia tras su uso."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Le debe la vida (rescatada)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap19",
+          "chapterNumber": 19,
+          "note": "Detecta a Ye Tian en el mercado negro como genio joven. Lo invita a unirse al Pabellón Marcial. Ye Tian rechaza pero le copia el Talento de Cultivo Alto mediante un apretón de manos."
+        },
+        {
+          "chapterId": "cap22",
+          "chapterNumber": 22,
+          "note": "Su equipo es emboscado cerca del Lago de la Muerte. Usa un arte secreta que la deja debilitada e inconsciente. Ye Tian la encuentra tirada en el suelo."
+        },
+        {
+          "chapterId": "cap23",
+          "chapterNumber": 23,
+          "note": "Despierta y descubre que fue rescatada por Ye Tian. Agradecida, le ofrece ayuda. Ye Tian la acompaña de vuelta a zona segura."
+        },
+        {
+          "chapterId": "cap64",
+          "chapterNumber": 64,
+          "note": "Ahora Gran Artista Marcial etapa avanzada con talento Supremo. Invita a Ye Tian al reino secreto."
+        },
+        {
+          "chapterId": "cap65",
+          "chapterNumber": 65,
+          "note": "Ye Tian acepta. Le pide info sobre genios de Base Mar Demonio."
+        },
+        {
+          "chapterId": "cap66",
+          "chapterNumber": 66,
+          "note": "Recibe a Ye Tian en la familia Yue para entrar al reino secreto."
+        },
+        {
+          "chapterId": "cap69",
+          "chapterNumber": 69,
+          "note": "Entra al reino secreto con Ye Tian. Localiza la grieta espacial."
+        },
+        {
+          "chapterId": "cap70",
+          "chapterNumber": 70,
+          "note": "Explora con Ye Tian. Acepta ir a cazar al Lobo Luna Celestial."
+        },
+        {
+          "chapterId": "cap71",
+          "chapterNumber": 71,
+          "note": "Prepara disco de formación para el combate contra el Lobo Luna Celestial."
+        },
+        {
+          "chapterId": "cap72",
+          "chapterNumber": 72,
+          "note": "Apoya a Ye Tian en la batalla. Recolecta tesoros tras la victoria."
+        },
+        {
+          "chapterId": "cap73",
+          "chapterNumber": 73,
+          "note": "Acompaña a Ye Tian al pasaje secreto. Ayuda a recolectar los tesoros."
+        },
+        {
+          "chapterId": "cap74",
+          "chapterNumber": 74,
+          "note": "Calcula el valor de las Flores del Alma Celestial mientras Ye Tian consume el Loto Dorado en secreto."
+        },
+        {
+          "chapterId": "cap75",
+          "chapterNumber": 75,
+          "note": "Explora el reino secreto con Ye Tian. Detectan una batalla cercana por la Hierba de Fuego."
+        },
+        {
+          "chapterId": "cap76",
+          "chapterNumber": 76,
+          "note": "Recibe la Hierba de Talento del Espíritu de Fuego de Ye Tian para su familia."
+        },
+        {
+          "chapterId": "cap77",
+          "chapterNumber": 77,
+          "note": "Sale del reino secreto. Engaña a los Gran Maestros sobre sus hallazgos para proteger a Ye Tian."
+        },
+        {
+          "chapterId": "cap78",
+          "chapterNumber": 78,
+          "note": "Entrega la Hierba de Fuego a la familia Yue. Contribuye Flores del Alma Celestial para obtener oportunidad de avanzar a nivel rey."
+        },
+        {
+          "chapterId": "cap83",
+          "chapterNumber": 83,
+          "note": "Reconoce a Xiao Zi como Rata Tesoro Dorada Púrpura (200 billones)."
+        },
+        {
+          "chapterId": "cap84",
+          "chapterNumber": 84,
+          "note": "Advierte sobre peligros fuera de la base. Acompaña el regreso."
+        },
+        {
+          "chapterId": "cap85",
+          "chapterNumber": 85,
+          "note": "Le cuenta sobre la subasta con Técnica de Forja Avanzada."
+        },
+        {
+          "chapterId": "cap96",
+          "chapterNumber": 96,
+          "note": "Ye Tian planea pedirle métodos de doma de bestias."
+        },
+        {
+          "chapterId": "cap97",
+          "chapterNumber": 97,
+          "note": "Le enseña sobre doma de bestias. Lo lleva al Pabellón de Bestias."
+        },
+        {
+          "chapterId": "cap108",
+          "chapterNumber": 108,
+          "note": "Le informa de la marea de bestias. Cuida a Ye Yu."
+        },
+        {
+          "chapterId": "cap114",
+          "chapterNumber": 114,
+          "note": "Herida por la batalla. Le cuenta sobre las 3 bases bajo ataque."
+        },
+        {
+          "chapterId": "cap115",
+          "chapterNumber": 115,
+          "note": "Reconoce a Ye Tian como Gran Maestro invencible."
+        },
+        {
+          "chapterId": "cap116",
+          "chapterNumber": 116,
+          "note": "Observa a Yun Mengli derrotar a la bestia rey invencible."
+        },
+        {
+          "chapterId": "cap117",
+          "chapterNumber": 117,
+          "note": "Invita a Ye Tian a la reunión de reyes."
+        },
+        {
+          "chapterId": "cap118",
+          "chapterNumber": 118,
+          "note": "Presente en la reunión de reyes."
+        },
+        {
+          "chapterId": "cap119",
+          "chapterNumber": 119,
+          "note": "Presente en la batalla de la grieta espacial. Informa sobre la super base."
+        },
+        {
+          "chapterId": "cap127",
+          "chapterNumber": 127,
+          "note": "Ye Tian la visita para info sobre Super Base Zhonghai. Recibe manual de Tajo Tianji."
+        },
+        {
+          "chapterId": "cap128",
+          "chapterNumber": 128,
+          "note": "Le da el mapa hacia Zhonghai a Ye Tian."
+        },
+        {
+          "chapterId": "cap130",
+          "chapterNumber": 130,
+          "note": "Mencionada. Ye Tian planea informarle de su ascenso."
+        },
+        {
+          "chapterId": "cap131",
+          "chapterNumber": 131,
+          "note": "Se despide de Ye Tian. Le encarga cuidar a Ye Yu."
+        },
+        {
+          "chapterId": "cap132",
+          "chapterNumber": 132,
+          "note": "Mencionada en contexto de la despedida."
+        }
+      ]
+    },
+    {
+      "id": "zhang-bao",
+      "name": "Zhang Bao",
+      "nameChinese": "张宝",
+      "image": "zhang-bao.webp",
+      "role": "secundario",
+      "bio": "Compañero de clase de Ye Tian en la Quinta Academia. Joven robusto con Talento de Cultivo Inferior. Amigable y conversador. Es quien le cuenta a Ye Tian sobre la prueba de campo y le propone formar grupo, aunque Ye Tian rechaza la oferta.",
+      "info": {
+        "edad": "~15 años",
+        "genero": "Masculino",
+        "reino": "Aprendiz Marcial",
+        "talentoCultivo": "Inferior",
+        "afiliacion": "Quinta Academia de Linhai",
+        "ubicacion": "Base Linhai",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 3"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Cultivo",
+          "type": "cultivation",
+          "rank": "Inferior",
+          "status": "activo",
+          "description": "Logró avanzar gracias a sangre de bestia de bajo nivel comprada por sus padres."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Compañero de clase"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap3",
+          "chapterNumber": 3,
+          "note": "Le cuenta a Ye Tian sobre Chen Dong. Lleva 6 movimientos de forja aprendidos."
+        },
+        {
+          "chapterId": "cap6",
+          "chapterNumber": 6,
+          "note": "Le cuenta a Ye Tian sobre la prueba de campo y la sangre de bestia. Le propone formar grupo, pero Ye Tian rechaza."
+        },
+        {
+          "chapterId": "cap7",
+          "chapterNumber": 7,
+          "note": "Se encuentra con Ye Tian en el campo de entrenamiento. Cree que Ye Tian encontró un experto que lo lleve."
+        },
+        {
+          "chapterId": "cap8",
+          "chapterNumber": 8,
+          "note": "Presente en la entrada del valle con los demás estudiantes de la Quinta Academia antes del inicio de la prueba."
+        },
+        {
+          "chapterId": "cap9",
+          "chapterNumber": 9,
+          "note": "Es rescatado por Ye Tian de una manada de lobos dentados. Queda impactado por la fuerza de Ye Tian. Le revela la existencia de la pseudo-bestia serpiente de 500 pts."
+        },
+        {
+          "chapterId": "cap10",
+          "chapterNumber": 10,
+          "note": "Decide retirarse de la prueba con su grupo tras ser salvado. Reconoce que la prueba es solo para los fuertes."
+        }
+      ]
+    },
+    {
+      "id": "chen-dong",
+      "name": "Chen Dong",
+      "nameChinese": "陈东",
+      "image": "chen-dong.webp",
+      "role": "secundario",
+      "bio": "Estudiante estrella de la Primera Academia de Linhai. Posee Talento de Cultivo Medio. Ye Tian copió su talento en el capítulo 3.",
+      "info": {
+        "edad": "~15-16 años",
+        "genero": "Masculino",
+        "reino": "Aprendiz Marcial Avanzado",
+        "talentoCultivo": "Medio",
+        "afiliacion": "Primera Academia (Discípulo del Decano)",
+        "ubicacion": "Base Linhai",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 3"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Cultivo",
+          "type": "cultivation",
+          "rank": "Medio",
+          "status": "activo",
+          "description": "Talento excepcional para Linhai. Velocidad de avance monstruosa."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Fuente de talento (sin saberlo)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap3",
+          "chapterNumber": 3,
+          "note": "Ye Tian lo localiza, confirma su Talento Medio y lo copia mediante un tropezón fingido."
+        },
+        {
+          "chapterId": "cap105",
+          "chapterNumber": 105,
+          "note": "Mencionado en el contexto de la apuesta de formaciones."
+        }
+      ]
+    },
+    {
+      "id": "capitan-lobo-viento",
+      "name": "Capitán Lobo del Viento",
+      "nameChinese": "风狼队长",
+      "role": "secundario",
+      "bio": "Líder del Escuadrón de Caza del Lobo del Viento. Artista Marcial en etapa avanzada con más de diez guerreros bajo su mando. Lidera la batalla contra la Marta Lunar Plateada que irrumpe en la Base Linhai.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Artista Marcial (etapa avanzada)",
+        "afiliacion": "Escuadrón de Caza del Lobo del Viento",
+        "ubicacion": "Base Linhai",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 5"
+      },
+      "abilities": [
+        {
+          "name": "Espadachín",
+          "type": "sword",
+          "status": "activo",
+          "description": "Su corte de espada puede partir el suelo a 3 metros de profundidad."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "xiao-yue",
+          "characterName": "Xiao Yue",
+          "type": "Subordinada (arquera)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap5",
+          "chapterNumber": 5,
+          "note": "Lidera la batalla contra la Marta Lunar Plateada. Advierte del peligro cuando la bestia estimula su línea de sangre."
+        },
+        {
+          "chapterId": "cap27",
+          "chapterNumber": 27,
+          "note": "Ye Tian lo reconoce en la misión de limpieza. Es elegido líder del grupo. Ye Tian se une a su equipo por gratitud."
+        },
+        {
+          "chapterId": "cap28",
+          "chapterNumber": 28,
+          "note": "Lidera al grupo en la misión de limpieza. Dirige las operaciones contra bestias a 30km de la base."
+        },
+        {
+          "chapterId": "cap29",
+          "chapterNumber": 29,
+          "note": "Se sorprende al descubrir que Ye Tian es Artista Marcial Élite. Le ofrece huir pero Ye Tian decide quedarse a pelear."
+        },
+        {
+          "chapterId": "cap30",
+          "chapterNumber": 30,
+          "note": "Lucha junto a Ye Tian contra los lagartos escupefuego."
+        },
+        {
+          "chapterId": "cap31",
+          "chapterNumber": 31,
+          "note": "Ayuda a limpiar la zona tras la victoria. Se sorprende cuando Ye Tian anuncia que va al nido de hormigas de poder divino."
+        }
+      ]
+    },
+    {
+      "id": "xiao-yue",
+      "name": "Xiao Yue",
+      "nameChinese": "小月",
+      "role": "mencion",
+      "bio": "Arquera del Escuadrón de Caza del Lobo del Viento. Dispara desde las sombras y es quien da el golpe mortal a la Marta Lunar Plateada con dos flechas certeras.",
+      "info": {
+        "genero": "Femenino",
+        "reino": "Artista Marcial",
+        "afiliacion": "Escuadrón de Caza del Lobo del Viento",
+        "primerAparicion": "Capítulo 5"
+      },
+      "abilities": [
+        {
+          "name": "Arquería",
+          "type": "bow",
+          "status": "activo",
+          "description": "Disparos precisos desde larga distancia. Mató a la Marta Lunar Plateada con dos flechas."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "capitan-lobo-viento",
+          "characterName": "Capitán Lobo del Viento",
+          "type": "Capitán del escuadrón"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap5",
+          "chapterNumber": 5,
+          "note": "Dispara dos flechas decisivas que matan a la Marta Lunar Plateada."
+        }
+      ]
+    },
+    {
+      "id": "yue-cheng",
+      "name": "Yue Cheng",
+      "nameChinese": "岳成",
+      "role": "secundario",
+      "bio": "Profesor de la Quinta Academia. Intenta disuadir a Ye Tian de inscribirse en la prueba de campo, advirtiendo del peligro para aprendices con menos de 500 catties de fuerza.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Artista Marcial",
+        "afiliacion": "Quinta Academia de Linhai",
+        "primerAparicion": "Capítulo 7"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap7",
+          "chapterNumber": 7,
+          "note": "Intenta disuadir a Ye Tian de participar. Le hace firmar contrato de vida o muerte."
+        }
+      ]
+    },
+    {
+      "id": "li-yunxing",
+      "name": "Li Yunxing",
+      "nameChinese": "李云星",
+      "role": "secundario",
+      "bio": "Apodado el genio número uno del sable de la Segunda Academia. Posee Talento de Cultivo Inferior pero un raro Talento de Sable Medio, lo que lo hace peligroso pese a su baja fuerza (300 catties). Desafía a Mo Shaobei de la Primera Academia antes de la prueba. Ye Tian le copia el talento de sable mediante un apretón de manos.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Aprendiz Marcial",
+        "talentoCultivo": "Inferior",
+        "afiliacion": "Segunda Academia de Linhai",
+        "ubicacion": "Valle de prueba",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 8"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Cultivo",
+          "type": "cultivation",
+          "rank": "Inferior",
+          "status": "activo",
+          "description": "Limitado; como máximo llegará a Artista Marcial en etapa temprana."
+        },
+        {
+          "name": "Talento de Sable",
+          "type": "blade",
+          "rank": "Medio",
+          "status": "activo",
+          "description": "Talento innato excepcional. Lo convierte en el mejor espadachín de la Segunda Academia pese a su baja fuerza."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Conocido (fuente de talento sin saberlo)"
+        },
+        {
+          "characterId": "mo-shaobei",
+          "characterName": "Mo Shaobei",
+          "type": "Rival"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap8",
+          "chapterNumber": 8,
+          "note": "Desafía a Mo Shaobei pero es detenido por un profesor. Ye Tian le estrecha la mano y copia su Talento de Sable Medio."
+        },
+        {
+          "chapterId": "cap12",
+          "chapterNumber": 12,
+          "note": "Obtiene 195 puntos en la prueba. Mo Shaobei se burla de su resultado."
+        }
+      ]
+    },
+    {
+      "id": "mo-shaobei",
+      "name": "Mo Shaobei",
+      "nameChinese": "莫少北",
+      "role": "secundario",
+      "bio": "Uno de los cinco genios de talento medio de la Primera Academia. Tras la prueba de campo (2.° lugar con 427 pts), ascendió a Artista Marcial. Arrogante y rencoroso, contrató al asesino Sombra (Li Cun) para matar a Ye Tian, pero este mató a Li Cun primero. Ye Tian se infiltró en la mansión Mo y lo asesinó con dos golpes del Asesinato Sombrío, cortándole la mano y luego la cabeza. La familia Mo culpó a la Sombra y a familias rivales, sin sospechar de Ye Tian.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Artista Marcial",
+        "talentoCultivo": "Medio",
+        "afiliacion": "Familia Mo / Primera Academia de Linhai",
+        "ubicacion": "Mansión Mo",
+        "estado": "Muerto (asesinado por Ye Tian, Cap. 16)",
+        "primerAparicion": "Capítulo 8"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Cultivo",
+          "type": "cultivation",
+          "rank": "Medio",
+          "status": "activo",
+          "description": "Ascendió a Artista Marcial tras la prueba de campo."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "li-yunxing",
+          "characterName": "Li Yunxing",
+          "type": "Rival (lo menosprecia)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap8",
+          "chapterNumber": 8,
+          "note": "Rechaza el desafío de Li Yunxing burlándose de su baja fuerza (300 vs 990 catties)."
+        },
+        {
+          "chapterId": "cap10",
+          "chapterNumber": 10,
+          "note": "Lidera el asedio contra la serpiente bestia con los otros 4 genios. Son derrotados cuando la serpiente estimula su línea de sangre."
+        },
+        {
+          "chapterId": "cap11",
+          "chapterNumber": 11,
+          "note": "Llega a la cueva siguiendo el rastro de sangre. Descubre que alguien tomó los ojos y la sangre del corazón. Se va furioso."
+        },
+        {
+          "chapterId": "cap12",
+          "chapterNumber": 12,
+          "note": "Obtiene 2.° lugar con 427 pts. Confronta a Ye Tian reclamando los ojos de la serpiente. Es rechazado y jura venganza."
+        },
+        {
+          "chapterId": "cap13",
+          "chapterNumber": 13,
+          "note": "Sale de retiro habiendo ascendido a Artista Marcial. Ordena a su sirviente Li Hai investigar a Ye Tian."
+        },
+        {
+          "chapterId": "cap14",
+          "chapterNumber": 14,
+          "note": "Contrata al asesino Li Cun (Sombra) por 1 millón de yuanes para matar a Ye Tian. Analiza que Ye Tian podría convertirse en Artista Marcial en 1-2 años y quiere eliminarlo antes de que crezca."
+        },
+        {
+          "chapterId": "cap15",
+          "chapterNumber": 15,
+          "note": "Lleva 3 días sin noticias de la Sombra. Está irritado. No sabe que Li Cun ya fue asesinado por Ye Tian. Ye Tian infiltra su residencia y asesina a Li Hai frente a su puerta."
+        },
+        {
+          "chapterId": "cap16",
+          "chapterNumber": 16,
+          "note": "Ye Tian irrumpe en su habitación. Reconoce el Sable Sombrío y comprende que la Sombra murió. Intenta defenderse pero Ye Tian le corta la mano derecha con el primer golpe y le decapita con el segundo. Muere con los ojos abiertos de incredulidad."
+        }
+      ]
+    },
+    {
+      "id": "mo-en",
+      "name": "Mo En",
+      "nameChinese": "莫恩",
+      "role": "secundario",
+      "bio": "Padre de Mo Shaobei y Décimo Anciano de la familia Mo. Artista Marcial Élite en etapa media, a un paso de la etapa avanzada. Solo tiene talento primario de nivel alto, lo que le costó incontables recursos para alcanzar su nivel actual. Mo Shaobei era su única esperanza de producir un Gran Artista Marcial en la familia. Al descubrir el asesinato de su hijo, entra en furia descontrolada.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Artista Marcial Élite (etapa media)",
+        "talentoCultivo": "Primario (alto)",
+        "afiliacion": "Familia Mo (Décimo Anciano)",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 16"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Cultivo",
+          "type": "cultivation",
+          "rank": "Primario (alto)",
+          "status": "activo",
+          "description": "Alcanzó Artista Marcial Élite etapa media con incontables recursos. No puede avanzar más."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "mo-shaobei",
+          "characterName": "Mo Shaobei",
+          "type": "Hijo (muerto)"
+        },
+        {
+          "characterId": "mo-changqing",
+          "characterName": "Mo Changqing",
+          "type": "Ancestro de la familia"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap16",
+          "chapterNumber": 16,
+          "note": "Descubre el cadáver decapitado de su hijo. Libera su aura de Artista Marcial Élite en furia. El Ancestro Mo Changqing lo calma. Jura venganza contra la Sombra."
+        }
+      ]
+    },
+    {
+      "id": "mo-changqing",
+      "name": "Mo Changqing",
+      "nameChinese": "莫长青",
+      "role": "secundario",
+      "bio": "Ancestro de la familia Mo y único Gran Artista Marcial de la familia. Su presencia impone respeto a todos los miembros de la familia, incluso al furioso Mo En. Analiza la escena del crimen y deduce que el asesino fue la Sombra: alguien con talento especial de ocultación en etapa temprana de Artista Marcial. Ordena investigar qué familia rival contrató a la Sombra.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Gran Artista Marcial",
+        "afiliacion": "Familia Mo (Ancestro)",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 16"
+      },
+      "abilities": [
+        {
+          "name": "Poder Mental",
+          "type": "cultivation",
+          "status": "activo",
+          "description": "Como Gran Artista Marcial, puede liberar poder mental para detectar presencias ocultas."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "mo-en",
+          "characterName": "Mo En",
+          "type": "Descendiente (Décimo Anciano)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap16",
+          "chapterNumber": 16,
+          "note": "Llega a la escena del crimen. Analiza los cadáveres: Li Hai fue asesinado por emboscada, Mo Shaobei fue matado con dos sablazos. Deduce que fue la Sombra. Ordena investigar qué familia rival lo contrató. Erróneamente culpan a familias hostiles."
+        }
+      ]
+    },
+    {
+      "id": "li-hai",
+      "name": "Li Hai",
+      "nameChinese": "李海",
+      "role": "mencion",
+      "bio": "Sirviente anciano de la familia Mo, Artista Marcial de nivel básico. Tiene 60 años. Investigó los antecedentes de Ye Tian para Mo Shaobei y fue intermediario para contratar al asesino Sombra (Li Cun). Fue asesinado por Ye Tian mediante un ataque sorpresa con el Asesinato Sombrío cuando salía de la residencia de Mo Shaobei.",
+      "info": {
+        "genero": "Masculino",
+        "edad": "60 años",
+        "reino": "Artista Marcial (etapa básica)",
+        "afiliacion": "Familia Mo (sirviente de Mo Shaobei)",
+        "estado": "Muerto (asesinado por Ye Tian, Cap. 15)",
+        "primerAparicion": "Capítulo 13"
+      },
+      "abilities": [],
+      "relationships": [
+        {
+          "characterId": "mo-shaobei",
+          "characterName": "Mo Shaobei",
+          "type": "Amo (sirviente)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap13",
+          "chapterNumber": 13,
+          "note": "Mo Shaobei le ordena investigar a Ye Tian tras salir de su retiro como Artista Marcial."
+        },
+        {
+          "chapterId": "cap14",
+          "chapterNumber": 14,
+          "note": "Reporta a Mo Shaobei los antecedentes de Ye Tian (familia ordinaria, padres muertos). Sugiere contratar a la Sombra pero advierte del costo (1 millón)."
+        },
+        {
+          "chapterId": "cap15",
+          "chapterNumber": 15,
+          "note": "Sale de la residencia de Mo Shaobei tras escuchar sus quejas sobre la Sombra. Siente una palpitación en la oscuridad pero la ignora. Ye Tian lo asesina con el Asesinato Sombrío. Su último pensamiento es '¿Por qué la Sombra me mató?'."
+        }
+      ]
+    },
+    {
+      "id": "li-cun",
+      "name": "Li Cun (Sombra)",
+      "nameChinese": "李存",
+      "role": "secundario",
+      "bio": "Asesino profesional conocido como 'la Sombra' en la Base Linhai. Artista Marcial en etapa temprana con talento inferior de cultivo pero un raro Talento de Sombra Elemental que le permite ocultarse en las sombras, siendo invisible incluso para Artistas Marciales Élite. Solo los Gran Artistas Marciales con poder mental pueden detectarlo. Pese a su reputación aterradora, fue contratado por Mo Shaobei para asesinar a Ye Tian. Al subestimar a su objetivo, fue herido primero por la velocidad de Ye Tian y finalmente asesinado. Ye Tian copió su Talento de Sombra y tomó su sable negro y manual de técnicas.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Artista Marcial (etapa temprana)",
+        "talentoCultivo": "Inferior",
+        "afiliacion": "Asesino independiente",
+        "estado": "Muerto (asesinado por Ye Tian, Cap. 14)",
+        "primerAparicion": "Capítulo 14"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Sombra",
+          "type": "shadow",
+          "rank": "Elemental",
+          "status": "activo",
+          "description": "Se oculta en las sombras. Invisible incluso para Artistas Marciales Élite. Solo detectable por Gran Artistas Marciales con poder mental."
+        },
+        {
+          "name": "Sable Sombrío",
+          "type": "blade",
+          "rank": "Bronce",
+          "status": "activo",
+          "description": "Técnica de sable de nivel bronce. Movimiento: Asesinato Sombrío. No podía dominarlo completamente por carecer de talento de sable."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "mo-shaobei",
+          "characterName": "Mo Shaobei",
+          "type": "Contratista (lo contrató para matar a Ye Tian)"
+        },
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Objetivo de asesinato (fracasó)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap14",
+          "chapterNumber": 14,
+          "note": "Se oculta en la arboleda de la Quinta Academia para emboscar a Ye Tian. Es detectado por la habilidad pasiva de Ye Tian. Ye Tian ataca primero, lo hiere en el brazo derecho. Intenta usar el estado de sombra pero Ye Tian puede verlo. Es asesinado."
+        },
+        {
+          "chapterId": "cap15",
+          "chapterNumber": 15,
+          "note": "Su cadáver es registrado por Ye Tian. Le extraen: sable negro (Soldado Yuan), manual Sable Sombrío, 3M+ yuanes. Ye Tian copia su Talento de Sombra antes de enterrarlo."
+        }
+      ]
+    },
+    {
+      "id": "mo-yuan",
+      "name": "Mo Yuan",
+      "nameChinese": "莫远",
+      "role": "secundario",
+      "bio": "Miembro de la familia Mo. Confronta a Ye Tian en la Base Linhai después de la muerte de Mo Shaobei. Ye Tian le rompe el brazo como lección. Esto provoca que la familia Mo envíe 10 Artistas Marciales Élite contra Ye Tian.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Artista Marcial Élite (etapa temprana)",
+        "afiliacion": "Familia Mo",
+        "estado": "Vivo (brazo roto)",
+        "primerAparicion": "Capítulo 35"
+      },
+      "abilities": [],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Enemigo"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap35",
+          "chapterNumber": 35,
+          "note": "Confronta a Ye Tian. Es intimidado por su potencial del sable."
+        },
+        {
+          "chapterId": "cap36",
+          "chapterNumber": 36,
+          "note": "Ye Tian le rompe el brazo como advertencia. Amenaza con las reglas de la familia Lin pero Ye Tian no le hace caso."
+        },
+        {
+          "chapterId": "cap39",
+          "chapterNumber": 39,
+          "note": "Sobrevive a la masacre de la familia Mo. Lin Ze lo interroga y obtiene el nombre de Ye Tian como posible responsable."
+        }
+      ]
+    },
+    {
+      "id": "mo-xingchen",
+      "name": "Mo Xingchen",
+      "nameChinese": "莫星辰",
+      "role": "secundario",
+      "bio": "Primer Anciano de la familia Mo. Artista Marcial Élite en etapa media. Lidera el asedio de 10 Artistas Marciales Élite contra la villa de Ye Tian. Planea capturar a Ye Yu para forzar la rendición de Ye Tian.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Artista Marcial Élite (etapa media)",
+        "afiliacion": "Familia Mo (Primer Anciano)",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 37"
+      },
+      "abilities": [],
+      "relationships": [
+        {
+          "characterId": "mo-changsheng",
+          "characterName": "Mo Changsheng",
+          "type": "Superior (familia)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap37",
+          "chapterNumber": 37,
+          "note": "Lidera a 10 Artistas Marciales Élite para asediar la villa de Ye Tian. Ordena capturar a Ye Yu sin dañarla."
+        }
+      ]
+    },
+    {
+      "id": "mo-changsheng",
+      "name": "Mo Changsheng",
+      "nameChinese": "莫长生",
+      "role": "secundario",
+      "bio": "Gran Artista Marcial de la familia Mo. Furioso tras los ataques contra miembros de su familia, jura que cualquiera que se atreva a atacar a la familia Mo debe morir.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Gran Artista Marcial",
+        "afiliacion": "Familia Mo",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 37"
+      },
+      "abilities": [],
+      "relationships": [
+        {
+          "characterId": "mo-xingchen",
+          "characterName": "Mo Xingchen",
+          "type": "Subordinado (Primer Anciano)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap37",
+          "chapterNumber": 37,
+          "note": "Jura venganza contra quien ataque a la familia Mo. Su rugido resuena por toda la mansión Mo."
+        }
+      ]
+    },
+    {
+      "id": "lin-ze",
+      "name": "Lin Ze",
+      "nameChinese": "林泽",
+      "role": "secundario",
+      "bio": "Miembro de la familia Lin, la familia más poderosa de la Base Linhai. Investiga la masacre de la familia Mo. Obtiene información de Mo Yuan sobre Ye Tian como posible sospechoso, pero lo descarta por considerarlo demasiado débil para destruir a la familia Mo.",
+      "info": {
+        "genero": "Masculino",
+        "afiliacion": "Familia Lin",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 39"
+      },
+      "abilities": [],
+      "relationships": [
+        {
+          "characterId": "lin-wanli",
+          "characterName": "Lin Wanli",
+          "type": "Hermano mayor"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap39",
+          "chapterNumber": 39,
+          "note": "Investiga la masacre de la familia Mo. Interroga a Mo Yuan y obtiene el nombre de Ye Tian como sospechoso."
+        },
+        {
+          "chapterId": "cap40",
+          "chapterNumber": 40,
+          "note": "Reporta sus hallazgos a Lin Wanli. Discuten sobre Ye Tian y las amenazas externas a la Base Linhai."
+        }
+      ]
+    },
+    {
+      "id": "lin-wanli",
+      "name": "Lin Wanli",
+      "nameChinese": "林万里",
+      "role": "secundario",
+      "bio": "Líder de la familia Lin, la familia más poderosa de la Base Linhai. Recibe el reporte de Lin Ze sobre la masacre de la familia Mo. Tiene información previa sobre Ye Tian a través de Ming Zhi, considerándolo un genio con talento de cultivo alto o superior.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Gran Artista Marcial",
+        "afiliacion": "Familia Lin (Líder)",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 40"
+      },
+      "abilities": [],
+      "relationships": [
+        {
+          "characterId": "lin-ze",
+          "characterName": "Lin Ze",
+          "type": "Hermano menor"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap40",
+          "chapterNumber": 40,
+          "note": "Escucha el reporte de Lin Ze. Tiene información previa sobre Ye Tian. Discute las amenazas a la Base Linhai incluyendo la Base Colmillo de Hierro."
+        },
+        {
+          "chapterId": "cap61",
+          "chapterNumber": 61,
+          "note": "Presente cuando la caravana del Pabellón Marcial llega a Base Linhai."
+        },
+        {
+          "chapterId": "cap109",
+          "chapterNumber": 109,
+          "note": "Presente en la reunión de emergencia de Base Linhai."
+        },
+        {
+          "chapterId": "cap110",
+          "chapterNumber": 110,
+          "note": "Descubre que Ye Tian es Gran Maestro."
+        },
+        {
+          "chapterId": "cap113",
+          "chapterNumber": 113,
+          "note": "Presente tras la victoria contra la marea de bestias."
+        }
+      ]
+    },
+    {
+      "id": "sun-feng",
+      "name": "Sun Feng",
+      "nameChinese": "孙峰",
+      "role": "secundario",
+      "bio": "Artista Marcial Élite que desafía a Ye Tian a un duelo en la Plaza Huiming. Posee una técnica de sable de nivel bronce.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Artista Marcial Élite",
+        "afiliacion": "Base Linhai",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 48"
+      },
+      "abilities": [
+        {
+          "name": "Técnica de Sable",
+          "type": "blade",
+          "rank": "Bronce",
+          "status": "activo",
+          "description": "Técnica de sable de nivel bronce."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Rival / Retador"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap48",
+          "chapterNumber": 48,
+          "note": "Desafía a Ye Tian a un duelo en la Plaza Huiming para el día siguiente."
+        },
+        {
+          "chapterId": "cap49",
+          "chapterNumber": 49,
+          "note": "Duelo con Ye Tian en Plaza Huiming. Descubre que Ye Tian tiene Talento de Velocidad Supremo. Es superado."
+        },
+        {
+          "chapterId": "cap50",
+          "chapterNumber": 50,
+          "note": "Pierde el duelo. Se rinde cuando Ye Tian pone el sable en su cuello."
+        },
+        {
+          "chapterId": "cap51",
+          "chapterNumber": 51,
+          "note": "Le pide a su padre Sun Qinghe que mate a Ye Tian. Fantasea con la muerte de Ye Tian."
+        },
+        {
+          "chapterId": "cap52",
+          "chapterNumber": 52,
+          "note": "Su padre Sun Qinghe ataca a Ye Tian para vengarlo pero es derrotado y asesinado."
+        }
+      ]
+    },
+    {
+      "id": "sun-qinghe",
+      "name": "Sun Qinghe",
+      "nameChinese": "孙青河",
+      "role": "secundario",
+      "bio": "Padre de Sun Feng. Gran Artista Marcial en etapa temprana con talento medio de sable y dos técnicas de bronce a nivel Gran Perfección. Atacó a Ye Tian para vengar a su hijo pero fue derrotado y asesinado.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Gran Artista Marcial (etapa temprana)",
+        "talentoCultivo": "Medio",
+        "afiliacion": "Familia Sun",
+        "estado": "Muerto (asesinado por Ye Tian, Cap. 52)",
+        "primerAparicion": "Capítulo 51"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Sable",
+          "type": "blade",
+          "rank": "Medio",
+          "status": "activo",
+          "description": "Dos técnicas de bronce a Gran Perfección + arma Yuan intermedia = x4 multiplicador de fuerza."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "sun-feng",
+          "characterName": "Sun Feng",
+          "type": "Hijo"
+        },
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Enemigo (lo asesinó)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap51",
+          "chapterNumber": 51,
+          "note": "Sun Feng le pide que mate a Ye Tian. Acepta ir personalmente."
+        },
+        {
+          "chapterId": "cap52",
+          "chapterNumber": 52,
+          "note": "Ataca a Ye Tian con 1.2 millones de catties de poder de ataque. Es derrotado y asesinado por Ye Tian."
+        }
+      ]
+    },
+    {
+      "id": "sun-kong",
+      "name": "Sun Kong",
+      "nameChinese": "孙空",
+      "role": "secundario",
+      "bio": "Líder de la familia Sun. Envía 9 Gran Artistas Marciales para matar a Ye Tian tras la muerte de Sun Qinghe.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Gran Artista Marcial",
+        "afiliacion": "Familia Sun (Líder)",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 53"
+      },
+      "abilities": [],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Enemigo"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap53",
+          "chapterNumber": 53,
+          "note": "Lidera a 9 Gran Artistas Marciales de la familia Sun para atacar a Ye Tian."
+        },
+        {
+          "chapterId": "cap54",
+          "chapterNumber": 54,
+          "note": "Lidera el ataque de 9 Gran Artistas Marciales. Es derrotado por Ye Tian."
+        },
+        {
+          "chapterId": "cap55",
+          "chapterNumber": 55,
+          "note": "Se rinde ante Ye Tian tras la intervención fallida del Gran Maestro."
+        }
+      ]
+    },
+    {
+      "id": "yao-ye",
+      "name": "Yao Ye",
+      "nameChinese": "姚叶",
+      "role": "secundario",
+      "bio": "Gran Maestro (Grandmaster). Anciano poderoso que interviene cuando Ye Tian derrota a los 9 Gran Artistas Marciales de la familia Sun. Ye Tian no le muestra respeto y lo obliga a retroceder.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Gran Maestro",
+        "afiliacion": "Base Linhai",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 54"
+      },
+      "abilities": [],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Rival / Respeto mutuo"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap54",
+          "chapterNumber": 54,
+          "note": "Aparece tras la derrota de los 9 Gran Artistas Marciales. Se presenta como Gran Maestro."
+        },
+        {
+          "chapterId": "cap55",
+          "chapterNumber": 55,
+          "note": "Confronta a Ye Tian pero es obligado a retroceder. Reconoce la fuerza de Ye Tian."
+        }
+      ]
+    },
+    {
+      "id": "yue-zhong",
+      "name": "Yue Zhong",
+      "nameChinese": "岳重",
+      "role": "secundario",
+      "bio": "Miembro del Pabellón Marcial encargado de la ruta entre Base Linhai y Base Mar Demonio. Gran Artista Marcial. Informa a Ye Tian sobre la Base Mar Demonio y organiza su viaje.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Gran Artista Marcial",
+        "afiliacion": "Pabellón Marcial",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 60"
+      },
+      "abilities": [],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Contacto del Pabellón Marcial"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap60",
+          "chapterNumber": 60,
+          "note": "Ye Tian lo conoce. Le informa sobre la Base Mar Demonio. Próximo viaje en un mes."
+        },
+        {
+          "chapterId": "cap61",
+          "chapterNumber": 61,
+          "note": "Ye Tian conversa con él sobre la Base Mar Demonio antes de irse."
+        },
+        {
+          "chapterId": "cap62",
+          "chapterNumber": 62,
+          "note": "Organiza la caravana. Gestiona el intercambio de mercancías en Base Linhai."
+        }
+      ]
+    },
+    {
+      "id": "zhang-kai",
+      "name": "Zhang Kai",
+      "nameChinese": "张凯",
+      "role": "mencion",
+      "bio": "Gran Artista Marcial que encontró la Hierba de Talento del Espíritu de Fuego en el reino secreto. Intentó matar a Ye Tian y Yue Ling para quedarse con el tesoro. Fue decapitado por Ye Tian con el Asesinato Sombrío junto a sus 4 compañeros.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Gran Artista Marcial",
+        "estado": "Muerto (asesinado por Ye Tian, Cap. 76)",
+        "primerAparicion": "Capítulo 76"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap76",
+          "chapterNumber": 76,
+          "note": "Ordena matar a Ye Tian y Yue Ling. Es decapitado por el Asesinato Sombrío de Ye Tian."
+        }
+      ]
+    },
+    {
+      "id": "rey-yunhe",
+      "name": "Rey Yunhe",
+      "nameChinese": "云鹤王",
+      "role": "secundario",
+      "bio": "Poderoso de nivel rey con Talento de Cultivo Extraordinario y Talento Espacial Primario. Ye Tian copió su talento de cultivo extraordinario a distancia. También aparece en los asuntos de la familia Yue relacionados con el reino secreto.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Nivel Rey",
+        "talentoCultivo": "Extraordinario",
+        "afiliacion": "Base Mar Demonio",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 68"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Cultivo",
+          "type": "cultivation",
+          "rank": "Extraordinario",
+          "status": "activo"
+        },
+        {
+          "name": "Talento Espacial",
+          "type": "spatial",
+          "rank": "Primario",
+          "status": "activo"
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Fuente de talento (sin saberlo)"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap68",
+          "chapterNumber": 68,
+          "note": "Ye Tian lo detecta y copia su Talento de Cultivo Extraordinario a distancia."
+        },
+        {
+          "chapterId": "cap78",
+          "chapterNumber": 78,
+          "note": "Se interesa en el tesoro desconocido que Yue Ling trajo del reino secreto."
+        }
+      ]
+    },
+    {
+      "id": "xiao-zi",
+      "name": "Xiao Zi",
+      "nameChinese": "小紫",
+      "role": "principal",
+      "bio": "Rata Tesoro Dorada Púrpura. Domada por Ye Tian en el reino secreto. Talento de Búsqueda de Tesoros Alto (valorada en 200 billones). Ye Tian copió su talento y la dio a Ye Yu como mascota. Subjugó a Xiao Jin como su 'hermanito'.",
+      "info": {
+        "genero": "Femenino",
+        "reino": "Bestia de nivel supremo",
+        "afiliacion": "Mascota de Ye Yu",
+        "estado": "Viva",
+        "primerAparicion": "Capítulo 79"
+      },
+      "abilities": [
+        {
+          "name": "Búsqueda de Tesoros",
+          "type": "treasure",
+          "rank": "Alto",
+          "status": "activo"
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Amo"
+        },
+        {
+          "characterId": "ye-yu",
+          "characterName": "Ye Yu",
+          "type": "Dueña actual"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap79",
+          "chapterNumber": 79,
+          "note": "Domada por Ye Tian. Talento de búsqueda de tesoros."
+        },
+        {
+          "chapterId": "cap81",
+          "chapterNumber": 81,
+          "note": "Encuentra pasaje subacuático hacia la veta de Piedras Yuan Qi."
+        },
+        {
+          "chapterId": "cap82",
+          "chapterNumber": 82,
+          "note": "Ayuda a minar Piedras Yuan Qi."
+        },
+        {
+          "chapterId": "cap83",
+          "chapterNumber": 83,
+          "note": "Entrega 412 Piedras Yuan Qi adicionales."
+        },
+        {
+          "chapterId": "cap84",
+          "chapterNumber": 84,
+          "note": "Valorada en 200 billones. Ye Tian rechaza venderla."
+        },
+        {
+          "chapterId": "cap85",
+          "chapterNumber": 85,
+          "note": "Ye Tian copia su talento y la da a Ye Yu como mascota. Subjuga a Xiao Jin."
+        }
+      ]
+    },
+    {
+      "id": "xiao-xue",
+      "name": "Xiao Xue",
+      "nameChinese": "小雪",
+      "role": "principal",
+      "bio": "Dragón Celestial de Sangre de Guerra. Nació del huevo comprado en la subasta (80 billones). Línea de sangre Sol Naciente con 10 talentos especiales (Alma de Dragón, Rugido de Dragón, Vuelo, Devoración de Sangre, etc.). Creció rápidamente alimentándose con sangre de dragón. Puede volar a velocidades supersónicas. Compañero de batalla principal de Ye Tian.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Bestia Rey",
+        "afiliacion": "Compañero de Ye Tian (principal)",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 98"
+      },
+      "abilities": [
+        {
+          "name": "Línea de Sangre",
+          "type": "bloodline",
+          "rank": "Sol Naciente",
+          "status": "activo"
+        },
+        {
+          "name": "Alma de Dragón",
+          "type": "dragon",
+          "status": "activo"
+        },
+        {
+          "name": "Rugido de Dragón",
+          "type": "dragon",
+          "status": "activo"
+        },
+        {
+          "name": "Vuelo",
+          "type": "flight",
+          "status": "activo"
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Amo"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap107",
+          "chapterNumber": 107,
+          "note": "Ye Tian copia su talento de vuelo Alto y hueso de sangre Medio."
+        },
+        {
+          "chapterId": "cap108",
+          "chapterNumber": 108,
+          "note": "Ye Tian lo monta para volar a Base Linhai."
+        },
+        {
+          "chapterId": "cap109",
+          "chapterNumber": 109,
+          "note": "Aterriza en Base Linhai causando asombro."
+        },
+        {
+          "chapterId": "cap110",
+          "chapterNumber": 110,
+          "note": "Descansa mientras Ye Tian prepara formaciones."
+        },
+        {
+          "chapterId": "cap111",
+          "chapterNumber": 111,
+          "note": "Participa en la defensa contra la marea de bestias."
+        },
+        {
+          "chapterId": "cap112",
+          "chapterNumber": 112,
+          "note": "Desata Alma de Dragón y Rugido de Dragón contra la bestia rey."
+        },
+        {
+          "chapterId": "cap113",
+          "chapterNumber": 113,
+          "note": "Recolecta bolsas de almacenamiento de las bestias."
+        },
+        {
+          "chapterId": "cap114",
+          "chapterNumber": 114,
+          "note": "Llega a Base Mar Demonio con Ye Tian."
+        },
+        {
+          "chapterId": "cap119",
+          "chapterNumber": 119,
+          "note": "Vuela con Ye Tian a la grieta espacial."
+        },
+        {
+          "chapterId": "cap120",
+          "chapterNumber": 120,
+          "note": "Recolecta sangre de bestia del Cocodrilo Dragón."
+        },
+        {
+          "chapterId": "cap121",
+          "chapterNumber": 121,
+          "note": "Presente mientras Ye Tian usa Transferencia de Alma."
+        },
+        {
+          "chapterId": "cap126",
+          "chapterNumber": 126,
+          "note": "Acompaña a Ye Tian de regreso a Base Mar Demonio."
+        },
+        {
+          "chapterId": "cap131",
+          "chapterNumber": 131,
+          "note": "Vuela con Ye Tian cruzando el Río Changling."
+        },
+        {
+          "chapterId": "cap132",
+          "chapterNumber": 132,
+          "note": "Entra con Ye Tian a Zhonghai."
+        },
+        {
+          "chapterId": "cap141",
+          "chapterNumber": 141,
+          "note": "Acompaña a Ye Tian en la ciudad."
+        }
+      ]
+    },
+    {
+      "id": "xiao-jin",
+      "name": "Xiao Jin",
+      "nameChinese": "小金",
+      "role": "secundario",
+      "bio": "Leopardo Dragón de Seda Dorada. Primer compañero bestia de Ye Tian, domado tras rendirse en combate. Talento de Velocidad Supremo. Alcanzó nivel supremo de bestia. Transferido a Ye Yu como protector cuando Xiao Xue (el dragón) se convirtió en el compañero principal. Subjugado por Xiao Zi.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Bestia de nivel supremo",
+        "afiliacion": "Protector de Ye Yu",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 44"
+      },
+      "abilities": [
+        {
+          "name": "Velocidad",
+          "type": "speed",
+          "rank": "Supremo",
+          "status": "activo"
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Amo original"
+        },
+        {
+          "characterId": "ye-yu",
+          "characterName": "Ye Yu",
+          "type": "Dueña actual"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap85",
+          "chapterNumber": 85,
+          "note": "Subjugado por Xiao Zi como su 'hermanito'."
+        },
+        {
+          "chapterId": "cap96",
+          "chapterNumber": 96,
+          "note": "Ha alcanzado nivel supremo. Protege a Ye Yu."
+        },
+        {
+          "chapterId": "cap98",
+          "chapterNumber": 98,
+          "note": "Ye Tian prueba talento de control de bestias en él."
+        },
+        {
+          "chapterId": "cap99",
+          "chapterNumber": 99,
+          "note": "Transferido a Ye Yu. Protege la casa."
+        },
+        {
+          "chapterId": "cap107",
+          "chapterNumber": 107,
+          "note": "Mencionado junto a Xiao Xue."
+        }
+      ]
+    },
+    {
+      "id": "yun-feng",
+      "name": "Yun Feng",
+      "nameChinese": "云风",
+      "role": "secundario",
+      "bio": "Genio de la familia Yun en Base Mar Demonio. Talento de Cultivo Extraordinario con Cuchilla de Viento Supremo y Velocidad Medio. Uno de los guerreros más fuertes entre los jóvenes. Presente en la reunión de reyes y la batalla de la grieta espacial.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Gran Artista Marcial (pico) → Gran Maestro potencial",
+        "talentoCultivo": "Extraordinario",
+        "afiliacion": "Familia Yun",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 80"
+      },
+      "abilities": [
+        {
+          "name": "Cultivo",
+          "type": "cultivation",
+          "rank": "Extraordinario",
+          "status": "activo"
+        },
+        {
+          "name": "Cuchilla de Viento",
+          "type": "blade",
+          "rank": "Supremo",
+          "status": "activo"
+        }
+      ],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap80",
+          "chapterNumber": 80,
+          "note": "Emboscado por el clan Helian. Ye Tian lo observa."
+        },
+        {
+          "chapterId": "cap81",
+          "chapterNumber": 81,
+          "note": "Ye Tian escanea sus talentos. Pelea contra el clan Helian."
+        },
+        {
+          "chapterId": "cap82",
+          "chapterNumber": 82,
+          "note": "Mata a Helian Bi. Derrota al pangolín con Perla de Formación Fantasma."
+        },
+        {
+          "chapterId": "cap83",
+          "chapterNumber": 83,
+          "note": "Descubre la veta minada y excava 500 piedras."
+        },
+        {
+          "chapterId": "cap84",
+          "chapterNumber": 84,
+          "note": "Mencionado en el contexto de supervivientes del reino secreto."
+        },
+        {
+          "chapterId": "cap117",
+          "chapterNumber": 117,
+          "note": "Ye Tian lo encuentra en la Torre de Nubes."
+        },
+        {
+          "chapterId": "cap118",
+          "chapterNumber": 118,
+          "note": "Presente en la reunión de reyes."
+        },
+        {
+          "chapterId": "cap127",
+          "chapterNumber": 127,
+          "note": "Mencionado en contexto de la familia Yun."
+        }
+      ]
+    },
+    {
+      "id": "yun-mengli",
+      "name": "Yun Mengli",
+      "nameChinese": "云梦丽",
+      "role": "secundario",
+      "bio": "Ancestro de la familia Yun y la persona más poderosa de Base Mar Demonio. Nivel Rey. Derrotó a la bestia rey invencible (Simio Espíritu Dorado) con el arco divino dorado (grado medio divino). Organizó la reunión de 73 reyes para sellar la grieta espacial de 3 estrellas. Lideró la operación conjunta de las 3 bases.",
+      "info": {
+        "genero": "Femenino",
+        "reino": "Nivel Rey (más poderosa de Base Mar Demonio)",
+        "afiliacion": "Familia Yun (Ancestro)",
+        "estado": "Viva",
+        "primerAparicion": "Capítulo 115"
+      },
+      "abilities": [
+        {
+          "name": "Arco Divino Dorado",
+          "type": "weapon",
+          "rank": "Grado Medio Divino",
+          "status": "activo"
+        }
+      ],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap115",
+          "chapterNumber": 115,
+          "note": "Regresa y lidera la contraofensiva contra la marea de bestias."
+        },
+        {
+          "chapterId": "cap116",
+          "chapterNumber": 116,
+          "note": "Derrota a la bestia rey invencible con el arco divino dorado."
+        },
+        {
+          "chapterId": "cap117",
+          "chapterNumber": 117,
+          "note": "Organiza la reunión de reyes en la Torre de Nubes."
+        },
+        {
+          "chapterId": "cap118",
+          "chapterNumber": 118,
+          "note": "Explica el plan para sellar la grieta espacial de 3 estrellas."
+        },
+        {
+          "chapterId": "cap119",
+          "chapterNumber": 119,
+          "note": "Lidera la operación de las 3 bases unidas."
+        },
+        {
+          "chapterId": "cap120",
+          "chapterNumber": 120,
+          "note": "Supervisa la formación de sellado."
+        },
+        {
+          "chapterId": "cap121",
+          "chapterNumber": 121,
+          "note": "Presente durante la operación de la grieta."
+        },
+        {
+          "chapterId": "cap130",
+          "chapterNumber": 130,
+          "note": "Mencionada en contexto del ascenso a nivel rey."
+        }
+      ]
+    },
+    {
+      "id": "chang-yuan",
+      "name": "Chang Yuan",
+      "nameChinese": "常远",
+      "role": "mencion",
+      "bio": "Guerrero con Talento de Cultivo Extraordinario y talento de gravedad Elemental. Ye Tian le copió el talento de cultivo en la subasta.",
+      "info": {
+        "reino": "Gran Maestro",
+        "primerAparicion": "Capítulo 86"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap86",
+          "chapterNumber": 86,
+          "note": "Ye Tian le copia el Talento de Cultivo Extraordinario a distancia en la subasta."
+        }
+      ]
+    },
+    {
+      "id": "yue-ben",
+      "name": "Yue Ben",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Encargado de la sucursal del Pabellón Marcial.",
+      "info": {
+        "primerAparicion": "Capítulo 84"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap84",
+          "chapterNumber": 84,
+          "note": "Encargado de la sucursal del Pabellón Marcial."
+        }
+      ]
+    },
+    {
+      "id": "li-pei",
+      "name": "Li Pei",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Fuente de Talento de Control de Bestias Alto.",
+      "info": {
+        "primerAparicion": "Capítulo 97"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap97",
+          "chapterNumber": 97,
+          "note": "Fuente de Talento de Control de Bestias Alto."
+        }
+      ]
+    },
+    {
+      "id": "zhao-ke",
+      "name": "Zhao Ke",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Fuente de Talento de Cultivo Extraordinario.",
+      "info": {
+        "primerAparicion": "Capítulo 97"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap97",
+          "chapterNumber": 97,
+          "note": "Fuente de Talento de Cultivo Extraordinario."
+        }
+      ]
+    },
+    {
+      "id": "nie-qi",
+      "name": "Nie Qi",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Fuente de Talento de Formación Alto.",
+      "info": {
+        "primerAparicion": "Capítulo 102"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap102",
+          "chapterNumber": 102,
+          "note": "Fuente de Talento de Formación Alto."
+        }
+      ]
+    },
+    {
+      "id": "li-zhong",
+      "name": "Li Zhong",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Examinador de la Asociación de Magos de Formaciones.",
+      "info": {
+        "primerAparicion": "Capítulo 103"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap103",
+          "chapterNumber": 103,
+          "note": "Examinador de la Asociación de Magos de Formaciones."
+        },
+        {
+          "chapterId": "cap104",
+          "chapterNumber": 104,
+          "note": "Supervisor del examen de formaciones."
+        }
+      ]
+    },
+    {
+      "id": "chen-yao",
+      "name": "Chen Yao",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Maga de formaciones. Compañera de examen.",
+      "info": {
+        "primerAparicion": "Capítulo 103"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap103",
+          "chapterNumber": 103,
+          "note": "Maga de formaciones. Compañera de examen."
+        },
+        {
+          "chapterId": "cap104",
+          "chapterNumber": 104,
+          "note": "Presente en la tercera etapa del examen."
+        },
+        {
+          "chapterId": "cap105",
+          "chapterNumber": 105,
+          "note": "Presente durante los resultados del examen."
+        }
+      ]
+    },
+    {
+      "id": "he-dong",
+      "name": "He Dong",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Mago de formaciones que apuesta contra Ye Tian.",
+      "info": {
+        "primerAparicion": "Capítulo 104"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap104",
+          "chapterNumber": 104,
+          "note": "Mago de formaciones que apuesta contra Ye Tian."
+        }
+      ]
+    },
+    {
+      "id": "anciano-li",
+      "name": "Anciano Li",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Líder interino de Base Linhai.",
+      "info": {
+        "primerAparicion": "Capítulo 109"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap109",
+          "chapterNumber": 109,
+          "note": "Líder interino de Base Linhai."
+        },
+        {
+          "chapterId": "cap110",
+          "chapterNumber": 110,
+          "note": "Descubre que Ye Tian es Gran Maestro. Coordina preparativos."
+        },
+        {
+          "chapterId": "cap111",
+          "chapterNumber": 111,
+          "note": "Coordina la defensa durante la marea de bestias."
+        },
+        {
+          "chapterId": "cap112",
+          "chapterNumber": 112,
+          "note": "Presente durante la batalla contra la bestia rey."
+        },
+        {
+          "chapterId": "cap113",
+          "chapterNumber": 113,
+          "note": "Presente tras la victoria. Reporte de bajas."
+        }
+      ]
+    },
+    {
+      "id": "li-qing",
+      "name": "Li Qing",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Guerrero de la Base Qinghe presente en la batalla de la grieta espacial.",
+      "info": {
+        "primerAparicion": "Capítulo 119"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap119",
+          "chapterNumber": 119,
+          "note": "Presente en la batalla de la grieta espacial."
+        }
+      ]
+    },
+    {
+      "id": "zhao-xue",
+      "name": "Zhao Xue",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Guerrero presente en la batalla de la grieta espacial.",
+      "info": {
+        "primerAparicion": "Capítulo 119"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap119",
+          "chapterNumber": 119,
+          "note": "Presente en la batalla de la grieta espacial."
+        }
+      ]
+    },
+    {
+      "id": "li-zhenbei",
+      "name": "Li Zhenbei",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Guerrero con talento de sable Alto. Ye Tian le copia el talento para fusionar sable a Supremo.",
+      "info": {
+        "primerAparicion": "Capítulo 120"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap120",
+          "chapterNumber": 120,
+          "note": "Ye Tian le copia su talento de sable Alto (3er copia → fusión a Supremo)."
+        }
+      ]
+    },
+    {
+      "id": "qing-wang",
+      "name": "Rey Qing",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Rey de la Base Qinghe. Presente en la batalla de la grieta espacial.",
+      "info": {
+        "primerAparicion": "Capítulo 121"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap121",
+          "chapterNumber": 121,
+          "note": "Presente durante la batalla contra las bestias de la grieta."
+        }
+      ]
+    },
+    {
+      "id": "bestia-tianlin-rey",
+      "name": "Rey Bestia Tianlin",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Bestia Tianlin poderosa con línea de sangre Estrella Matutina en el Mundo Bestia.",
+      "info": {
+        "primerAparicion": "Capítulo 122"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap122",
+          "chapterNumber": 122,
+          "note": "Ye Tian la detecta en la Montaña de la Bestia Sagrada."
+        }
+      ]
+    },
+    {
+      "id": "mono-tres-ojos",
+      "name": "Mono de Tres Ojos",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Bestia poderosa que ataca el Monumento Celestial de la Iluminación.",
+      "info": {
+        "primerAparicion": "Capítulo 125"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap125",
+          "chapterNumber": 125,
+          "note": "Ataca el monumento. Ye Tian le copia talentos antes de que una Bestia Tianlin gigante destruya todo."
+        }
+      ]
+    },
+    {
+      "id": "bestia-tianlin",
+      "name": "Bestia Tianlin Gigante",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Bestia Tianlin enormemente poderosa que destruye el Monumento Celestial de la Iluminación.",
+      "info": {
+        "primerAparicion": "Capítulo 125"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap125",
+          "chapterNumber": 125,
+          "note": "Destruye todo en la montaña. Su poder expulsa el alma de Ye Tian de vuelta a la Tierra."
+        }
+      ]
+    },
+    {
+      "id": "yun-meng",
+      "name": "Yun Meng",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Miembro de la familia Yun. Presente en conversaciones sobre la Super Base Zhonghai.",
+      "info": {
+        "primerAparicion": "Capítulo 127"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap127",
+          "chapterNumber": 127,
+          "note": "Mencionada en contexto de la familia Yun."
+        },
+        {
+          "chapterId": "cap128",
+          "chapterNumber": 128,
+          "note": "Mencionada en contexto del viaje a Zhonghai."
+        }
+      ]
+    },
+    {
+      "id": "wang-yan",
+      "name": "Wang Yan",
+      "nameChinese": "",
+      "role": "secundario",
+      "bio": "Guerrero de nivel rey con talento Extraordinario. Guía a Ye Tian en Super Base Zhonghai. Le da la Técnica de Respiración de Tortuga.",
+      "info": {
+        "reino": "Nivel Rey",
+        "talentoCultivo": "Extraordinario",
+        "afiliacion": "Super Base Zhonghai",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 132"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap132",
+          "chapterNumber": 132,
+          "note": "Conoce a Ye Tian. Le da info sobre Zhonghai y la Técnica de Respiración de Tortuga."
+        },
+        {
+          "chapterId": "cap133",
+          "chapterNumber": 133,
+          "note": "Su info sobre las 4 facciones es estudiada por Ye Tian."
+        },
+        {
+          "chapterId": "cap138",
+          "chapterNumber": 138,
+          "note": "Ve el nombre de Ye Tian en la Lista de Reyes."
+        },
+        {
+          "chapterId": "cap139",
+          "chapterNumber": 139,
+          "note": "Analiza el ascenso de Ye Tian en la Lista de Reyes."
+        },
+        {
+          "chapterId": "cap148",
+          "chapterNumber": 148,
+          "note": "Decide invertir en Ye Tian. Le ofrece una oportunidad."
+        }
+      ]
+    },
+    {
+      "id": "saka",
+      "name": "Saka",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Miembro de la raza Bruja. Primera criatura no humana que Ye Tian ve en Zhonghai.",
+      "info": {
+        "primerAparicion": "Capítulo 132"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap132",
+          "chapterNumber": 132,
+          "note": "Ye Tian lo ve al entrar a Zhonghai. Primer encuentro con la raza Bruja."
+        }
+      ]
+    },
+    {
+      "id": "li-yueling",
+      "name": "Li Yueling",
+      "nameChinese": "",
+      "role": "secundario",
+      "bio": "Guerrera de nivel rey con talento Estrella Matutina. Ye Tian le copia el talento para fusionar su cultivo a Luna Brillante.",
+      "info": {
+        "reino": "Nivel Rey",
+        "talentoCultivo": "Estrella Matutina",
+        "estado": "Viva",
+        "primerAparicion": "Capítulo 134"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap134",
+          "chapterNumber": 134,
+          "note": "Pelea contra Qin He en la Arena Tomahawk. Ye Tian escanea sus talentos."
+        },
+        {
+          "chapterId": "cap135",
+          "chapterNumber": 135,
+          "note": "Ye Tian le copia talento Estrella Matutina → fusiona a Luna Brillante."
+        },
+        {
+          "chapterId": "cap137",
+          "chapterNumber": 137,
+          "note": "Mencionada en contexto de la Torre del Dios de la Guerra."
+        },
+        {
+          "chapterId": "cap136",
+          "chapterNumber": 136,
+          "note": "Mencionada en la torre."
+        },
+        {
+          "chapterId": "cap143",
+          "chapterNumber": 143,
+          "note": "Mencionada en contexto de los rankings."
+        }
+      ]
+    },
+    {
+      "id": "qin-he",
+      "name": "Qin He",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Guerrero de nivel rey. Pelea contra Li Yueling en la Arena Tomahawk.",
+      "info": {
+        "reino": "Nivel Rey",
+        "primerAparicion": "Capítulo 134"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap134",
+          "chapterNumber": 134,
+          "note": "Pelea contra Li Yueling."
+        },
+        {
+          "chapterId": "cap137",
+          "chapterNumber": 137,
+          "note": "Mencionado en contexto de la torre."
+        },
+        {
+          "chapterId": "cap135",
+          "chapterNumber": 135,
+          "note": "Mencionado en contexto de la pelea previa."
+        },
+        {
+          "chapterId": "cap136",
+          "chapterNumber": 136,
+          "note": "Mencionado en la torre."
+        }
+      ]
+    },
+    {
+      "id": "rey-shanghe",
+      "name": "Rey Shanghe",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Antiguo rey que construyó la Torre de Formaciones Shanghe. Dejó un juramento de venganza contra Shui Qianyue en el piso 9.",
+      "info": {
+        "reino": "Nivel Rey (fallecido)",
+        "primerAparicion": "Capítulo 129"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap129",
+          "chapterNumber": 129,
+          "note": "Su legado en la Torre Shanghe: pisos 4-8 con premios, piso 9 con juramento de matar a Shui Qianyue."
+        },
+        {
+          "chapterId": "cap136",
+          "chapterNumber": 136,
+          "note": "Su torre es mencionada en contexto de la Torre del Dios de la Guerra."
+        }
+      ]
+    },
+    {
+      "id": "shui-qianyue",
+      "name": "Shui Qianyue",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Rango #8 en la Lista Santa de la Torre del Dios de la Guerra. Objetivo de venganza del Rey Shanghe.",
+      "info": {
+        "reino": "Nivel Santo",
+        "primerAparicion": "Capítulo 129"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap129",
+          "chapterNumber": 129,
+          "note": "Objetivo de venganza del Rey Shanghe en el piso 9 de la Torre."
+        },
+        {
+          "chapterId": "cap136",
+          "chapterNumber": 136,
+          "note": "Rango #8 en la Lista Santa de la Torre del Dios de la Guerra."
+        },
+        {
+          "chapterId": "cap139",
+          "chapterNumber": 139,
+          "note": "Ye Tian copia su talento de Cultivo Luna Brillante y Defensa Pseudo-Arcano a distancia."
+        },
+        {
+          "chapterId": "cap140",
+          "chapterNumber": 140,
+          "note": "Su talento copiado es fusionado por Ye Tian."
+        },
+        {
+          "chapterId": "cap143",
+          "chapterNumber": 143,
+          "note": "Mencionada en contexto de la Lista Santa."
+        }
+      ]
+    },
+    {
+      "id": "rey-huracan",
+      "name": "Rey Huracán",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Rey cuya experiencia de cultivo fue comprada por Ye Tian en la subasta.",
+      "info": {
+        "reino": "Nivel Rey",
+        "primerAparicion": "Capítulo 86"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap86",
+          "chapterNumber": 86,
+          "note": "Su experiencia de cultivo es comprada por Ye Tian."
+        },
+        {
+          "chapterId": "cap130",
+          "chapterNumber": 130,
+          "note": "Su técnica de acupuntos es usada por Ye Tian para ascender a nivel rey."
+        }
+      ]
+    },
+    {
+      "id": "feng-xue-tu",
+      "name": "Feng Xue Tu",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Emperador del Hacha. #1 en la Lista de Emperadores de la Torre del Dios de la Guerra.",
+      "info": {
+        "reino": "Nivel Emperador",
+        "primerAparicion": "Capítulo 136"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap136",
+          "chapterNumber": 136,
+          "note": "#1 en la Lista de Emperadores. 36 emperadores en total."
+        }
+      ]
+    },
+    {
+      "id": "qin-zhantian",
+      "name": "Qin Zhantian",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Líder de la Secta Qin. Mencionado en la Lista de Emperadores.",
+      "info": {
+        "reino": "Nivel Emperador",
+        "primerAparicion": "Capítulo 136"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap136",
+          "chapterNumber": 136,
+          "note": "Mencionado en la Lista de Emperadores de la torre."
+        },
+        {
+          "chapterId": "cap146",
+          "chapterNumber": 146,
+          "note": "Ye Tian le copia Fuerza Pseudo-Arcano 50% y Defensa 20% a distancia."
+        },
+        {
+          "chapterId": "cap147",
+          "chapterNumber": 147,
+          "note": "Sus talentos copiados previamente ayudan a Ye Tian en los pisos 6-7."
+        }
+      ]
+    },
+    {
+      "id": "wang-xiyue",
+      "name": "Wang Xiyue (Santa Doncella Luna Poniente)",
+      "nameChinese": "",
+      "role": "secundario",
+      "bio": "Santa Doncella de la Secta del Dios Luna. Contrata a Ye Tian para capturar la Rata Plateada Espacio-Temporal. Posee 2 talentos Pseudo-Arcano.",
+      "info": {
+        "genero": "Femenino",
+        "reino": "Nivel Rey",
+        "afiliacion": "Secta del Dios Luna",
+        "estado": "Viva",
+        "primerAparicion": "Capítulo 143"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap143",
+          "chapterNumber": 143,
+          "note": "Conoce a Ye Tian. Lo contrata para la misión. Entra al reino secreto de 3 estrellas."
+        },
+        {
+          "chapterId": "cap144",
+          "chapterNumber": 144,
+          "note": "Revela que la bestia tiene Talento de Tiempo. Lucha contra la Rata Plateada."
+        },
+        {
+          "chapterId": "cap145",
+          "chapterNumber": 145,
+          "note": "Ayuda a capturar la Rata. Le da la técnica Qingyuan como recompensa."
+        },
+        {
+          "chapterId": "cap146",
+          "chapterNumber": 146,
+          "note": "Mencionada en contexto de la misión completada."
+        },
+        {
+          "chapterId": "cap142",
+          "chapterNumber": 142,
+          "note": "Su misión es aceptada por Ye Tian."
+        },
+        {
+          "chapterId": "cap147",
+          "chapterNumber": 147,
+          "note": "Se entera del rango 7 de Ye Tian en la Lista de Reyes."
+        },
+        {
+          "chapterId": "cap148",
+          "chapterNumber": 148,
+          "note": "Mencionada en contexto de las inversiones."
+        }
+      ]
+    },
+    {
+      "id": "rata-plateada-espacio-temporal",
+      "name": "Rata Plateada Espacio-Temporal",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Bestia con Talento de Tiempo Elemental y Espacio Débil. Capturada por Ye Tian y Wang Xiyue en el reino secreto.",
+      "info": {
+        "primerAparicion": "Capítulo 144"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap144",
+          "chapterNumber": 144,
+          "note": "Descubierta en el reino secreto. Ye Tian copia su Talento de Tiempo."
+        },
+        {
+          "chapterId": "cap145",
+          "chapterNumber": 145,
+          "note": "Capturada. Entregada a Wang Xiyue."
+        }
+      ]
+    },
+    {
+      "id": "espiritu-maquina",
+      "name": "Espíritu Máquina",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Espíritu artificial de la Torre del Dios de la Guerra que gestiona las pruebas y rankings.",
+      "info": {
+        "primerAparicion": "Capítulo 147"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap147",
+          "chapterNumber": 147,
+          "note": "Anuncia los resultados de Ye Tian en los pisos 6-7."
+        },
+        {
+          "chapterId": "cap148",
+          "chapterNumber": 148,
+          "note": "Otorga el Anillo del Dios de la Guerra a Ye Tian."
+        }
+      ]
+    },
+    {
+      "id": "wang-ze",
+      "name": "Wang Ze",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Poseedor del récord de progreso más rápido a nivel rey (80 días) en la Torre del Dios de la Guerra.",
+      "info": {
+        "primerAparicion": "Capítulo 140"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap140",
+          "chapterNumber": 140,
+          "note": "Su récord de 80 días para nivel rey es descubierto por Ye Tian."
+        }
+      ]
+    },
+    {
+      "id": "lin-zhan",
+      "name": "Lin Zhan",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Poseedor del récord de ataque más fuerte a nivel rey (8.2 poderes dragón) en la Torre.",
+      "info": {
+        "primerAparicion": "Capítulo 140"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap140",
+          "chapterNumber": 140,
+          "note": "Su récord de 8.2 poderes dragón es descubierto por Ye Tian."
+        }
+      ]
+    },
+    {
+      "id": "emperador-hacha-de-guerra",
+      "name": "Emperador del Hacha de Guerra",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "#1 en la Lista de Emperadores. Poseedor del récord absoluto de ataque (8.2 poderes dragón).",
+      "info": {
+        "reino": "Nivel Emperador",
+        "primerAparicion": "Capítulo 136"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap136",
+          "chapterNumber": 136,
+          "note": "#1 en la Lista de Emperadores."
+        },
+        {
+          "chapterId": "cap141",
+          "chapterNumber": 141,
+          "note": "Su récord de ataque es analizado por Ye Tian."
+        },
+        {
+          "chapterId": "cap142",
+          "chapterNumber": 142,
+          "note": "Mencionado en contexto de la Arena Tomahawk."
+        }
+      ]
+    },
+    {
+      "id": "qin-feng",
+      "name": "Qin Feng",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Poseedor del récord de defensa más fuerte (2 poderes dragón) en la Torre.",
+      "info": {
+        "primerAparicion": "Capítulo 141"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap141",
+          "chapterNumber": 141,
+          "note": "Su récord de 2 poderes dragón de defensa es analizado por Ye Tian."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+import { Injectable, inject } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Novel, Chapter, CharactersData } from '../models/novel.model';
+
+@Injectable({ providedIn: 'root' })
+export class NovelService {
+  private http = inject(HttpClient);
+
+  getNovels(): Observable<{ id: string; title: string; titleChinese: string; genre: string; description: string; coverColor: string; totalChapters: number }[]> {
+    return this.http.get<any[]>('/novels/index.json');
+  }
+
+  getNovel(novelId: string): Observable<Novel> {
+    return this.http.get<Novel>(`/novels/${novelId}/novel.json`);
+  }
+
+  getChapter(novelId: string, chapterId: string): Observable<Chapter> {
+    return this.http.get<Chapter>(`/novels/${novelId}/chapters/${chapterId}.json`);
+  }
+
+  getCharacters(novelId: string): Observable<CharactersData> {
+    return this.http.get<CharactersData>(`/novels/${novelId}/characters.json`);
+  }
+
+  getCharacterImageUrl(novelId: string, imageName: string | undefined): string {
+    if (!imageName) {
+      return `/novels/${novelId}/characters/placeholder.svg`;
+    }
+    return `/novels/${novelId}/characters/${imageName}`;
+  }
+}

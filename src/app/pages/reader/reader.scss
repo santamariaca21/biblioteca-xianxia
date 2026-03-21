@@ -1,0 +1,521 @@
+// ── LAYOUT ──
+.app-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr 300px;
+  min-height: calc(100vh - 56px);
+  max-width: 1440px;
+  margin: 0 auto;
+  transition: background 0.3s ease;
+}
+
+.main-content {
+  padding: 2.5rem 3.5rem;
+  max-width: 820px;
+  margin: 0 auto;
+  width: 100%;
+  color: var(--t-text);
+  font-family: 'EB Garamond', serif;
+  line-height: 1.95;
+  transition: color 0.3s ease;
+}
+
+// ── HERO / PORTADA ──
+.novel-hero {
+  text-align: center;
+  padding: 3rem 0 4rem;
+}
+
+.novel-badge {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.35em;
+  color: var(--t-gold-dim);
+  text-transform: uppercase;
+  border: 1px solid var(--t-sys-border);
+  padding: 0.4rem 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.novel-title-main {
+  font-family: 'Cinzel', serif;
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.1;
+  background: linear-gradient(135deg, var(--t-gold-light) 0%, var(--t-gold) 40%, var(--t-gold-dim) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
+
+.novel-title-sub {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 1rem;
+  color: var(--t-dim);
+  letter-spacing: 0.15em;
+  margin-bottom: 1.5rem;
+}
+
+.novel-divider {
+  color: var(--t-gold-dim);
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+}
+
+.novel-description {
+  margin-top: 2rem;
+  color: var(--t-dim);
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-actions {
+  margin-top: 2.5rem;
+}
+
+// ── CHAPTER VIEW ──
+.chapter-view {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.chapter-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--t-border);
+}
+
+.chapter-label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.35em;
+  color: var(--t-gold);
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--t-sys-border), transparent);
+    max-width: 200px;
+  }
+}
+
+.chapter-title-main {
+  font-family: 'Cinzel', serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--t-text);
+  line-height: 1.2;
+}
+
+// ── PROSE (rendered HTML) ──
+.prose {
+  ::ng-deep {
+    p {
+      margin-bottom: 1.4em;
+      text-align: justify;
+      text-indent: 2em;
+      &:first-of-type { text-indent: 0; }
+    }
+    .dialogue {
+      color: var(--t-dialogue);
+      font-style: italic;
+    }
+    .emphasis {
+      color: var(--t-gold-light);
+      font-style: normal;
+    }
+    .gold-text {
+      color: var(--t-gold);
+    }
+    .centered-highlight {
+      text-align: center;
+      font-family: 'Cinzel', serif;
+      font-size: 1.3em;
+      color: var(--t-gold);
+      letter-spacing: 0.2em;
+      text-indent: 0;
+    }
+    .centered-warning {
+      text-align: center;
+      font-family: 'Cinzel', serif;
+      color: var(--t-red);
+      font-size: 1.1em;
+      text-indent: 0;
+      letter-spacing: 0.1em;
+    }
+    .centered-italic {
+      text-align: center;
+      font-style: italic;
+      color: var(--t-gold-dim);
+      text-indent: 0;
+    }
+    .system-box {
+      display: block;
+      background: var(--t-sys-bg);
+      border: 1px solid var(--t-sys-border);
+      border-radius: 4px;
+      padding: 1rem 1.5rem;
+      margin: 1rem 0;
+      font-family: 'Noto Serif SC', serif;
+      font-size: 0.9em;
+      color: var(--t-text);
+      line-height: 1.8;
+      text-indent: 0;
+      .sys-title {
+        font-family: 'Cinzel', serif;
+        font-size: 0.65rem;
+        letter-spacing: 0.25em;
+        color: var(--t-gold);
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+        display: block;
+      }
+      .sys-name { color: var(--t-gold-light); }
+      .sys-talent { color: var(--t-teal); }
+    }
+  }
+}
+
+// ── ORNAMENT ──
+.ornament {
+  text-align: center;
+  color: var(--t-gold-dim);
+  font-size: 1.2rem;
+  letter-spacing: 0.5em;
+  margin: 2rem 0;
+  opacity: 0.5;
+}
+
+// ── CHAPTER SECTIONS ──
+.chapter-section {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--t-border);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-icon {
+  width: 32px;
+  height: 32px;
+  background: var(--t-sys-bg);
+  border: 1px solid var(--t-sys-border);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  color: var(--t-gold);
+  text-transform: uppercase;
+}
+
+// ── TALENT LIST ──
+.talent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.talent-item {
+  background: var(--t-card);
+  border: 1px solid var(--t-border);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: border-color 0.2s;
+  &:hover { border-color: var(--t-sys-border); }
+}
+
+.talent-owner {
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  color: var(--t-gold-dim);
+  min-width: 70px;
+  padding-top: 2px;
+  letter-spacing: 0.05em;
+}
+
+.talent-details { flex: 1; }
+.talent-name { font-size: 0.95rem; color: var(--t-text); margin-bottom: 0.2rem; }
+.talent-description { font-size: 0.85rem; color: var(--t-dim); margin-top: 0.3rem; }
+.talent-tags { margin-top: 0.4rem; display: flex; flex-wrap: wrap; gap: 0.3rem; }
+
+// ── CHARACTERS LIST ──
+.characters-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.see-all-chars {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--t-gold);
+  text-decoration: none;
+  transition: color 0.2s;
+  &:hover { color: var(--t-gold-light); }
+}
+
+.talent-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 20px;
+  &[data-type="cultivation"] { background: rgba(42,127,127,0.2); color: var(--t-teal); border: 1px solid rgba(42,127,127,0.4); }
+  &[data-type="ice"] { background: rgba(78,150,200,0.15); color: #7ec8e3; border: 1px solid rgba(78,150,200,0.35); }
+  &[data-type="copy"] { background: var(--t-sys-bg); color: var(--t-gold); border: 1px solid var(--t-sys-border); }
+  &[data-type="awakened"] { background: rgba(155,35,53,0.15); color: var(--t-red); border: 1px solid rgba(155,35,53,0.35); }
+  &[data-type="sleeping"] { background: rgba(128,128,128,0.12); color: var(--t-dim); border: 1px solid var(--t-border); }
+  &[data-type="weak"] { background: rgba(168,144,96,0.12); color: var(--t-gold-dim); border: 1px solid rgba(168,144,96,0.3); }
+  &[data-type="hidden"] { background: rgba(120,60,160,0.12); color: #b08de0; border: 1px solid rgba(120,60,160,0.3); }
+  &[data-type="primary"] { background: rgba(42,127,127,0.2); color: var(--t-teal); border: 1px solid rgba(42,127,127,0.4); }
+  &[data-type="medium"] { background: var(--t-sys-bg); color: var(--t-gold-light); border: 1px solid var(--t-sys-border); }
+}
+
+// ── NAVIGATION ──
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--t-border);
+  gap: 1rem;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--t-card);
+  border: 1px solid var(--t-border);
+  border-radius: 6px;
+  color: var(--t-dim);
+  cursor: pointer;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  &:hover:not(:disabled) {
+    border-color: var(--t-sys-border);
+    color: var(--t-gold);
+    background: var(--t-hover);
+  }
+  &:disabled { opacity: 0.3; cursor: default; }
+  &.next { justify-content: flex-end; }
+}
+
+.nav-indicator {
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  color: var(--t-gold-dim);
+  letter-spacing: 0.1em;
+}
+
+// ── WORLD INFO ──
+.world-info-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0;
+  margin: 0;
+  li {
+    font-size: 0.85rem;
+    color: var(--t-dim);
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.5;
+    &::before {
+      content: '◈';
+      color: var(--t-gold-dim);
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+  }
+}
+
+.realm-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.realm-item {
+  font-size: 0.85rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  color: var(--t-dim);
+  background: var(--t-card);
+  border: 1px solid transparent;
+  &.current {
+    border-color: var(--t-sys-border);
+    color: var(--t-gold);
+    background: var(--t-sys-bg);
+  }
+}
+
+// ── MOBILE STATS (shown inline on mobile) ──
+.mobile-stats {
+  display: none;
+  .stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--t-faint);
+    font-size: 0.82rem;
+    color: var(--t-dim);
+    &:last-of-type { border-bottom: none; }
+  }
+  .teal { color: var(--t-teal); }
+  .gold { color: var(--t-gold); }
+  .red { color: var(--t-red); }
+  .mobile-talents-label {
+    font-size: 0.6rem;
+    color: var(--t-gold-dim);
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.1em;
+    margin-top: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+  .mobile-talent-row {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid var(--t-faint);
+    font-size: 0.78rem;
+    &:last-child { border-bottom: none; }
+  }
+  .mobile-talent-name {
+    color: var(--t-text);
+    flex: 1;
+  }
+  .mobile-talent-nivel {
+    font-family: 'Cinzel', serif;
+    font-size: 0.65rem;
+    color: var(--t-gold);
+  }
+  .mobile-talent-estado {
+    font-size: 0.55rem;
+    padding: 0.1rem 0.3rem;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+    &[data-estado="activo"] { color: #1a8a5a; background: rgba(26,138,90,0.12); }
+    &[data-estado="copiado"] { color: var(--t-gold); background: rgba(139,105,20,0.12); }
+    &[data-estado="dormido"] { color: var(--t-dim); background: rgba(128,128,128,0.1); }
+    &[data-estado="por fusionar"] { color: #b07020; background: rgba(176,112,32,0.12); }
+  }
+}
+
+// ── MOBILE NAV ──
+.mobile-nav {
+  display: none;
+  position: sticky;
+  top: 56px;
+  z-index: 90;
+  background: #0f1218;
+  border-bottom: 1px solid #1e2230;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-btn {
+  background: none;
+  border: 1px solid #1e2230;
+  color: #8a8070;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  &:hover { border-color: rgba(201,168,76,0.25); color: #c9a84c; }
+}
+
+.mobile-chapter-label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  color: #c9a84c;
+  letter-spacing: 0.05em;
+}
+
+.mobile-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 140;
+}
+
+// ── SCROLL TOP ──
+.scroll-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 40px;
+  height: 40px;
+  background: var(--t-card, #13161e);
+  border: 1px solid var(--t-sys-border, rgba(201,168,76,0.25));
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: var(--t-gold, #c9a84c);
+  font-size: 1rem;
+  transition: all 0.2s;
+  z-index: 50;
+  &.visible { display: flex; }
+  &:hover { background: var(--t-hover, rgba(201,168,76,0.08)); }
+}
+
+// ── RESPONSIVE ──
+@media (max-width: 1200px) {
+  .app-layout { grid-template-columns: 220px 1fr 280px; }
+  .main-content { padding: 2rem 2rem; }
+}
+
+@media (max-width: 900px) {
+  .app-layout { grid-template-columns: 1fr; }
+  .main-content { padding: 1.5rem; }
+  .mobile-nav { display: flex; }
+  .mobile-stats { display: block; }
+  .chapter-nav {
+    flex-direction: column;
+    .nav-btn { width: 100%; justify-content: center; }
+  }
+}

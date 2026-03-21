@@ -1,0 +1,71 @@
+{
+  "id": "cap166",
+  "number": 166,
+  "title": "Capítulo 166",
+  "content": "",
+  "talents": [],
+  "stats": {
+    "label": "Stats — Cap. 166",
+    "reino": "Gran Artista Marcial",
+    "reinoClass": "gold",
+    "talento": "10+ talentos",
+    "talentoClass": "gold",
+    "fuerza": "150.000+ catties",
+    "ubicacion": "Por determinar",
+    "abilities": [],
+    "copiedTalents": "Cultivo Extraordinario + Velocidad Supremo + Sable + Sombra + Curación + Fuerza + Defensa",
+    "talentos": [
+      {
+        "nombre": "Cultivo",
+        "nivel": "Extraordinario",
+        "tipo": "cultivation",
+        "estado": ""
+      },
+      {
+        "nombre": "Velocidad",
+        "nivel": "Supremo",
+        "tipo": "speed",
+        "estado": ""
+      },
+      {
+        "nombre": "Sable",
+        "nivel": "Medio",
+        "tipo": "blade",
+        "estado": ""
+      },
+      {
+        "nombre": "Sombra",
+        "nivel": "Elemental",
+        "tipo": "shadow",
+        "estado": ""
+      },
+      {
+        "nombre": "Curación",
+        "nivel": "Supremo",
+        "tipo": "healing",
+        "estado": ""
+      },
+      {
+        "nombre": "Fuerza",
+        "nivel": "Alto",
+        "tipo": "strength",
+        "estado": ""
+      },
+      {
+        "nombre": "Defensa",
+        "nivel": "Medio",
+        "tipo": "defense",
+        "estado": ""
+      },
+      {
+        "nombre": "Copia",
+        "nivel": "A distancia · 200m · 100/vez · 1 mes",
+        "tipo": "copy",
+        "estado": ""
+      }
+    ]
+  },
+  "characters": [
+    "ye-tian"
+  ]
+}

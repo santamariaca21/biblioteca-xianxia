@@ -1,0 +1,362 @@
+{
+  "id": "i-can-copy-talents",
+  "title": "Puedo Copiar Talentos",
+  "titleChinese": "我能复制天赋",
+  "genre": "Novela de Cultivo · Xuanhuan",
+  "description": "En el año 2119, un joven viaja al futuro y descubre que posee el talento más extraordinario jamás visto: la capacidad de copiar los talentos de los demás. Con el talento de cultivo más débil posible, Ye Tian deberá trazar su propio camino hacia la cima.",
+  "coverColor": "#c9a84c",
+  "worldInfo": [
+    "En 2019 aparecieron grietas espaciales que lanzaron bestias sobre la Tierra.",
+    "El Yuan Qi destruyó las armas de fuego, forzando a la humanidad a la era de armas frías.",
+    "Los humanos desarrollaron el cultivo marcial: forjar el cuerpo, absorber el Yuan Qi.",
+    "Los talentos de cultivo van de Débil → Inferior → Primario → Medio → Alto → Supremo → Extraordinario → Estrella Matutina.",
+    "Otros talentos existen: Velocidad, Sable, Sombra, Curación, Fuerza, Defensa, Espacial, Búsqueda de Tesoros, Control de Bestias, etc.",
+    "La Tierra se expandió cientos de veces bajo la influencia del Yuan Qi.",
+    "Las bases humanas son de distintos tamaños: desde pequeñas (Linhai, 300K) hasta grandes (Mar Demonio, millones).",
+    "Los reinos secretos contienen tesoros, bestias poderosas y recursos como Piedras de Yuan Qi.",
+    "Los Soldados Yuan (armas de Yuan Li) y técnicas de sable van de Hierro Negro → Bronce → Plata → Oro.",
+    "El Pabellón Marcial es una organización que conecta bases y comercia recursos entre ellas."
+  ],
+  "realms": [
+    {
+      "name": "Aprendiz Marcial (< 1.000 catties)",
+      "current": false,
+      "revealedAt": 1
+    },
+    {
+      "name": "Artista Marcial (1.000 - 10.000 catties)",
+      "current": false,
+      "revealedAt": 1
+    },
+    {
+      "name": "Artista Marcial Élite (10.000 - 100.000 catties)",
+      "current": false,
+      "revealedAt": 1
+    },
+    {
+      "name": "Gran Artista Marcial (100.000 - 1.000.000 catties)",
+      "current": false,
+      "revealedAt": 1
+    },
+    {
+      "name": "Gran Maestro (Grandmaster)",
+      "current": false,
+      "revealedAt": 54
+    },
+    {
+      "name": "Nivel Rey (King)",
+      "current": false,
+      "revealedAt": 67
+    },
+    {
+      "name": "??? (Desconocido)",
+      "current": false,
+      "revealedAt": 1
+    }
+  ],
+  "talentRanks": [
+    {
+      "rank": "⑩ Sol Naciente",
+      "description": "x3 sobre Luna Brillante",
+      "highlight": true,
+      "isCurrent": true,
+      "revealedAt": 141
+    },
+    {
+      "rank": "⑨ Luna Brillante",
+      "description": "Velocidad x3 sobre Estrella Matutina",
+      "highlight": true,
+      "isCurrent": false,
+      "revealedAt": 135
+    },
+    {
+      "rank": "⑧ Estrella Matutina",
+      "description": "Sin límite conocido",
+      "highlight": true,
+      "isCurrent": false,
+      "revealedAt": 97
+    },
+    {
+      "rank": "⑦ Extraordinario",
+      "description": "Nivel Rey garantizado",
+      "revealedAt": 65
+    },
+    {
+      "rank": "⑥ Supremo",
+      "description": "Gran Maestro garantizado",
+      "revealedAt": 25
+    },
+    {
+      "rank": "⑤ Alto",
+      "description": "Gran Art. Marcial",
+      "revealedAt": 19
+    },
+    {
+      "rank": "④ Medio",
+      "description": "Art. Marcial Élite",
+      "revealedAt": 1
+    },
+    {
+      "rank": "③ Primario",
+      "description": "Art. Marcial",
+      "revealedAt": 1
+    },
+    {
+      "rank": "② Inferior",
+      "description": "Art. Marcial (etapa temprana)",
+      "revealedAt": 1
+    },
+    {
+      "rank": "① Débil",
+      "description": "Sin salida",
+      "isCurrent": true,
+      "revealedAt": 1
+    }
+  ],
+  "baseInfo": {
+    "Base actual": "Mar Demonio (大型)",
+    "Base origen": "Linhai (小型, 300K)",
+    "Pabellón Marcial": "Organización comercial inter-bases",
+    "Año": "2119",
+    "Protagonista": "Ye Tian",
+    "Reino actual": "Gran Artista Marcial",
+    "Talentos": "15+ (Estrella Matutina)"
+  },
+  "chapters": [
+    "cap1",
+    "cap2",
+    "cap3",
+    "cap4",
+    "cap5",
+    "cap6",
+    "cap7",
+    "cap8",
+    "cap9",
+    "cap10",
+    "cap11",
+    "cap12",
+    "cap13",
+    "cap14",
+    "cap15",
+    "cap16",
+    "cap17",
+    "cap18",
+    "cap19",
+    "cap20",
+    "cap21",
+    "cap22",
+    "cap23",
+    "cap24",
+    "cap25",
+    "cap26",
+    "cap27",
+    "cap28",
+    "cap29",
+    "cap30",
+    "cap31",
+    "cap32",
+    "cap33",
+    "cap34",
+    "cap35",
+    "cap36",
+    "cap37",
+    "cap38",
+    "cap39",
+    "cap40",
+    "cap41",
+    "cap42",
+    "cap43",
+    "cap44",
+    "cap45",
+    "cap46",
+    "cap47",
+    "cap48",
+    "cap49",
+    "cap50",
+    "cap51",
+    "cap52",
+    "cap53",
+    "cap54",
+    "cap55",
+    "cap56",
+    "cap57",
+    "cap58",
+    "cap59",
+    "cap60",
+    "cap61",
+    "cap62",
+    "cap63",
+    "cap64",
+    "cap65",
+    "cap66",
+    "cap67",
+    "cap68",
+    "cap69",
+    "cap70",
+    "cap71",
+    "cap72",
+    "cap73",
+    "cap74",
+    "cap75",
+    "cap76",
+    "cap77",
+    "cap78",
+    "cap79",
+    "cap80",
+    "cap81",
+    "cap82",
+    "cap83",
+    "cap84",
+    "cap85",
+    "cap86",
+    "cap87",
+    "cap88",
+    "cap89",
+    "cap90",
+    "cap91",
+    "cap92",
+    "cap93",
+    "cap94",
+    "cap95",
+    "cap96",
+    "cap97",
+    "cap98",
+    "cap99",
+    "cap100",
+    "cap101",
+    "cap102",
+    "cap103",
+    "cap104",
+    "cap105",
+    "cap106",
+    "cap107",
+    "cap108",
+    "cap109",
+    "cap110",
+    "cap111",
+    "cap112",
+    "cap113",
+    "cap114",
+    "cap115",
+    "cap116",
+    "cap117",
+    "cap118",
+    "cap119",
+    "cap120",
+    "cap121",
+    "cap122",
+    "cap123",
+    "cap124",
+    "cap125",
+    "cap126",
+    "cap127",
+    "cap128",
+    "cap129",
+    "cap130",
+    "cap131",
+    "cap132",
+    "cap133",
+    "cap134",
+    "cap135",
+    "cap136",
+    "cap137",
+    "cap138",
+    "cap139",
+    "cap140",
+    "cap141",
+    "cap142",
+    "cap143",
+    "cap144",
+    "cap145",
+    "cap146",
+    "cap147",
+    "cap148"
+  ],
+  "baseInfoProgressive": [
+    {
+      "key": "Año",
+      "value": "2119",
+      "revealedAt": 1,
+      "replacedAt": 50
+    },
+    {
+      "key": "Año",
+      "value": "2120",
+      "revealedAt": 50,
+      "replacedAt": 100
+    },
+    {
+      "key": "Año",
+      "value": "~2121",
+      "revealedAt": 100
+    },
+    {
+      "key": "Base",
+      "value": "Linhai (pequeña, 300K hab.)",
+      "revealedAt": 1,
+      "replacedAt": 60
+    },
+    {
+      "key": "Base",
+      "value": "Mar Demonio (gran base)",
+      "revealedAt": 60,
+      "replacedAt": 108
+    },
+    {
+      "key": "Base",
+      "value": "Linhai (defensa marea de bestias)",
+      "revealedAt": 108,
+      "replacedAt": 114
+    },
+    {
+      "key": "Base",
+      "value": "Mar Demonio (preparando sellar grieta)",
+      "revealedAt": 114
+    },
+    {
+      "key": "Población Linhai",
+      "value": "300,000",
+      "revealedAt": 1
+    },
+    {
+      "key": "Academias Linhai",
+      "value": "5",
+      "revealedAt": 1
+    },
+    {
+      "key": "Pabellón Marcial",
+      "value": "Organización inter-bases",
+      "revealedAt": 19
+    },
+    {
+      "key": "Reinos Secretos",
+      "value": "Contienen tesoros y bestias",
+      "revealedAt": 66
+    },
+    {
+      "key": "Grieta Espacial",
+      "value": "3 estrellas, 60.000 km",
+      "revealedAt": 111
+    },
+    {
+      "key": "Super Base",
+      "value": "Zhonghai (4 facciones)",
+      "revealedAt": 131
+    },
+    {
+      "key": "Torre Dios de la Guerra",
+      "value": "Lista de Reyes, Santa, Emperadores",
+      "revealedAt": 136
+    },
+    {
+      "key": "Mercenarios",
+      "value": "Hierro Negro → Bronce → Plata → Oro (1-9★)",
+      "revealedAt": 142
+    },
+    {
+      "key": "Poder Dragón",
+      "value": "1 dragón = 1.000.000 elefantes",
+      "revealedAt": 140
+    }
+  ]
+}
