@@ -89,6 +89,9 @@
               "buildTarget": "biblioteca-xianxia:build:development"
             }
           },
+            "options": {
+            "allowedHosts": ["views-greatest-suits-pad.trycloudflare.com"]
+          },
           "defaultConfiguration": "development"
         }
       }

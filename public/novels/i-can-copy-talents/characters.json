@@ -6,12 +6,12 @@
       "nameChinese": "叶天",
       "image": "ye-tian.png",
       "role": "protagonista",
-      "bio": "Protagonista transmigrado. Nivel Rey extremo (7 estrellas, rango 7 en Lista de Reyes). Talento de Cultivo Sol Naciente. 25+ talentos incluyendo Tiempo, Velocidad Pseudo-Arcano, Fuego Dominio. 9.6 poderes dragón de ataque. Registrado como 'Tian Ye' en Super Base Zhonghai. Mercenario Hierro Negro.",
+      "bio": "Protagonista transmigrado. Ascendió a Nivel Santo en el espacio del templo de ruinas antiguas. Talento de Cultivo Sol Naciente. 25+ talentos incluyendo Defensa Arcano (100x), Sable Estrella Matutina, Fuerza Pseudo-Arcano(90%). 240 poderes de dragón de ataque. Técnica oro: Dominio de Sable de la Desolación Celestial (15x grupal). Registrado como 'Tian Ye' en Super Base Zhonghai.",
       "info": {
         "edad": "~17 años",
         "genero": "Masculino",
-        "reino": "Nivel Rey (extremo, 7 estrellas)",
-        "talentoCultivo": "Sol Naciente (25+ talentos)",
+        "reino": "Nivel Santo (recién ascendido)",
+        "talentoCultivo": "Sol Naciente (25+ talentos, Defensa Arcano)",
         "afiliacion": "Independiente",
         "ubicacion": "Super Base Zhonghai",
         "estado": "Vivo",
@@ -955,6 +955,67 @@
           "chapterId": "cap148",
           "chapterNumber": 148,
           "note": "Wang Yan decide invertir en él. Miembro oficial de la Torre (Anillo del Dios de la Guerra). Intención de sable 75%. Wang Yan le ofrece una oportunidad."
+        },
+        {
+          "chapterId": "cap153",
+          "chapterNumber": 153,
+          "note": "Obtiene arma divina de sable de grado bajo en el patio. Se disfraza con camuflaje. Llega al palacio, mata 2 reyes de 4 estrellas de la Base Changhe. Coopera con Sun Xinghe para romper formación. Títeres cadáver emergen del salón.",
+          "statsSnapshot": {
+            "reino": "Nivel Rey (7 estrellas)",
+            "ubicacion": "Espacio del Templo — Palacio antiguo"
+          }
+        },
+        {
+          "chapterId": "cap154",
+          "chapterNumber": 154,
+          "note": "Copia Sable Estrella Matutina y Defensa Pseudo-Arcano(40%) del títere de 7 estrellas. Mata 100+ títeres con Fuego Dominio. Fusiona Defensa → ARCANO (100x, primer talento Arcano). Fusiona Sable → Estrella Matutina. Huye de títere Nivel Santo (20 dragones). Su ataque: 12 dragones.",
+          "statsSnapshot": {
+            "reino": "Nivel Rey (7 estrellas)",
+            "defensa": "Arcano (100x)",
+            "sable": "Estrella Matutina",
+            "ataque": "12 poder de dragón",
+            "ubicacion": "Espacio del Templo — Cueva temporal"
+          }
+        },
+        {
+          "chapterId": "cap149",
+          "chapterNumber": 149,
+          "note": "Wang Yan le ofrece un cupo para entrar al templo de ruinas de civilización antigua a cambio de un tesoro para refinar poder espiritual. Recibe la llave del templo."
+        },
+        {
+          "chapterId": "cap150",
+          "chapterNumber": 150,
+          "note": "Copia Camuflaje Alto de Gu Tong y Sombra Supremo. Entra en retiro y eleva intención de sable al 80% usando aceleración temporal. Copia Fuerza Pseudo-Arcano(60%) y Velocidad Pseudo-Arcano(2%)."
+        },
+        {
+          "chapterId": "cap151",
+          "chapterNumber": 151,
+          "note": "Llega al Río Changling para las ruinas del templo. Se encuentra con la Santa de la Luna Poniente. Identifica talentos de Feng Xue Tu y Tigre. Desciende al fondo del río."
+        },
+        {
+          "chapterId": "cap152",
+          "chapterNumber": 152,
+          "note": "Entra al espacio del templo. Encuentra primer edificio protegido por formación. Derrota a un Títere Cadáver de Armadura Dorada. Examina 3 manuales pero no toma ninguno."
+        },
+        {
+          "chapterId": "cap155",
+          "chapterNumber": 155,
+          "note": "Decide impactar el Nivel Santo. Materializa consciencia divina en 3 días. Asciende a Nivel Santo. Comprende Fuerza Pseudo-Arcano al 90%. Mata al títere de Nivel Santo. Saquea el salón y encuentra la cámara secreta con técnica oro y tesoros."
+        },
+        {
+          "chapterId": "cap156",
+          "chapterNumber": 156,
+          "note": "Examina tesoros: Píldora Talento Cultivo, Píldora Dios Forjador, Píldora Longevidad. Descubre que civilizaciones antiguas eran sectas de otros planetas. Descubre que no puede obtener más tesoros al ser Nivel Santo."
+        },
+        {
+          "chapterId": "cap157",
+          "chapterNumber": 157,
+          "note": "Cultiva Dominio de Sable de la Desolación Celestial hasta Pequeño Éxito (15x). Poder de ataque: 240 dragones. Sale del templo. Observa confrontación Feng Xue Tu vs Sun Xinghe y la intervención de los Emperadores."
+        },
+        {
+          "chapterId": "cap158",
+          "chapterNumber": 158,
+          "note": "Entrega Píldora Dios Forjador a Wang Yan. Ordena tesoros: sable superior, Técnica Yuan Li Cuerpo Dorado, 6 técnicas plata, 100+ frascos. Comercia en la Alianza por 80K piedras. Busca intercambiar técnica oro grupal por individual."
         }
       ]
     },
@@ -2543,6 +2604,11 @@
           "chapterId": "cap141",
           "chapterNumber": 141,
           "note": "Acompaña a Ye Tian en la ciudad."
+        },
+        {
+          "chapterId": "cap150",
+          "chapterNumber": 150,
+          "note": "Despierta de su largo sueño. Revela que la herencia del Clan del Dragón Celestial de Sangre Guerrera se ha activado: incluye métodos de cultivo y comprensión de misterios. Ye Tian planea copiar sus misterios arcanos en el futuro."
         }
       ]
     },
@@ -3148,6 +3214,16 @@
           "chapterId": "cap148",
           "chapterNumber": 148,
           "note": "Decide invertir en Ye Tian. Le ofrece una oportunidad."
+        },
+        {
+          "chapterId": "cap149",
+          "chapterNumber": 149,
+          "note": "Le revela a Ye Tian sobre las ruinas de civilización antigua (templo). Le da la llave/ficha para entrar. Le explica sobre la Base Changhe y le advierte sobre los peligros."
+        },
+        {
+          "chapterId": "cap158",
+          "chapterNumber": 158,
+          "note": "Visita a Ye Tian al volver del templo. Recibe la Píldora Dios Forjador. Nota que Ye Tian ascendió a Nivel Santo y se disculpa."
         }
       ]
     },
@@ -3342,18 +3418,37 @@
       "name": "Feng Xue Tu",
       "nameChinese": "",
       "role": "mencion",
-      "bio": "Emperador del Hacha. #1 en la Lista de Emperadores de la Torre del Dios de la Guerra.",
+      "bio": "Primero en la lista de reyes de la Super Base Zhonghai. Posee talento de fuerza Pseudo-Arcano al 60%. Ye Tian lo identifica como objetivo de copia.",
       "info": {
-        "reino": "Nivel Emperador",
+        "reino": "Nivel Rey",
+        "afiliacion": "Super Base Zhonghai",
         "primerAparicion": "Capítulo 136"
       },
-      "abilities": [],
+      "abilities": [
+        {
+          "name": "Talento de Fuerza",
+          "type": "strength",
+          "rank": "Pseudo-Arcano (60%)",
+          "status": "activo",
+          "description": "Talento de fuerza Pseudo-Arcano al 60%, el más alto entre los reyes presentes."
+        }
+      ],
       "relationships": [],
       "chapterAppearances": [
         {
           "chapterId": "cap136",
           "chapterNumber": 136,
           "note": "#1 en la Lista de Emperadores. 36 emperadores en total."
+        },
+        {
+          "chapterId": "cap151",
+          "chapterNumber": 151,
+          "note": "Identificado como primero de la lista de reyes de Zhonghai. Talento de fuerza Pseudo-Arcano 60%. Objetivo de copia de Ye Tian."
+        },
+        {
+          "chapterId": "cap157",
+          "chapterNumber": 157,
+          "note": "Sale del templo con talento Arcano de Fuerza. Confronta a Sun Xinghe por matar reyes de Zhonghai. Respaldado por el Emperador de Sangre Guerrera."
         }
       ]
     },
@@ -3437,6 +3532,21 @@
           "chapterId": "cap148",
           "chapterNumber": 148,
           "note": "Mencionada en contexto de las inversiones."
+        },
+        {
+          "chapterId": "cap151",
+          "chapterNumber": 151,
+          "note": "Se encuentra con Ye Tian en el Río Changling. Le explica sobre los guardianes del templo y los edificios con tesoros."
+        },
+        {
+          "chapterId": "cap157",
+          "chapterNumber": 157,
+          "note": "Sale del templo junto con los demás. Propone a Ye Tian volver juntos a la Super Base Zhonghai."
+        },
+        {
+          "chapterId": "cap158",
+          "chapterNumber": 158,
+          "note": "Acompaña a Ye Tian de vuelta a la Super Base Zhonghai. Se separan al llegar."
         }
       ]
     },
@@ -3572,6 +3682,131 @@
           "chapterId": "cap141",
           "chapterNumber": 141,
           "note": "Su récord de 2 poderes dragón de defensa es analizado por Ye Tian."
+        }
+      ]
+    },
+    {
+      "id": "gu-tong",
+      "name": "Gu Tong",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Humano de la raza Tres Ojos. Artista marcial disfrazado de anciano de sesenta o setenta años usando su talento de camuflaje. En realidad es joven con talento de cultivo Extraordinario. Ye Tian le copia el talento de camuflaje Alto.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Gran Maestro (aparente)",
+        "talentoCultivo": "Extraordinario",
+        "afiliacion": "Desconocida",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 150"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Camuflaje",
+          "type": "camouflage",
+          "rank": "Alto",
+          "status": "activo",
+          "description": "Puede disfrazarse como otra persona o criatura humanoide. Altera apariencia, piel, ojos y aliento vital."
+        },
+        {
+          "name": "Talento de Velocidad",
+          "type": "speed",
+          "rank": "Primario",
+          "status": "activo"
+        }
+      ],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap150",
+          "chapterNumber": 150,
+          "note": "Ye Tian lo encuentra en el Salón de Mercenarios del Hacha de Guerra, Distrito Sanshan. Le copia el talento de camuflaje Alto."
+        }
+      ]
+    },
+    {
+      "id": "tigre",
+      "name": "Tigre",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Brujo de la Super Base Changhe. Posee talento de defensa Pseudo-Arcano al 50%. Ye Tian lo identifica como objetivo de copia en el Río Changling.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Nivel Rey",
+        "afiliacion": "Super Base Changhe (Brujos)",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 151"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Defensa",
+          "type": "defense",
+          "rank": "Pseudo-Arcano (50%)",
+          "status": "activo",
+          "description": "Talento de defensa Pseudo-Arcano al 50%. Objetivo de copia de Ye Tian."
+        }
+      ],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap151",
+          "chapterNumber": 151,
+          "note": "Mencionado como brujo de la Super Base Changhe con talento de defensa Pseudo-Arcano 50%. Ye Tian quiere copiar su talento."
+        }
+      ]
+    },
+    {
+      "id": "sun-xinghe",
+      "name": "Sun Xinghe",
+      "role": "secundario",
+      "bio": "Genio de élite de la Super Base Changhe. Talento de cultivo de nivel Luna Brillante con tres talentos pseudo-arcano. Poder de combate de siete estrellas a Nivel Rey. Lidera un grupo de la Base Changhe en el espacio del templo de ruinas de civilización antigua. Propone cooperar con Ye Tian (disfrazado) para romper la formación de un gran palacio, pero huye cuando aparecen los títeres cadáver de armadura dorada.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Nivel Rey (7 estrellas)",
+        "talentoCultivo": "Luna Brillante",
+        "afiliacion": "Super Base Changhe",
+        "ubicacion": "Espacio del Templo",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 153"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Cultivo",
+          "type": "cultivation",
+          "rank": "Luna Brillante",
+          "status": "activo",
+          "description": "Talento de cultivo de nivel Luna Brillante."
+        },
+        {
+          "name": "Talentos Pseudo-Arcano (x3)",
+          "type": "special",
+          "rank": "Pseudo-Arcano",
+          "status": "activo",
+          "description": "Tres talentos de nivel pseudo-arcano no especificados."
+        },
+        {
+          "name": "Técnica de Puño",
+          "type": "fist",
+          "rank": "Desconocido",
+          "status": "activo",
+          "description": "Técnica de puño terriblemente poderosa. Un puño puede suprimir la galaxia."
+        }
+      ],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap153",
+          "chapterNumber": 153,
+          "note": "Lidera grupo de Base Changhe en el palacio. Propone cooperar con Ye Tian para romper la formación. Derrota títeres menores pero huye del de 7 estrellas."
+        },
+        {
+          "chapterId": "cap156",
+          "chapterNumber": 156,
+          "note": "Asciende a Nivel Santo tras 7 días de retiro. Vuela al salón y descubre que todos los tesoros fueron robados. Furioso, sospecha del joven pálido (Ye Tian disfrazado)."
+        },
+        {
+          "chapterId": "cap157",
+          "chapterNumber": 157,
+          "note": "Confrontado por Feng Xue Tu por matar reyes de Zhonghai. Salvado por la intervención de su abuelo, Emperador Qingyun, que paga 100K piedras + 10 tesoros como compensación."
         }
       ]
     }

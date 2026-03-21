@@ -15,7 +15,10 @@
     "Las bases humanas son de distintos tamaños: desde pequeñas (Linhai, 300K) hasta grandes (Mar Demonio, millones).",
     "Los reinos secretos contienen tesoros, bestias poderosas y recursos como Piedras de Yuan Qi.",
     "Los Soldados Yuan (armas de Yuan Li) y técnicas de sable van de Hierro Negro → Bronce → Plata → Oro.",
-    "El Pabellón Marcial es una organización que conecta bases y comercia recursos entre ellas."
+    "El Pabellón Marcial es una organización que conecta bases y comercia recursos entre ellas.",
+    "Las 'civilizaciones antiguas' eran en realidad sectas de otros planetas que llegaron a la Tierra por grietas espaciales. La Secta del Cadáver del Cielo Negro dejó un templo con títeres cadáver como guardianes.",
+    "El Nivel Santo abre el dominio cerebral profundo (1-100%). A 100% la fuerza corporal alcanza 10 poderes de dragón. Subdivisiones: santo ordinario, santo menor (20-100 dragones), gran santo (100-1000), rey santo (1000+).",
+    "El talento Arcano supera al Pseudo-Arcano: amplificación de 100x. Al ascender a Nivel Santo, la comprensión se eleva y permite comprender pseudo-arcano al 70% hasta arcano."
   ],
   "realms": [
     {
@@ -49,17 +52,36 @@
       "revealedAt": 67
     },
     {
-      "name": "??? (Desconocido)",
+      "name": "Nivel Santo (Santo ordinario / Santo menor / Gran Santo / Rey Santo)",
+      "current": true,
+      "revealedAt": 155
+    },
+    {
+      "name": "Emperador (Emperor)",
       "current": false,
-      "revealedAt": 1
+      "revealedAt": 157
     }
   ],
   "talentRanks": [
     {
+      "rank": "Arcano",
+      "description": "100x amplificación, patrones de ley en el cuerpo",
+      "highlight": true,
+      "isCurrent": true,
+      "revealedAt": 154
+    },
+    {
+      "rank": "Pseudo-Arcano",
+      "description": "Hasta 80x (al 70%), paso previo al Arcano",
+      "highlight": true,
+      "isCurrent": false,
+      "revealedAt": 135
+    },
+    {
       "rank": "⑩ Sol Naciente",
       "description": "x3 sobre Luna Brillante",
       "highlight": true,
-      "isCurrent": true,
+      "isCurrent": false,
       "revealedAt": 141
     },
     {
@@ -119,8 +141,8 @@
     "Pabellón Marcial": "Organización comercial inter-bases",
     "Año": "2119",
     "Protagonista": "Ye Tian",
-    "Reino actual": "Gran Artista Marcial",
-    "Talentos": "15+ (Estrella Matutina)"
+    "Reino actual": "Nivel Santo",
+    "Talentos": "25+ (Sol Naciente + Arcano Defensa)"
   },
   "chapters": [
     "cap1",
@@ -270,7 +292,17 @@
     "cap145",
     "cap146",
     "cap147",
-    "cap148"
+    "cap148",
+    "cap149",
+    "cap150",
+    "cap151",
+    "cap152",
+    "cap153",
+    "cap154",
+    "cap155",
+    "cap156",
+    "cap157",
+    "cap158"
   ],
   "baseInfoProgressive": [
     {
