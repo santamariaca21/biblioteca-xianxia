@@ -82,11 +82,16 @@ import { Component, input, output } from '@angular/core';
         &.open {
           display: block;
           position: fixed;
-          top: 56px; left: 0; bottom: 0;
-          width: 280px;
+          top: 0; left: 0; bottom: 0;
+          width: 300px;
+          max-width: 85vw;
           background: var(--t-card, #0f1218);
-          z-index: 150;
-          animation: slideInLeft 0.3s ease;
+          z-index: 200;
+          box-shadow: 4px 0 20px rgba(0,0,0,0.3);
+          animation: slideInLeft 0.25s ease;
+          height: 100vh;
+          overflow-y: auto;
+          padding-top: 1rem;
         }
       }
       @keyframes slideInLeft {
