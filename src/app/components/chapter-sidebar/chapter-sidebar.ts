@@ -115,9 +115,13 @@ export class ChapterSidebarComponent {
       const chapters = this.chapters();
       if (active && chapters.length > 0) {
         setTimeout(() => {
-          const el = this.el.nativeElement.querySelector('.chapter-item.active');
-          if (el) {
-            el.scrollIntoView({ block: 'center', behavior: 'instant' });
+          const sidebar = this.el.nativeElement.querySelector('.sidebar-left');
+          const activeEl = this.el.nativeElement.querySelector('.chapter-item.active');
+          if (sidebar && activeEl) {
+            const sidebarRect = sidebar.getBoundingClientRect();
+            const activeRect = activeEl.getBoundingClientRect();
+            const offset = activeRect.top - sidebarRect.top + sidebar.scrollTop - (sidebarRect.height / 2);
+            sidebar.scrollTop = Math.max(0, offset);
           }
         }, 100);
       }
