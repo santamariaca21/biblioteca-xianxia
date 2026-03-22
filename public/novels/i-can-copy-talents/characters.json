@@ -6,14 +6,14 @@
       "nameChinese": "叶天",
       "image": "ye-tian.png",
       "role": "protagonista",
-      "bio": "Protagonista transmigrado. Ascendió a Nivel Santo en el espacio del templo de ruinas antiguas. Talento de Cultivo Sol Naciente. 25+ talentos incluyendo Defensa Arcano (100x), Espacial Supremo, Sable Estrella Matutina (intención 100% Consumación), Fuerza Pseudo-Arcano(90%). Poder de ataque: 1600 dragones (nivel Rey Santo). Técnicas oro a Consumación: Corte Instantáneo (20x+2x vel) y Dominio Sable Desolación Celestial (18x grupal). Dominio cerebral 5%, 500K elefante. Lista de Santos puesto 25. Construyó 3 salas cultivo grado superior. Dio Perla Dragón Agua a Xiao Xue. Decide formar fuerza: Pabellón Celestial (Tiange). Busca genios en áreas civiles. Encuentra a Lin Ze y Lin Yiyi en Lunan.",
+      "bio": "Protagonista transmigrado. Ascendió a Nivel Emperador. Talento de Cultivo Sol Naciente. 35+ talentos incluyendo Defensa Arcano (100x), Espacial Pseudo-Arcano, Sable Estrella Matutina, Fuerza Arcano. Fusionó Talento de Espada a Luna Radiante. Obtuvo técnica de espada divina Aniquilación del Cielo Estrellado en la Estela Espada Azul Celeste (6 niveles superados). Recompensa misteriosa recibida. Dao de la Espada al 30%. 900 poderes de dragón (9.° límite físico). Emboscado por el Templo del Dios de la Guerra.",
       "info": {
         "edad": "~17 años",
         "genero": "Masculino",
-        "reino": "Nivel Santo (Rey Santo en poder de combate)",
-        "talentoCultivo": "Sol Naciente (25+ talentos, Defensa Arcano)",
+        "reino": "Nivel Emperador",
+        "talentoCultivo": "Sol Naciente (35+ talentos, Espada Luna Radiante)",
         "afiliacion": "Independiente",
-        "ubicacion": "Super Base Zhonghai",
+        "ubicacion": "Cercanías Ruinas Secta Espada Azul Celeste",
         "estado": "Vivo",
         "primerAparicion": "Capítulo 1"
       },
@@ -1158,6 +1158,506 @@
           "chapterId": "cap178",
           "chapterNumber": 178,
           "note": "Copia Ojo Sangre Medio del Emperador Brujo. Cultiva 1 mes: dominio cerebral 31%, 12400 dragones. Misión Área 13 con Feng Xue Tu."
+        },
+        {
+          "chapterId": "cap266",
+          "chapterNumber": 266,
+          "note": "Pasa niveles 3-5 de la Estela Espada Azul Celeste usando Comprensión 20x + Tiempo 10x. Introduce técnicas bronce, plata, oro y legendaria en tiempo récord."
+        },
+        {
+          "chapterId": "cap267",
+          "chapterNumber": 267,
+          "note": "Obtiene técnica de espada divina Aniquilación del Cielo Estrellado. Fusiona Talento de Espada a Luna Radiante. Consume elixires para comprender Dao de la Espada. El Santo de la Espada Luz Sagrada huye a reportar al Templo del Dios de la Guerra."
+        },
+        {
+          "chapterId": "cap268",
+          "chapterNumber": 268,
+          "note": "Eleva Dao de la Espada al 30%. Introduce Aniquilación del Cielo Estrellado y pasa evaluación final. Obtiene recompensa misteriosa. Es teletransportado fuera de las ruinas. Detecta emboscada: Santo de la Espada Luz Sagrada + 3 emperadores del Templo del Dios de la Guerra."
+        },
+        {
+          "chapterId": "cap269",
+          "chapterNumber": 269,
+          "note": "Mata al Emperador Guerra Dorada. Pisharus escapa vía transferencia de alma."
+        },
+        {
+          "chapterId": "cap270",
+          "chapterNumber": 270,
+          "note": "Descubre el secreto del Hijo del Universo y el camino a la divinidad."
+        },
+        {
+          "chapterId": "cap271",
+          "chapterNumber": 271,
+          "note": "Completa la Gran Transformación del 10° límite. 1.200 millones de poderes de dragón. Detecta dragones infiltrados."
+        },
+        {
+          "chapterId": "cap272",
+          "chapterNumber": 272,
+          "note": "Descubre que la Tierra es un mundo planetario de alto nivel. Interroga a los dragones con Xiao Xue."
+        },
+        {
+          "chapterId": "cap273",
+          "chapterNumber": 273,
+          "note": "Entra en acción contra los dragones. Escanea talentos del Dragón Negro."
+        },
+        {
+          "chapterId": "cap274",
+          "chapterNumber": 274,
+          "note": "Interroga a Long Feng sobre los planes de invasión del Clan Dragón."
+        },
+        {
+          "chapterId": "cap275",
+          "chapterNumber": 275,
+          "note": "Se reúne con el Emperador Espada Rota. Revela la amenaza del Clan Dragón."
+        },
+        {
+          "chapterId": "cap276",
+          "chapterNumber": 276,
+          "note": "Interroga al dragón. Expone fuerzas extranjeras arrastradas al conflicto."
+        },
+        {
+          "chapterId": "cap277",
+          "chapterNumber": 277,
+          "note": "Libera a los dragones como parte de su estrategia de 'agua turbia'."
+        },
+        {
+          "chapterId": "cap278",
+          "chapterNumber": 278,
+          "note": "Aparece en cap278."
+        },
+        {
+          "chapterId": "cap179",
+          "chapterNumber": 179,
+          "note": "Aparece en: La Píldora de Longevidad y el Área 13"
+        },
+        {
+          "chapterId": "cap180",
+          "chapterNumber": 180,
+          "note": "Aparece en: El Nido Subterráneo y el Águila Peng de Alas Doradas"
+        },
+        {
+          "chapterId": "cap181",
+          "chapterNumber": 181,
+          "note": "Aparece en: Robo de la Flor del Vacío"
+        },
+        {
+          "chapterId": "cap182",
+          "chapterNumber": 182,
+          "note": "Aparece en: Flor del Vacío y Talento de Velocidad Nivel Dios"
+        },
+        {
+          "chapterId": "cap183",
+          "chapterNumber": 183,
+          "note": "Aparece en: Corte Estelar y la Misión de la Emperatriz Luna"
+        },
+        {
+          "chapterId": "cap184",
+          "chapterNumber": 184,
+          "note": "Aparece en: Misión con la Emperatriz Luna"
+        },
+        {
+          "chapterId": "cap185",
+          "chapterNumber": 185,
+          "note": "Aparece en: Rastreando la Bestia del Alma"
+        },
+        {
+          "chapterId": "cap186",
+          "chapterNumber": 186,
+          "note": "Aparece en: La Gran Batalla y Nuevos Talentos Fusionados"
+        },
+        {
+          "chapterId": "cap187",
+          "chapterNumber": 187,
+          "note": "Aparece en: Rescate del Emperador Luna y la Base Perdida"
+        },
+        {
+          "chapterId": "cap188",
+          "chapterNumber": 188,
+          "note": "Aparece en: La Torre del Dios de la Guerra y el Pabellón de la Diosa Luna"
+        },
+        {
+          "chapterId": "cap189",
+          "chapterNumber": 189,
+          "note": "Aparece en: Dominio Cerebral al 80% y el Corte Estelar"
+        },
+        {
+          "chapterId": "cap190",
+          "chapterNumber": 190,
+          "note": "Aparece en: Talento de la Diosa Luna y el Cuerpo Espíritu Lunar Innato"
+        },
+        {
+          "chapterId": "cap191",
+          "chapterNumber": 191,
+          "note": "Aparece en: Regreso a la Base — El Emperador Luna Renace"
+        },
+        {
+          "chapterId": "cap192",
+          "chapterNumber": 192,
+          "note": "Aparece en: El Despertar de Xiao Xue — Visita a la Secta del Dios de la Luna"
+        },
+        {
+          "chapterId": "cap193",
+          "chapterNumber": 193,
+          "note": "Aparece en: Yue'er — Caza de Talentos Arcano en el Mundo de Bestias"
+        },
+        {
+          "chapterId": "cap194",
+          "chapterNumber": 194,
+          "note": "Aparece en: Talento de Hipnosis — Fruto del Dragón Sagrado"
+        },
+        {
+          "chapterId": "cap195",
+          "chapterNumber": 195,
+          "note": "Aparece en: Montaña del Dragón de Fuego — Irrumpiendo al Nivel Emperador"
+        },
+        {
+          "chapterId": "cap196",
+          "chapterNumber": 196,
+          "note": "Aparece en: El Árbol del Dragón Sagrado — Los Doce Señores Supremos"
+        },
+        {
+          "chapterId": "cap197",
+          "chapterNumber": 197,
+          "note": "Aparece en: Talento de Armadura de Hierro — Fusión de los Cinco Elementos Divino"
+        },
+        {
+          "chapterId": "cap198",
+          "chapterNumber": 198,
+          "note": "Aparece en: Transferencia de Alma — Ocupando el Cuerpo de la Bestia Cristal de Ojo de Dragón"
+        },
+        {
+          "chapterId": "cap199",
+          "chapterNumber": 199,
+          "note": "Aparece en: Arrebatando los Frutos del Dragón Sagrado — Escape Desesperado"
+        },
+        {
+          "chapterId": "cap200",
+          "chapterNumber": 200,
+          "note": "Aparece en: ¡Dos Frutas del Dragón Sagrado! — Cultivo en la Montaña del Dragón de Fuego"
+        },
+        {
+          "chapterId": "cap201",
+          "chapterNumber": 201,
+          "note": "Aparece en: ¡Tercer Límite Físico! — El Regreso de Ye Tian"
+        },
+        {
+          "chapterId": "cap202",
+          "chapterNumber": 202,
+          "note": "Aparece en: Victoria Absoluta — La Fruta del Dragón Sagrado para Yue'er"
+        },
+        {
+          "chapterId": "cap203",
+          "chapterNumber": 203,
+          "note": "Aparece en: Talento de Cultivo Supremo — Fusión de Doble Sol Naciente"
+        },
+        {
+          "chapterId": "cap204",
+          "chapterNumber": 204,
+          "note": "Aparece en: El Secreto del Tiempo — Torre del Dios de la Guerra, Piso 20"
+        },
+        {
+          "chapterId": "cap205",
+          "chapterNumber": 205,
+          "note": "Aparece en: Autoridad Central — Misterio del Espacio y el Río Changling"
+        },
+        {
+          "chapterId": "cap206",
+          "chapterNumber": 206,
+          "note": "Aparece en: Cuarto Límite Físico — Regreso a la Base del Mar Demoníaco"
+        },
+        {
+          "chapterId": "cap207",
+          "chapterNumber": 207,
+          "note": "Aparece en: La Grieta Espacial de Tres Estrellas — Ye Tian Cruza al Otro Lado"
+        },
+        {
+          "chapterId": "cap208",
+          "chapterNumber": 208,
+          "note": "Aparece en: Cruzando al Mundo de las Bestias — El Monumento ha Desaparecido"
+        },
+        {
+          "chapterId": "cap209",
+          "chapterNumber": 209,
+          "note": "Aparece en: El Robo del Monumento — Montaña del Dragón Caído"
+        },
+        {
+          "chapterId": "cap210",
+          "chapterNumber": 210,
+          "note": "Aparece en: La Batalla de la Montaña del Dragón Caído — La Emboscada de Estigia"
+        },
+        {
+          "chapterId": "cap211",
+          "chapterNumber": 211,
+          "note": "Aparece en: Confinamiento Espacial — El Interrogatorio de Di Ling"
+        },
+        {
+          "chapterId": "cap212",
+          "chapterNumber": 212,
+          "note": "Aparece en: El Secreto del Mundo de Bestias del Mono Dragón — Objeto Extraño de Cinco Estrellas"
+        },
+        {
+          "chapterId": "cap213",
+          "chapterNumber": 213,
+          "note": "Aparece en: El Regreso del Monumento Celestial de Iluminación a la Tierra"
+        },
+        {
+          "chapterId": "cap214",
+          "chapterNumber": 214,
+          "note": "Aparece en: Recursos a Cambio de Cuotas — La Boda y el Viaje"
+        },
+        {
+          "chapterId": "cap215",
+          "chapterNumber": 215,
+          "note": "Aparece en: Viaje de Bodas — La Marea de Bestias en la Base Fuhai"
+        },
+        {
+          "chapterId": "cap216",
+          "chapterNumber": 216,
+          "note": "Aparece en: El Amo Detrás de las Bestias — Infiltrando la Super Base Sakuragi"
+        },
+        {
+          "chapterId": "cap217",
+          "chapterNumber": 217,
+          "note": "Aparece en: Infiltración en la Super Base Sakuragi — Suplantando a Liu Shengheng"
+        },
+        {
+          "chapterId": "cap218",
+          "chapterNumber": 218,
+          "note": "Aparece en: El Secreto de la Savia del Cerezo Sagrado"
+        },
+        {
+          "chapterId": "cap219",
+          "chapterNumber": 219,
+          "note": "Aparece en: El Emperador Espada Liu Sheng — Día de Transacción"
+        },
+        {
+          "chapterId": "cap220",
+          "chapterNumber": 220,
+          "note": "Aparece en: Espina de Alma — Robo de la Savia de Cerezo"
+        },
+        {
+          "chapterId": "cap221",
+          "chapterNumber": 221,
+          "note": "Aparece en: Destrucción de la Secta Huajian — Regreso a Zhonghai"
+        },
+        {
+          "chapterId": "cap222",
+          "chapterNumber": 222,
+          "note": "Aparece en: Jugo de Sakura — La Evolución de los Talentos"
+        },
+        {
+          "chapterId": "cap223",
+          "chapterNumber": 223,
+          "note": "Aparece en: Hoja Temporal y Líquido Divino de Talento — El Talento de Espadachín de la Emperador Luna"
+        },
+        {
+          "chapterId": "cap224",
+          "chapterNumber": 224,
+          "note": "Aparece en: Reunión de Nivel Emperador — La Formación de Teletransporte"
+        },
+        {
+          "chapterId": "cap225",
+          "chapterNumber": 225,
+          "note": "Aparece en: La Transacción con el Emperador Fuego Tortura — Construcción de la Formación Avanzada"
+        },
+        {
+          "chapterId": "cap226",
+          "chapterNumber": 226,
+          "note": "Aparece en: Construcción de la Formación de Teletransporte — La Base Mar Demonio"
+        },
+        {
+          "chapterId": "cap227",
+          "chapterNumber": 227,
+          "note": "Aparece en: La Súper Base Tianfu — Formaciones de Teletransportación y la Torre de la Gloria"
+        },
+        {
+          "chapterId": "cap228",
+          "chapterNumber": 228,
+          "note": "Aparece en: La Torre de la Gloria — El Mundo Virtual y la Píldora Rompe-Reinos"
+        },
+        {
+          "chapterId": "cap229",
+          "chapterNumber": 229,
+          "note": "Aparece en: Torre de la Gloria — Emperador de Cinco Estrellas y la Técnica Legendaria Rompe-Cielos"
+        },
+        {
+          "chapterId": "cap230",
+          "chapterNumber": 230,
+          "note": "Aparece en: La Lista de Emperadores — El Emperador de los Diez Mil Cielos Entra al Campo de Batalla"
+        },
+        {
+          "chapterId": "cap231",
+          "chapterNumber": 231,
+          "note": "Aparece en: Talento de Copia en el Mundo Virtual — La Derrota del Emperador de la Lanza de Plata"
+        },
+        {
+          "chapterId": "cap232",
+          "chapterNumber": 232,
+          "note": "Aparece en: La Técnica Legendaria Rompe-Cielos — Nuevo Talento: Percepción del Bien y el Mal"
+        },
+        {
+          "chapterId": "cap233",
+          "chapterNumber": 233,
+          "note": "Aparece en: Talento de Comprensión — ¡Supremo en un Día!"
+        },
+        {
+          "chapterId": "cap234",
+          "chapterNumber": 234,
+          "note": "Aparece en: Empate con el Emperador de la Espada Rota — Talento de Sable Estrella Matutina Copiado"
+        },
+        {
+          "chapterId": "cap235",
+          "chapterNumber": 235,
+          "note": "Aparece en: Fuego Alienígena del Corazón de la Tierra — El Octavo Límite Físico y el Cuerpo de Espíritu de Fuego Innato"
+        },
+        {
+          "chapterId": "cap236",
+          "chapterNumber": 236,
+          "note": "Aparece en: Cuerpo Espiritual de Fuego Innato — Investigación en el Mundo de las Bestias"
+        },
+        {
+          "chapterId": "cap237",
+          "chapterNumber": 237,
+          "note": "Aparece en: El Águila Peng de Alas Doradas — Compresión Espacial"
+        },
+        {
+          "chapterId": "cap238",
+          "chapterNumber": 238,
+          "note": "Aparece en: El Overlord Toro Verde — Rastreando a la Bestia"
+        },
+        {
+          "chapterId": "cap239",
+          "chapterNumber": 239,
+          "note": "Aparece en: Batalla contra el Overlord Toro Verde"
+        },
+        {
+          "chapterId": "cap240",
+          "chapterNumber": 240,
+          "note": "Aparece en: Muerte del Overlord Toro Verde — El Overlord de las Llamas"
+        },
+        {
+          "chapterId": "cap241",
+          "chapterNumber": 241,
+          "note": "Aparece en: El Secreto de las Bestias de Nivel Divino — La Traición del Emperador Gato"
+        },
+        {
+          "chapterId": "cap242",
+          "chapterNumber": 242,
+          "note": "Aparece en: La Visión del Dragón Dorado — El Mundo de las Bestias se Estremece"
+        },
+        {
+          "chapterId": "cap243",
+          "chapterNumber": 243,
+          "note": "Aparece en: El Palacio del Dragón — Secretos de los Nueve Dioses"
+        },
+        {
+          "chapterId": "cap244",
+          "chapterNumber": 244,
+          "note": "Aparece en: Dentro del Palacio del Dragón — El Hierba Celestial de Nueve Estrellas"
+        },
+        {
+          "chapterId": "cap245",
+          "chapterNumber": 245,
+          "note": "Aparece en: Transformación del Talento de Copia — Hierba Celestial Nueve Estrellas"
+        },
+        {
+          "chapterId": "cap246",
+          "chapterNumber": 246,
+          "note": "Aparece en: Salón de la Herencia del Clan Dragón — Evaluación de Técnica de Garra"
+        },
+        {
+          "chapterId": "cap247",
+          "chapterNumber": 247,
+          "note": "Aparece en: Mundo Ilusorio — Tres Capas de Evaluación"
+        },
+        {
+          "chapterId": "cap248",
+          "chapterNumber": 248,
+          "note": "Aparece en: El Tesoro del Dragón Verde — Talentos de Nivel Divino"
+        },
+        {
+          "chapterId": "cap249",
+          "chapterNumber": 249,
+          "note": "Aparece en: Hierba Raíz de Garra de Dragón Divino — Piedra Gengjin"
+        },
+        {
+          "chapterId": "cap250",
+          "chapterNumber": 250,
+          "note": "Aparece en: La Cacería del Emperador Gato de Nueve Vidas"
+        },
+        {
+          "chapterId": "cap251",
+          "chapterNumber": 251,
+          "note": "Aparece en: Batalla contra el Emperador Gato de Nueve Vidas — El Poder del Tiempo y el Espacio"
+        },
+        {
+          "chapterId": "cap252",
+          "chapterNumber": 252,
+          "note": "Aparece en: Muerte del Emperador Gato — Tesoros de la Herencia y la Búsqueda del Emperador Cuerno Dorado Plateado"
+        },
+        {
+          "chapterId": "cap253",
+          "chapterNumber": 253,
+          "note": "Aparece en: El Talento de Contrato — Cultivación en la Montaña del Dragón de Fuego"
+        },
+        {
+          "chapterId": "cap254",
+          "chapterNumber": 254,
+          "note": "Aparece en: La Caída del Emperador Cuerno Dorado Plateado"
+        },
+        {
+          "chapterId": "cap255",
+          "chapterNumber": 255,
+          "note": "Aparece en: El Regreso a la Súper Base Zhonghai — El Clan Dragón"
+        },
+        {
+          "chapterId": "cap256",
+          "chapterNumber": 256,
+          "note": "Aparece en: Talento de Garra Luna Brillante — El Cuerpo Innato de Sable"
+        },
+        {
+          "chapterId": "cap257",
+          "chapterNumber": 257,
+          "note": "Aparece en: Cuerpo Innato de Sable — El Dragón Aparece"
+        },
+        {
+          "chapterId": "cap258",
+          "chapterNumber": 258,
+          "note": "Aparece en: La Investigación del Clan Dragón — Descubrimiento de la Tierra"
+        },
+        {
+          "chapterId": "cap259",
+          "chapterNumber": 259,
+          "note": "Aparece en: Gran Garra Celestial del Dragón — La Torre de la Gloria, Piso 18"
+        },
+        {
+          "chapterId": "cap260",
+          "chapterNumber": 260,
+          "note": "Aparece en: La Invitación del Templo de la Gloria — El Emperador Espada Rota"
+        },
+        {
+          "chapterId": "cap261",
+          "chapterNumber": 261,
+          "note": "Aparece en: El Secreto del Templo de la Gloria — El Reino Inmortal Terrenal"
+        },
+        {
+          "chapterId": "cap262",
+          "chapterNumber": 262,
+          "note": "Aparece en: El Anillo Inmortal Terrenal — Ciudad Dongbo"
+        },
+        {
+          "chapterId": "cap263",
+          "chapterNumber": 263,
+          "note": "Aparece en: La Lista de Emperadores — En Busca del Talento de Sable Estrella Matutina"
+        },
+        {
+          "chapterId": "cap264",
+          "chapterNumber": 264,
+          "note": "Aparece en: Rumbo al Reino de Cultivo Central — Cuerpo de Transferencia de Alma"
+        },
+        {
+          "chapterId": "cap265",
+          "chapterNumber": 265,
+          "note": "Aparece en: La Estela Espada Azul Celeste — Copia del Sable Estrella Matutina"
         }
       ]
     },
@@ -1398,6 +1898,36 @@
           "chapterId": "cap176",
           "chapterNumber": 176,
           "note": "Ye Tian le da instrucciones antes de partir a la grieta."
+        },
+        {
+          "chapterId": "cap192",
+          "chapterNumber": 192,
+          "note": "Aparece en: El Despertar de Xiao Xue — Visita a la Secta del Dios de la Luna"
+        },
+        {
+          "chapterId": "cap203",
+          "chapterNumber": 203,
+          "note": "Aparece en: Talento de Cultivo Supremo — Fusión de Doble Sol Naciente"
+        },
+        {
+          "chapterId": "cap214",
+          "chapterNumber": 214,
+          "note": "Aparece en: Recursos a Cambio de Cuotas — La Boda y el Viaje"
+        },
+        {
+          "chapterId": "cap223",
+          "chapterNumber": 223,
+          "note": "Aparece en: Hoja Temporal y Líquido Divino de Talento — El Talento de Espadachín de la Emperador Luna"
+        },
+        {
+          "chapterId": "cap259",
+          "chapterNumber": 259,
+          "note": "Aparece en: Gran Garra Celestial del Dragón — La Torre de la Gloria, Piso 18"
+        },
+        {
+          "chapterId": "cap260",
+          "chapterNumber": 260,
+          "note": "Aparece en: La Invitación del Templo de la Gloria — El Emperador Espada Rota"
         }
       ]
     },
@@ -1618,6 +2148,26 @@
           "chapterId": "cap161",
           "chapterNumber": 161,
           "note": "Ye Tian decide investigar la grieta tras su conversación con Yue Ling sobre los problemas."
+        },
+        {
+          "chapterId": "cap206",
+          "chapterNumber": 206,
+          "note": "Aparece en: Cuarto Límite Físico — Regreso a la Base del Mar Demoníaco"
+        },
+        {
+          "chapterId": "cap207",
+          "chapterNumber": 207,
+          "note": "Aparece en: La Grieta Espacial de Tres Estrellas — Ye Tian Cruza al Otro Lado"
+        },
+        {
+          "chapterId": "cap213",
+          "chapterNumber": 213,
+          "note": "Aparece en: El Regreso del Monumento Celestial de Iluminación a la Tierra"
+        },
+        {
+          "chapterId": "cap257",
+          "chapterNumber": 257,
+          "note": "Aparece en: Cuerpo Innato de Sable — El Dragón Aparece"
         }
       ]
     },
@@ -1827,6 +2377,86 @@
           "chapterId": "cap5",
           "chapterNumber": 5,
           "note": "Dispara dos flechas decisivas que matan a la Marta Lunar Plateada."
+        },
+        {
+          "chapterId": "cap206",
+          "chapterNumber": 206,
+          "note": "Aparece en: Cuarto Límite Físico — Regreso a la Base del Mar Demoníaco"
+        },
+        {
+          "chapterId": "cap207",
+          "chapterNumber": 207,
+          "note": "Aparece en: La Grieta Espacial de Tres Estrellas — Ye Tian Cruza al Otro Lado"
+        },
+        {
+          "chapterId": "cap208",
+          "chapterNumber": 208,
+          "note": "Aparece en: Cruzando al Mundo de las Bestias — El Monumento ha Desaparecido"
+        },
+        {
+          "chapterId": "cap213",
+          "chapterNumber": 213,
+          "note": "Aparece en: El Regreso del Monumento Celestial de Iluminación a la Tierra"
+        },
+        {
+          "chapterId": "cap214",
+          "chapterNumber": 214,
+          "note": "Aparece en: Recursos a Cambio de Cuotas — La Boda y el Viaje"
+        },
+        {
+          "chapterId": "cap215",
+          "chapterNumber": 215,
+          "note": "Aparece en: Viaje de Bodas — La Marea de Bestias en la Base Fuhai"
+        },
+        {
+          "chapterId": "cap216",
+          "chapterNumber": 216,
+          "note": "Aparece en: El Amo Detrás de las Bestias — Infiltrando la Super Base Sakuragi"
+        },
+        {
+          "chapterId": "cap217",
+          "chapterNumber": 217,
+          "note": "Aparece en: Infiltración en la Super Base Sakuragi — Suplantando a Liu Shengheng"
+        },
+        {
+          "chapterId": "cap221",
+          "chapterNumber": 221,
+          "note": "Aparece en: Destrucción de la Secta Huajian — Regreso a Zhonghai"
+        },
+        {
+          "chapterId": "cap223",
+          "chapterNumber": 223,
+          "note": "Aparece en: Hoja Temporal y Líquido Divino de Talento — El Talento de Espadachín de la Emperador Luna"
+        },
+        {
+          "chapterId": "cap224",
+          "chapterNumber": 224,
+          "note": "Aparece en: Reunión de Nivel Emperador — La Formación de Teletransporte"
+        },
+        {
+          "chapterId": "cap227",
+          "chapterNumber": 227,
+          "note": "Aparece en: La Súper Base Tianfu — Formaciones de Teletransportación y la Torre de la Gloria"
+        },
+        {
+          "chapterId": "cap228",
+          "chapterNumber": 228,
+          "note": "Aparece en: La Torre de la Gloria — El Mundo Virtual y la Píldora Rompe-Reinos"
+        },
+        {
+          "chapterId": "cap229",
+          "chapterNumber": 229,
+          "note": "Aparece en: Torre de la Gloria — Emperador de Cinco Estrellas y la Técnica Legendaria Rompe-Cielos"
+        },
+        {
+          "chapterId": "cap235",
+          "chapterNumber": 235,
+          "note": "Aparece en: Fuego Alienígena del Corazón de la Tierra — El Octavo Límite Físico y el Cuerpo de Espíritu de Fuego Innato"
+        },
+        {
+          "chapterId": "cap236",
+          "chapterNumber": 236,
+          "note": "Aparece en: Cuerpo Espiritual de Fuego Innato — Investigación en el Mundo de las Bestias"
         }
       ]
     },
@@ -2836,6 +3466,36 @@
           "chapterId": "cap169",
           "chapterNumber": 169,
           "note": "Recibe Perla del Dragón de Agua, entra en hibernación para transformarse."
+        },
+        {
+          "chapterId": "cap272",
+          "chapterNumber": 272,
+          "note": "Ayuda a interrogar dragones."
+        },
+        {
+          "chapterId": "cap273",
+          "chapterNumber": 273,
+          "note": "Combate junto a Ye Tian."
+        },
+        {
+          "chapterId": "cap274",
+          "chapterNumber": 274,
+          "note": "Presente en interrogatorio."
+        },
+        {
+          "chapterId": "cap192",
+          "chapterNumber": 192,
+          "note": "Aparece en: El Despertar de Xiao Xue — Visita a la Secta del Dios de la Luna"
+        },
+        {
+          "chapterId": "cap255",
+          "chapterNumber": 255,
+          "note": "Aparece en: El Regreso a la Súper Base Zhonghai — El Clan Dragón"
+        },
+        {
+          "chapterId": "cap256",
+          "chapterNumber": 256,
+          "note": "Aparece en: Talento de Garra Luna Brillante — El Cuerpo Innato de Sable"
         }
       ]
     },
@@ -3069,6 +3729,26 @@
           "chapterId": "cap168",
           "chapterNumber": 168,
           "note": "Ye Tian le revela en secreto (vía consciencia divina) que sigue vivo. Respira aliviada. Informa al Rey Sangre y Rey Qing."
+        },
+        {
+          "chapterId": "cap206",
+          "chapterNumber": 206,
+          "note": "Aparece en: Cuarto Límite Físico — Regreso a la Base del Mar Demoníaco"
+        },
+        {
+          "chapterId": "cap207",
+          "chapterNumber": 207,
+          "note": "Aparece en: La Grieta Espacial de Tres Estrellas — Ye Tian Cruza al Otro Lado"
+        },
+        {
+          "chapterId": "cap208",
+          "chapterNumber": 208,
+          "note": "Aparece en: Cruzando al Mundo de las Bestias — El Monumento ha Desaparecido"
+        },
+        {
+          "chapterId": "cap226",
+          "chapterNumber": 226,
+          "note": "Aparece en: Construcción de la Formación de Teletransporte — La Base Mar Demonio"
         }
       ]
     },
@@ -3400,6 +4080,21 @@
           "chapterId": "cap125",
           "chapterNumber": 125,
           "note": "Ataca el monumento. Ye Tian le copia talentos antes de que una Bestia Tianlin gigante destruya todo."
+        },
+        {
+          "chapterId": "cap209",
+          "chapterNumber": 209,
+          "note": "Aparece en: El Robo del Monumento — Montaña del Dragón Caído"
+        },
+        {
+          "chapterId": "cap210",
+          "chapterNumber": 210,
+          "note": "Aparece en: La Batalla de la Montaña del Dragón Caído — La Emboscada de Estigia"
+        },
+        {
+          "chapterId": "cap211",
+          "chapterNumber": 211,
+          "note": "Aparece en: Confinamiento Espacial — El Interrogatorio de Di Ling"
         }
       ]
     },
@@ -3419,6 +4114,21 @@
           "chapterId": "cap125",
           "chapterNumber": 125,
           "note": "Destruye todo en la montaña. Su poder expulsa el alma de Ye Tian de vuelta a la Tierra."
+        },
+        {
+          "chapterId": "cap208",
+          "chapterNumber": 208,
+          "note": "Aparece en: Cruzando al Mundo de las Bestias — El Monumento ha Desaparecido"
+        },
+        {
+          "chapterId": "cap209",
+          "chapterNumber": 209,
+          "note": "Aparece en: El Robo del Monumento — Montaña del Dragón Caído"
+        },
+        {
+          "chapterId": "cap210",
+          "chapterNumber": 210,
+          "note": "Aparece en: La Batalla de la Montaña del Dragón Caído — La Emboscada de Estigia"
         }
       ]
     },
@@ -3662,6 +4372,11 @@
           "chapterId": "cap143",
           "chapterNumber": 143,
           "note": "Mencionada en contexto de la Lista Santa."
+        },
+        {
+          "chapterId": "cap202",
+          "chapterNumber": 202,
+          "note": "Aparece en: Victoria Absoluta — La Fruta del Dragón Sagrado para Yue'er"
         }
       ]
     },
@@ -3746,6 +4461,31 @@
           "chapterId": "cap178",
           "chapterNumber": 178,
           "note": "Compañero de misión de Ye Tian en Área 13."
+        },
+        {
+          "chapterId": "cap179",
+          "chapterNumber": 179,
+          "note": "Aparece en: La Píldora de Longevidad y el Área 13"
+        },
+        {
+          "chapterId": "cap180",
+          "chapterNumber": 180,
+          "note": "Aparece en: El Nido Subterráneo y el Águila Peng de Alas Doradas"
+        },
+        {
+          "chapterId": "cap181",
+          "chapterNumber": 181,
+          "note": "Aparece en: Robo de la Flor del Vacío"
+        },
+        {
+          "chapterId": "cap191",
+          "chapterNumber": 191,
+          "note": "Aparece en: Regreso a la Base — El Emperador Luna Renace"
+        },
+        {
+          "chapterId": "cap192",
+          "chapterNumber": 192,
+          "note": "Aparece en: El Despertar de Xiao Xue — Visita a la Secta del Dios de la Luna"
         }
       ]
     },
@@ -3854,6 +4594,46 @@
           "chapterId": "cap178",
           "chapterNumber": 178,
           "note": "Informa a Ye Tian sobre detalles de la batalla contra la bestia con talento alma."
+        },
+        {
+          "chapterId": "cap191",
+          "chapterNumber": 191,
+          "note": "Aparece en: Regreso a la Base — El Emperador Luna Renace"
+        },
+        {
+          "chapterId": "cap192",
+          "chapterNumber": 192,
+          "note": "Aparece en: El Despertar de Xiao Xue — Visita a la Secta del Dios de la Luna"
+        },
+        {
+          "chapterId": "cap193",
+          "chapterNumber": 193,
+          "note": "Aparece en: Yue'er — Caza de Talentos Arcano en el Mundo de Bestias"
+        },
+        {
+          "chapterId": "cap201",
+          "chapterNumber": 201,
+          "note": "Aparece en: ¡Tercer Límite Físico! — El Regreso de Ye Tian"
+        },
+        {
+          "chapterId": "cap202",
+          "chapterNumber": 202,
+          "note": "Aparece en: Victoria Absoluta — La Fruta del Dragón Sagrado para Yue'er"
+        },
+        {
+          "chapterId": "cap203",
+          "chapterNumber": 203,
+          "note": "Aparece en: Talento de Cultivo Supremo — Fusión de Doble Sol Naciente"
+        },
+        {
+          "chapterId": "cap204",
+          "chapterNumber": 204,
+          "note": "Aparece en: El Secreto del Tiempo — Torre del Dios de la Guerra, Piso 20"
+        },
+        {
+          "chapterId": "cap205",
+          "chapterNumber": 205,
+          "note": "Aparece en: Autoridad Central — Misterio del Espacio y el Río Changling"
         }
       ]
     },
@@ -3950,6 +4730,21 @@
           "chapterId": "cap140",
           "chapterNumber": 140,
           "note": "Su récord de 8.2 poderes dragón es descubierto por Ye Tian."
+        },
+        {
+          "chapterId": "cap182",
+          "chapterNumber": 182,
+          "note": "Aparece en: Flor del Vacío y Talento de Velocidad Nivel Dios"
+        },
+        {
+          "chapterId": "cap183",
+          "chapterNumber": 183,
+          "note": "Aparece en: Corte Estelar y la Misión de la Emperatriz Luna"
+        },
+        {
+          "chapterId": "cap184",
+          "chapterNumber": 184,
+          "note": "Aparece en: Misión con la Emperatriz Luna"
         }
       ]
     },
@@ -3980,6 +4775,36 @@
           "chapterId": "cap142",
           "chapterNumber": 142,
           "note": "Mencionado en contexto de la Arena Tomahawk."
+        },
+        {
+          "chapterId": "cap201",
+          "chapterNumber": 201,
+          "note": "Aparece en: ¡Tercer Límite Físico! — El Regreso de Ye Tian"
+        },
+        {
+          "chapterId": "cap202",
+          "chapterNumber": 202,
+          "note": "Aparece en: Victoria Absoluta — La Fruta del Dragón Sagrado para Yue'er"
+        },
+        {
+          "chapterId": "cap224",
+          "chapterNumber": 224,
+          "note": "Aparece en: Reunión de Nivel Emperador — La Formación de Teletransporte"
+        },
+        {
+          "chapterId": "cap225",
+          "chapterNumber": 225,
+          "note": "Aparece en: La Transacción con el Emperador Fuego Tortura — Construcción de la Formación Avanzada"
+        },
+        {
+          "chapterId": "cap236",
+          "chapterNumber": 236,
+          "note": "Aparece en: Cuerpo Espiritual de Fuego Innato — Investigación en el Mundo de las Bestias"
+        },
+        {
+          "chapterId": "cap237",
+          "chapterNumber": 237,
+          "note": "Aparece en: El Águila Peng de Alas Doradas — Compresión Espacial"
         }
       ]
     },
@@ -4327,6 +5152,11 @@
           "chapterId": "cap173",
           "chapterNumber": 173,
           "note": "Mencionada como futura maestra de formación de Tiange."
+        },
+        {
+          "chapterId": "cap259",
+          "chapterNumber": 259,
+          "note": "Aparece en: Gran Garra Celestial del Dragón — La Torre de la Gloria, Piso 18"
         }
       ]
     },
@@ -4423,6 +5253,31 @@
           "chapterId": "cap175",
           "chapterNumber": 175,
           "note": "Explica detalles sobre el talento de ataque al alma y ordena movilización a la grieta 5 estrellas."
+        },
+        {
+          "chapterId": "cap271",
+          "chapterNumber": 271,
+          "note": "Presente durante la detección de dragones."
+        },
+        {
+          "chapterId": "cap272",
+          "chapterNumber": 272,
+          "note": "Participa en la captura."
+        },
+        {
+          "chapterId": "cap273",
+          "chapterNumber": 273,
+          "note": "Apoya a Ye Tian contra los dragones."
+        },
+        {
+          "chapterId": "cap274",
+          "chapterNumber": 274,
+          "note": "Presente en el interrogatorio."
+        },
+        {
+          "chapterId": "cap181",
+          "chapterNumber": 181,
+          "note": "Aparece en: Robo de la Flor del Vacío"
         }
       ]
     },
@@ -4489,6 +5344,976 @@
           "chapterId": "cap174",
           "chapterNumber": 174,
           "note": "Mencionado como uno de los 3 talentos Estrella Matutina, alcanzó peak Artista Marcial Élite en 3 meses."
+        }
+      ]
+    },
+    {
+      "id": "emperador-qinyang",
+      "name": "Emperador Qinyang",
+      "role": "secundario",
+      "bio": "Emperador de la Súper Base Tianfu. Ye Tian lo encontró a la salida de la Torre de la Gloria y le preguntó sobre la división estelar del nivel emperador. Explicó el sistema de estrellas (ordinario → 1-9 estrellas → Emperador Supremo → Gran Emperador), el nivel divino (requiere romper límite físico 10 veces, talento cultivo Sol Naciente mínimo), y el futuro del Mundo Virtual Glorioso de la Torre de la Gloria.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Nivel Emperador",
+        "afiliacion": "Súper Base Tianfu",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 227"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap227",
+          "chapterNumber": 227,
+          "note": "Ye Tian lo encuentra a la salida de la Torre de la Gloria. Explica la división estelar emperador y el nivel divino."
+        },
+        {
+          "chapterId": "cap228",
+          "chapterNumber": 228,
+          "note": "Continúa explicando: nivel divino requiere Sol Naciente, Tianfu tiene 6 genios. Informa sobre el mundo virtual de la Torre de la Gloria."
+        },
+        {
+          "chapterId": "cap230",
+          "chapterNumber": 230,
+          "note": "Aparece en: La Lista de Emperadores — El Emperador de los Diez Mil Cielos Entra al Campo de Batalla"
+        }
+      ]
+    },
+    {
+      "id": "zhang-qing",
+      "name": "Zhang Qing",
+      "nameChinese": "张清",
+      "role": "mencion",
+      "bio": "Artista marcial femenina de nivel santo que trabaja para la Cámara de Comercio Dongbo. Posee dos talentos de nivel arcano: velocidad arcano y hielo arcano. Se encarga de vender información e inteligencia a clientes de nivel emperador. Cometió el error de preguntar si Ye Tian acababa de llegar al Reino Inmortal Terrestre, lo que le costó ofrecer un 50% de descuento para apaciguarlo.",
+      "info": {
+        "genero": "Femenino",
+        "reino": "Nivel Santo",
+        "talentoCultivo": "Desconocido",
+        "afiliacion": "Cámara de Comercio Dongbo",
+        "ubicacion": "Ciudad Dongbo — Reino Inmortal Terrestre",
+        "estado": "Viva",
+        "primerAparicion": "Capítulo 263"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Velocidad Arcano",
+          "type": "speed",
+          "rank": "Arcano",
+          "status": "activo",
+          "description": "Talento de velocidad de nivel arcano."
+        },
+        {
+          "name": "Talento de Hielo Arcano",
+          "type": "ice",
+          "rank": "Arcano",
+          "status": "activo",
+          "description": "Talento de hielo de nivel arcano."
+        }
+      ],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap263",
+          "chapterNumber": 263,
+          "note": "Atiende a Ye Tian en la Cámara de Comercio Dongbo. Comete el error de preguntar si acaba de entrar al Reino Inmortal Terrestre, lo que enfada a Ye Tian. Ofrece 50% de descuento como disculpa. Vende información sobre los poseedores del Talento de Sable Estrella Matutina."
+        }
+      ]
+    },
+    {
+      "id": "pisharus",
+      "name": "Pisharus",
+      "role": "secundario",
+      "bio": "Hijo del Emperador de la Guerra Dorada, maestro del salón del Templo del Dios de la Guerra. Recientemente ascendió al nivel emperador tras romper el primer límite físico. Fue enviado junto a dos emperadores (Fred y Jonathan) para capturar a Ye Tian y extraer el conocimiento de la técnica de espada de nivel divino que obtuvo en la Estela Espada Azul Celeste.",
+      "info": {
+        "edad": "Desconocida",
+        "genero": "Masculino",
+        "reino": "Nivel Emperador (recién ascendido, 1.° límite físico)",
+        "talentoCultivo": "Desconocido",
+        "afiliacion": "Templo del Dios de la Guerra",
+        "ubicacion": "Ciudad Azul Celeste",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 268"
+      },
+      "abilities": [],
+      "relationships": [
+        {
+          "characterId": "",
+          "characterName": "Emperador de la Guerra Dorada",
+          "type": "Padre"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap268",
+          "chapterNumber": 268,
+          "note": "Presentado como hijo del Emperador de la Guerra Dorada. Recién ascendido a nivel emperador. Enviado con Fred y Jonathan a capturar a Ye Tian por la técnica de espada divina."
+        },
+        {
+          "chapterId": "cap269",
+          "chapterNumber": 269,
+          "note": "Escapa tras la muerte del Emperador Guerra Dorada vía transferencia de alma."
+        }
+      ]
+    },
+    {
+      "id": "emperador-guerra-dorada",
+      "name": "Emperador Guerra Dorada",
+      "nameChinese": "金战皇",
+      "role": "secundario",
+      "bio": "Emperador de nivel 7 estrellas. Muerto por Ye Tian en el cap269.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Emperador (7 estrellas)",
+        "estado": "Muerto",
+        "primerAparicion": "Capítulo 269"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap269",
+          "chapterNumber": 269,
+          "note": "Derrotado y asesinado por Ye Tian. Pisharus intenta huir."
+        }
+      ]
+    },
+    {
+      "id": "emperatriz-yue",
+      "name": "Emperatriz Yue",
+      "nameChinese": "月女皇",
+      "role": "secundario",
+      "bio": "Emperatriz poderosa. Aliada del Templo de la Gloria. Aparece en las reuniones sobre la amenaza del Clan Dragón.",
+      "info": {
+        "genero": "Femenino",
+        "reino": "Nivel Emperador",
+        "estado": "Viva",
+        "primerAparicion": "Capítulo 270"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap270",
+          "chapterNumber": 270,
+          "note": "Discute el camino a la divinidad y los secretos del Hijo del Universo."
+        },
+        {
+          "chapterId": "cap277",
+          "chapterNumber": 277,
+          "note": "Presente cuando Ye Tian libera al dragón como estrategia."
+        },
+        {
+          "chapterId": "cap278",
+          "chapterNumber": 278,
+          "note": "Aparece en cap278."
+        }
+      ]
+    },
+    {
+      "id": "long-ao",
+      "name": "Long Ao",
+      "nameChinese": "龙傲",
+      "role": "secundario",
+      "bio": "Dragón del Clan Dragón. Infiltrado en la Tierra. Interrogado por Ye Tian sobre los planes de invasión.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Nivel Emperador",
+        "afiliacion": "Clan Dragón",
+        "estado": "Capturado",
+        "primerAparicion": "Capítulo 271"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap271",
+          "chapterNumber": 271,
+          "note": "Aparece con los otros dragones infiltrados."
+        },
+        {
+          "chapterId": "cap272",
+          "chapterNumber": 272,
+          "note": "Revela que la Tierra es un mundo planetario de alto nivel."
+        },
+        {
+          "chapterId": "cap274",
+          "chapterNumber": 274,
+          "note": "Interrogado sobre los planes de invasión del Clan Dragón."
+        },
+        {
+          "chapterId": "cap276",
+          "chapterNumber": 276,
+          "note": "Usado para exponer las fuerzas extranjeras."
+        },
+        {
+          "chapterId": "cap277",
+          "chapterNumber": 277,
+          "note": "Liberado como parte de la estrategia de Ye Tian."
+        },
+        {
+          "chapterId": "cap278",
+          "chapterNumber": 278,
+          "note": "Aparece en cap278."
+        }
+      ]
+    },
+    {
+      "id": "long-feng",
+      "name": "Long Feng",
+      "nameChinese": "龙凤",
+      "role": "secundario",
+      "bio": "Dragón del Clan Dragón. Infiltrado en la Tierra disfrazado como humano.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Nivel Emperador",
+        "afiliacion": "Clan Dragón",
+        "estado": "Capturado",
+        "primerAparicion": "Capítulo 271"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap271",
+          "chapterNumber": 271,
+          "note": "Descubierto como dragón infiltrado."
+        },
+        {
+          "chapterId": "cap272",
+          "chapterNumber": 272,
+          "note": "Parte del grupo de dragones interrogados."
+        },
+        {
+          "chapterId": "cap273",
+          "chapterNumber": 273,
+          "note": "Ye Tian entra en acción contra los dragones."
+        },
+        {
+          "chapterId": "cap274",
+          "chapterNumber": 274,
+          "note": "Interrogado junto a Long Ao y Long Teng."
+        },
+        {
+          "chapterId": "cap276",
+          "chapterNumber": 276,
+          "note": "Usado en la estrategia de exposición."
+        },
+        {
+          "chapterId": "cap277",
+          "chapterNumber": 277,
+          "note": "Liberado como parte del plan de Ye Tian."
+        }
+      ]
+    },
+    {
+      "id": "long-teng",
+      "name": "Long Teng",
+      "nameChinese": "龙腾",
+      "role": "secundario",
+      "bio": "Dragón del Clan Dragón. Infiltrado en la Tierra.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Nivel Emperador",
+        "afiliacion": "Clan Dragón",
+        "estado": "Capturado",
+        "primerAparicion": "Capítulo 271"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap271",
+          "chapterNumber": 271,
+          "note": "Descubierto como dragón infiltrado."
+        },
+        {
+          "chapterId": "cap272",
+          "chapterNumber": 272,
+          "note": "Parte del grupo de dragones capturados."
+        },
+        {
+          "chapterId": "cap274",
+          "chapterNumber": 274,
+          "note": "Interrogado sobre la invasión."
+        },
+        {
+          "chapterId": "cap276",
+          "chapterNumber": 276,
+          "note": "Usado en la exposición de fuerzas extranjeras."
+        },
+        {
+          "chapterId": "cap277",
+          "chapterNumber": 277,
+          "note": "Liberado con los otros dragones."
+        },
+        {
+          "chapterId": "cap278",
+          "chapterNumber": 278,
+          "note": "Aparece en cap278."
+        }
+      ]
+    },
+    {
+      "id": "emperador-espada-rota",
+      "name": "Emperador Espada Rota",
+      "nameChinese": "断剑皇",
+      "role": "secundario",
+      "bio": "Emperador poderoso. Se reúne con Ye Tian para discutir la amenaza del Clan Dragón.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Nivel Emperador",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 275"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap275",
+          "chapterNumber": 275,
+          "note": "Se reúne con Ye Tian para discutir el Clan Dragón."
+        },
+        {
+          "chapterId": "cap260",
+          "chapterNumber": 260,
+          "note": "Aparece en: La Invitación del Templo de la Gloria — El Emperador Espada Rota"
+        },
+        {
+          "chapterId": "cap261",
+          "chapterNumber": 261,
+          "note": "Aparece en: El Secreto del Templo de la Gloria — El Reino Inmortal Terrenal"
+        }
+      ]
+    },
+    {
+      "id": "yuan-gang",
+      "name": "Yuan Gang",
+      "nameChinese": "袁刚",
+      "role": "secundario",
+      "bio": "Aliado de Ye Tian. Participa en los interrogatorios y las operaciones contra las fuerzas extranjeras.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Nivel Emperador",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 275"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap275",
+          "chapterNumber": 275,
+          "note": "Presente en la reunión sobre el Clan Dragón."
+        },
+        {
+          "chapterId": "cap276",
+          "chapterNumber": 276,
+          "note": "Participa en el interrogatorio de los dragones."
+        },
+        {
+          "chapterId": "cap277",
+          "chapterNumber": 277,
+          "note": "Presente cuando se liberan los dragones."
+        },
+        {
+          "chapterId": "cap278",
+          "chapterNumber": 278,
+          "note": "Aparece en cap278."
+        }
+      ]
+    },
+    {
+      "id": "long-mang",
+      "name": "Long Mang",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece en cap278.",
+      "info": {
+        "primerAparicion": "Capítulo 278"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap278",
+          "chapterNumber": 278,
+          "note": "Aparece en cap278."
+        }
+      ]
+    },
+    {
+      "id": "long-tianlin",
+      "name": "Long Tianlin",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece en cap278.",
+      "info": {
+        "primerAparicion": "Capítulo 278"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap278",
+          "chapterNumber": 278,
+          "note": "Aparece en cap278."
+        }
+      ]
+    },
+    {
+      "id": "emperador-hacha",
+      "name": "Emperador Hacha",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece en cap278.",
+      "info": {
+        "primerAparicion": "Capítulo 278"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap278",
+          "chapterNumber": 278,
+          "note": "Aparece en cap278."
+        },
+        {
+          "chapterId": "cap213",
+          "chapterNumber": 213,
+          "note": "Aparece en: El Regreso del Monumento Celestial de Iluminación a la Tierra"
+        },
+        {
+          "chapterId": "cap214",
+          "chapterNumber": 214,
+          "note": "Aparece en: Recursos a Cambio de Cuotas — La Boda y el Viaje"
+        }
+      ]
+    },
+    {
+      "id": "emperador-plateado-cuerno-dorado",
+      "name": "Emperador Plateado Cuerno Dorado",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 250.",
+      "info": {
+        "primerAparicion": "Capítulo 250"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap250",
+          "chapterNumber": 250,
+          "note": "Aparece en: La Cacería del Emperador Gato de Nueve Vidas"
+        }
+      ]
+    },
+    {
+      "id": "emperador-luna",
+      "name": "Emperador Luna",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 186.",
+      "info": {
+        "primerAparicion": "Capítulo 186"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap186",
+          "chapterNumber": 186,
+          "note": "Aparece en: La Gran Batalla y Nuevos Talentos Fusionados"
+        },
+        {
+          "chapterId": "cap187",
+          "chapterNumber": 187,
+          "note": "Aparece en: Rescate del Emperador Luna y la Base Perdida"
+        },
+        {
+          "chapterId": "cap188",
+          "chapterNumber": 188,
+          "note": "Aparece en: La Torre del Dios de la Guerra y el Pabellón de la Diosa Luna"
+        },
+        {
+          "chapterId": "cap189",
+          "chapterNumber": 189,
+          "note": "Aparece en: Dominio Cerebral al 80% y el Corte Estelar"
+        },
+        {
+          "chapterId": "cap190",
+          "chapterNumber": 190,
+          "note": "Aparece en: Talento de la Diosa Luna y el Cuerpo Espíritu Lunar Innato"
+        }
+      ]
+    },
+    {
+      "id": "lin-long",
+      "name": "Lin Long",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 215.",
+      "info": {
+        "primerAparicion": "Capítulo 215"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap215",
+          "chapterNumber": 215,
+          "note": "Aparece en: Viaje de Bodas — La Marea de Bestias en la Base Fuhai"
+        }
+      ]
+    },
+    {
+      "id": "liusheng-espada-asesina",
+      "name": "Liusheng Espada Asesina",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 219.",
+      "info": {
+        "primerAparicion": "Capítulo 219"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap219",
+          "chapterNumber": 219,
+          "note": "Aparece en: El Emperador Espada Liu Sheng — Día de Transacción"
+        },
+        {
+          "chapterId": "cap220",
+          "chapterNumber": 220,
+          "note": "Aparece en: Espina de Alma — Robo de la Savia de Cerezo"
+        }
+      ]
+    },
+    {
+      "id": "emperador-gato-nueve-vidas",
+      "name": "Emperador Gato Nueve Vidas",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 240.",
+      "info": {
+        "primerAparicion": "Capítulo 240"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap240",
+          "chapterNumber": 240,
+          "note": "Aparece en: Muerte del Overlord Toro Verde — El Overlord de las Llamas"
+        },
+        {
+          "chapterId": "cap241",
+          "chapterNumber": 241,
+          "note": "Aparece en: El Secreto de las Bestias de Nivel Divino — La Traición del Emperador Gato"
+        },
+        {
+          "chapterId": "cap249",
+          "chapterNumber": 249,
+          "note": "Aparece en: Hierba Raíz de Garra de Dragón Divino — Piedra Gengjin"
+        },
+        {
+          "chapterId": "cap250",
+          "chapterNumber": 250,
+          "note": "Aparece en: La Cacería del Emperador Gato de Nueve Vidas"
+        }
+      ]
+    },
+    {
+      "id": "liu-shengheng",
+      "name": "Liu Shengheng",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 217.",
+      "info": {
+        "primerAparicion": "Capítulo 217"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap217",
+          "chapterNumber": 217,
+          "note": "Aparece en: Infiltración en la Super Base Sakuragi — Suplantando a Liu Shengheng"
+        }
+      ]
+    },
+    {
+      "id": "emperador-qin",
+      "name": "Emperador Qin",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 214.",
+      "info": {
+        "primerAparicion": "Capítulo 214"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap214",
+          "chapterNumber": 214,
+          "note": "Aparece en: Recursos a Cambio de Cuotas — La Boda y el Viaje"
+        }
+      ]
+    },
+    {
+      "id": "emperador-brujo-ojo-sangre",
+      "name": "Emperador Brujo Ojo Sangre",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 183.",
+      "info": {
+        "primerAparicion": "Capítulo 183"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap183",
+          "chapterNumber": 183,
+          "note": "Aparece en: Corte Estelar y la Misión de la Emperatriz Luna"
+        },
+        {
+          "chapterId": "cap184",
+          "chapterNumber": 184,
+          "note": "Aparece en: Misión con la Emperatriz Luna"
+        },
+        {
+          "chapterId": "cap186",
+          "chapterNumber": 186,
+          "note": "Aparece en: La Gran Batalla y Nuevos Talentos Fusionados"
+        }
+      ]
+    },
+    {
+      "id": "santa-luna-poniente",
+      "name": "Santa Luna Poniente",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 192.",
+      "info": {
+        "primerAparicion": "Capítulo 192"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap192",
+          "chapterNumber": 192,
+          "note": "Aparece en: El Despertar de Xiao Xue — Visita a la Secta del Dios de la Luna"
+        }
+      ]
+    },
+    {
+      "id": "emperatriz-luna",
+      "name": "Emperatriz Luna",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 183.",
+      "info": {
+        "primerAparicion": "Capítulo 183"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap183",
+          "chapterNumber": 183,
+          "note": "Aparece en: Corte Estelar y la Misión de la Emperatriz Luna"
+        },
+        {
+          "chapterId": "cap184",
+          "chapterNumber": 184,
+          "note": "Aparece en: Misión con la Emperatriz Luna"
+        },
+        {
+          "chapterId": "cap185",
+          "chapterNumber": 185,
+          "note": "Aparece en: Rastreando la Bestia del Alma"
+        },
+        {
+          "chapterId": "cap255",
+          "chapterNumber": 255,
+          "note": "Aparece en: El Regreso a la Súper Base Zhonghai — El Clan Dragón"
+        },
+        {
+          "chapterId": "cap256",
+          "chapterNumber": 256,
+          "note": "Aparece en: Talento de Garra Luna Brillante — El Cuerpo Innato de Sable"
+        },
+        {
+          "chapterId": "cap260",
+          "chapterNumber": 260,
+          "note": "Aparece en: La Invitación del Templo de la Gloria — El Emperador Espada Rota"
+        }
+      ]
+    },
+    {
+      "id": "broken-sword-emperor",
+      "name": "Broken Sword Emperor",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 233.",
+      "info": {
+        "primerAparicion": "Capítulo 233"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap233",
+          "chapterNumber": 233,
+          "note": "Aparece en: Talento de Comprensión — ¡Supremo en un Día!"
+        },
+        {
+          "chapterId": "cap234",
+          "chapterNumber": 234,
+          "note": "Aparece en: Empate con el Emperador de la Espada Rota — Talento de Sable Estrella Matutina Copiado"
+        }
+      ]
+    },
+    {
+      "id": "zuo-peng",
+      "name": "Zuo Peng",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 232.",
+      "info": {
+        "primerAparicion": "Capítulo 232"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap232",
+          "chapterNumber": 232,
+          "note": "Aparece en: La Técnica Legendaria Rompe-Cielos — Nuevo Talento: Percepción del Bien y el Mal"
+        }
+      ]
+    },
+    {
+      "id": "taro-haraki",
+      "name": "Taro Haraki",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 216.",
+      "info": {
+        "primerAparicion": "Capítulo 216"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap216",
+          "chapterNumber": 216,
+          "note": "Aparece en: El Amo Detrás de las Bestias — Infiltrando la Super Base Sakuragi"
+        },
+        {
+          "chapterId": "cap217",
+          "chapterNumber": 217,
+          "note": "Aparece en: Infiltración en la Super Base Sakuragi — Suplantando a Liu Shengheng"
+        }
+      ]
+    },
+    {
+      "id": "emperador-hacha-guerra",
+      "name": "Emperador Hacha Guerra",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 186.",
+      "info": {
+        "primerAparicion": "Capítulo 186"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap186",
+          "chapterNumber": 186,
+          "note": "Aparece en: La Gran Batalla y Nuevos Talentos Fusionados"
+        },
+        {
+          "chapterId": "cap187",
+          "chapterNumber": 187,
+          "note": "Aparece en: Rescate del Emperador Luna y la Base Perdida"
+        },
+        {
+          "chapterId": "cap204",
+          "chapterNumber": 204,
+          "note": "Aparece en: El Secreto del Tiempo — Torre del Dios de la Guerra, Piso 20"
+        },
+        {
+          "chapterId": "cap205",
+          "chapterNumber": 205,
+          "note": "Aparece en: Autoridad Central — Misterio del Espacio y el Río Changling"
+        }
+      ]
+    },
+    {
+      "id": "liu-sheng-heng",
+      "name": "Liu Sheng Heng",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 221.",
+      "info": {
+        "primerAparicion": "Capítulo 221"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap221",
+          "chapterNumber": 221,
+          "note": "Aparece en: Destrucción de la Secta Huajian — Regreso a Zhonghai"
+        }
+      ]
+    },
+    {
+      "id": "di-ling",
+      "name": "Di Ling",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 212.",
+      "info": {
+        "primerAparicion": "Capítulo 212"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap212",
+          "chapterNumber": 212,
+          "note": "Aparece en: El Secreto del Mundo de Bestias del Mono Dragón — Objeto Extraño de Cinco Estrellas"
+        }
+      ]
+    },
+    {
+      "id": "emperador-ling-fei",
+      "name": "Emperador Ling Fei",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 261.",
+      "info": {
+        "primerAparicion": "Capítulo 261"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap261",
+          "chapterNumber": 261,
+          "note": "Aparece en: El Secreto del Templo de la Gloria — El Reino Inmortal Terrenal"
+        },
+        {
+          "chapterId": "cap262",
+          "chapterNumber": 262,
+          "note": "Aparece en: El Anillo Inmortal Terrenal — Ciudad Dongbo"
+        }
+      ]
+    },
+    {
+      "id": "kiuchida-yuki",
+      "name": "Kiuchida Yuki",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 220.",
+      "info": {
+        "primerAparicion": "Capítulo 220"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap220",
+          "chapterNumber": 220,
+          "note": "Aparece en: Espina de Alma — Robo de la Savia de Cerezo"
+        }
+      ]
+    },
+    {
+      "id": "wang-he",
+      "name": "Wang He",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 231.",
+      "info": {
+        "primerAparicion": "Capítulo 231"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap231",
+          "chapterNumber": 231,
+          "note": "Aparece en: Talento de Copia en el Mundo Virtual — La Derrota del Emperador de la Lanza de Plata"
+        }
+      ]
+    },
+    {
+      "id": "emperador-tomahawk",
+      "name": "Emperador Tomahawk",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 230.",
+      "info": {
+        "primerAparicion": "Capítulo 230"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap230",
+          "chapterNumber": 230,
+          "note": "Aparece en: La Lista de Emperadores — El Emperador de los Diez Mil Cielos Entra al Campo de Batalla"
+        },
+        {
+          "chapterId": "cap255",
+          "chapterNumber": 255,
+          "note": "Aparece en: El Regreso a la Súper Base Zhonghai — El Clan Dragón"
+        }
+      ]
+    },
+    {
+      "id": "king-kong",
+      "name": "King Kong",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 212.",
+      "info": {
+        "primerAparicion": "Capítulo 212"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap212",
+          "chapterNumber": 212,
+          "note": "Aparece en: El Secreto del Mundo de Bestias del Mono Dragón — Objeto Extraño de Cinco Estrellas"
+        }
+      ]
+    },
+    {
+      "id": "huo-ting",
+      "name": "Huo Ting",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Personaje que aparece desde el capítulo 233.",
+      "info": {
+        "primerAparicion": "Capítulo 233"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap233",
+          "chapterNumber": 233,
+          "note": "Aparece en: Talento de Comprensión — ¡Supremo en un Día!"
         }
       ]
     }

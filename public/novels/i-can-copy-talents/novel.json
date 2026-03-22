@@ -18,7 +18,16 @@
     "El Pabellón Marcial es una organización que conecta bases y comercia recursos entre ellas.",
     "Las 'civilizaciones antiguas' eran en realidad sectas de otros planetas que llegaron a la Tierra por grietas espaciales. La Secta del Cadáver del Cielo Negro dejó un templo con títeres cadáver como guardianes.",
     "El Nivel Santo abre el dominio cerebral profundo (1-100%). A 100% la fuerza corporal alcanza 10 poderes de dragón. Subdivisiones: santo ordinario, santo menor (20-100 dragones), gran santo (100-1000), rey santo (1000+).",
-    "El talento Arcano supera al Pseudo-Arcano: amplificación de 100x. Al ascender a Nivel Santo, la comprensión se eleva y permite comprender pseudo-arcano al 70% hasta arcano."
+    "El talento Arcano supera al Pseudo-Arcano: amplificación de 100x. Al ascender a Nivel Santo, la comprensión se eleva y permite comprender pseudo-arcano al 70% hasta arcano.",
+    "Nivel Emperador: división estelar (ordinario → 1-9 estrellas → Emperador Supremo → Gran Emperador). Proviene de la era de civilizaciones antiguas.",
+    "Nivel Divino: por encima de Emperador, requiere romper límite físico 10 veces. Fuerza corporal x100 pero fija permanentemente. Luego crece solo el poder divino (evoluciona de Fuerza Yuan). Requiere talento cultivo Sol Naciente mínimo.",
+    "Súper Base Tianfu: la más poderosa de Huaxia. Torre de la Gloria (Lista de Reyes/Santos/Emperadores). Mundo Virtual Glorioso cubre toda Huaxia. Templo de la Gloria es la fuerza #1.",
+    "Píldora Rompe-Reinos: elixir de Tianfu que fuerza ruptura de límite físico, pero impide alcanzar nivel divino. Materiales raros de ruinas antiguas.",
+    "Técnicas de sable/espada: nivel legendario disponible en centro comercial de puntos de la Torre de la Gloria.",
+    "Reino Inmortal Terrenal: mundo pequeño adjunto a la Tierra, gobernado por el Templo de la Gloria. Acceso vía array de teletransporte de estrella matutina. Supresión de reglas limita poder destructivo pero no fuerza. Solo emperadores de 6+ estrellas conocen su existencia.",
+    "Pabellón de la Gloria: fuerza de sectas de civilización antigua de otro planeta que respalda al Templo de la Gloria. Proveen técnicas, armas y Píldora Rompe-Reinos a cambio de recursos terrestres. Establecidos hace ~100 años vía array interestelar.",
+    "Reino Inmortal Terrenal dividido en 4 reinos de cultivo: Oriental (Huaxia), Norteño (Oso del Norte), Occidental y Sureño, más un Reino Central (zona de comercio y conflicto). Ciudad Dongbo entre Oriental y Norteño.",
+    "Templo del Dios de la Guerra Occidental: tiene el emperador más fuerte de la Tierra (8 estrellas). El Templo de la Gloria no tiene emperador de 9 estrellas."
   ],
   "realms": [
     {
@@ -53,86 +62,128 @@
     },
     {
       "name": "Nivel Santo (Santo ordinario / Santo menor / Gran Santo / Rey Santo)",
-      "current": true,
+      "current": false,
       "revealedAt": 155
     },
     {
-      "name": "Emperador (Emperor)",
-      "current": false,
+      "name": "Emperador (ordinario → 1-9 estrellas → Emperador Supremo → Gran Emperador)",
+      "current": true,
       "revealedAt": 157
+    },
+    {
+      "name": "Nivel Divino (God-level, requiere 10 rupturas de límite físico, fuerza x100 fija, luego poder divino)",
+      "current": false,
+      "revealedAt": 227
     }
   ],
   "talentRanks": [
     {
-      "rank": "Arcano",
-      "description": "100x amplificación, patrones de ley en el cuerpo",
-      "highlight": true,
-      "isCurrent": true,
-      "revealedAt": 154
-    },
-    {
-      "rank": "Pseudo-Arcano",
-      "description": "Hasta 80x (al 70%), paso previo al Arcano",
-      "highlight": true,
-      "isCurrent": false,
-      "revealedAt": 135
-    },
-    {
       "rank": "⑩ Sol Naciente",
       "description": "x3 sobre Luna Brillante",
       "highlight": true,
-      "isCurrent": false,
-      "revealedAt": 141
+      "revealedAt": 141,
+      "category": "cultivation"
     },
     {
       "rank": "⑨ Luna Brillante",
-      "description": "Velocidad x3 sobre Estrella Matutina",
+      "description": "x3 sobre Estrella Matutina",
       "highlight": true,
-      "isCurrent": false,
-      "revealedAt": 135
+      "revealedAt": 135,
+      "category": "cultivation"
     },
     {
       "rank": "⑧ Estrella Matutina",
       "description": "Sin límite conocido",
       "highlight": true,
-      "isCurrent": false,
-      "revealedAt": 97
+      "revealedAt": 97,
+      "category": "cultivation"
     },
     {
       "rank": "⑦ Extraordinario",
       "description": "Nivel Rey garantizado",
-      "revealedAt": 65
+      "revealedAt": 65,
+      "category": "cultivation"
     },
     {
       "rank": "⑥ Supremo",
       "description": "Gran Maestro garantizado",
-      "revealedAt": 25
+      "revealedAt": 25,
+      "category": "cultivation"
     },
     {
       "rank": "⑤ Alto",
       "description": "Gran Art. Marcial",
-      "revealedAt": 19
+      "revealedAt": 19,
+      "category": "cultivation"
     },
     {
       "rank": "④ Medio",
       "description": "Art. Marcial Élite",
-      "revealedAt": 1
+      "revealedAt": 1,
+      "category": "cultivation"
     },
     {
       "rank": "③ Primario",
       "description": "Art. Marcial",
-      "revealedAt": 1
+      "revealedAt": 1,
+      "category": "cultivation"
     },
     {
       "rank": "② Inferior",
       "description": "Art. Marcial (etapa temprana)",
-      "revealedAt": 1
+      "revealedAt": 1,
+      "category": "cultivation"
     },
     {
       "rank": "① Débil",
       "description": "Sin salida",
-      "isCurrent": true,
-      "revealedAt": 1
+      "revealedAt": 1,
+      "category": "cultivation"
+    },
+    {
+      "rank": "Divino",
+      "description": "Máximo. Rompe las leyes naturales",
+      "highlight": true,
+      "revealedAt": 227,
+      "category": "special"
+    },
+    {
+      "rank": "Arcano",
+      "description": "100x amplificación, patrones de ley",
+      "highlight": true,
+      "revealedAt": 154,
+      "category": "special"
+    },
+    {
+      "rank": "Pseudo-Arcano",
+      "description": "Hasta 80x (al 70%)",
+      "highlight": true,
+      "revealedAt": 100,
+      "category": "special"
+    },
+    {
+      "rank": "⑥ Supremo",
+      "description": "Amplificación significativa",
+      "revealedAt": 25,
+      "category": "special"
+    },
+    {
+      "rank": "⑤ Alto",
+      "description": "Amplificación notable",
+      "revealedAt": 19,
+      "category": "special"
+    },
+    {
+      "rank": "④ Medio",
+      "description": "Amplificación moderada",
+      "revealedAt": 1,
+      "category": "special"
+    },
+    {
+      "rank": "③ Elemental",
+      "description": "Primer despertar",
+      "revealedAt": 1,
+      "category": "special"
     }
   ],
   "baseInfo": {
@@ -141,8 +192,8 @@
     "Pabellón Marcial": "Organización comercial inter-bases",
     "Año": "2119",
     "Protagonista": "Ye Tian",
-    "Reino actual": "Nivel Santo",
-    "Talentos": "25+ (Sol Naciente + Arcano Defensa)"
+    "Reino actual": "Nivel Emperador",
+    "Talentos": "37+ (Fuerza Divino + Formación Luna Brillante + Garra Estrella Matutina + Vida Arcano)"
   },
   "chapters": [
     "cap1",
@@ -322,7 +373,107 @@
     "cap175",
     "cap176",
     "cap177",
-    "cap178"
+    "cap178",
+    "cap179",
+    "cap180",
+    "cap181",
+    "cap182",
+    "cap183",
+    "cap184",
+    "cap185",
+    "cap186",
+    "cap187",
+    "cap188",
+    "cap189",
+    "cap190",
+    "cap191",
+    "cap192",
+    "cap193",
+    "cap194",
+    "cap195",
+    "cap196",
+    "cap197",
+    "cap198",
+    "cap199",
+    "cap200",
+    "cap201",
+    "cap202",
+    "cap203",
+    "cap204",
+    "cap205",
+    "cap206",
+    "cap207",
+    "cap208",
+    "cap209",
+    "cap210",
+    "cap211",
+    "cap212",
+    "cap213",
+    "cap214",
+    "cap215",
+    "cap216",
+    "cap217",
+    "cap218",
+    "cap219",
+    "cap220",
+    "cap221",
+    "cap222",
+    "cap223",
+    "cap224",
+    "cap225",
+    "cap226",
+    "cap227",
+    "cap228",
+    "cap229",
+    "cap230",
+    "cap231",
+    "cap232",
+    "cap233",
+    "cap234",
+    "cap235",
+    "cap236",
+    "cap237",
+    "cap238",
+    "cap239",
+    "cap240",
+    "cap241",
+    "cap242",
+    "cap243",
+    "cap244",
+    "cap245",
+    "cap246",
+    "cap247",
+    "cap248",
+    "cap249",
+    "cap250",
+    "cap251",
+    "cap252",
+    "cap253",
+    "cap254",
+    "cap255",
+    "cap256",
+    "cap257",
+    "cap258",
+    "cap259",
+    "cap260",
+    "cap261",
+    "cap262",
+    "cap263",
+    "cap264",
+    "cap265",
+    "cap266",
+    "cap267",
+    "cap268",
+    "cap269",
+    "cap270",
+    "cap271",
+    "cap272",
+    "cap273",
+    "cap274",
+    "cap275",
+    "cap276",
+    "cap277",
+    "cap278"
   ],
   "baseInfoProgressive": [
     {
@@ -409,6 +560,16 @@
       "key": "Poder Dragón",
       "value": "1 dragón = 1.000.000 elefantes",
       "revealedAt": 140
+    },
+    {
+      "key": "Reino Inmortal Terrenal",
+      "value": "Mundo pequeño con supresión de reglas, 4 reinos de cultivo + central",
+      "revealedAt": 261
+    },
+    {
+      "key": "Pabellón de la Gloria",
+      "value": "Fuerza de civilización antigua que respalda al Templo de la Gloria",
+      "revealedAt": 261
     }
   ]
 }

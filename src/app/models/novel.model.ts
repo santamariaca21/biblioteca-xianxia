@@ -70,6 +70,7 @@ export interface TalentRank {
   highlight?: boolean;
   isCurrent?: boolean;
   revealedAt?: number;
+  category?: 'cultivation' | 'special';
 }
 
 export interface BaseInfoItem {

@@ -51,37 +51,29 @@ import { IconComponent } from '../icon/icon';
               </div>
               @if (ch.stats.talentos && ch.stats.talentos.length > 0) {
                 <div class="talents-section">
-                  <div class="abilities-label">TALENTOS</div>
-                  @for (t of ch.stats.talentos; track t.nombre) {
-                    <div class="talent-stat-row" [attr.data-tipo]="t.tipo">
+                  <div class="abilities-label">CULTIVO</div>
+                  @for (t of filterTalentos(ch.stats.talentos, true); track t.nombre) {
+                    <div class="talent-stat-row" [style.border-left-color]="tipoColor(t.tipo)">
                       <div class="talent-stat-info">
-                        <span class="talent-stat-icon" [attr.data-tipo]="t.tipo">
-                          @switch (t.tipo) {
-                            @case ('cultivation') { <app-icon name="sparkles" [size]="12" /> }
-                            @case ('speed') { <app-icon name="zap" [size]="12" /> }
-                            @case ('blade') { <app-icon name="swords" [size]="12" /> }
-                            @case ('sword') { <app-icon name="swords" [size]="12" /> }
-                            @case ('shadow') { <app-icon name="eye-off" [size]="12" /> }
-                            @case ('healing') { <app-icon name="shield" [size]="12" /> }
-                            @case ('strength') { <app-icon name="zap" [size]="12" /> }
-                            @case ('defense') { <app-icon name="shield" [size]="12" /> }
-                            @case ('bone') { <app-icon name="shield" [size]="12" /> }
-                            @case ('space') { <app-icon name="globe" [size]="12" /> }
-                            @case ('time') { <app-icon name="scroll" [size]="12" /> }
-                            @case ('fire') { <app-icon name="zap" [size]="12" /> }
-                            @case ('ice') { <app-icon name="sparkles" [size]="12" /> }
-                            @case ('formation') { <app-icon name="globe" [size]="12" /> }
-                            @case ('flight') { <app-icon name="arrow-right" [size]="12" /> }
-                            @case ('soul') { <app-icon name="eye" [size]="12" /> }
-                            @case ('blood') { <app-icon name="zap" [size]="12" /> }
-                            @case ('tracking') { <app-icon name="eye" [size]="12" /> }
-                            @case ('treasure') { <app-icon name="star" [size]="12" /> }
-                            @case ('beast-control') { <app-icon name="users" [size]="12" /> }
-                            @case ('endurance') { <app-icon name="shield" [size]="12" /> }
-                            @case ('death-sub') { <app-icon name="shield" [size]="12" /> }
-                            @case ('copy') { <app-icon name="copy" [size]="12" /> }
-                            @default { <app-icon name="star" [size]="12" /> }
-                          }
+                        <span class="talent-stat-icon" [style.color]="tipoColor(t.tipo)">
+                          <app-icon [name]="tipoIcon(t.tipo)" [size]="12" />
+                        </span>
+                        <span class="talent-stat-name">{{ t.nombre }}</span>
+                      </div>
+                      <div class="talent-stat-meta">
+                        <span class="talent-stat-nivel" [attr.data-nivel]="nivelClass(t.nivel)">{{ t.nivel }}</span>
+                        @if (t.estado) {
+                          <span class="talent-stat-estado" [attr.data-estado]="t.estado">{{ t.estado }}</span>
+                        }
+                      </div>
+                    </div>
+                  }
+                  <div class="abilities-label talents-divider">ESPECIALES</div>
+                  @for (t of filterTalentos(ch.stats.talentos, false); track t.nombre) {
+                    <div class="talent-stat-row" [style.border-left-color]="tipoColor(t.tipo)">
+                      <div class="talent-stat-info">
+                        <span class="talent-stat-icon" [style.color]="tipoColor(t.tipo)">
+                          <app-icon [name]="tipoIcon(t.tipo)" [size]="12" />
                         </span>
                         <span class="talent-stat-name">{{ t.nombre }}</span>
                       </div>
@@ -100,16 +92,16 @@ import { IconComponent } from '../icon/icon';
         }
 
         @if (novel(); as n) {
-          <!-- TALENT RANKS (filtered by chapter) -->
+          <!-- TALENT RANKS (filtered by chapter, split by category) -->
           <div class="stats-card">
             <div class="stats-header">
-              <app-icon name="bar-chart" [size]="14" />
-              <div class="stats-title">Rango de Talentos</div>
+              <app-icon name="sparkles" [size]="14" />
+              <div class="stats-title">Rangos de Cultivo</div>
             </div>
             <div class="stats-body">
               <ul class="talent-rank-list">
-                @for (tr of filteredTalentRanks(); track tr.rank) {
-                  <li class="talent-rank-item" [class.highlight]="tr.highlight" [class.current]="tr.isCurrent">
+                @for (tr of filteredTalentRanksByCategory('cultivation'); track tr.rank) {
+                  <li class="talent-rank-item" [class.highlight]="tr.highlight">
                     <span>{{ tr.rank }}</span>
                     <span>{{ tr.description }}</span>
                   </li>
@@ -117,6 +109,24 @@ import { IconComponent } from '../icon/icon';
               </ul>
             </div>
           </div>
+          @if (filteredTalentRanksByCategory('special').length > 0) {
+            <div class="stats-card">
+              <div class="stats-header">
+                <app-icon name="zap" [size]="14" />
+                <div class="stats-title">Rangos Especiales</div>
+              </div>
+              <div class="stats-body">
+                <ul class="talent-rank-list">
+                  @for (tr of filteredTalentRanksByCategory('special'); track tr.rank) {
+                    <li class="talent-rank-item" [class.highlight]="tr.highlight">
+                      <span>{{ tr.rank }}</span>
+                      <span>{{ tr.description }}</span>
+                    </li>
+                  }
+                </ul>
+              </div>
+            </div>
+          }
 
           <!-- BASE INFO (filtered by chapter) -->
           <div class="stats-card">
@@ -216,6 +226,11 @@ import { IconComponent } from '../icon/icon';
     .talents-section {
       margin-top: 0.8rem;
     }
+    .talents-divider {
+      margin-top: 0.8rem;
+      padding-top: 0.6rem;
+      border-top: 1px solid var(--t-border, #1e2230);
+    }
     .talent-stat-row {
       display: flex;
       justify-content: space-between;
@@ -225,31 +240,6 @@ import { IconComponent } from '../icon/icon';
       border-radius: 4px;
       background: rgba(0,0,0,0.06);
       border-left: 3px solid var(--t-border, #1e2230);
-      &[data-tipo="cultivation"] { border-left-color: var(--t-gold, #8b6914); }
-      &[data-tipo="speed"] { border-left-color: #1a7a6e; }
-      &[data-tipo="blade"], &[data-tipo="sword"] { border-left-color: #b83030; }
-      &[data-tipo="shadow"] { border-left-color: #7a50b0; }
-      &[data-tipo="healing"] { border-left-color: #1a8a5a; }
-      &[data-tipo="strength"] { border-left-color: #a06810; }
-      &[data-tipo="defense"] { border-left-color: #3a6a9a; }
-      &[data-tipo="bone"], &[data-tipo="blood-bone"] { border-left-color: #8a4a2a; }
-      &[data-tipo="blood"] { border-left-color: #9a2020; }
-      &[data-tipo="space"] { border-left-color: #4a6ab0; }
-      &[data-tipo="time"] { border-left-color: #6a5aa0; }
-      &[data-tipo="fire"] { border-left-color: #c04820; }
-      &[data-tipo="ice"] { border-left-color: #2a7a9a; }
-      &[data-tipo="formation"] { border-left-color: #5a8a40; }
-      &[data-tipo="flight"] { border-left-color: #5090b0; }
-      &[data-tipo="soul"] { border-left-color: #8050a0; }
-      &[data-tipo="tracking"] { border-left-color: #6a8040; }
-      &[data-tipo="treasure"] { border-left-color: #b08a20; }
-      &[data-tipo="beast-control"] { border-left-color: #508040; }
-      &[data-tipo="endurance"] { border-left-color: #7a6a50; }
-      &[data-tipo="death-sub"] { border-left-color: #5a5a6a; }
-      &[data-tipo="copy"] { border-left-color: var(--t-gold-dim, #7a6330); }
-      &[data-tipo="wind-blade"] { border-left-color: #3a8a6a; }
-      &[data-tipo="lightning"] { border-left-color: #a08a20; }
-      &[data-tipo="illusion"] { border-left-color: #7a50a0; }
     }
     .talent-stat-info {
       display: flex;
@@ -260,31 +250,6 @@ import { IconComponent } from '../icon/icon';
       display: grid;
       place-items: center;
       line-height: 0;
-      &[data-tipo="cultivation"] { color: var(--t-gold, #8b6914); }
-      &[data-tipo="speed"] { color: #1a7a6e; }
-      &[data-tipo="blade"], &[data-tipo="sword"] { color: #b83030; }
-      &[data-tipo="shadow"] { color: #7a50b0; }
-      &[data-tipo="healing"] { color: #1a8a5a; }
-      &[data-tipo="strength"] { color: #a06810; }
-      &[data-tipo="defense"] { color: #3a6a9a; }
-      &[data-tipo="bone"], &[data-tipo="blood-bone"] { color: #8a4a2a; }
-      &[data-tipo="blood"] { color: #9a2020; }
-      &[data-tipo="space"] { color: #4a6ab0; }
-      &[data-tipo="time"] { color: #6a5aa0; }
-      &[data-tipo="fire"] { color: #c04820; }
-      &[data-tipo="ice"] { color: #2a7a9a; }
-      &[data-tipo="formation"] { color: #5a8a40; }
-      &[data-tipo="flight"] { color: #5090b0; }
-      &[data-tipo="soul"] { color: #8050a0; }
-      &[data-tipo="tracking"] { color: #6a8040; }
-      &[data-tipo="treasure"] { color: #b08a20; }
-      &[data-tipo="beast-control"] { color: #508040; }
-      &[data-tipo="endurance"] { color: #7a6a50; }
-      &[data-tipo="death-sub"] { color: #5a5a6a; }
-      &[data-tipo="copy"] { color: var(--t-gold-dim, #7a6330); }
-      &[data-tipo="wind-blade"] { color: #3a8a6a; }
-      &[data-tipo="lightning"] { color: #a08a20; }
-      &[data-tipo="illusion"] { color: #7a50a0; }
     }
     .talent-stat-name {
       font-size: 0.72rem;
@@ -314,6 +279,8 @@ import { IconComponent } from '../icon/icon';
       &[data-nivel="luna-brillante"] { color: #4a6a8a; background: rgba(74,106,138,0.12); }
       &[data-nivel="sol-naciente"] { color: #c04010; background: rgba(192,64,16,0.12); }
       &[data-nivel="pseudo-arcano"] { color: #6a2a8a; background: rgba(106,42,138,0.15); }
+      &[data-nivel="arcano"] { color: #9a1a4a; background: rgba(154,26,74,0.15); }
+      &[data-nivel="divino"] { color: #c9a84c; background: rgba(201,168,76,0.18); }
       &[data-nivel="copy-info"] { color: var(--t-dim, #8a8070); background: rgba(128,128,128,0.08); }
       &[data-nivel="default"] { color: var(--t-dim, #8a8070); background: rgba(128,128,128,0.08); }
     }
@@ -362,8 +329,60 @@ export class StatsSidebarComponent {
 
   private chapterNumber = computed(() => this.chapter()?.number ?? 0);
 
+  private readonly TIPO_COLORS: Record<string, string> = {
+    'cultivation': '#8b6914', 'speed': '#1a7a6e', 'blade': '#b83030', 'sword': '#b83030',
+    'shadow': '#7a50b0', 'healing': '#1a8a5a', 'strength': '#a06810', 'defense': '#3a6a9a',
+    'bone': '#8a4a2a', 'blood-bone': '#8a4a2a', 'blood': '#9a2020', 'space': '#4a6ab0',
+    'time': '#6a5aa0', 'fire': '#c04820', 'ice': '#2a7a9a', 'formation': '#5a8a40',
+    'flight': '#5090b0', 'soul': '#8050a0', 'tracking': '#6a8040', 'treasure': '#b08a20',
+    'beast-control': '#508040', 'endurance': '#7a6a50', 'death-sub': '#5a5a6a',
+    'copy': '#7a6330', 'wind-blade': '#3a8a6a', 'lightning': '#a08a20', 'illusion': '#7a50a0',
+    'camouflage': '#4a6a4a', 'blood-eye': '#8a2040', 'storm': '#3a5a8a', 'lunar': '#5a6a9a',
+    'hypnosis': '#6a3a7a', 'suspended-death': '#5a4a5a', 'water': '#2a6a8a', 'earth': '#7a6a3a',
+    'vine': '#3a7a3a', 'shadow-clone': '#6a4a8a', 'contract': '#6a5a3a', 'soul-thorn': '#7a3a5a',
+    'five-elements': '#5a6a3a', 'comprehension': '#5a5a7a', 'slash': '#9a3a3a', 'shatter': '#8a4a3a',
+    'good-evil': '#5a5a5a', 'claw': '#7a5a3a', 'insight': '#4a7a7a', 'life': '#2a8a4a',
+    'stealth': '#4a4a6a', 'soul-spear': '#7a3a6a', 'heal-others': '#2a7a5a', 'moon': '#5a6a9a',
+    'water-escape': '#2a5a7a',
+  };
+
+  private readonly TIPO_ICONS: Record<string, string> = {
+    'cultivation': 'sparkles', 'speed': 'zap', 'blade': 'swords', 'sword': 'swords',
+    'shadow': 'eye-off', 'healing': 'heart-pulse', 'strength': 'mountain',
+    'defense': 'shield', 'bone': 'bolt', 'blood-bone': 'bolt', 'blood': 'droplets',
+    'space': 'globe', 'time': 'clock', 'fire': 'flame', 'ice': 'snowflake',
+    'formation': 'grid', 'flight': 'feather', 'soul': 'brain', 'tracking': 'crosshair',
+    'treasure': 'gem', 'beast-control': 'paw', 'endurance': 'anchor',
+    'death-sub': 'skull', 'copy': 'copy', 'wind-blade': 'wind', 'lightning': 'zap',
+    'illusion': 'eye', 'camouflage': 'eye-off', 'blood-eye': 'eye',
+    'storm': 'cloud', 'lunar': 'moon-icon', 'hypnosis': 'target',
+    'suspended-death': 'skull', 'water': 'droplets', 'earth': 'mountain',
+    'vine': 'leaf', 'shadow-clone': 'users', 'contract': 'link',
+    'soul-thorn': 'zap', 'five-elements': 'layers', 'comprehension': 'sun',
+    'slash': 'swords', 'shatter': 'zap', 'good-evil': 'repeat',
+    'claw': 'paw', 'insight': 'compass', 'life': 'heart-pulse',
+    'stealth': 'eye-off', 'soul-spear': 'zap', 'heal-others': 'heart-pulse',
+    'moon': 'moon-icon', 'water-escape': 'droplets',
+  };
+
+  tipoColor(tipo: string): string {
+    return this.TIPO_COLORS[tipo] ?? '#7a7a7a';
+  }
+
+  tipoIcon(tipo: string): string {
+    return this.TIPO_ICONS[tipo] ?? 'star';
+  }
+
+  private readonly CULTIVO_TIPOS = new Set(['cultivation', 'copy']);
+
+  filterTalentos(talentos: any[], isCultivo: boolean): any[] {
+    return talentos.filter(t => isCultivo ? this.CULTIVO_TIPOS.has(t.tipo) : !this.CULTIVO_TIPOS.has(t.tipo));
+  }
+
   nivelClass(nivel: string): string {
     const n = nivel.toLowerCase();
+    if (n.includes('divino')) return 'divino';
+    if (n === 'arcano' || (n.includes('arcano') && !n.includes('pseudo'))) return 'arcano';
     if (n.includes('sol naciente')) return 'sol-naciente';
     if (n.includes('luna brillante')) return 'luna-brillante';
     if (n.includes('estrella matutina')) return 'estrella-matutina';
@@ -385,6 +404,10 @@ export class StatsSidebarComponent {
     if (!n) return [];
     return n.talentRanks.filter(tr => !tr.revealedAt || tr.revealedAt <= num);
   });
+
+  filteredTalentRanksByCategory(category: string) {
+    return this.filteredTalentRanks().filter(tr => (tr.category ?? 'cultivation') === category);
+  }
 
   filteredBaseInfo = computed(() => {
     const n = this.novel();
