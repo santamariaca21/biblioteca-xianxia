@@ -160,6 +160,9 @@ import { DomSanitizer } from '@angular/platform-browser';
                   </div>
                   <div class="stat-row"><span>Reino</span><span [class]="ch.stats.reinoClass">{{ ch.stats.reino }}</span></div>
                   <div class="stat-row"><span>Fuerza</span><span>{{ ch.stats.fuerza }}</span></div>
+                  @if (ch.stats.dominioCerebral) {
+                    <div class="stat-row"><span>Dominio Cerebral</span><span class="teal">{{ ch.stats.dominioCerebral }}</span></div>
+                  }
                   <div class="stat-row"><span>Ubicación</span><span>{{ ch.stats.ubicacion }}</span></div>
                   @if (ch.stats.talentos && ch.stats.talentos.length > 0) {
                     <div class="mobile-talents-label">TALENTOS</div>

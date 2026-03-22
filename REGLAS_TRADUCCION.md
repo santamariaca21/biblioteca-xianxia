@@ -165,7 +165,25 @@ Cada personaje en `characters.json` tiene una ficha tipo wiki con la siguiente e
 
    En el array `talentos` de stats: `estado` se deja vacío `""` para talentos activos. Solo usar `"por fusionar"`, `"copiado"` o `"dormido"` cuando aplique.
 
-9. **No contar como párrafos**: etiquetas HTML decorativas (system-box, centered-italic, centered-highlight, etc.) NO cuentan en el conteo de fidelidad. Solo contar `<p>` tags.
+9. **Stats dinámicos**: Cuando la novela introduce un NUEVO sistema de medición de poder o un nuevo stat que no existía antes, se debe:
+   - Agregar el campo al modelo TypeScript (`CharacterStats` en `novel.model.ts`)
+   - Agregar la visualización en el sidebar (`stats-sidebar.ts`) y en mobile (`reader.ts`)
+   - Agregar el valor en los stats de cada capítulo desde donde aparece
+   - Solo mostrar el stat cuando tiene valor (usar `@if`)
+
+   Stats conocidos hasta ahora:
+   - `reino`: reino de cultivo actual (siempre presente)
+   - `fuerza`: fuerza base en catties/elefantes/dragones (siempre presente)
+   - `golpeMax`: poder de ataque máximo con amplificaciones (desde cap8)
+   - `edad`: edad del protagonista (siempre presente)
+   - `ubicacion`: ubicación actual (siempre presente)
+   - `dominioCerebral`: % de apertura del dominio cerebral profundo (desde cap155, Nivel Santo)
+     - Cada 1% = fuerza corporal sube significativamente
+     - Progresión: 1% (cap155) → 5% (cap169) → 12% (cap174) → 31% (cap178)
+
+   **Si aparece un nuevo sistema de poder en la novela** (ej: un nuevo tipo de energía, un nuevo tipo de medición), crear el campo y documentarlo aquí.
+
+10. **No contar como párrafos**: etiquetas HTML decorativas (system-box, centered-italic, centered-highlight, etc.) NO cuentan en el conteo de fidelidad. Solo contar `<p>` tags.
 9. **Fragmentos rotos del source**: Algunas líneas del source son artefactos de extracción HTML (ej: "The" + siguiente línea). Estos NO son párrafos reales y se integran naturalmente. Si el % supera 100%, es por esto.
 10. **Script de verificación de fidelidad** (ejecutar después de cada bloque de traducción):
 ```bash

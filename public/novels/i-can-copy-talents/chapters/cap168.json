@@ -30,7 +30,7 @@
     "edad": "~17 años",
     "talento": "25+ talentos",
     "talentoClass": "gold",
-    "fuerza": "100.000 poder de elefante (base)",
+    "fuerza": "500.000 elefantes",
     "ubicacion": "Super Base Zhonghai — Torre del Dios de la Guerra",
     "golpeMax": "240 poder de dragón",
     "abilities": [
@@ -195,7 +195,8 @@
         "tipo": "copy",
         "estado": ""
       }
-    ]
+    ],
+    "dominioCerebral": "5%"
   },
   "characters": [
     "ye-tian",

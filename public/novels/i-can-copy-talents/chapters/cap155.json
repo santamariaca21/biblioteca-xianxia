@@ -18,7 +18,7 @@
     "edad": "~17 años",
     "talento": "25+ talentos",
     "talentoClass": "gold",
-    "fuerza": "100.000 poder de elefante (base, x10 por ascenso)",
+    "fuerza": "100.000 elefantes",
     "ubicacion": "Espacio del Templo — Salón Principal",
     "golpeMax": "120 poder de dragón",
     "abilities": [
@@ -185,7 +185,8 @@
         "tipo": "copy",
         "estado": ""
       }
-    ]
+    ],
+    "dominioCerebral": "1%"
   },
   "characters": [
     "ye-tian"

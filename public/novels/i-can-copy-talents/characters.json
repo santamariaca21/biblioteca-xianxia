@@ -6,11 +6,11 @@
       "nameChinese": "叶天",
       "image": "ye-tian.png",
       "role": "protagonista",
-      "bio": "Protagonista transmigrado. Ascendió a Nivel Santo en el espacio del templo de ruinas antiguas. Talento de Cultivo Sol Naciente. 25+ talentos incluyendo Defensa Arcano (100x), Espacial Supremo (copiado de Di Ling), Sable Estrella Matutina (intención 100% Consumación), Fuerza Pseudo-Arcano(90%). 240 poderes de dragón de ataque. Técnica oro: Corte Instantáneo. Usó Sustitución de Muerte para simular su caída; todos (excepto Yun Mengli, Rey Sangre, Rey Qing) lo creen muerto. Maestro de formación de grado superior (120 patrones). De vuelta en Super Base Zhonghai.",
+      "bio": "Protagonista transmigrado. Ascendió a Nivel Santo en el espacio del templo de ruinas antiguas. Talento de Cultivo Sol Naciente. 25+ talentos incluyendo Defensa Arcano (100x), Espacial Supremo, Sable Estrella Matutina (intención 100% Consumación), Fuerza Pseudo-Arcano(90%). Poder de ataque: 1600 dragones (nivel Rey Santo). Técnicas oro a Consumación: Corte Instantáneo (20x+2x vel) y Dominio Sable Desolación Celestial (18x grupal). Dominio cerebral 5%, 500K elefante. Lista de Santos puesto 25. Construyó 3 salas cultivo grado superior. Dio Perla Dragón Agua a Xiao Xue. Decide formar fuerza: Pabellón Celestial (Tiange). Busca genios en áreas civiles. Encuentra a Lin Ze y Lin Yiyi en Lunan.",
       "info": {
         "edad": "~17 años",
         "genero": "Masculino",
-        "reino": "Nivel Santo (recién ascendido)",
+        "reino": "Nivel Santo (Rey Santo en poder de combate)",
         "talentoCultivo": "Sol Naciente (25+ talentos, Defensa Arcano)",
         "afiliacion": "Independiente",
         "ubicacion": "Super Base Zhonghai",
@@ -1096,6 +1096,68 @@
           "chapterId": "cap162",
           "chapterNumber": 162,
           "note": "Llega a la grieta espacial, Yun Mengli lo recibe con respeto. Usa sentido divino y talento búsqueda tesoros sin encontrar el tesoro. Descubre que Chen Fei es una bestia disfrazada."
+        },
+        {
+          "chapterId": "cap169",
+          "chapterNumber": 169,
+          "note": "Desafía la Torre del Dios de la Guerra hasta la capa 12. Entra en Lista de Santos puesto 25 (combate Gran Santo). Construye 3 salas cultivo grado superior. Da Perla del Dragón de Agua a Xiao Xue. Cultiva 2 técnicas oro a Consumación. Dominio cerebral 5%, fuerza 500K. Poder ataque: 1600 dragones. Decide crear fuerza.",
+          "statsSnapshot": {
+            "reino": "Nivel Santo (Rey Santo en poder de combate)",
+            "talento": "25+ talentos, Sol Naciente",
+            "fuerza": "500K elefante / 1600 dragones max",
+            "ubicacion": "Super Base Zhonghai"
+          }
+        },
+        {
+          "chapterId": "cap170",
+          "chapterNumber": 170,
+          "note": "Busca genios en áreas civiles de Zhonghai para formar su fuerza. Llega al área civil de Lunan. Salva a Lin Ze de Zhang Long. Acompaña a Lin Ze a su casa para curar a su hermana Lin Yiyi.",
+          "statsSnapshot": {
+            "reino": "Nivel Santo (Rey Santo en poder de combate)",
+            "talento": "25+ talentos, Sol Naciente",
+            "fuerza": "500K elefante / 1600 dragones max",
+            "ubicacion": "Área civil de Lunan, Super Base Zhonghai"
+          }
+        },
+        {
+          "chapterId": "cap171",
+          "chapterNumber": 171,
+          "note": "Cura a Lin Yiyi. Descubre talentos excepcionales de Lin Ze y Lin Yiyi. Los recluta como primeros miembros del Pabellón Celestial (Tiange)."
+        },
+        {
+          "chapterId": "cap172",
+          "chapterNumber": 172,
+          "note": "Instala sede de Tiange, crea sistema de puntos. Da Píldora Extraordinaria a Lin Ze. Recluta 100 miembros de áreas civiles. Va a Torre para copiar talento de Feng Xue Tu."
+        },
+        {
+          "chapterId": "cap173",
+          "chapterNumber": 173,
+          "note": "Comprende Dao del Sable en Monumento del Dios de la Guerra. Copia Fuerza Arcano y Velocidad Pseudo-Arcano(4%) de Feng Xue Tu."
+        },
+        {
+          "chapterId": "cap174",
+          "chapterNumber": 174,
+          "note": "Fusiona Fuerza a Arcano. 3 meses retiro: dominio cerebral 12%, velocidad pseudo-arcano 90%. Ye Yu ya es Nivel Rey. Asiste a reunión de la Alianza."
+        },
+        {
+          "chapterId": "cap175",
+          "chapterNumber": 175,
+          "note": "Pregunta al Gran Sabio sobre técnica sable superior a oro. Se entera de la del Emperador del Hacha de Guerra."
+        },
+        {
+          "chapterId": "cap176",
+          "chapterNumber": 176,
+          "note": "Comercia 2 Píldoras Dios Forjador por 24 tesoros dominio cerebral. Cultiva 8 días: dominio cerebral 16.5%. Parte a grieta 5 estrellas."
+        },
+        {
+          "chapterId": "cap177",
+          "chapterNumber": 177,
+          "note": "Llega a base grieta 5 estrellas. Copia y fusiona Velocidad Arcano. Se reencuentra con Wang Yan y Santa Luna Poniente."
+        },
+        {
+          "chapterId": "cap178",
+          "chapterNumber": 178,
+          "note": "Copia Ojo Sangre Medio del Emperador Brujo. Cultiva 1 mes: dominio cerebral 31%, 12400 dragones. Misión Área 13 con Feng Xue Tu."
         }
       ]
     },
@@ -1316,6 +1378,26 @@
           "chapterId": "cap161",
           "chapterNumber": 161,
           "note": "Registrada en Super Base Zhonghai. Forja base perfecta con 5 tesoros en 5 días. Obtiene velocidad medio y defensa medio. Talentos: Cultivo Estrella Matutina, Hielo Supremo, Velocidad Medio, Defensa Medio."
+        },
+        {
+          "chapterId": "cap169",
+          "chapterNumber": 169,
+          "note": "Mencionada, Ye Tian planea mejorar su cultivo."
+        },
+        {
+          "chapterId": "cap172",
+          "chapterNumber": 172,
+          "note": "Guía el cultivo de Lin Ze. Crea sistema de puntos con Ye Tian."
+        },
+        {
+          "chapterId": "cap174",
+          "chapterNumber": 174,
+          "note": "Ascendió a Nivel Rey. Administra el Pabellón Celestial."
+        },
+        {
+          "chapterId": "cap176",
+          "chapterNumber": 176,
+          "note": "Ye Tian le da instrucciones antes de partir a la grieta."
         }
       ]
     },
@@ -2201,6 +2283,16 @@
           "chapterId": "cap40",
           "chapterNumber": 40,
           "note": "Reporta sus hallazgos a Lin Wanli. Discuten sobre Ye Tian y las amenazas externas a la Base Linhai."
+        },
+        {
+          "chapterId": "cap171",
+          "chapterNumber": 171,
+          "note": "Presente en el Pabellón Celestial. Interactúa con Ye Tian."
+        },
+        {
+          "chapterId": "cap172",
+          "chapterNumber": 172,
+          "note": "Presente en la asignación de puntos de contribución."
         }
       ]
     },
@@ -2739,6 +2831,11 @@
           "chapterId": "cap159",
           "chapterNumber": 159,
           "note": "Fuerza mejorada a pseudo-arcano tras comprender un misterio. Comparable a rey 4 estrellas. Rechaza acompañar a Ye Tian a Base Mar Demonio, prefiere seguir cultivando. Golpeado al no poder resistir la presencia de Ye Tian (Nivel Santo)."
+        },
+        {
+          "chapterId": "cap169",
+          "chapterNumber": 169,
+          "note": "Recibe Perla del Dragón de Agua, entra en hibernación para transformarse."
         }
       ]
     },
@@ -3399,6 +3496,11 @@
           "chapterId": "cap158",
           "chapterNumber": 158,
           "note": "Visita a Ye Tian al volver del templo. Recibe la Píldora Dios Forjador. Nota que Ye Tian ascendió a Nivel Santo y se disculpa."
+        },
+        {
+          "chapterId": "cap177",
+          "chapterNumber": 177,
+          "note": "Se reencuentra con Ye Tian en base de grieta 5 estrellas. Preocupada por la guerra."
         }
       ]
     },
@@ -3624,6 +3726,26 @@
           "chapterId": "cap157",
           "chapterNumber": 157,
           "note": "Sale del templo con talento Arcano de Fuerza. Confronta a Sun Xinghe por matar reyes de Zhonghai. Respaldado por el Emperador de Sangre Guerrera."
+        },
+        {
+          "chapterId": "cap172",
+          "chapterNumber": 172,
+          "note": "Desafía la Torre, Ye Tian recibe la noticia vía discípulos de Tiange."
+        },
+        {
+          "chapterId": "cap173",
+          "chapterNumber": 173,
+          "note": "Obtiene rango 37 Lista Santos (capa 11). Ye Tian copia su Fuerza Arcano y Velocidad."
+        },
+        {
+          "chapterId": "cap174",
+          "chapterNumber": 174,
+          "note": "Mencionado, Ye Tian copió sus talentos."
+        },
+        {
+          "chapterId": "cap178",
+          "chapterNumber": 178,
+          "note": "Compañero de misión de Ye Tian en Área 13."
         }
       ]
     },
@@ -3722,6 +3844,16 @@
           "chapterId": "cap158",
           "chapterNumber": 158,
           "note": "Acompaña a Ye Tian de vuelta a la Super Base Zhonghai. Se separan al llegar."
+        },
+        {
+          "chapterId": "cap177",
+          "chapterNumber": 177,
+          "note": "Se reencuentra con Ye Tian en base grieta 5 estrellas."
+        },
+        {
+          "chapterId": "cap178",
+          "chapterNumber": 178,
+          "note": "Informa a Ye Tian sobre detalles de la batalla contra la bestia con talento alma."
         }
       ]
     },
@@ -3775,6 +3907,11 @@
           "chapterId": "cap168",
           "chapterNumber": 168,
           "note": "Explica las nuevas reglas de puntos para nivel santo: capa 8=10, capa 9=20, capa 10=40, capa 11=80, capa 12=160..."
+        },
+        {
+          "chapterId": "cap169",
+          "chapterNumber": 169,
+          "note": "Explica nuevas reglas de puntos para nivel santo en la Torre."
         }
       ]
     },
@@ -4026,6 +4163,332 @@
           "chapterId": "cap159",
           "chapterNumber": 159,
           "note": "Rango 23 Lista de Reyes. Intercambia Médula Fría de Tianlin por 2 técnicas Yuan Li 1ª clase de Ye Tian. Reconoce que las técnicas provienen del espacio del templo."
+        }
+      ]
+    },
+    {
+      "id": "lin-ze-lunan",
+      "name": "Lin Ze",
+      "nameChinese": "林泽",
+      "role": "secundario",
+      "bio": "Joven de 16 años del área civil de Lunan en la Super Base Zhonghai. Huérfano que trabaja para mantener a su hermana menor Lin Yiyi, quien está gravemente enferma. Talento de cultivo inferior (segundo nivel), pero posee talentos ocultos extraordinarios: velocidad Supremo, espada Supremo y fuerza Medio. Solo ha cultivado el método básico de forja corporal y apenas alcanzó el nivel de artista marcial. Es rescatado por Ye Tian cuando Zhang Long intenta robarle la medicina de su hermana.",
+      "info": {
+        "edad": "16 años",
+        "genero": "Masculino",
+        "reino": "Artista Marcial (recién alcanzado)",
+        "talentoCultivo": "Inferior (segundo nivel)",
+        "afiliacion": "Civil — Área de Lunan",
+        "ubicacion": "Área civil de Lunan, Super Base Zhonghai",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 170"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Velocidad",
+          "type": "speed",
+          "rank": "Supremo",
+          "status": "oculto",
+          "description": "Talento de velocidad supremo, no descubierto por él mismo ni por nadie más hasta que Ye Tian lo ve.",
+          "acquiredChapter": 170
+        },
+        {
+          "name": "Talento de Espada",
+          "type": "sword",
+          "rank": "Supremo",
+          "status": "oculto",
+          "description": "Talento de espada supremo, talento oculto que no ha podido desarrollar.",
+          "acquiredChapter": 170
+        },
+        {
+          "name": "Talento de Fuerza",
+          "type": "strength",
+          "rank": "Medio",
+          "status": "oculto",
+          "description": "Talento de fuerza medio, no desarrollado.",
+          "acquiredChapter": 170
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "lin-yiyi",
+          "characterName": "Lin Yiyi",
+          "type": "Hermana menor"
+        },
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Salvador / futuro líder"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap170",
+          "chapterNumber": 170,
+          "note": "Presentado como joven civil trabajador del área de Lunan. Zhang Long intenta robarle la medicina de su hermana. Ye Tian interviene y lo salva. Acompaña a Ye Tian a su casa.",
+          "statsSnapshot": {
+            "reino": "Artista Marcial",
+            "talento": "Cultivo Inferior / Velocidad Supremo / Espada Supremo / Fuerza Medio",
+            "fuerza": "Débil",
+            "ubicacion": "Área civil de Lunan"
+          }
+        },
+        {
+          "chapterId": "cap171",
+          "chapterNumber": 171,
+          "note": "Ye Tian descubre sus talentos. Lo recluta para el Pabellón Celestial."
+        },
+        {
+          "chapterId": "cap172",
+          "chapterNumber": 172,
+          "note": "Recibe Píldora Extraordinaria (cultivo sube a Extraordinario)."
+        }
+      ]
+    },
+    {
+      "id": "lin-yiyi",
+      "name": "Lin Yiyi",
+      "nameChinese": "林一一",
+      "role": "secundario",
+      "bio": "Hermana menor de Lin Ze, tiene 13 años y está gravemente enferma. Posee talentos extraordinarios que aún no ha podido desarrollar: cultivo Estrella Matutina, formación Estrella Matutina, velocidad Supremo y espada Alto. Vive en el área civil de Lunan de la Super Base Zhonghai.",
+      "info": {
+        "edad": "13 años",
+        "genero": "Femenino",
+        "reino": "Civil (sin cultivar)",
+        "talentoCultivo": "Estrella Matutina",
+        "afiliacion": "Civil — Área de Lunan",
+        "ubicacion": "Área civil de Lunan, Super Base Zhonghai",
+        "estado": "Enferma",
+        "primerAparicion": "Capítulo 170"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Cultivo",
+          "type": "cultivation",
+          "rank": "Estrella Matutina",
+          "status": "oculto",
+          "description": "Talento de cultivo Estrella Matutina, no descubierto aún.",
+          "acquiredChapter": 170
+        },
+        {
+          "name": "Talento de Formación",
+          "type": "formation",
+          "rank": "Estrella Matutina",
+          "status": "oculto",
+          "description": "Talento de formación Estrella Matutina, no descubierto aún.",
+          "acquiredChapter": 170
+        },
+        {
+          "name": "Talento de Velocidad",
+          "type": "speed",
+          "rank": "Supremo",
+          "status": "oculto",
+          "description": "Talento de velocidad supremo, no desarrollado.",
+          "acquiredChapter": 170
+        },
+        {
+          "name": "Talento de Espada",
+          "type": "sword",
+          "rank": "Alto",
+          "status": "oculto",
+          "description": "Talento de espada alto, no desarrollado.",
+          "acquiredChapter": 170
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "lin-ze-lunan",
+          "characterName": "Lin Ze",
+          "type": "Hermano mayor"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap170",
+          "chapterNumber": 170,
+          "note": "Mencionada como la hermana enferma de Lin Ze. Ye Tian va a su casa para verla y curarla.",
+          "statsSnapshot": {
+            "reino": "Civil (sin cultivar)",
+            "talento": "Cultivo Estrella Matutina / Formación Estrella Matutina / Velocidad Supremo / Espada Alto",
+            "fuerza": "Sin entrenar",
+            "ubicacion": "Área civil de Lunan"
+          }
+        },
+        {
+          "chapterId": "cap171",
+          "chapterNumber": 171,
+          "note": "Ye Tian la cura y descubre su talento Estrella Matutina. La recluta para Tiange."
+        },
+        {
+          "chapterId": "cap172",
+          "chapterNumber": 172,
+          "note": "Necesita nutrición durante medio año antes de cultivar."
+        },
+        {
+          "chapterId": "cap173",
+          "chapterNumber": 173,
+          "note": "Mencionada como futura maestra de formación de Tiange."
+        }
+      ]
+    },
+    {
+      "id": "zhang-long",
+      "name": "Zhang Long",
+      "nameChinese": "张龙",
+      "role": "mencion",
+      "bio": "Joven de 17 años del área civil de Lunan en la Super Base Zhonghai. Artista marcial con talento de cultivo medio. Abusón que intimida a los artistas marciales más débiles, incluyendo a Lin Ze. Intenta robar el paquete de medicina de Lin Ze, pero es detenido por Ye Tian y huye aterrorizado.",
+      "info": {
+        "edad": "17 años",
+        "genero": "Masculino",
+        "reino": "Artista Marcial",
+        "talentoCultivo": "Medio",
+        "afiliacion": "Civil — Área de Lunan",
+        "ubicacion": "Área civil de Lunan, Super Base Zhonghai",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 170"
+      },
+      "abilities": [],
+      "relationships": [
+        {
+          "characterId": "lin-ze-lunan",
+          "characterName": "Lin Ze",
+          "type": "Víctima de bullying"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap170",
+          "chapterNumber": 170,
+          "note": "Intenta robar el paquete de medicina de Lin Ze. Es paralizado por el aura de Ye Tian, cae de rodillas aterrorizado y huye."
+        }
+      ]
+    },
+    {
+      "id": "gran-sabio-sable-loco",
+      "name": "Gran Sabio del Sable Loco",
+      "role": "secundario",
+      "bio": "Rango 37 en la Lista de Santos. Nivel Gran Santo. Líder de la Alianza de Cultivadores Independientes. Intercambió el Corte Instantáneo por el Dominio de Sable de la Desolación Celestial con Ye Tian.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Nivel Santo (Gran Santo)",
+        "afiliacion": "Alianza de Cultivadores Independientes",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 158"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap158",
+          "chapterNumber": 158,
+          "note": "Ye Tian encuentra su anuncio de comercio de Corte Instantáneo."
+        },
+        {
+          "chapterId": "cap159",
+          "chapterNumber": 159,
+          "note": "Intercambia Corte Instantáneo por Dominio de Sable de la Desolación Celestial con Ye Tian."
+        },
+        {
+          "chapterId": "cap174",
+          "chapterNumber": 174,
+          "note": "Ye Tian le pregunta sobre técnica de sable superior a nivel oro."
+        },
+        {
+          "chapterId": "cap175",
+          "chapterNumber": 175,
+          "note": "Informa a Ye Tian sobre la técnica del Emperador del Hacha de Guerra."
+        }
+      ]
+    },
+    {
+      "id": "emperador-kurong",
+      "name": "Emperador Kurong",
+      "role": "mencion",
+      "bio": "9° de los 36 Emperadores. Segunda persona de la Alianza de Cultivadores Independientes. Convoca reunión para anunciar la caída del Emperador Tiranosauro.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Emperador (9° de 36)",
+        "afiliacion": "Alianza de Cultivadores Independientes",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 174"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap174",
+          "chapterNumber": 174,
+          "note": "Convoca reunión y anuncia la caída del Emperador Tiranosauro."
+        },
+        {
+          "chapterId": "cap175",
+          "chapterNumber": 175,
+          "note": "Explica detalles sobre el talento de ataque al alma y ordena movilización a la grieta 5 estrellas."
+        }
+      ]
+    },
+    {
+      "id": "qin-shan",
+      "name": "Qin Shan",
+      "role": "mencion",
+      "bio": "Emperador de la Secta Qin. Comercia 24 tesoros de dominio cerebral con Ye Tian a cambio de 2 Píldoras del Dios Forjador para sus hijos.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Emperador",
+        "afiliacion": "Secta Qin",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 176"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap176",
+          "chapterNumber": 176,
+          "note": "Comercia 24 tesoros de dominio cerebral por 2 Píldoras del Dios Forjador."
+        }
+      ]
+    },
+    {
+      "id": "zhao-hua",
+      "name": "Zhao Hua",
+      "role": "mencion",
+      "bio": "Miembro del Pabellón Celestial. Talento de cultivo Estrella Matutina. En 3 meses alcanzó peak Artista Marcial Élite.",
+      "info": {
+        "genero": "Desconocido",
+        "reino": "Artista Marcial Élite (peak)",
+        "afiliacion": "Pabellón Celestial (Tiange)",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 174"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap174",
+          "chapterNumber": 174,
+          "note": "Mencionado como uno de los 3 talentos Estrella Matutina, alcanzó peak Artista Marcial Élite en 3 meses."
+        }
+      ]
+    },
+    {
+      "id": "sun-yu",
+      "name": "Sun Yu",
+      "role": "mencion",
+      "bio": "Miembro del Pabellón Celestial. Talento de cultivo Estrella Matutina. En 3 meses alcanzó peak Artista Marcial Élite.",
+      "info": {
+        "genero": "Desconocido",
+        "reino": "Artista Marcial Élite (peak)",
+        "afiliacion": "Pabellón Celestial (Tiange)",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 174"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap174",
+          "chapterNumber": 174,
+          "note": "Mencionado como uno de los 3 talentos Estrella Matutina, alcanzó peak Artista Marcial Élite en 3 meses."
         }
       ]
     }

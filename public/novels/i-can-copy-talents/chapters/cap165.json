@@ -24,7 +24,7 @@
     "edad": "~17 años",
     "talento": "25+ talentos",
     "talentoClass": "gold",
-    "fuerza": "200.000 poder de elefante",
+    "fuerza": "200.000 elefantes",
     "ubicacion": "Grieta Espacial — Confín de la Tierra",
     "golpeMax": "~480 poder de dragón",
     "abilities": [
@@ -188,7 +188,8 @@
         "tipo": "copy",
         "estado": ""
       }
-    ]
+    ],
+    "dominioCerebral": "2%"
   },
   "characters": [
     "ye-tian",

@@ -48,6 +48,7 @@ export interface CharacterStats {
   talentos?: TalentStat[];
   edad?: string;
   golpeMax?: string;
+  dominioCerebral?: string;
 }
 
 export interface TalentStat {

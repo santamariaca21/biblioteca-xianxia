@@ -18,7 +18,7 @@
     "edad": "~17 años",
     "talento": "27+ talentos",
     "talentoClass": "gold",
-    "fuerza": "200.000 poder de elefante (base)",
+    "fuerza": "200.000 elefantes",
     "ubicacion": "Grieta Espacial — Base Mar Demonio",
     "golpeMax": "~480 poder de dragón (estimado x2)",
     "abilities": [
@@ -190,7 +190,8 @@
         "tipo": "copy",
         "estado": ""
       }
-    ]
+    ],
+    "dominioCerebral": "2%"
   },
   "characters": [
     "ye-tian"

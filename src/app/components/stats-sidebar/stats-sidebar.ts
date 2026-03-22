@@ -33,6 +33,12 @@ import { IconComponent } from '../icon/icon';
                 <span class="stat-label">Fuerza Base</span>
                 <span class="stat-value">{{ ch.stats.fuerza }}</span>
               </div>
+              @if (ch.stats.dominioCerebral) {
+                <div class="stat-row">
+                  <span class="stat-label">Dominio Cerebral</span>
+                  <span class="stat-value teal">{{ ch.stats.dominioCerebral }}</span>
+                </div>
+              }
               @if (ch.stats.golpeMax) {
                 <div class="stat-row">
                   <span class="stat-label">Golpe Máximo</span>
