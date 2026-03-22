@@ -1658,6 +1658,81 @@
           "chapterId": "cap265",
           "chapterNumber": 265,
           "note": "Aparece en: La Estela Espada Azul Celeste — Copia del Sable Estrella Matutina"
+        },
+        {
+          "chapterId": "cap294",
+          "chapterNumber": 294,
+          "note": "Aparece en: La Evaluación de Genios de la Estrella Yinyu"
+        },
+        {
+          "chapterId": "cap295",
+          "chapterNumber": 295,
+          "note": "Aparece en: Ciudad Gigante Qin Feng — La Estrella Yinyu"
+        },
+        {
+          "chapterId": "cap296",
+          "chapterNumber": 296,
+          "note": "Aparece en: La Torre de Comercio y la Torre de Combate"
+        },
+        {
+          "chapterId": "cap297",
+          "chapterNumber": 297,
+          "note": "Aparece en: La Torre de Batalla — Talento Sin Superior"
+        },
+        {
+          "chapterId": "cap298",
+          "chapterNumber": 298,
+          "note": "Aparece en: La Emperatriz de Qingyi — Apuesta Millonaria"
+        },
+        {
+          "chapterId": "cap299",
+          "chapterNumber": 299,
+          "note": "Aparece en: El Desafío de las 20 Victorias — Segundo Talento Sin Superior"
+        },
+        {
+          "chapterId": "cap300",
+          "chapterNumber": 300,
+          "note": "Aparece en: Talento de Cultivo Nivel Páramo"
+        },
+        {
+          "chapterId": "cap301",
+          "chapterNumber": 301,
+          "note": "Aparece en: Emperador Oso Gigante — Defensa Nivel Divino"
+        },
+        {
+          "chapterId": "cap302",
+          "chapterNumber": 302,
+          "note": "Aparece en: Bestia Qilin de Oro Negro"
+        },
+        {
+          "chapterId": "cap303",
+          "chapterNumber": 303,
+          "note": "Aparece en: La Técnica Secreta de Defensa de Yuan Li de Siete Estrellas"
+        },
+        {
+          "chapterId": "cap304",
+          "chapterNumber": 304,
+          "note": "Aparece en: Ilusión en el Abismo Oscuro — La Bestia Qilin de Oro Negro"
+        },
+        {
+          "chapterId": "cap305",
+          "chapterNumber": 305,
+          "note": "Aparece en: Captura de la Bestia Qilin — La Red Sella-Dioses"
+        },
+        {
+          "chapterId": "cap306",
+          "chapterNumber": 306,
+          "note": "Aparece en: Talento Aurora — El Decimotercer Límite Físico"
+        },
+        {
+          "chapterId": "cap307",
+          "chapterNumber": 307,
+          "note": "Aparece en: La Esfera Espacial — El Reino de los Objetos Extraños"
+        },
+        {
+          "chapterId": "cap308",
+          "chapterNumber": 308,
+          "note": "Aparece en: La Entrada al Reino de los Objetos Extraños"
         }
       ]
     },
@@ -6314,6 +6389,249 @@
           "chapterId": "cap233",
           "chapterNumber": 233,
           "note": "Aparece en: Talento de Comprensión — ¡Supremo en un Día!"
+        }
+      ]
+    },
+    {
+      "id": "qin-zixuan",
+      "name": "Qin Zixuan",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 297.",
+      "info": {
+        "primerAparicion": "Capítulo 297"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap297",
+          "chapterNumber": 297,
+          "note": "Aparece en: La Torre de Batalla — Talento Sin Superior"
+        },
+        {
+          "chapterId": "cap298",
+          "chapterNumber": 298,
+          "note": "Aparece en: La Emperatriz de Qingyi — Apuesta Millonaria"
+        },
+        {
+          "chapterId": "cap299",
+          "chapterNumber": 299,
+          "note": "Aparece en: El Desafío de las 20 Victorias — Segundo Talento Sin Superior"
+        },
+        {
+          "chapterId": "cap300",
+          "chapterNumber": 300,
+          "note": "Aparece en: Talento de Cultivo Nivel Páramo"
+        },
+        {
+          "chapterId": "cap301",
+          "chapterNumber": 301,
+          "note": "Aparece en: Emperador Oso Gigante — Defensa Nivel Divino"
+        },
+        {
+          "chapterId": "cap302",
+          "chapterNumber": 302,
+          "note": "Aparece en: Bestia Qilin de Oro Negro"
+        },
+        {
+          "chapterId": "cap303",
+          "chapterNumber": 303,
+          "note": "Aparece en: La Técnica Secreta de Defensa de Yuan Li de Siete Estrellas"
+        },
+        {
+          "chapterId": "cap304",
+          "chapterNumber": 304,
+          "note": "Aparece en: Ilusión en el Abismo Oscuro — La Bestia Qilin de Oro Negro"
+        },
+        {
+          "chapterId": "cap305",
+          "chapterNumber": 305,
+          "note": "Aparece en: Captura de la Bestia Qilin — La Red Sella-Dioses"
+        },
+        {
+          "chapterId": "cap306",
+          "chapterNumber": 306,
+          "note": "Aparece en: Talento Aurora — El Decimotercer Límite Físico"
+        },
+        {
+          "chapterId": "cap307",
+          "chapterNumber": 307,
+          "note": "Aparece en: La Esfera Espacial — El Reino de los Objetos Extraños"
+        },
+        {
+          "chapterId": "cap308",
+          "chapterNumber": 308,
+          "note": "Aparece en: La Entrada al Reino de los Objetos Extraños"
+        }
+      ]
+    },
+    {
+      "id": "liu-qingyi",
+      "name": "Liu Qingyi",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 298.",
+      "info": {
+        "primerAparicion": "Capítulo 298"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap298",
+          "chapterNumber": 298,
+          "note": "Aparece en: La Emperatriz de Qingyi — Apuesta Millonaria"
+        },
+        {
+          "chapterId": "cap299",
+          "chapterNumber": 299,
+          "note": "Aparece en: El Desafío de las 20 Victorias — Segundo Talento Sin Superior"
+        },
+        {
+          "chapterId": "cap300",
+          "chapterNumber": 300,
+          "note": "Aparece en: Talento de Cultivo Nivel Páramo"
+        },
+        {
+          "chapterId": "cap301",
+          "chapterNumber": 301,
+          "note": "Aparece en: Emperador Oso Gigante — Defensa Nivel Divino"
+        },
+        {
+          "chapterId": "cap302",
+          "chapterNumber": 302,
+          "note": "Aparece en: Bestia Qilin de Oro Negro"
+        },
+        {
+          "chapterId": "cap303",
+          "chapterNumber": 303,
+          "note": "Aparece en: La Técnica Secreta de Defensa de Yuan Li de Siete Estrellas"
+        },
+        {
+          "chapterId": "cap304",
+          "chapterNumber": 304,
+          "note": "Aparece en: Ilusión en el Abismo Oscuro — La Bestia Qilin de Oro Negro"
+        },
+        {
+          "chapterId": "cap305",
+          "chapterNumber": 305,
+          "note": "Aparece en: Captura de la Bestia Qilin — La Red Sella-Dioses"
+        },
+        {
+          "chapterId": "cap306",
+          "chapterNumber": 306,
+          "note": "Aparece en: Talento Aurora — El Decimotercer Límite Físico"
+        },
+        {
+          "chapterId": "cap307",
+          "chapterNumber": 307,
+          "note": "Aparece en: La Esfera Espacial — El Reino de los Objetos Extraños"
+        },
+        {
+          "chapterId": "cap308",
+          "chapterNumber": 308,
+          "note": "Aparece en: La Entrada al Reino de los Objetos Extraños"
+        }
+      ]
+    },
+    {
+      "id": "pequena-chica-demonio-traviesa",
+      "name": "Pequena Chica Demonio Traviesa",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 296.",
+      "info": {
+        "primerAparicion": "Capítulo 296"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap296",
+          "chapterNumber": 296,
+          "note": "Aparece en: La Torre de Comercio y la Torre de Combate"
+        }
+      ]
+    },
+    {
+      "id": "emperador-espada-sin-par",
+      "name": "Emperador Espada Sin Par",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 308.",
+      "info": {
+        "primerAparicion": "Capítulo 308"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap308",
+          "chapterNumber": 308,
+          "note": "Aparece en: La Entrada al Reino de los Objetos Extraños"
+        }
+      ]
+    },
+    {
+      "id": "yang-peng",
+      "name": "Yang Peng",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 294.",
+      "info": {
+        "primerAparicion": "Capítulo 294"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap294",
+          "chapterNumber": 294,
+          "note": "Aparece en: La Evaluación de Genios de la Estrella Yinyu"
+        },
+        {
+          "chapterId": "cap295",
+          "chapterNumber": 295,
+          "note": "Aparece en: Ciudad Gigante Qin Feng — La Estrella Yinyu"
+        }
+      ]
+    },
+    {
+      "id": "emperador-jinyang",
+      "name": "Emperador Jinyang",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 308.",
+      "info": {
+        "primerAparicion": "Capítulo 308"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap308",
+          "chapterNumber": 308,
+          "note": "Aparece en: La Entrada al Reino de los Objetos Extraños"
+        }
+      ]
+    },
+    {
+      "id": "lin-chong",
+      "name": "Lin Chong",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 301.",
+      "info": {
+        "primerAparicion": "Capítulo 301"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap301",
+          "chapterNumber": 301,
+          "note": "Aparece en: Emperador Oso Gigante — Defensa Nivel Divino"
         }
       ]
     }
