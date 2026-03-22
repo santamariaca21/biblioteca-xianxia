@@ -1,4 +1,4 @@
-import { Component, input, output } from '@angular/core';
+import { Component, input, output, effect, ElementRef, inject } from '@angular/core';
 
 @Component({
   selector: 'app-chapter-sidebar',
@@ -19,6 +19,7 @@ import { Component, input, output } from '@angular/core';
           <div
             class="chapter-item"
             [class.active]="activeChapter() === ch.id"
+            [attr.data-chapter]="ch.id"
             (click)="chapterSelected.emit(ch.id)"
           >
             <span class="chapter-num">Cap. {{ ch.number }}</span>
@@ -102,8 +103,24 @@ import { Component, input, output } from '@angular/core';
   `],
 })
 export class ChapterSidebarComponent {
+  private el = inject(ElementRef);
   chapters = input<{ id: string; number: number; title: string }[]>([]);
   activeChapter = input('portada');
   mobileOpen = input(false);
   chapterSelected = output<string>();
+
+  constructor() {
+    effect(() => {
+      const active = this.activeChapter();
+      const chapters = this.chapters();
+      if (active && chapters.length > 0) {
+        setTimeout(() => {
+          const el = this.el.nativeElement.querySelector('.chapter-item.active');
+          if (el) {
+            el.scrollIntoView({ block: 'center', behavior: 'instant' });
+          }
+        }, 100);
+      }
+    });
+  }
 }
