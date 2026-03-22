@@ -221,21 +221,56 @@ python3 -c "import json,re; d=json.load(open('capX.json')); print(len(re.findall
 ```
 Si la diferencia es >15%, el capítulo necesita revisión.
 
-## Proceso para Agregar un Nuevo Capítulo
+## Proceso de Traducción Rápida (Pipeline en 2 fases)
 
-1. Obtener el texto en inglés de la fuente usando `curl` (ver sección anterior).
+Usar el comando `/traducir-rapido` para ejecutar el pipeline completo.
+
+### Fase 1: Traducción Pura (agentes en paralelo)
+- 5 agentes en paralelo, cada uno traduce 2-3 capítulos = 10-15 caps por bloque
+- Los agentes SOLO se encargan de:
+  - Leer source → traducir párrafo por párrafo → escribir JSON con content + title + characters
+  - Actualizar stats básicos (reino, fuerza, ubicacion, edad, golpeMax) según eventos del capítulo
+  - NO necesitan mantener el array completo de talentos (eso lo hace el post-procesamiento)
+
+### Fase 2: Post-procesamiento automático (script)
+Después de que los agentes terminen:
+1. **Copiar talentos**: Del último capítulo con talentos correctos al array de los nuevos
+2. **Detectar cambios**: Buscar en el contenido traducido palabras como "copiar", "fusionar", "talento", "nivel" para detectar cambios
+3. **Verificar fidelidad**: Script automático (mínimo 90%)
+4. **Actualizar metadata**: novel.json (chapters, totalChapters, worldInfo si hay nueva info), index.json
+5. **Validar personajes**: Cruzar characters[] de cada capítulo con characters.json
+6. **Crear personajes faltantes**: Agregar nuevos con bio mínima + appearance
+7. **Actualizar bios**: Cada 15 caps, actualizar las bios de personajes principales
+
+### Pipeline (solapamiento)
+- Mientras se hace la Fase 2 del bloque actual, se puede lanzar la Fase 1 del siguiente bloque
+- Esto duplica la velocidad efectiva
+
+### Checklist por bloque
+- [ ] Fidelidad 90%+ en todos los capítulos
+- [ ] Talentos: array completo con todos los acumulados (Espacio y Tiempo separados)
+- [ ] Personajes: 0 problemas en validación cruzada
+- [ ] Stats: edad, golpeMax, fuerza, reino actualizados
+- [ ] Metadata: novel.json y index.json actualizados
+- [ ] Info del mundo: realms, talentRanks, baseInfoProgressive si hay nueva info
+- [ ] Build: `ng build` exitoso
+- [ ] Commit + push
+
+## Proceso Manual (capítulo individual)
+
+Si se necesita traducir un capítulo individual:
+1. Obtener el texto en inglés de la fuente usando `curl` (ver sección de Obtención del Texto Fuente).
 2. Traducir siguiendo las reglas del glosario y formato. **Párrafo por párrafo, sin omitir.**
 3. Crear `capX.json` con:
    - `content`: HTML del capítulo traducido
    - `talents`: talentos descubiertos/mencionados
-   - `stats`: estado de Ye Tian al final del capítulo
+   - `stats`: estado de Ye Tian al final del capítulo (incluyendo array `talentos` completo, `edad`, `golpeMax`)
    - `characters`: array de IDs de personajes que aparecen
 4. Actualizar `novel.json`:
    - Agregar el ID del capítulo al array `chapters`
-   - **Si se revelan nuevos reinos/niveles**: actualizar `realms` (ej: Gran Maestro, Nivel Rey)
-   - **Si se revelan nuevos rangos de talento**: actualizar `talentRanks` (ej: Extraordinario, Estrella Matutina)
-   - **Si cambia la base/ubicación principal**: actualizar `baseInfo` (ej: Linhai → Mar Demonio)
-   - **Si se revela info del mundo**: actualizar `worldInfo` (ej: reinos secretos, Pabellón Marcial)
+   - **Si se revelan nuevos reinos/niveles**: actualizar `realms` con `revealedAt`
+   - **Si se revelan nuevos rangos de talento**: actualizar `talentRanks` con `revealedAt`
+   - **Si cambia la base/ubicación**: actualizar `baseInfoProgressive` con `revealedAt`/`replacedAt`
 5. Actualizar `characters.json`:
    - Agregar personajes nuevos con ficha wiki completa (info, abilities, relationships)
    - Agregar `chapterAppearances` a personajes existentes
@@ -243,7 +278,7 @@ Si la diferencia es >15%, el capítulo necesita revisión.
    - Actualizar `bio` para incluir lo nuevo revelado
 6. Actualizar `public/novels/index.json` con el nuevo `totalChapters`.
 7. Verificar con `ng build` que compila correctamente.
-8. **Cada 10-20 capítulos**: revisar que `novel.json` refleje toda la info revelada hasta ese punto.
+8. **Cada 15 capítulos**: revisar que `novel.json` refleje toda la info revelada hasta ese punto.
 
 ## Proceso para Agregar una Nueva Novela
 
