@@ -449,8 +449,9 @@
   position: sticky;
   top: 56px;
   z-index: 90;
-  background: #0f1218;
-  border-bottom: 1px solid #1e2230;
+  background: var(--t-card, #0f1218);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--t-border, #1e2230);
   padding: 0.5rem 1rem;
   align-items: center;
   justify-content: space-between;
@@ -458,8 +459,8 @@
 
 .mobile-btn {
   background: none;
-  border: 1px solid #1e2230;
-  color: #8a8070;
+  border: 1px solid var(--t-border, #1e2230);
+  color: var(--t-dim, #8a8070);
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
   font-size: 0.75rem;

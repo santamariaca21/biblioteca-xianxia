@@ -20,7 +20,7 @@ import { IconComponent } from '../icon/icon';
   `,
   styles: [`
     .site-header {
-      background: linear-gradient(180deg, #060709 0%, transparent 100%);
+      background: #060709;
       border-bottom: 1px solid rgba(201,168,76,0.25);
       padding: 0 1.5rem;
       display: flex;
