@@ -1,4 +1,4 @@
-import { Component, inject, OnInit, signal, computed } from '@angular/core';
+import { Component, inject, OnInit, OnDestroy, signal, computed } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { NgStyle } from '@angular/common';
 import { NovelService } from '../../services/novel.service';
@@ -201,11 +201,13 @@ import { DomSanitizer } from '@angular/platform-browser';
   `,
   styleUrl: './reader.scss',
 })
-export class ReaderComponent implements OnInit {
+export class ReaderComponent implements OnInit, OnDestroy {
   private route = inject(ActivatedRoute);
   private novelService = inject(NovelService);
   private sanitizer = inject(DomSanitizer);
   settings = inject(SettingsService);
+  private scrollTimer: any = null;
+  private scrollHandler = () => this.onScroll();
 
   novelId = '';
   novel = signal<Novel | null>(null);
@@ -293,6 +295,10 @@ export class ReaderComponent implements OnInit {
     return `bx-chapter-${this.novelId}`;
   }
 
+  private get scrollKey() {
+    return `bx-scroll-${this.novelId}`;
+  }
+
   ngOnInit() {
     this.novelId = this.route.snapshot.paramMap.get('novelId')!;
 
@@ -312,18 +318,54 @@ export class ReaderComponent implements OnInit {
             newMap.set(chId, ch);
             return newMap;
           });
+          // Restore scroll position after the active chapter loads
+          if (chId === this.activeChapterId.call(this)) {
+            this.restoreScrollPosition();
+          }
         });
       });
     });
     this.novelService.getCharacters(this.novelId).subscribe(data => {
       this.allCharacters.set(data.characters);
     });
+
+    window.addEventListener('scroll', this.scrollHandler, { passive: true });
+  }
+
+  ngOnDestroy() {
+    window.removeEventListener('scroll', this.scrollHandler);
+    if (this.scrollTimer) clearTimeout(this.scrollTimer);
+  }
+
+  private onScroll() {
+    if (this.scrollTimer) clearTimeout(this.scrollTimer);
+    this.scrollTimer = setTimeout(() => {
+      const chapterId = this.activeChapterId();
+      if (chapterId && chapterId !== 'portada') {
+        localStorage.setItem(this.scrollKey, JSON.stringify({
+          chapter: chapterId,
+          scrollY: window.scrollY
+        }));
+      }
+    }, 300);
+  }
+
+  private restoreScrollPosition() {
+    try {
+      const raw = localStorage.getItem(this.scrollKey);
+      if (!raw) return;
+      const { chapter, scrollY } = JSON.parse(raw);
+      if (chapter === this.activeChapterId() && scrollY > 0) {
+        setTimeout(() => window.scrollTo({ top: scrollY, behavior: 'instant' }), 200);
+      }
+    } catch {}
   }
 
   onChapterSelected(id: string) {
     this.activeChapterId.set(id);
     this.mobileSidebar.set(false);
     localStorage.setItem(this.storageKey, id);
+    localStorage.removeItem(this.scrollKey);
     this.scrollToTop();
   }
 
