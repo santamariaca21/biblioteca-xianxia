@@ -6,7 +6,7 @@
       "nameChinese": "叶天",
       "image": "ye-tian.png",
       "role": "protagonista",
-      "bio": "Protagonista transmigrado. Ascendió a Nivel Santo en el espacio del templo de ruinas antiguas. Talento de Cultivo Sol Naciente. 25+ talentos incluyendo Defensa Arcano (100x), Sable Estrella Matutina, Fuerza Pseudo-Arcano(90%). 240 poderes de dragón de ataque. Técnica oro: Dominio de Sable de la Desolación Celestial (15x grupal). Registrado como 'Tian Ye' en Super Base Zhonghai.",
+      "bio": "Protagonista transmigrado. Ascendió a Nivel Santo en el espacio del templo de ruinas antiguas. Talento de Cultivo Sol Naciente. 25+ talentos incluyendo Defensa Arcano (100x), Espacial Supremo (copiado de Di Ling), Sable Estrella Matutina (intención 100% Consumación), Fuerza Pseudo-Arcano(90%). 240 poderes de dragón de ataque. Técnica oro: Corte Instantáneo. Usó Sustitución de Muerte para simular su caída; todos (excepto Yun Mengli, Rey Sangre, Rey Qing) lo creen muerto. Maestro de formación de grado superior (120 patrones). De vuelta en Super Base Zhonghai.",
       "info": {
         "edad": "~17 años",
         "genero": "Masculino",
@@ -1016,6 +1016,86 @@
           "chapterId": "cap158",
           "chapterNumber": 158,
           "note": "Entrega Píldora Dios Forjador a Wang Yan. Ordena tesoros: sable superior, Técnica Yuan Li Cuerpo Dorado, 6 técnicas plata, 100+ frascos. Comercia en la Alianza por 80K piedras. Busca intercambiar técnica oro grupal por individual."
+        },
+        {
+          "chapterId": "cap159",
+          "chapterNumber": 159,
+          "note": "Intercambia Dominio Desolación Celestial por Corte Instantáneo con Gran Sabio del Sable Loco. Vende 6 plata + bronce por 100K piedras. Comercia 2 técnicas Yuan Li 1ª clase con Lu Feng por Médula Fría de Tianlin. Decide ir a Base Mar Demonio a buscar a Ye Yu."
+        },
+        {
+          "chapterId": "cap160",
+          "chapterNumber": 160,
+          "note": "Regresa a Base Mar Demonio. Da Píldora de Talento y Médula Fría de Tianlin a Ye Yu. Planea forjar base perfecta. Visita familia Yue: ancestro (rey) cayó. 12+ reyes caídos por la grieta espacial. Yun Mengli regresó a Mar Demonio."
+        },
+        {
+          "chapterId": "cap163",
+          "chapterNumber": 163,
+          "note": "Revela que Chen Fei es una Bestia Fantasma disfrazada. La mata de un dedo. Copia Sigilo Supremo y Camuflaje Supremo. Encuentra Perla del Dragón de Agua (atraía bestias marinas). Comienza cultivo con Técnica Alquimia Alma Cuerpo Dorado.",
+          "statsSnapshot": {
+            "reino": "Nivel Santo",
+            "fuerza": "100.000 poder de elefante",
+            "ubicacion": "Grieta Espacial — Base Mar Demonio"
+          }
+        },
+        {
+          "chapterId": "cap164",
+          "chapterNumber": 164,
+          "note": "Dominio cerebral sube a 2%. Fuerza corporal se duplica a 200.000 poder de elefante. Mientras tanto, King Kong y Estigia planean atacarlo desde el Mundo Bestias Simio-Dragón.",
+          "statsSnapshot": {
+            "reino": "Nivel Santo",
+            "fuerza": "200.000 poder de elefante",
+            "ubicacion": "Grieta Espacial — Base Mar Demonio"
+          }
+        },
+        {
+          "chapterId": "cap165",
+          "chapterNumber": 165,
+          "note": "3 bestias emperador desgarran grieta a pico 3 estrellas. King Kong lanza lanza dorada desde el otro lado. Ye Tian esquiva con Teletransportación. Lanza destruye formación nivel superior, maestros de formación mueren. Grieta queda en 3 estrellas ordinario. King Kong herido.",
+          "statsSnapshot": {
+            "reino": "Nivel Santo",
+            "fuerza": "200.000 poder de elefante",
+            "ubicacion": "Grieta Espacial — Confín de la Tierra"
+          }
+        },
+        {
+          "chapterId": "cap166",
+          "chapterNumber": 166,
+          "note": "Ye Tian se queda en la grieta. Cultiva 25 días (x3 aceleración). Dominio cerebral sube a 4%, fuerza a 400.000 elefantes. King Kong se recupera y convoca a Di Ling (Bestia Devoradora Cielos, emperador, talento espacial Supremo) para suprimir el espacio con Confinamiento Espacial.",
+          "statsSnapshot": {
+            "reino": "Nivel Santo",
+            "fuerza": "400.000 poder de elefante",
+            "ubicacion": "Grieta Espacial — Confín de la Tierra"
+          }
+        },
+        {
+          "chapterId": "cap167",
+          "chapterNumber": 167,
+          "note": "Di Ling usa Confinamiento Espacial. Ye Tian copia talento Espacial Supremo de la Bestia Devoradora de Cielos a 2000m. King Kong ataca con lanza dorada. Ye Tian usa Sustitución de Muerte para sobrevivir. Todos creen que ha muerto. King Kong obtiene bolsas vacías, pierde la Perla del Dragón de Agua.",
+          "statsSnapshot": {
+            "reino": "Nivel Santo",
+            "fuerza": "400.000 poder de elefante",
+            "ubicacion": "Cueva cerca de Base Mar Demonio (oculto)"
+          }
+        },
+        {
+          "chapterId": "cap168",
+          "chapterNumber": 168,
+          "note": "Fusiona Espacial Supremo. Revela secreto a Yun Mengli, Rey Sangre, Rey Qing. Regresa a Super Base Zhonghai, lleva a Ye Yu a pasear. En Torre Dios de la Guerra: maestro formación grado superior (200 patrones, 120 inscribibles) en 3 días. Intención de sable 100% (Consumación) en 15 días. Desafía capa 8: 10 puntos (reglas santo).",
+          "statsSnapshot": {
+            "reino": "Nivel Santo",
+            "fuerza": "400.000 poder de elefante",
+            "ubicacion": "Super Base Zhonghai — Torre del Dios de la Guerra"
+          }
+        },
+        {
+          "chapterId": "cap161",
+          "chapterNumber": 161,
+          "note": "Lleva a Ye Yu a Super Base Zhonghai. Comercia tesoros para reunir 5 elementos de base perfecta. Ye Yu forja base perfecta en 5 días. Consigue talentos velocidad y defensa medio para ella. Parte a Base Mar Demonio con clon de sustitución."
+        },
+        {
+          "chapterId": "cap162",
+          "chapterNumber": 162,
+          "note": "Llega a la grieta espacial, Yun Mengli lo recibe con respeto. Usa sentido divino y talento búsqueda tesoros sin encontrar el tesoro. Descubre que Chen Fei es una bestia disfrazada."
         }
       ]
     },
@@ -1025,14 +1105,14 @@
       "nameChinese": "叶雨",
       "image": "ye-yu.png",
       "role": "principal",
-      "bio": "Hermana menor de Ye Tian. Talento de Cultivo Medio (mejorado con Líquido del Centro de la Tierra) y Talento de Hielo Elemental (dormido). Empezó a cultivar en cap40 tras recibir suplementos. Domina el método de forja corporal. Tiene ~300 catties de fuerza (Aprendiz Marcial). Protegida por Xiao Jin y Xiao Zi. Estudia en la escuela de artes marciales de Base Mar Demonio.",
+      "bio": "Hermana menor de Ye Tian. Talento de Cultivo transformado a Estrella Matutina (Píldora de Talento, cap160) y Talento de Hielo Supremo (Médula Fría de Tianlin, cap160). Al límite de Gran Artista Marcial. Ye Tian planea forjarle una base perfecta antes de ascender a Gran Maestro. Protegida por Xiao Jin y Xiao Zi. Pronto será trasladada a Super Base Zhonghai.",
       "info": {
         "edad": "~15 años",
         "genero": "Femenino",
-        "reino": "Aprendiz Marcial",
-        "talentoCultivo": "Medio + Hielo Elemental (dormido)",
-        "afiliacion": "Escuela de Artes Marciales",
-        "ubicacion": "Base Mar Demonio (escuela de artes marciales)",
+        "reino": "Gran Artista Marcial (límite)",
+        "talentoCultivo": "Estrella Matutina + Hielo Supremo",
+        "afiliacion": "Base Mar Demonio → Super Base Zhonghai",
+        "ubicacion": "Base Mar Demonio",
         "estado": "Viva",
         "primerAparicion": "Capítulo 1"
       },
@@ -1040,17 +1120,18 @@
         {
           "name": "Talento de Cultivo",
           "type": "cultivation",
-          "rank": "Medio",
+          "rank": "Estrella Matutina",
           "status": "activo",
-          "description": "Mejorado de Inferior a Medio con Líquido del Centro de la Tierra (Cap. 13).",
+          "description": "Inferior → Medio (Líquido Centro Tierra, cap13) → Estrella Matutina (Píldora de Talento, cap160).",
           "acquiredChapter": 13
         },
         {
           "name": "Talento de Hielo",
           "type": "ice",
-          "rank": "Elemental",
-          "status": "dormido",
-          "description": "Rarísimo (uno entre diez mil). Aún sin despertar."
+          "rank": "Supremo",
+          "status": "activo",
+          "description": "Primario (dormido) → Supremo (Médula Fría de Tianlin, cap160).",
+          "acquiredChapter": 160
         }
       ],
       "relationships": [
@@ -1210,6 +1291,31 @@
           "chapterId": "cap132",
           "chapterNumber": 132,
           "note": "Mencionada en la despedida."
+        },
+        {
+          "chapterId": "cap160",
+          "chapterNumber": 160,
+          "note": "Ye Tian regresa a Base Mar Demonio. Ye Yu al límite de Gran Artista Marcial. Recibe Píldora de Talento (cultivo → Estrella Matutina) y Médula Fría de Tianlin (hielo → Supremo). Ye Tian le prohíbe impactar Gran Maestro hasta forjar base perfecta.",
+          "statsSnapshot": {
+            "reino": "Gran Artista Marcial (límite)",
+            "talento": "Cultivo Estrella Matutina + Hielo Supremo",
+            "ubicacion": "Base Mar Demonio"
+          }
+        },
+        {
+          "chapterId": "cap168",
+          "chapterNumber": 168,
+          "note": "Ye Tian la lleva a pasear por la Super Base Zhonghai durante unos días. Luego la deja cultivar mientras él va a la Torre del Dios de la Guerra.",
+          "statsSnapshot": {
+            "reino": "Gran Artista Marcial (límite)",
+            "talento": "Cultivo Estrella Matutina + Hielo Supremo",
+            "ubicacion": "Super Base Zhonghai"
+          }
+        },
+        {
+          "chapterId": "cap161",
+          "chapterNumber": 161,
+          "note": "Registrada en Super Base Zhonghai. Forja base perfecta con 5 tesoros en 5 días. Obtiene velocidad medio y defensa medio. Talentos: Cultivo Estrella Matutina, Hielo Supremo, Velocidad Medio, Defensa Medio."
         }
       ]
     },
@@ -1219,7 +1325,7 @@
       "nameChinese": "月灵",
       "image": "yue-ling.png",
       "role": "principal",
-      "bio": "Directora del Pabellón Marcial. Originalmente Artista Marcial Élite con talento medio. Tras obtener la Hierba de Talento del Espíritu de Fuego del reino secreto, su talento ascendió a Supremo y avanzó a Gran Artista Marcial etapa avanzada. Le debe la vida a Ye Tian (la rescató en el Lago de la Muerte). Aliada cercana que le proporciona información y lo invitó al reino secreto y a la reunión de reyes.",
+      "bio": "Directora del Pabellón Marcial. Originalmente Artista Marcial Élite con talento medio. Tras obtener la Hierba de Talento del Espíritu de Fuego del reino secreto, su talento ascendió a Supremo y avanzó a Gran Artista Marcial etapa avanzada. Le debe la vida a Ye Tian (la rescató en el Lago de la Muerte). Aliada cercana. Más madura y resuelta tras la marea de bestias. El ancestro de la familia Yue (único nivel rey) cayó en un incidente relacionado con la grieta espacial. La familia Yue está en dificultades.",
       "info": {
         "genero": "Femenino",
         "reino": "Gran Artista Marcial (etapa avanzada)",
@@ -1416,6 +1522,20 @@
           "chapterId": "cap132",
           "chapterNumber": 132,
           "note": "Mencionada en contexto de la despedida."
+        },
+        {
+          "chapterId": "cap160",
+          "chapterNumber": 160,
+          "note": "Ye Tian la visita. Más madura y resuelta tras la marea de bestias. Revela que el ancestro Yue (único rey) cayó, junto con 12+ reyes de la base. Relacionado con la grieta espacial. Yun Mengli regresó a Base Mar Demonio.",
+          "statsSnapshot": {
+            "reino": "Gran Artista Marcial (etapa avanzada)",
+            "ubicacion": "Base Mar Demonio — familia Yue"
+          }
+        },
+        {
+          "chapterId": "cap161",
+          "chapterNumber": 161,
+          "note": "Ye Tian decide investigar la grieta tras su conversación con Yue Ling sobre los problemas."
         }
       ]
     },
@@ -2483,6 +2603,11 @@
           "chapterId": "cap85",
           "chapterNumber": 85,
           "note": "Ye Tian copia su talento y la da a Ye Yu como mascota. Subjuga a Xiao Jin."
+        },
+        {
+          "chapterId": "cap160",
+          "chapterNumber": 160,
+          "note": "Salta de alegría al ver a Ye Tian regresar a Base Mar Demonio."
         }
       ]
     },
@@ -2609,6 +2734,11 @@
           "chapterId": "cap150",
           "chapterNumber": 150,
           "note": "Despierta de su largo sueño. Revela que la herencia del Clan del Dragón Celestial de Sangre Guerrera se ha activado: incluye métodos de cultivo y comprensión de misterios. Ye Tian planea copiar sus misterios arcanos en el futuro."
+        },
+        {
+          "chapterId": "cap159",
+          "chapterNumber": 159,
+          "note": "Fuerza mejorada a pseudo-arcano tras comprender un misterio. Comparable a rey 4 estrellas. Rechaza acompañar a Ye Tian a Base Mar Demonio, prefiere seguir cultivando. Golpeado al no poder resistir la presencia de Ye Tian (Nivel Santo)."
         }
       ]
     },
@@ -2670,6 +2800,11 @@
           "chapterId": "cap107",
           "chapterNumber": 107,
           "note": "Mencionado junto a Xiao Xue."
+        },
+        {
+          "chapterId": "cap160",
+          "chapterNumber": 160,
+          "note": "Salta de alegría al ver a Ye Tian regresar a Base Mar Demonio."
         }
       ]
     },
@@ -2742,6 +2877,11 @@
           "chapterId": "cap127",
           "chapterNumber": 127,
           "note": "Mencionado en contexto de la familia Yun."
+        },
+        {
+          "chapterId": "cap162",
+          "chapterNumber": 162,
+          "note": "Recibe respetuosamente a Ye Tian en la grieta espacial. Explica los ataques de bestias marinas. Reúne a todos los reyes y maestros de formación a petición de Ye Tian."
         }
       ]
     },
@@ -2807,6 +2947,31 @@
           "chapterId": "cap130",
           "chapterNumber": 130,
           "note": "Mencionada en contexto del ascenso a nivel rey."
+        },
+        {
+          "chapterId": "cap163",
+          "chapterNumber": 163,
+          "note": "Presente cuando Ye Tian desenmascara a Chen Fei como Bestia Fantasma. Escaneó a Chen Fei con poder mental sin detectar nada. Furiosa al descubrir que fueron engañados."
+        },
+        {
+          "chapterId": "cap165",
+          "chapterNumber": 165,
+          "note": "Se asusta al escuchar sobre bestia emperador. Huye de la formación con los demás reyes. Pregunta a Ye Tian si fue un ataque emperador. Suplica a Ye Tian que se quede en la grieta."
+        },
+        {
+          "chapterId": "cap166",
+          "chapterNumber": 166,
+          "note": "Suplica a Ye Tian que permanezca en la grieta para protegerlos de ataques emperador. Reconoce que Ye Tian los salvó al matar a la Bestia Fantasma."
+        },
+        {
+          "chapterId": "cap167",
+          "chapterNumber": 167,
+          "note": "Cree que Ye Tian ha muerto al verlo atravesado por la lanza de King Kong."
+        },
+        {
+          "chapterId": "cap168",
+          "chapterNumber": 168,
+          "note": "Ye Tian le revela en secreto (vía consciencia divina) que sigue vivo. Respira aliviada. Informa al Rey Sangre y Rey Qing."
         }
       ]
     },
@@ -3090,6 +3255,16 @@
           "chapterId": "cap121",
           "chapterNumber": 121,
           "note": "Presente durante la batalla contra las bestias de la grieta."
+        },
+        {
+          "chapterId": "cap168",
+          "chapterNumber": 168,
+          "note": "Yun Mengli le informa que Ye Tian sigue vivo. Lo mantiene en secreto junto con el Rey Sangre."
+        },
+        {
+          "chapterId": "cap167",
+          "chapterNumber": 167,
+          "note": "Ye Tian le revela (junto a Yun Mengli y Rey Sangre) que sigue vivo tras el ataque de King Kong."
         }
       ]
     },
@@ -3595,6 +3770,11 @@
           "chapterId": "cap148",
           "chapterNumber": 148,
           "note": "Otorga el Anillo del Dios de la Guerra a Ye Tian."
+        },
+        {
+          "chapterId": "cap168",
+          "chapterNumber": 168,
+          "note": "Explica las nuevas reglas de puntos para nivel santo: capa 8=10, capa 9=20, capa 10=40, capa 11=80, capa 12=160..."
         }
       ]
     },
@@ -3807,6 +3987,45 @@
           "chapterId": "cap157",
           "chapterNumber": 157,
           "note": "Confrontado por Feng Xue Tu por matar reyes de Zhonghai. Salvado por la intervención de su abuelo, Emperador Qingyun, que paga 100K piedras + 10 tesoros como compensación."
+        }
+      ]
+    },
+    {
+      "id": "lu-feng",
+      "name": "Lu Feng",
+      "nameChinese": "陆风",
+      "role": "secundario",
+      "bio": "Poderoso de Nivel Rey, clasificado en el puesto 23 de la Lista de Reyes. Posee un talento de lanza aérea de nivel supremo. Estuvo en el espacio del templo. Intercambió la Médula Fría de Tianlin con Ye Tian por dos Técnicas Secretas de Cultivo de Yuan Li de primera clase de la Secta del Cadáver del Cielo Negro, planeando usarlas para cultivar su propia fuerza.",
+      "info": {
+        "genero": "Masculino",
+        "reino": "Nivel Rey",
+        "talentoCultivo": "Desconocido",
+        "afiliacion": "Independiente",
+        "ubicacion": "Super Base Zhonghai",
+        "estado": "Vivo",
+        "primerAparicion": "Capítulo 159"
+      },
+      "abilities": [
+        {
+          "name": "Talento de Lanza Aérea",
+          "type": "weapon",
+          "rank": "Supremo",
+          "status": "activo",
+          "description": "Talento de ataque de tipo lanza aérea de nivel supremo."
+        }
+      ],
+      "relationships": [
+        {
+          "characterId": "ye-tian",
+          "characterName": "Ye Tian",
+          "type": "Socio comercial"
+        }
+      ],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap159",
+          "chapterNumber": 159,
+          "note": "Rango 23 Lista de Reyes. Intercambia Médula Fría de Tianlin por 2 técnicas Yuan Li 1ª clase de Ye Tian. Reconoce que las técnicas provienen del espacio del templo."
         }
       ]
     }
