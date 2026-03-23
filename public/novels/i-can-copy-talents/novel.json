@@ -630,12 +630,12 @@
       "key": "Año",
       "value": "2120",
       "revealedAt": 50,
-      "replacedAt": 100
+      "replacedAt": 200
     },
     {
       "key": "Año",
-      "value": "~2121",
-      "revealedAt": 100
+      "value": "~2121+",
+      "revealedAt": 200
     },
     {
       "key": "Base",
@@ -645,7 +645,7 @@
     },
     {
       "key": "Base",
-      "value": "Mar Demonio (gran base)",
+      "value": "Mar Demonio (gran base, millones hab.)",
       "revealedAt": 60,
       "replacedAt": 108
     },
@@ -657,8 +657,26 @@
     },
     {
       "key": "Base",
-      "value": "Mar Demonio (preparando sellar grieta)",
-      "revealedAt": 114
+      "value": "Mar Demonio (sellar grieta espacial)",
+      "revealedAt": 114,
+      "replacedAt": 131
+    },
+    {
+      "key": "Base",
+      "value": "Super Base Zhonghai (4 facciones, 30M hab.)",
+      "revealedAt": 131,
+      "replacedAt": 293
+    },
+    {
+      "key": "Base",
+      "value": "Estrella Yinyu — Galaxia (9 estrellas principales)",
+      "revealedAt": 293,
+      "replacedAt": 351
+    },
+    {
+      "key": "Base",
+      "value": "Zhonghai / Yinyu Star (viajes entre ambas)",
+      "revealedAt": 351
     },
     {
       "key": "Población Linhai",
@@ -672,32 +690,32 @@
     },
     {
       "key": "Pabellón Marcial",
-      "value": "Organización inter-bases",
+      "value": "Organización comercial inter-bases",
       "revealedAt": 19
     },
     {
       "key": "Reinos Secretos",
-      "value": "Contienen tesoros y bestias",
+      "value": "Contienen tesoros, bestias y recursos",
       "revealedAt": 66
     },
     {
       "key": "Grieta Espacial",
-      "value": "3 estrellas, 60.000 km",
+      "value": "3 estrellas, 60.000 km de Base Mar Demonio",
       "revealedAt": 111
     },
     {
-      "key": "Super Base",
-      "value": "Zhonghai (4 facciones)",
+      "key": "Super Base Zhonghai",
+      "value": "4 facciones: Pabellón Hacha de Guerra, Secta Qin, Templo Wu Dios, Alianza de Cultivadores Dispersos",
       "revealedAt": 131
     },
     {
       "key": "Torre Dios de la Guerra",
-      "value": "Lista de Reyes, Santa, Emperadores",
+      "value": "Lista de Reyes / Santos / Emperadores. Marca del Dios de la Guerra.",
       "revealedAt": 136
     },
     {
-      "key": "Mercenarios",
-      "value": "Hierro Negro → Bronce → Plata → Oro (1-9★)",
+      "key": "Sistema Mercenarios",
+      "value": "Hierro Negro → Bronce → Plata → Oro (1-9 estrellas)",
       "revealedAt": 142
     },
     {
@@ -706,14 +724,100 @@
       "revealedAt": 140
     },
     {
+      "key": "Mundo Bestia",
+      "value": "Mundo al otro lado de la grieta espacial. 20x gravedad, 3x Yuan Qi.",
+      "revealedAt": 121,
+      "replacedAt": 211
+    },
+    {
+      "key": "Mundo Bestia",
+      "value": "Incluye Mundo Simio-Dragón y otros. Bestias de nivel emperador+.",
+      "revealedAt": 211
+    },
+    {
+      "key": "Dominio Cerebral",
+      "value": "Nivel Santo: abrir dominio cerebral profundo (1-100%). A 100% = 10 dragones base.",
+      "revealedAt": 155
+    },
+    {
+      "key": "Subdivisiones Santo",
+      "value": "Santo ordinario → Santo menor → Gran Santo → Rey Santo (1000+ dragones)",
+      "revealedAt": 169
+    },
+    {
+      "key": "Nivel Emperador",
+      "value": "División estelar: ordinario → 1-9 estrellas → Emperador Supremo → Gran Emperador. Límites físicos x100 por ruptura.",
+      "revealedAt": 195
+    },
+    {
       "key": "Reino Inmortal Terrenal",
-      "value": "Mundo pequeño con supresión de reglas, 4 reinos de cultivo + central",
+      "value": "Mundo adjunto a la Tierra. 4 reinos (Oriental, Norteño, Occidental, Sureño) + Central. Solo emperadores 6+★.",
       "revealedAt": 261
     },
     {
       "key": "Pabellón de la Gloria",
-      "value": "Fuerza de civilización antigua que respalda al Templo de la Gloria",
+      "value": "Fuerza de secta antigua de otro planeta. Respalda al Templo de la Gloria. ~100 años en la Tierra.",
       "revealedAt": 261
+    },
+    {
+      "key": "Templo de la Gloria",
+      "value": "Fuerza #1 de la Tierra. Torre de la Gloria, Mundo Virtual Glorioso.",
+      "revealedAt": 227
+    },
+    {
+      "key": "Super Base Tianfu",
+      "value": "La más poderosa de Huaxia. Tiene el Templo de la Gloria y el Mundo Virtual.",
+      "revealedAt": 224
+    },
+    {
+      "key": "Nivel Divino",
+      "value": "Requiere 10+ rupturas de límite físico. Fuerza x100 fija. Luego crece con poder divino.",
+      "revealedAt": 227
+    },
+    {
+      "key": "Píldora Rompe-Reinos",
+      "value": "Elixir de Tianfu que fuerza ruptura de límite pero impide nivel divino.",
+      "revealedAt": 230
+    },
+    {
+      "key": "Estrella Yinyu",
+      "value": "Una de las 9 estrellas principales de la galaxia. Ciudad Gigante Qin Feng. Pabellón Tianjiao.",
+      "revealedAt": 293
+    },
+    {
+      "key": "Estrella Fantasma Púrpura",
+      "value": "Planeta con oficina de reclutamiento de genios de Yinyu Star.",
+      "revealedAt": 293
+    },
+    {
+      "key": "Pabellón Tianjiao",
+      "value": "Centro de genios de Yinyu Star. Lista Tianjiao. Mundo Virtual Tianjiao.",
+      "revealedAt": 295
+    },
+    {
+      "key": "Ciudad Qin Feng",
+      "value": "Ciudad Gigante en Yinyu Star. Hogar de Ye Tian en la galaxia.",
+      "revealedAt": 295
+    },
+    {
+      "key": "Torre de Combate",
+      "value": "Arena de batallas en Ciudad Qin Feng. 20 victorias consecutivas = recompensa.",
+      "revealedAt": 296
+    },
+    {
+      "key": "Tumba Divina",
+      "value": "Cementerio de dioses. Portal de huesos blancos. Tesoros ancestrales.",
+      "revealedAt": 383
+    },
+    {
+      "key": "Metaverso",
+      "value": "Universo mayor. Los dragones y sectas antiguas provienen de allí. Hijo del Universo = título supremo.",
+      "revealedAt": 270
+    },
+    {
+      "key": "Clan Dragón",
+      "value": "Raza extraterrestre que quiere invadir la Tierra. Dragones infiltrados descubiertos cap271+.",
+      "revealedAt": 271
     }
   ]
 }
