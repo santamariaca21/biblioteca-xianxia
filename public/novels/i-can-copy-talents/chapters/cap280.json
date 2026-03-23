@@ -69,7 +69,7 @@
       },
       {
         "nombre": "Hueso Vajra",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Pseudo-Arcano (1%)",
         "tipo": "bone",
         "estado": ""
       },
@@ -213,7 +213,7 @@
       },
       {
         "nombre": "Camuflaje",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Pseudo-Arcano (1%)",
         "tipo": "camouflage",
         "estado": ""
       },

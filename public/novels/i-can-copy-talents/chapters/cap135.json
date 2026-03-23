@@ -66,7 +66,7 @@
       },
       {
         "nombre": "Fuerza",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Pseudo-Arcano (1%)",
         "tipo": "strength",
         "estado": ""
       },
@@ -78,13 +78,13 @@
       },
       {
         "nombre": "Hueso Vajra",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Pseudo-Arcano (1%)",
         "tipo": "bone",
         "estado": ""
       },
       {
         "nombre": "Devorador Sangre",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Pseudo-Arcano (1%)",
         "tipo": "blood",
         "estado": ""
       },

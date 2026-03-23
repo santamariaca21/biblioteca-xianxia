@@ -74,7 +74,7 @@
       },
       {
         "nombre": "Velocidad",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Pseudo-Arcano (90%)",
         "tipo": "speed",
         "estado": ""
       },
@@ -110,13 +110,13 @@
       },
       {
         "nombre": "Hueso Vajra",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Pseudo-Arcano (1%)",
         "tipo": "bone",
         "estado": ""
       },
       {
         "nombre": "Devorador Sangre",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Pseudo-Arcano (1%)",
         "tipo": "blood",
         "estado": ""
       },
@@ -134,7 +134,7 @@
       },
       {
         "nombre": "Fuego Dominio",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Pseudo-Arcano (3%)",
         "tipo": "fire",
         "estado": ""
       },
