@@ -98,7 +98,7 @@
         "estado": ""
       },
       {
-        "nombre": "Dominio de Fuego",
+        "nombre": "Fuego Dominio",
         "nivel": "Arcano",
         "tipo": "fire",
         "estado": ""
@@ -182,13 +182,13 @@
         "estado": ""
       },
       {
-        "nombre": "Barrera de Agua",
+        "nombre": "Agua",
         "nivel": "Arcano",
         "tipo": "water",
         "estado": ""
       },
       {
-        "nombre": "Espinas de Tierra",
+        "nombre": "Tierra",
         "nivel": "Arcano",
         "tipo": "earth",
         "estado": ""
@@ -242,7 +242,7 @@
         "estado": ""
       },
       {
-        "nombre": "Percepción Bien/Mal",
+        "nombre": "Bien/Mal",
         "nivel": "Supremo",
         "tipo": "good-evil",
         "estado": ""
@@ -252,12 +252,6 @@
         "nivel": "Supremo",
         "tipo": "comprehension",
         "estado": ""
-      },
-      {
-        "nombre": "Sable (2°)",
-        "nivel": "Estrella Matutina",
-        "tipo": "blade",
-        "estado": "por fusionar"
       }
     ],
     "dominioCerebral": "90%"

@@ -90,7 +90,7 @@
         "estado": ""
       },
       {
-        "nombre": "Dominio de Fuego",
+        "nombre": "Fuego Dominio",
         "nivel": "Arcano",
         "tipo": "fire",
         "estado": ""
@@ -174,13 +174,13 @@
         "estado": ""
       },
       {
-        "nombre": "Barrera de Agua",
+        "nombre": "Agua",
         "nivel": "Arcano",
         "tipo": "water",
         "estado": ""
       },
       {
-        "nombre": "Espinas de Tierra",
+        "nombre": "Tierra",
         "nivel": "Arcano",
         "tipo": "earth",
         "estado": ""

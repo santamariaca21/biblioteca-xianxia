@@ -27,41 +27,211 @@
     "edad": "~18 años",
     "golpeMax": "36.000+ poderes de dragón (estimado)",
     "talentos": [
-      {"nombre": "Cultivo", "nivel": "Sol Naciente", "tipo": "cultivation", "estado": ""},
-      {"nombre": "Velocidad", "nivel": "Divino", "tipo": "speed", "estado": ""},
-      {"nombre": "Sable", "nivel": "Estrella Matutina", "tipo": "blade", "estado": ""},
-      {"nombre": "Sombra", "nivel": "Supremo", "tipo": "shadow", "estado": ""},
-      {"nombre": "Curación", "nivel": "Supremo", "tipo": "healing", "estado": ""},
-      {"nombre": "Fuerza", "nivel": "Arcano", "tipo": "strength", "estado": ""},
-      {"nombre": "Defensa", "nivel": "Arcano", "tipo": "defense", "estado": ""},
-      {"nombre": "Hueso Vajra", "nivel": "Pseudo-Arcano", "tipo": "bone", "estado": ""},
-      {"nombre": "Devorador Sangre", "nivel": "Pseudo-Arcano", "tipo": "blood", "estado": ""},
-      {"nombre": "Espacial", "nivel": "Supremo", "tipo": "space", "estado": ""},
-      {"nombre": "Tiempo", "nivel": "Elemental", "tipo": "time", "estado": ""},
-      {"nombre": "Dominio de Fuego", "nivel": "Arcano", "tipo": "fire", "estado": ""},
-      {"nombre": "Sustitución Muerte", "nivel": "Medio", "tipo": "death-sub", "estado": ""},
-      {"nombre": "Formación", "nivel": "Supremo", "tipo": "formation", "estado": ""},
-      {"nombre": "Espada", "nivel": "Alto", "tipo": "sword", "estado": ""},
-      {"nombre": "Vuelo", "nivel": "Alto", "tipo": "flight", "estado": ""},
-      {"nombre": "Hueso Sangre", "nivel": "Medio", "tipo": "blood-bone", "estado": ""},
-      {"nombre": "Transferencia Alma", "nivel": "Alto", "tipo": "soul", "estado": ""},
-      {"nombre": "Rastreo", "nivel": "Alto", "tipo": "tracking", "estado": ""},
-      {"nombre": "Hielo", "nivel": "Alto", "tipo": "ice", "estado": ""},
-      {"nombre": "Resistencia", "nivel": "Medio", "tipo": "endurance", "estado": ""},
-      {"nombre": "Búsqueda Tesoros", "nivel": "Alto", "tipo": "treasure", "estado": ""},
-      {"nombre": "Control Bestias", "nivel": "Alto", "tipo": "beast-control", "estado": ""},
-      {"nombre": "Camuflaje", "nivel": "Alto", "tipo": "camouflage", "estado": ""},
-      {"nombre": "Ojo Sangre", "nivel": "Medio", "tipo": "blood-eye", "estado": ""},
-      {"nombre": "Barrera de Agua", "nivel": "Arcano", "tipo": "water", "estado": ""},
-      {"nombre": "Espinas de Tierra", "nivel": "Arcano", "tipo": "earth", "estado": ""},
-      {"nombre": "Enredadera", "nivel": "Arcano", "tipo": "vine", "estado": ""},
-      {"nombre": "Tormenta", "nivel": "Arcano", "tipo": "storm", "estado": ""},
-      {"nombre": "Lunar", "nivel": "Arcano", "tipo": "lunar", "estado": ""},
-      {"nombre": "Hipnosis", "nivel": "Supremo", "tipo": "hypnosis", "estado": ""},
-      {"nombre": "Muerte Suspendida", "nivel": "Supremo", "tipo": "suspended-death", "estado": ""},
-      {"nombre": "Copia", "nivel": "A distancia · 2000m · 2/mes", "tipo": "copy", "estado": ""}
+      {
+        "nombre": "Cultivo",
+        "nivel": "Sol Naciente",
+        "tipo": "cultivation",
+        "estado": ""
+      },
+      {
+        "nombre": "Velocidad",
+        "nivel": "Divino",
+        "tipo": "speed",
+        "estado": ""
+      },
+      {
+        "nombre": "Sable",
+        "nivel": "Estrella Matutina",
+        "tipo": "blade",
+        "estado": ""
+      },
+      {
+        "nombre": "Sombra",
+        "nivel": "Supremo",
+        "tipo": "shadow",
+        "estado": ""
+      },
+      {
+        "nombre": "Curación",
+        "nivel": "Supremo",
+        "tipo": "healing",
+        "estado": ""
+      },
+      {
+        "nombre": "Fuerza",
+        "nivel": "Arcano",
+        "tipo": "strength",
+        "estado": ""
+      },
+      {
+        "nombre": "Defensa",
+        "nivel": "Arcano",
+        "tipo": "defense",
+        "estado": ""
+      },
+      {
+        "nombre": "Hueso Vajra",
+        "nivel": "Pseudo-Arcano",
+        "tipo": "bone",
+        "estado": ""
+      },
+      {
+        "nombre": "Devorador Sangre",
+        "nivel": "Pseudo-Arcano",
+        "tipo": "blood",
+        "estado": ""
+      },
+      {
+        "nombre": "Espacial",
+        "nivel": "Supremo",
+        "tipo": "space",
+        "estado": ""
+      },
+      {
+        "nombre": "Tiempo",
+        "nivel": "Elemental",
+        "tipo": "time",
+        "estado": ""
+      },
+      {
+        "nombre": "Fuego Dominio",
+        "nivel": "Arcano",
+        "tipo": "fire",
+        "estado": ""
+      },
+      {
+        "nombre": "Sustitución Muerte",
+        "nivel": "Medio",
+        "tipo": "death-sub",
+        "estado": ""
+      },
+      {
+        "nombre": "Formación",
+        "nivel": "Supremo",
+        "tipo": "formation",
+        "estado": ""
+      },
+      {
+        "nombre": "Espada",
+        "nivel": "Alto",
+        "tipo": "sword",
+        "estado": ""
+      },
+      {
+        "nombre": "Vuelo",
+        "nivel": "Alto",
+        "tipo": "flight",
+        "estado": ""
+      },
+      {
+        "nombre": "Hueso Sangre",
+        "nivel": "Medio",
+        "tipo": "blood-bone",
+        "estado": ""
+      },
+      {
+        "nombre": "Transferencia Alma",
+        "nivel": "Alto",
+        "tipo": "soul",
+        "estado": ""
+      },
+      {
+        "nombre": "Rastreo",
+        "nivel": "Alto",
+        "tipo": "tracking",
+        "estado": ""
+      },
+      {
+        "nombre": "Hielo",
+        "nivel": "Alto",
+        "tipo": "ice",
+        "estado": ""
+      },
+      {
+        "nombre": "Resistencia",
+        "nivel": "Medio",
+        "tipo": "endurance",
+        "estado": ""
+      },
+      {
+        "nombre": "Búsqueda Tesoros",
+        "nivel": "Alto",
+        "tipo": "treasure",
+        "estado": ""
+      },
+      {
+        "nombre": "Control Bestias",
+        "nivel": "Alto",
+        "tipo": "beast-control",
+        "estado": ""
+      },
+      {
+        "nombre": "Camuflaje",
+        "nivel": "Alto",
+        "tipo": "camouflage",
+        "estado": ""
+      },
+      {
+        "nombre": "Ojo Sangre",
+        "nivel": "Medio",
+        "tipo": "blood-eye",
+        "estado": ""
+      },
+      {
+        "nombre": "Agua",
+        "nivel": "Arcano",
+        "tipo": "water",
+        "estado": ""
+      },
+      {
+        "nombre": "Tierra",
+        "nivel": "Arcano",
+        "tipo": "earth",
+        "estado": ""
+      },
+      {
+        "nombre": "Enredadera",
+        "nivel": "Arcano",
+        "tipo": "vine",
+        "estado": ""
+      },
+      {
+        "nombre": "Tormenta",
+        "nivel": "Arcano",
+        "tipo": "storm",
+        "estado": ""
+      },
+      {
+        "nombre": "Lunar",
+        "nivel": "Arcano",
+        "tipo": "lunar",
+        "estado": ""
+      },
+      {
+        "nombre": "Hipnosis",
+        "nivel": "Supremo",
+        "tipo": "hypnosis",
+        "estado": ""
+      },
+      {
+        "nombre": "Muerte Suspendida",
+        "nivel": "Supremo",
+        "tipo": "suspended-death",
+        "estado": ""
+      },
+      {
+        "nombre": "Copia",
+        "nivel": "A distancia · 2000m · 2/mes",
+        "tipo": "copy",
+        "estado": ""
+      }
     ],
     "dominioCerebral": "90%"
   },
-  "characters": ["ye-tian", "xiao-yue", "yun-mengli", "bestia-tianlin"]
+  "characters": [
+    "ye-tian",
+    "xiao-yue",
+    "yun-mengli",
+    "bestia-tianlin"
+  ]
 }
