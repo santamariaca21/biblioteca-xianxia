@@ -291,6 +291,13 @@ Si se necesita traducir un capítulo individual:
    - **Si se revelan nuevos reinos/niveles**: actualizar `realms` con `revealedAt`
    - **Si se revelan nuevos rangos de talento**: actualizar `talentRanks` con `revealedAt`
    - **Si cambia la base/ubicación**: actualizar `baseInfoProgressive` con `revealedAt`/`replacedAt`
+   - **REGLA DE INFO DEL MUNDO**: Solo mostrar información relevante al arco actual del lector. Usar `replacedAt` para ocultar info de arcos anteriores que ya no es útil. Cada entrada debe tener:
+     - `revealedAt`: capítulo donde se revela la info
+     - `replacedAt` (opcional): capítulo donde la info deja de ser relevante (por cambio de arco/ubicación)
+     - Si una ubicación/base cambia, la anterior debe tener `replacedAt` apuntando al cap donde cambia
+     - Info genérica de arcos anteriores (ej: "Academias Linhai" cuando ya está en Yinyu Star) debe ocultarse
+     - Info que sigue siendo relevante (ej: "Poder Dragón", "Nivel Emperador") NO lleva `replacedAt`
+     - Objetivo: 4-12 items visibles por arco, no 30+
 5. Actualizar `characters.json`:
    - Agregar personajes nuevos con ficha wiki completa (info, abilities, relationships)
    - Agregar `chapterAppearances` a personajes existentes

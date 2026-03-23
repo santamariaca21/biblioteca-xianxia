@@ -681,42 +681,50 @@
     {
       "key": "Población Linhai",
       "value": "300,000",
-      "revealedAt": 1
+      "revealedAt": 1,
+      "replacedAt": 60
     },
     {
       "key": "Academias Linhai",
       "value": "5",
-      "revealedAt": 1
+      "revealedAt": 1,
+      "replacedAt": 60
     },
     {
       "key": "Pabellón Marcial",
       "value": "Organización comercial inter-bases",
-      "revealedAt": 19
+      "revealedAt": 19,
+      "replacedAt": 293
     },
     {
       "key": "Reinos Secretos",
       "value": "Contienen tesoros, bestias y recursos",
-      "revealedAt": 66
+      "revealedAt": 66,
+      "replacedAt": 195
     },
     {
       "key": "Grieta Espacial",
       "value": "3 estrellas, 60.000 km de Base Mar Demonio",
-      "revealedAt": 111
+      "revealedAt": 111,
+      "replacedAt": 131
     },
     {
       "key": "Super Base Zhonghai",
       "value": "4 facciones: Pabellón Hacha de Guerra, Secta Qin, Templo Wu Dios, Alianza de Cultivadores Dispersos",
-      "revealedAt": 131
+      "revealedAt": 131,
+      "replacedAt": 293
     },
     {
       "key": "Torre Dios de la Guerra",
       "value": "Lista de Reyes / Santos / Emperadores. Marca del Dios de la Guerra.",
-      "revealedAt": 136
+      "revealedAt": 136,
+      "replacedAt": 293
     },
     {
       "key": "Sistema Mercenarios",
       "value": "Hierro Negro → Bronce → Plata → Oro (1-9 estrellas)",
-      "revealedAt": 142
+      "revealedAt": 142,
+      "replacedAt": 293
     },
     {
       "key": "Poder Dragón",
@@ -737,12 +745,14 @@
     {
       "key": "Dominio Cerebral",
       "value": "Nivel Santo: abrir dominio cerebral profundo (1-100%). A 100% = 10 dragones base.",
-      "revealedAt": 155
+      "revealedAt": 155,
+      "replacedAt": 195
     },
     {
       "key": "Subdivisiones Santo",
       "value": "Santo ordinario → Santo menor → Gran Santo → Rey Santo (1000+ dragones)",
-      "revealedAt": 169
+      "revealedAt": 169,
+      "replacedAt": 195
     },
     {
       "key": "Nivel Emperador",
@@ -752,22 +762,26 @@
     {
       "key": "Reino Inmortal Terrenal",
       "value": "Mundo adjunto a la Tierra. 4 reinos (Oriental, Norteño, Occidental, Sureño) + Central. Solo emperadores 6+★.",
-      "revealedAt": 261
+      "revealedAt": 261,
+      "replacedAt": 293
     },
     {
       "key": "Pabellón de la Gloria",
       "value": "Fuerza de secta antigua de otro planeta. Respalda al Templo de la Gloria. ~100 años en la Tierra.",
-      "revealedAt": 261
+      "revealedAt": 261,
+      "replacedAt": 293
     },
     {
       "key": "Templo de la Gloria",
       "value": "Fuerza #1 de la Tierra. Torre de la Gloria, Mundo Virtual Glorioso.",
-      "revealedAt": 227
+      "revealedAt": 227,
+      "replacedAt": 293
     },
     {
       "key": "Super Base Tianfu",
       "value": "La más poderosa de Huaxia. Tiene el Templo de la Gloria y el Mundo Virtual.",
-      "revealedAt": 224
+      "revealedAt": 224,
+      "replacedAt": 293
     },
     {
       "key": "Nivel Divino",
@@ -777,7 +791,8 @@
     {
       "key": "Píldora Rompe-Reinos",
       "value": "Elixir de Tianfu que fuerza ruptura de límite pero impide nivel divino.",
-      "revealedAt": 230
+      "revealedAt": 230,
+      "replacedAt": 293
     },
     {
       "key": "Estrella Yinyu",
@@ -787,7 +802,8 @@
     {
       "key": "Estrella Fantasma Púrpura",
       "value": "Planeta con oficina de reclutamiento de genios de Yinyu Star.",
-      "revealedAt": 293
+      "revealedAt": 293,
+      "replacedAt": 295
     },
     {
       "key": "Pabellón Tianjiao",
@@ -817,7 +833,8 @@
     {
       "key": "Clan Dragón",
       "value": "Raza extraterrestre que quiere invadir la Tierra. Dragones infiltrados descubiertos cap271+.",
-      "revealedAt": 271
+      "revealedAt": 271,
+      "replacedAt": 293
     }
   ]
 }
