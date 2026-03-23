@@ -35,7 +35,7 @@
     "talentos": [
       {
         "nombre": "Cultivo",
-        "nivel": "Sol Naciente",
+        "nivel": "Sin Superior",
         "tipo": "cultivation",
         "estado": ""
       },
