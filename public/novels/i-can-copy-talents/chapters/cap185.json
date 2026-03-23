@@ -59,9 +59,9 @@
       },
       {
         "nombre": "Velocidad",
-        "nivel": "Dios (300x)",
+        "nivel": "Arcano",
         "tipo": "speed",
-        "estado": "fusión: velocidad + vuelo"
+        "estado": ""
       },
       {
         "nombre": "Sable",
@@ -77,9 +77,9 @@
       },
       {
         "nombre": "Curación",
-        "nivel": "Pseudo-Arcano (50%)",
+        "nivel": "Supremo",
         "tipo": "healing",
-        "estado": "por fusionar"
+        "estado": ""
       },
       {
         "nombre": "Fuerza",
@@ -119,7 +119,7 @@
       },
       {
         "nombre": "Fuego Dominio",
-        "nivel": "Pseudo-Arcano (3%)",
+        "nivel": "Arcano",
         "tipo": "fire",
         "estado": ""
       },
@@ -139,6 +139,12 @@
         "nombre": "Espada",
         "nivel": "Alto",
         "tipo": "sword",
+        "estado": ""
+      },
+      {
+        "nombre": "Vuelo",
+        "nivel": "Alto",
+        "tipo": "flight",
         "estado": ""
       },
       {
@@ -196,20 +202,32 @@
         "estado": ""
       },
       {
-        "nombre": "Corte",
-        "nivel": "Supremo",
-        "tipo": "slash",
+        "nombre": "Tormenta",
+        "nivel": "Arcano",
+        "tipo": "storm",
         "estado": ""
       },
       {
-        "nombre": "Espina de Alma",
+        "nombre": "Lunar",
+        "nivel": "Arcano",
+        "tipo": "lunar",
+        "estado": ""
+      },
+      {
+        "nombre": "Hipnosis",
         "nivel": "Supremo",
-        "tipo": "soul-thorn",
-        "estado": "por fusionar"
+        "tipo": "hypnosis",
+        "estado": ""
+      },
+      {
+        "nombre": "Muerte Suspendida",
+        "nivel": "Supremo",
+        "tipo": "suspended-death",
+        "estado": ""
       },
       {
         "nombre": "Copia",
-        "nivel": "A distancia · 5000m · 2/medio mes",
+        "nivel": "A distancia · 2000m · 2/mes",
         "tipo": "copy",
         "estado": ""
       }

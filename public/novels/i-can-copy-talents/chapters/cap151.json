@@ -45,7 +45,7 @@
       },
       {
         "nombre": "Velocidad",
-        "nivel": "Pseudo-Arcano (2%)",
+        "nivel": "Pseudo-Arcano",
         "tipo": "speed",
         "estado": ""
       },

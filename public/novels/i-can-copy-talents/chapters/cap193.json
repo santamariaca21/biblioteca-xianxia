@@ -91,7 +91,7 @@
       },
       {
         "nombre": "Velocidad",
-        "nivel": "Divino",
+        "nivel": "Arcano",
         "tipo": "speed",
         "estado": ""
       },
@@ -150,7 +150,7 @@
         "estado": ""
       },
       {
-        "nombre": "Dominio de Fuego",
+        "nombre": "Fuego Dominio",
         "nivel": "Arcano",
         "tipo": "fire",
         "estado": ""
@@ -231,24 +231,6 @@
         "nombre": "Ojo Sangre",
         "nivel": "Medio",
         "tipo": "blood-eye",
-        "estado": ""
-      },
-      {
-        "nombre": "Barrera de Agua",
-        "nivel": "Arcano",
-        "tipo": "water",
-        "estado": ""
-      },
-      {
-        "nombre": "Espinas de Tierra",
-        "nivel": "Arcano",
-        "tipo": "earth",
-        "estado": ""
-      },
-      {
-        "nombre": "Enredadera",
-        "nivel": "Arcano",
-        "tipo": "vine",
         "estado": ""
       },
       {

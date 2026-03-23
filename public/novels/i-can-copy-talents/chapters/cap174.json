@@ -56,13 +56,13 @@
       },
       {
         "nombre": "Velocidad",
-        "nivel": "Pseudo-Arcano (90%)",
+        "nivel": "Arcano",
         "tipo": "speed",
         "estado": ""
       },
       {
         "nombre": "Sable",
-        "nivel": "Estrella Matutina · Dao del Sable (1er nivel)",
+        "nivel": "Estrella Matutina",
         "tipo": "blade",
         "estado": ""
       },
@@ -116,7 +116,7 @@
       },
       {
         "nombre": "Fuego Dominio",
-        "nivel": "Pseudo-Arcano (3%)",
+        "nivel": "Arcano",
         "tipo": "fire",
         "estado": ""
       },
@@ -190,6 +190,36 @@
         "nombre": "Camuflaje",
         "nivel": "Alto",
         "tipo": "camouflage",
+        "estado": ""
+      },
+      {
+        "nombre": "Ojo Sangre",
+        "nivel": "Medio",
+        "tipo": "blood-eye",
+        "estado": ""
+      },
+      {
+        "nombre": "Tormenta",
+        "nivel": "Arcano",
+        "tipo": "storm",
+        "estado": ""
+      },
+      {
+        "nombre": "Lunar",
+        "nivel": "Arcano",
+        "tipo": "lunar",
+        "estado": ""
+      },
+      {
+        "nombre": "Hipnosis",
+        "nivel": "Supremo",
+        "tipo": "hypnosis",
+        "estado": ""
+      },
+      {
+        "nombre": "Muerte Suspendida",
+        "nivel": "Supremo",
+        "tipo": "suspended-death",
         "estado": ""
       },
       {

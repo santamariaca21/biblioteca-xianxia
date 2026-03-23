@@ -47,7 +47,7 @@
       },
       {
         "nombre": "Velocidad",
-        "nivel": "Pseudo-Arcano (2%)",
+        "nivel": "Pseudo-Arcano",
         "tipo": "speed",
         "estado": ""
       },
@@ -62,12 +62,6 @@
         "nivel": "Supremo",
         "tipo": "shadow",
         "estado": ""
-      },
-      {
-        "nombre": "Camuflaje",
-        "nivel": "Alto",
-        "tipo": "camouflage",
-        "estado": "fusionado con Sombra"
       },
       {
         "nombre": "Curación",
@@ -181,6 +175,12 @@
         "nombre": "Control Bestias",
         "nivel": "Alto",
         "tipo": "beast-control",
+        "estado": ""
+      },
+      {
+        "nombre": "Camuflaje",
+        "nivel": "Alto",
+        "tipo": "camouflage",
         "estado": ""
       },
       {

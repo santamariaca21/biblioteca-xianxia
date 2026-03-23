@@ -101,7 +101,7 @@
       },
       {
         "nombre": "Devorador Sangre",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Arcano",
         "tipo": "blood",
         "estado": ""
       },
@@ -118,9 +118,51 @@
         "estado": ""
       },
       {
-        "nombre": "Transformación Cinco Elementos",
-        "nivel": "Divino",
-        "tipo": "five-elements",
+        "nombre": "Fuego Dominio",
+        "nivel": "Arcano",
+        "tipo": "fire",
+        "estado": ""
+      },
+      {
+        "nombre": "Agua",
+        "nivel": "Arcano",
+        "tipo": "water",
+        "estado": ""
+      },
+      {
+        "nombre": "Tierra",
+        "nivel": "Arcano",
+        "tipo": "earth",
+        "estado": ""
+      },
+      {
+        "nombre": "Enredadera",
+        "nivel": "Arcano",
+        "tipo": "vine",
+        "estado": ""
+      },
+      {
+        "nombre": "Tormenta",
+        "nivel": "Arcano",
+        "tipo": "storm",
+        "estado": ""
+      },
+      {
+        "nombre": "Lunar",
+        "nivel": "Arcano",
+        "tipo": "lunar",
+        "estado": ""
+      },
+      {
+        "nombre": "Hipnosis",
+        "nivel": "Supremo",
+        "tipo": "hypnosis",
+        "estado": ""
+      },
+      {
+        "nombre": "Muerte Suspendida",
+        "nivel": "Supremo",
+        "tipo": "suspended-death",
         "estado": ""
       },
       {
@@ -199,42 +241,6 @@
         "nombre": "Ojo Sangre",
         "nivel": "Medio",
         "tipo": "blood-eye",
-        "estado": ""
-      },
-      {
-        "nombre": "Tormenta",
-        "nivel": "Arcano",
-        "tipo": "storm",
-        "estado": ""
-      },
-      {
-        "nombre": "Lunar",
-        "nivel": "Arcano",
-        "tipo": "lunar",
-        "estado": ""
-      },
-      {
-        "nombre": "Hipnosis",
-        "nivel": "Supremo",
-        "tipo": "hypnosis",
-        "estado": ""
-      },
-      {
-        "nombre": "Muerte Suspendida",
-        "nivel": "Supremo",
-        "tipo": "suspended-death",
-        "estado": ""
-      },
-      {
-        "nombre": "Ojo Perspicaz",
-        "nivel": "—",
-        "tipo": "insight",
-        "estado": ""
-      },
-      {
-        "nombre": "Espina de Alma",
-        "nivel": "—",
-        "tipo": "soul-thorn",
         "estado": ""
       },
       {

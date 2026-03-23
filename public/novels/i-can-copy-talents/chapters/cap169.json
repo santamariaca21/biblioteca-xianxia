@@ -50,7 +50,7 @@
       },
       {
         "nombre": "Velocidad",
-        "nivel": "Pseudo-Arcano (2%)",
+        "nivel": "Pseudo-Arcano",
         "tipo": "speed",
         "estado": ""
       },
@@ -110,7 +110,7 @@
       },
       {
         "nombre": "Fuego Dominio",
-        "nivel": "Pseudo-Arcano (3%)",
+        "nivel": "Pseudo-Arcano",
         "tipo": "fire",
         "estado": ""
       },
@@ -184,6 +184,12 @@
         "nombre": "Camuflaje",
         "nivel": "Alto",
         "tipo": "camouflage",
+        "estado": ""
+      },
+      {
+        "nombre": "Ojo Sangre",
+        "nivel": "Medio",
+        "tipo": "blood-eye",
         "estado": ""
       },
       {

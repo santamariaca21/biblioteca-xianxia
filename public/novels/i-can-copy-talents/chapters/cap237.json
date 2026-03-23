@@ -77,7 +77,7 @@
       },
       {
         "nombre": "Devorador Sangre",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Arcano",
         "tipo": "blood",
         "estado": ""
       },
@@ -97,6 +97,54 @@
         "nombre": "Fuego Dominio",
         "nivel": "Arcano",
         "tipo": "fire",
+        "estado": ""
+      },
+      {
+        "nombre": "Agua",
+        "nivel": "Arcano",
+        "tipo": "water",
+        "estado": ""
+      },
+      {
+        "nombre": "Tierra",
+        "nivel": "Arcano",
+        "tipo": "earth",
+        "estado": ""
+      },
+      {
+        "nombre": "Enredadera",
+        "nivel": "Arcano",
+        "tipo": "vine",
+        "estado": ""
+      },
+      {
+        "nombre": "Tormenta",
+        "nivel": "Arcano",
+        "tipo": "storm",
+        "estado": ""
+      },
+      {
+        "nombre": "Lunar",
+        "nivel": "Arcano",
+        "tipo": "lunar",
+        "estado": ""
+      },
+      {
+        "nombre": "Hipnosis",
+        "nivel": "Supremo",
+        "tipo": "hypnosis",
+        "estado": ""
+      },
+      {
+        "nombre": "Muerte Suspendida",
+        "nivel": "Supremo",
+        "tipo": "suspended-death",
+        "estado": ""
+      },
+      {
+        "nombre": "Clon Sombra",
+        "nivel": "Supremo",
+        "tipo": "shadow-clone",
         "estado": ""
       },
       {
@@ -178,57 +226,15 @@
         "estado": ""
       },
       {
-        "nombre": "Agua",
-        "nivel": "Arcano",
-        "tipo": "water",
-        "estado": ""
-      },
-      {
-        "nombre": "Tierra",
-        "nivel": "Arcano",
-        "tipo": "earth",
-        "estado": ""
-      },
-      {
-        "nombre": "Enredadera",
-        "nivel": "Arcano",
-        "tipo": "vine",
-        "estado": ""
-      },
-      {
-        "nombre": "Tormenta",
-        "nivel": "Arcano",
-        "tipo": "storm",
-        "estado": ""
-      },
-      {
-        "nombre": "Lunar",
-        "nivel": "Arcano",
-        "tipo": "lunar",
-        "estado": ""
-      },
-      {
-        "nombre": "Hipnosis",
+        "nombre": "Contrato",
         "nivel": "Supremo",
-        "tipo": "hypnosis",
-        "estado": ""
-      },
-      {
-        "nombre": "Muerte Suspendida",
-        "nivel": "Supremo",
-        "tipo": "suspended-death",
+        "tipo": "contract",
         "estado": ""
       },
       {
         "nombre": "Copia",
         "nivel": "A distancia · 2000m · 2/mes",
         "tipo": "copy",
-        "estado": ""
-      },
-      {
-        "nombre": "Clon Sombra",
-        "nivel": "Supremo",
-        "tipo": "shadow-clone",
         "estado": ""
       }
     ],

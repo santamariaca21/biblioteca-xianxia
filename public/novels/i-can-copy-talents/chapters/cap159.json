@@ -45,7 +45,7 @@
       },
       {
         "nombre": "Velocidad",
-        "nivel": "Pseudo-Arcano (2%)",
+        "nivel": "Pseudo-Arcano",
         "tipo": "speed",
         "estado": ""
       },
@@ -105,7 +105,7 @@
       },
       {
         "nombre": "Fuego Dominio",
-        "nivel": "Pseudo-Arcano (3%)",
+        "nivel": "Pseudo-Arcano",
         "tipo": "fire",
         "estado": ""
       },

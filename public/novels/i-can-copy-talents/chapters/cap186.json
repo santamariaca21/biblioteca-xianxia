@@ -70,7 +70,7 @@
       },
       {
         "nombre": "Curación",
-        "nivel": "Pseudo-Arcano (50%)",
+        "nivel": "Supremo",
         "tipo": "healing",
         "estado": ""
       },
@@ -112,7 +112,7 @@
       },
       {
         "nombre": "Fuego Dominio",
-        "nivel": "Pseudo-Arcano (3%)",
+        "nivel": "Arcano",
         "tipo": "fire",
         "estado": ""
       },
@@ -195,14 +195,32 @@
         "estado": ""
       },
       {
-        "nombre": "Espina de Alma",
+        "nombre": "Tormenta",
+        "nivel": "Arcano",
+        "tipo": "storm",
+        "estado": ""
+      },
+      {
+        "nombre": "Lunar",
+        "nivel": "Arcano",
+        "tipo": "lunar",
+        "estado": ""
+      },
+      {
+        "nombre": "Hipnosis",
         "nivel": "Supremo",
-        "tipo": "soul-thorn",
+        "tipo": "hypnosis",
+        "estado": ""
+      },
+      {
+        "nombre": "Muerte Suspendida",
+        "nivel": "Supremo",
+        "tipo": "suspended-death",
         "estado": ""
       },
       {
         "nombre": "Copia",
-        "nivel": "A distancia · 5000m · 2/mes",
+        "nivel": "A distancia · 2000m · 2/mes",
         "tipo": "copy",
         "estado": ""
       }

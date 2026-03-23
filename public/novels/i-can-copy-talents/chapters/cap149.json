@@ -44,7 +44,7 @@
       },
       {
         "nombre": "Sombra",
-        "nivel": "Elemental",
+        "nivel": "Supremo",
         "tipo": "shadow",
         "estado": ""
       },
@@ -56,7 +56,7 @@
       },
       {
         "nombre": "Fuerza",
-        "nivel": "Pseudo-Arcano (50%)",
+        "nivel": "Pseudo-Arcano (60%)",
         "tipo": "strength",
         "estado": ""
       },
@@ -160,6 +160,12 @@
         "nombre": "Control Bestias",
         "nivel": "Alto",
         "tipo": "beast-control",
+        "estado": ""
+      },
+      {
+        "nombre": "Camuflaje",
+        "nivel": "Alto",
+        "tipo": "camouflage",
         "estado": ""
       },
       {
