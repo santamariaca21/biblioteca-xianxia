@@ -20,17 +20,17 @@ import { IconComponent } from '../icon/icon';
   `,
   styles: [`
     .site-header {
-      background: #060709;
-      border-bottom: 1px solid rgba(201,168,76,0.25);
+      background: var(--t-card, #0f1218);
+      border-bottom: 1px solid var(--t-border, rgba(201,168,76,0.25));
       padding: 0 1.5rem;
-      display: flex;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
       align-items: center;
-      justify-content: space-between;
       position: sticky;
       top: 0;
       z-index: 100;
-      backdrop-filter: blur(12px);
       height: 56px;
+      will-change: transform;
     }
     .logo {
       display: flex;
@@ -39,21 +39,27 @@ import { IconComponent } from '../icon/icon';
       font-family: 'Cinzel', serif;
       font-size: 0.7rem;
       letter-spacing: 0.25em;
-      color: #7a6330;
+      color: var(--t-gold-dim, #7a6330);
       text-transform: uppercase;
       text-decoration: none;
-      .highlight { color: #c9a84c; }
+      justify-self: start;
+      .highlight { color: var(--t-gold, #c9a84c); }
     }
     .header-title {
       font-family: 'Cinzel', serif;
       font-size: 0.85rem;
-      color: #8a8070;
+      color: var(--t-dim, #8a8070);
       letter-spacing: 0.1em;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 0 0.5rem;
     }
     .settings-toggle {
       background: none;
-      border: 1px solid rgba(201,168,76,0.25);
-      color: #c9a84c;
+      border: 1px solid var(--t-border, rgba(201,168,76,0.25));
+      color: var(--t-gold, #c9a84c);
       cursor: pointer;
       padding: 0.4rem;
       border-radius: 4px;
@@ -61,6 +67,7 @@ import { IconComponent } from '../icon/icon';
       display: flex;
       align-items: center;
       justify-content: center;
+      justify-self: end;
       &:hover { background: rgba(201,168,76,0.08); }
     }
   `],
