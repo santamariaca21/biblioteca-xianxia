@@ -36,7 +36,7 @@
     "copiedTalents": "Cultivo Diluvio + Palma Luna Brillante + Aurora Divino + Sable Estrella Matutina + Sombra Supremo + Curación Supremo + Fuerza Arcano + Defensa Arcano + Formación Supremo (Luna Brillante) + Dominio Fuego Arcano + Camuflaje Pseudo-Arcano + Espacial Pseudo-Arcano (40%) + Ojo Sangre Medio + Barrera Agua Arcano + Espinas Tierra Arcano + Enredadera Arcano + Tormenta Arcano + Lunar Arcano + Hipnosis Supremo + Muerte Suspendida Supremo + Sustitución Muerte Supremo + Transferencia Alma Supremo + Tiempo Alto + Inmortalidad Alto (por fusionar)",
     "edad": "~18 años",
     "golpeMax": "72.000+ poderes de dragón",
-    "dominioCerebral": "90%",
+    "dominioCerebral": "100%",
     "talentos": [
       {
         "nombre": "Cultivo",
@@ -262,5 +262,7 @@
       }
     ]
   },
-  "characters": ["ye-tian"]
+  "characters": [
+    "ye-tian"
+  ]
 }
