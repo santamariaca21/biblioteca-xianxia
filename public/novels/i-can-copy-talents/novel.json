@@ -78,6 +78,20 @@
   ],
   "talentRanks": [
     {
+      "rank": "⑫ Páramo",
+      "description": "Más allá de Sin Superior. Velocidad de cultivo x10",
+      "highlight": true,
+      "revealedAt": 300,
+      "category": "cultivation"
+    },
+    {
+      "rank": "⑪ Sin Superior",
+      "description": "Por encima de Sol Naciente",
+      "highlight": true,
+      "revealedAt": 297,
+      "category": "cultivation"
+    },
+    {
       "rank": "⑩ Sol Naciente",
       "description": "x3 sobre Luna Brillante",
       "highlight": true,
