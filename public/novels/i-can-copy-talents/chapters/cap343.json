@@ -96,13 +96,13 @@
       },
       {
         "nombre": "Hueso Vajra",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Pseudo-Arcano (70%)",
         "tipo": "bone",
         "estado": ""
       },
       {
         "nombre": "Devorador Sangre",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Arcano",
         "tipo": "blood",
         "estado": ""
       },
@@ -192,7 +192,7 @@
       },
       {
         "nombre": "Camuflaje",
-        "nivel": "Pseudo-Arcano",
+        "nivel": "Pseudo-Arcano (30%)",
         "tipo": "camouflage",
         "estado": ""
       },

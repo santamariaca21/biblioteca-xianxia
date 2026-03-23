@@ -165,6 +165,8 @@ Cada personaje en `characters.json` tiene una ficha tipo wiki con la siguiente e
 
    En el array `talentos` de stats: `estado` se deja vacío `""` para talentos activos. Solo usar `"por fusionar"`, `"copiado"` o `"dormido"` cuando aplique.
 
+   **REGLA DE PORCENTAJES PSEUDO-ARCANO**: Los talentos de nivel Pseudo-Arcano SIEMPRE deben incluir su porcentaje entre paréntesis. Ejemplo: `"Pseudo-Arcano (70%)"`. El porcentaje indica cuánto se ha comprendido del nivel Arcano completo. El rango va de 1% a ~99%. Al llegar a 100% se transforma en Arcano completo. Si el source no especifica el %, mantener el último % conocido del capítulo anterior. NUNCA poner solo `"Pseudo-Arcano"` sin porcentaje.
+
 9. **Stats dinámicos**: Cuando la novela introduce un NUEVO sistema de medición de poder o un nuevo stat que no existía antes, se debe:
    - Agregar el campo al modelo TypeScript (`CharacterStats` en `novel.model.ts`)
    - Agregar la visualización en el sidebar (`stats-sidebar.ts`) y en mobile (`reader.ts`)
