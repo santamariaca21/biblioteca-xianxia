@@ -24,9 +24,9 @@
     "edad": "~17 años",
     "talento": "25+ talentos",
     "talentoClass": "gold",
-    "fuerza": "400.000 elefantes",
+    "fuerza": "400.000 elefantes (4%)",
     "ubicacion": "Grieta Espacial — Confín de la Tierra",
-    "golpeMax": "~960 poder de dragón",
+    "golpeMax": "~960 poderes de dragón",
     "abilities": [
       "Dominio cerebral: 2% → 4% (25 días × 3x aceleración = 75 días equivalentes)",
       "Fuerza física: 200.000 → 400.000 poder de elefante (duplicada)",

@@ -24,9 +24,9 @@
     "edad": "~17 años",
     "talento": "25+ talentos",
     "talentoClass": "gold",
-    "fuerza": "100.000 elefantes",
+    "fuerza": "100.000 elefantes (1%)",
     "ubicacion": "Base Mar Demonio",
-    "golpeMax": "240 poder de dragón",
+    "golpeMax": "120 poderes de dragón",
     "abilities": [
       "Llega a Base Mar Demonio desde Zhonghai a gran velocidad",
       "Da Píldora de Talento a Ye Yu → cultivo sube a Estrella Matutina",

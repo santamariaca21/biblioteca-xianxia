@@ -13,14 +13,14 @@
   ],
   "stats": {
     "label": "Stats — Cap. 189",
-    "reino": "Nivel Santo (peak Rey Santo)",
+    "reino": "Nivel Santo (Gran Santo)",
     "reinoClass": "gold",
-    "edad": "~18 años",
+    "edad": "~17 años",
     "talento": "27+ talentos",
     "talentoClass": "gold",
-    "fuerza": "8 poderes de dragón",
+    "fuerza": "8 poderes de dragón (80%)",
     "ubicacion": "Mundo de Bestias — con Emperador Luna",
-    "golpeMax": "48.000 poderes de dragón",
+    "golpeMax": "~48.000 poderes de dragón",
     "abilities": [
       "Dominio cerebral profundo abierto al 80% tras 1 mes en Pabellón Diosa Luna",
       "Fuerza corporal: 8 poderes de dragón",
@@ -196,5 +196,8 @@
     ],
     "dominioCerebral": "80%"
   },
-  "characters": ["ye-tian", "emperador-luna"]
+  "characters": [
+    "ye-tian",
+    "emperador-luna"
+  ]
 }

@@ -13,14 +13,14 @@
   ],
   "stats": {
     "label": "Stats — Cap. 190",
-    "reino": "Nivel Santo (peak Rey Santo)",
+    "reino": "Nivel Santo (Gran Santo)",
     "reinoClass": "gold",
-    "edad": "~18 años",
+    "edad": "~17 años",
     "talento": "28+ talentos",
     "talentoClass": "gold",
-    "fuerza": "8 poderes de dragón",
+    "fuerza": "8 poderes de dragón (80%)",
     "ubicacion": "Mundo de Bestias — Bóveda Celeste (con Emperador Luna)",
-    "golpeMax": "48.000 poderes de dragón",
+    "golpeMax": "~48.000 poderes de dragón",
     "abilities": [
       "Comprende que talentos de atributo arcano permiten cultivo rápido a nivel emperador",
       "Copia Talento Diosa Luna (Arcano) del Emperador Luna",
@@ -202,5 +202,8 @@
     ],
     "dominioCerebral": "80%"
   },
-  "characters": ["ye-tian", "emperador-luna"]
+  "characters": [
+    "ye-tian",
+    "emperador-luna"
+  ]
 }
