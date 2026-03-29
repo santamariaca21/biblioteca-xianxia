@@ -92,56 +92,7 @@ import { IconComponent } from '../icon/icon';
         }
 
         @if (novel(); as n) {
-          <!-- TALENT RANKS (filtered by chapter, split by category) -->
-          <div class="stats-card">
-            <div class="stats-header">
-              <app-icon name="sparkles" [size]="14" />
-              <div class="stats-title">Rangos de Cultivo</div>
-            </div>
-            <div class="stats-body">
-              <ul class="talent-rank-list">
-                @for (tr of filteredTalentRanksByCategory('cultivation'); track tr.rank) {
-                  <li class="talent-rank-item" [class.highlight]="tr.highlight">
-                    <span>{{ tr.rank }}</span>
-                    <span>{{ tr.description }}</span>
-                  </li>
-                }
-              </ul>
-            </div>
-          </div>
-          @if (filteredTalentRanksByCategory('special').length > 0) {
-            <div class="stats-card">
-              <div class="stats-header">
-                <app-icon name="zap" [size]="14" />
-                <div class="stats-title">Rangos Especiales</div>
-              </div>
-              <div class="stats-body">
-                <ul class="talent-rank-list">
-                  @for (tr of filteredTalentRanksByCategory('special'); track tr.rank) {
-                    <li class="talent-rank-item" [class.highlight]="tr.highlight">
-                      <span>{{ tr.rank }}</span>
-                      <span>{{ tr.description }}</span>
-                    </li>
-                  }
-                </ul>
-              </div>
-            </div>
-          }
-
-          <!-- BASE INFO (filtered by chapter) -->
-          <div class="stats-card">
-            <div class="stats-header">
-              <app-icon name="globe" [size]="14" />
-              <div class="stats-title">Info del Mundo</div>
-            </div>
-            <div class="stats-body">
-              @for (item of filteredBaseInfo(); track item.key) {
-                <div class="stat-row">
-                  <span class="stat-label">{{ item.key }}</span>
-                  <span class="stat-value">{{ item.value }}</span>
-                </div>
-              }
-            </div>
+          <!-- REMOVED: Talent Ranks, Base Info, Characters -->
           </div>
         }
       </aside>

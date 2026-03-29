@@ -127,29 +127,6 @@ import { DomSanitizer } from '@angular/platform-browser';
             }
 
             <!-- CHARACTERS IN THIS CHAPTER -->
-            @if (chapterCharacters().length > 0) {
-              <div class="chapter-section">
-                <div class="section-header">
-                  <div class="section-icon"><app-icon name="users" [size]="16" /></div>
-                  <div class="section-title">Personajes — Capítulo {{ ch.number }}</div>
-                </div>
-                <div class="characters-list">
-                  @for (char of chapterCharacters(); track char.id) {
-                    <app-character-card
-                      [character]="char"
-                      [compact]="true"
-                      [showLink]="true"
-                      [novelId]="novelId"
-                      [maxChapter]="ch.number"
-                    />
-                  }
-                </div>
-                <a [routerLink]="['/novel', novelId, 'personajes']" class="see-all-chars">
-                  Ver todos los personajes <app-icon name="arrow-right" [size]="13" />
-                </a>
-              </div>
-            }
-
             <!-- MOBILE STATS -->
             @if (settings.settings().showStats) {
               <div class="mobile-stats">
