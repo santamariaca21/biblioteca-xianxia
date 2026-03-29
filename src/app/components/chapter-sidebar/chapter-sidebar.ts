@@ -44,7 +44,7 @@ import { IconComponent } from '../icon/icon';
           @for (range of ranges(); track range.label) {
             <button
               class="range-btn"
-              [class.active]="activeRange() === range.label"
+              [class.active]="effectiveRange() === range.label"
               (click)="selectRange(range)"
             >{{ range.label }}</button>
           }
@@ -282,48 +282,40 @@ export class ChapterSidebarComponent {
     return result;
   });
 
+  private defaultRange = computed(() => {
+    const activeNum = this.activeChapterNumber();
+    const rangeStart = activeNum > 0
+      ? Math.floor((activeNum - 1) / this.RANGE_SIZE) * this.RANGE_SIZE
+      : 0;
+    const match = this.ranges().find(r => r.start === rangeStart + 1);
+    return match?.label ?? this.ranges()[0]?.label ?? '';
+  });
+
   visibleChapters = computed(() => {
     const all = this.chapters();
+    if (all.length === 0) return [];
+
     const query = this.searchQuery().trim().toLowerCase();
-    const range = this.activeRange();
+    const range = this.activeRange() || this.defaultRange();
 
     // Search mode
     if (query) {
-      // If query is a number, try to match chapter number
-      const num = parseInt(query);
-      if (!isNaN(num)) {
-        return all.filter(ch => ch.number.toString().includes(query) || ch.title.toLowerCase().includes(query)).slice(0, 50);
-      }
-      return all.filter(ch => ch.title.toLowerCase().includes(query) || ch.number.toString().includes(query)).slice(0, 50);
+      return all.filter(ch =>
+        ch.number.toString().includes(query) || ch.title.toLowerCase().includes(query)
+      ).slice(0, 50);
     }
 
     // Range mode
     if (range) {
       const r = this.ranges().find(r => r.label === range);
-      if (r) {
-        return all.slice(r.start - 1, r.end);
-      }
+      if (r) return all.slice(r.start - 1, r.end);
     }
 
-    // Default: show range around active chapter or first range
-    const activeNum = this.activeChapterNumber();
-    let rangeStart = 0;
-    if (activeNum > 0) {
-      rangeStart = Math.floor((activeNum - 1) / this.RANGE_SIZE) * this.RANGE_SIZE;
-    }
-    const rangeEnd = Math.min(rangeStart + this.RANGE_SIZE, all.length);
-
-    // Auto-select the matching range button
-    const availableRanges = this.ranges();
-    if (availableRanges.length > 0) {
-      const matchRange = availableRanges.find(r => r.start === rangeStart + 1);
-      if (matchRange && this.activeRange() !== matchRange.label) {
-        this.activeRange.set(matchRange.label);
-      }
-    }
-
-    return all.slice(rangeStart, rangeEnd);
+    // Fallback: first chunk
+    return all.slice(0, Math.min(this.RANGE_SIZE, all.length));
   });
+
+  effectiveRange = computed(() => this.activeRange() || this.defaultRange());
 
   constructor() {
     effect(() => {
