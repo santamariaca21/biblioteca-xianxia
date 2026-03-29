@@ -30,7 +30,7 @@ import { IconComponent } from '../icon/icon';
       </div>
 
       <!-- Current chapter indicator -->
-      @if (activeChapter() !== 'portada') {
+      @if (activeChapter() !== 'portada' && activeChapterNumber() > 0) {
         <div class="current-indicator" (click)="scrollToActive()">
           <app-icon name="map-pin" [size]="12" />
           <span>Cap. {{ activeChapterNumber() }}</span>
@@ -39,7 +39,7 @@ import { IconComponent } from '../icon/icon';
       }
 
       <!-- Range selector -->
-      @if (!searchQuery() && chapters().length > 100) {
+      @if (!searchQuery() && chapters().length > 0) {
         <div class="range-selector">
           @for (range of ranges(); track range.label) {
             <button
@@ -305,21 +305,24 @@ export class ChapterSidebarComponent {
       }
     }
 
-    // Default: show range around active chapter
+    // Default: show range around active chapter or first range
     const activeNum = this.activeChapterNumber();
-    if (activeNum > 0 && all.length > this.RANGE_SIZE) {
-      const rangeStart = Math.floor((activeNum - 1) / this.RANGE_SIZE) * this.RANGE_SIZE;
-      const rangeEnd = Math.min(rangeStart + this.RANGE_SIZE, all.length);
-      // Set activeRange to match
-      const matchRange = this.ranges().find(r => r.start === rangeStart + 1);
+    let rangeStart = 0;
+    if (activeNum > 0) {
+      rangeStart = Math.floor((activeNum - 1) / this.RANGE_SIZE) * this.RANGE_SIZE;
+    }
+    const rangeEnd = Math.min(rangeStart + this.RANGE_SIZE, all.length);
+
+    // Auto-select the matching range button
+    const availableRanges = this.ranges();
+    if (availableRanges.length > 0) {
+      const matchRange = availableRanges.find(r => r.start === rangeStart + 1);
       if (matchRange && this.activeRange() !== matchRange.label) {
         this.activeRange.set(matchRange.label);
       }
-      return all.slice(rangeStart, rangeEnd);
     }
 
-    // Fallback: first 100
-    return all.slice(0, Math.min(this.RANGE_SIZE, all.length));
+    return all.slice(rangeStart, rangeEnd);
   });
 
   constructor() {
