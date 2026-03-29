@@ -55,6 +55,13 @@ export interface Realm {
   revealedAt?: number;
 }
 
+export interface ChapterIndexEntry {
+  id: string;
+  n: number;
+  es?: string;
+  en?: string;
+}
+
 export interface ReaderSettings {
   fontSize: number;
   bgColor: string;

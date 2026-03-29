@@ -1,7 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Novel, Chapter } from '../models/novel.model';
+import { Novel, Chapter, ChapterIndexEntry } from '../models/novel.model';
 
 @Injectable({ providedIn: 'root' })
 export class NovelService {
@@ -13,6 +13,10 @@ export class NovelService {
 
   getNovel(novelId: string): Observable<Novel> {
     return this.http.get<Novel>(`/novels/${novelId}/novel.json`);
+  }
+
+  getChaptersIndex(novelId: string): Observable<ChapterIndexEntry[]> {
+    return this.http.get<ChapterIndexEntry[]>(`/novels/${novelId}/chapters-index.json`);
   }
 
   getChapter(novelId: string, chapterId: string): Observable<Chapter> {

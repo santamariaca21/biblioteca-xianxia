@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { NgStyle } from '@angular/common';
 import { NovelService } from '../../services/novel.service';
 import { SettingsService } from '../../services/settings.service';
-import { Novel, Chapter, resolveLocalized } from '../../models/novel.model';
+import { Novel, Chapter, ChapterIndexEntry, resolveLocalized } from '../../models/novel.model';
 import { HeaderComponent } from '../../components/header/header';
 import { ChapterSidebarComponent } from '../../components/chapter-sidebar/chapter-sidebar';
 import { StatsSidebarComponent } from '../../components/stats-sidebar/stats-sidebar';
@@ -146,6 +146,7 @@ export class ReaderComponent implements OnInit, OnDestroy {
   novelId = '';
   novel = signal<Novel | null>(null);
   chapters = signal<Map<string, Chapter>>(new Map());
+  chaptersIdx = signal<ChapterIndexEntry[]>([]);
   activeChapterId = signal('portada');
   showSettings = signal(false);
   mobileSidebar = signal(false);
@@ -154,13 +155,13 @@ export class ReaderComponent implements OnInit, OnDestroy {
   lang = computed(() => this.settings.settings().language);
 
   chapterIndex = computed(() => {
-    const n = this.novel();
-    if (!n) return [];
+    const idx = this.chaptersIdx();
     const l = this.lang();
-    return (n.chapters as any as string[]).map((id, i) => {
-      const ch = this.chapters().get(id);
-      return { id, number: i + 1, title: ch ? resolveLocalized(ch.title, l) : `Capítulo ${i + 1}` };
-    });
+    return idx.map(entry => ({
+      id: entry.id,
+      number: entry.n,
+      title: (l === 'en' ? entry.en : entry.es) || entry.es || entry.en || `Cap ${entry.n}`,
+    }));
   });
 
   currentChapter = computed(() => {
@@ -246,7 +247,9 @@ export class ReaderComponent implements OnInit, OnDestroy {
 
     this.novelService.getNovel(this.novelId).subscribe(novel => {
       this.novel.set(novel);
-      // Only load the active chapter, not all of them
+    });
+    this.novelService.getChaptersIndex(this.novelId).subscribe(idx => {
+      this.chaptersIdx.set(idx);
       this.loadChapter(this.activeChapterId());
     });
     window.addEventListener('scroll', this.scrollHandler, { passive: true });
