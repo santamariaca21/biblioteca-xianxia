@@ -15,6 +15,18 @@ import { IconComponent } from '../icon/icon';
       </div>
 
       <div class="setting-group">
+        <label>Idioma / Language</label>
+        <div class="lang-options">
+          <button class="lang-btn" [class.active]="settings.settings().language === 'es'" (click)="settings.update({ language: 'es' })">
+            <span class="lang-flag">ES</span> Español
+          </button>
+          <button class="lang-btn" [class.active]="settings.settings().language === 'en'" (click)="settings.update({ language: 'en' })">
+            <span class="lang-flag">EN</span> English
+          </button>
+        </div>
+      </div>
+
+      <div class="setting-group">
         <label>Tamaño de letra</label>
         <div class="font-controls">
           <button (click)="changeFontSize(-1)">A-</button>
@@ -102,6 +114,24 @@ import { IconComponent } from '../icon/icon';
         letter-spacing: 0.15em;
         margin-bottom: 0.75rem;
         font-family: 'Cinzel', serif;
+      }
+    }
+    .lang-options {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;
+    }
+    .lang-btn {
+      display: flex; align-items: center; gap: 0.5rem;
+      padding: 0.6rem 0.8rem; border-radius: 6px;
+      border: 2px solid #1e2230; background: #1a1f2a;
+      color: #8a8070; font-size: 0.75rem; cursor: pointer;
+      font-family: 'EB Garamond', serif; transition: all 0.2s;
+      &.active { border-color: #c9a84c; color: #e8e0d0; background: rgba(201,168,76,0.08); }
+      &:hover { border-color: rgba(201,168,76,0.25); }
+      .lang-flag {
+        font-family: 'Cinzel', serif; font-weight: 700;
+        font-size: 0.65rem; letter-spacing: 0.05em;
+        padding: 0.15rem 0.35rem; border-radius: 3px;
+        background: rgba(201,168,76,0.15); color: #c9a84c;
       }
     }
     .font-controls {

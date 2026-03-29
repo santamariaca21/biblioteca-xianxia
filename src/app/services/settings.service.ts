@@ -1,5 +1,5 @@
 import { Injectable, signal } from '@angular/core';
-import { ReaderSettings } from '../models/novel.model';
+import { ReaderSettings, SupportedLanguage } from '../models/novel.model';
 
 export interface ThemeColors {
   bg: string;
@@ -68,7 +68,7 @@ export class SettingsService {
       const saved = localStorage.getItem(this.STORAGE_KEY);
       if (saved) return JSON.parse(saved);
     } catch {}
-    return { fontSize: 18, bgColor: '#0a0c10', showTalents: true, showStats: true };
+    return { fontSize: 18, bgColor: '#0a0c10', showTalents: true, showStats: true, language: 'es' as SupportedLanguage };
   }
 
   update(partial: Partial<ReaderSettings>) {

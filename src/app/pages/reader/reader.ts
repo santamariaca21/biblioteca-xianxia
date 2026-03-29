@@ -3,7 +3,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { NgStyle } from '@angular/common';
 import { NovelService } from '../../services/novel.service';
 import { SettingsService } from '../../services/settings.service';
-import { Novel, Chapter, NovelCharacter } from '../../models/novel.model';
+import { Novel, Chapter, NovelCharacter, resolveLocalized, SupportedLanguage } from '../../models/novel.model';
 import { HeaderComponent } from '../../components/header/header';
 import { ChapterSidebarComponent } from '../../components/chapter-sidebar/chapter-sidebar';
 import { StatsSidebarComponent } from '../../components/stats-sidebar/stats-sidebar';
@@ -31,7 +31,7 @@ import { DomSanitizer } from '@angular/platform-browser';
     <!-- Mobile nav bar -->
     <div class="mobile-nav">
       <button class="mobile-btn" (click)="mobileSidebar.set(!mobileSidebar())"><app-icon name="menu" [size]="14" /> Índice</button>
-      <span class="mobile-chapter-label">{{ currentChapter()?.title || 'Portada' }}</span>
+      <span class="mobile-chapter-label">{{ chapterTitle() || 'Portada' }}</span>
       <button class="mobile-btn" (click)="showSettings.set(true)"><app-icon name="settings" [size]="14" /></button>
     </div>
 
@@ -91,7 +91,7 @@ import { DomSanitizer } from '@angular/platform-browser';
           <div class="chapter-view">
             <div class="chapter-header">
               <div class="chapter-label">Capítulo {{ ch.number }}</div>
-              <h2 class="chapter-title-main">{{ ch.title }}</h2>
+              <h2 class="chapter-title-main">{{ chapterTitle() }}</h2>
             </div>
 
             <div class="prose" [innerHTML]="sanitizedContent()"></div>
@@ -218,12 +218,15 @@ export class ReaderComponent implements OnInit, OnDestroy {
   mobileSidebar = signal(false);
   showScrollTop = signal(false);
 
+  lang = computed(() => this.settings.settings().language);
+
   chapterIndex = computed(() => {
     const n = this.novel();
     if (!n) return [];
+    const l = this.lang();
     return (n.chapters as any as string[]).map((id, i) => {
       const ch = this.chapters().get(id);
-      return { id, number: i + 1, title: ch?.title ?? `Capítulo ${i + 1}` };
+      return { id, number: i + 1, title: ch ? resolveLocalized(ch.title, l) : `Capítulo ${i + 1}` };
     });
   });
 
@@ -233,10 +236,17 @@ export class ReaderComponent implements OnInit, OnDestroy {
     return this.chapters().get(id) ?? null;
   });
 
+  chapterTitle = computed(() => {
+    const ch = this.currentChapter();
+    if (!ch) return '';
+    return resolveLocalized(ch.title, this.lang());
+  });
+
   sanitizedContent = computed(() => {
     const ch = this.currentChapter();
     if (!ch) return '';
-    return this.sanitizer.bypassSecurityTrustHtml(ch.content);
+    const raw = resolveLocalized(ch.content, this.lang());
+    return this.sanitizer.bypassSecurityTrustHtml(raw);
   });
 
   prevChapterId = computed(() => {

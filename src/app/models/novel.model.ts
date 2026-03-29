@@ -1,3 +1,12 @@
+export type SupportedLanguage = 'es' | 'en';
+export type LocalizedString = string | Record<string, string>;
+
+export function resolveLocalized(value: LocalizedString | undefined, lang: SupportedLanguage): string {
+  if (!value) return '';
+  if (typeof value === 'string') return value;
+  return value[lang] ?? value['es'] ?? Object.values(value)[0] ?? '';
+}
+
 export interface Novel {
   id: string;
   title: string;
@@ -16,8 +25,8 @@ export interface Novel {
 export interface Chapter {
   id: string;
   number: number;
-  title: string;
-  content: string;
+  title: LocalizedString;
+  content: LocalizedString;
   talents: TalentEntry[];
   stats: CharacterStats;
   characters: string[]; // IDs of characters appearing in this chapter
@@ -85,6 +94,7 @@ export interface ReaderSettings {
   bgColor: string;
   showTalents: boolean;
   showStats: boolean;
+  language: SupportedLanguage;
 }
 
 // ── Characters ──

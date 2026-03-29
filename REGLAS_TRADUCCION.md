@@ -307,6 +307,38 @@ Si se necesita traducir un capítulo individual:
 7. Verificar con `ng build` que compila correctamente.
 8. **Cada 15 capítulos**: revisar que `novel.json` refleje toda la info revelada hasta ese punto.
 
+## Sistema Multilenguaje
+
+Los capítulos soportan múltiples idiomas. Formato de `content` y `title`:
+
+```json
+{
+  "title": { "es": "El Talento Débil", "en": "Chapter 1" },
+  "content": { "es": "<p>HTML traducido al español...</p>", "en": "<p>English source with HTML formatting...</p>" }
+}
+```
+
+### Reglas de contenido multilenguaje
+
+1. **Español (`es`)**: Traducción completa con formato HTML (diálogos, emphasis, system-box, etc.) — este es el contenido principal.
+2. **Inglés (`en`)**: Texto original del source (fanmtl.com) con formato HTML básico:
+   - Cada párrafo envuelto en `<p>`
+   - Diálogos (líneas que empiezan con comillas) en `<span class="dialogue">`
+   - Paneles de talento (Human:, Species:, Cultivation:, etc.) en `<p class="centered-highlight">`
+   - Transiciones cortas en `<p class="centered-italic">`
+3. **Backward compatible**: El helper `resolveLocalized()` acepta tanto `string` (formato antiguo, asume español) como `{es, en}` (formato nuevo).
+4. **Idioma se guarda en localStorage** via `ReaderSettings.language`.
+5. **Extensible**: Para agregar un idioma (ej: `pt`), solo agregar la key al map de `content`/`title` y un botón en el settings panel.
+
+### Al traducir un nuevo capítulo
+
+1. El `content` del JSON debe incluir AMBOS idiomas:
+   - `content.es`: la traducción al español (con formato completo)
+   - `content.en`: el source original en inglés (con formato básico)
+2. Lo mismo para `title`:
+   - `title.es`: título traducido
+   - `title.en`: "Chapter N" o título en inglés si está disponible
+
 ## Proceso para Agregar una Nueva Novela
 
 1. Crear carpeta `public/novels/{novel-id}/`.
