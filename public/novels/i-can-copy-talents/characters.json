@@ -2383,6 +2383,81 @@
           "chapterId": "cap438",
           "chapterNumber": 438,
           "note": "Aparece en: Capítulo 438: Fortalecimiento del Alma copiado"
+        },
+        {
+          "chapterId": "cap439",
+          "chapterNumber": 439,
+          "note": "Aparece en: Capítulo 439: El desafío del Tianjiao de la Espada Verdadera"
+        },
+        {
+          "chapterId": "cap440",
+          "chapterNumber": 440,
+          "note": "Aparece en: Capítulo 440: El Monarca Espada de la Sombra Negra"
+        },
+        {
+          "chapterId": "cap441",
+          "chapterNumber": 441,
+          "note": "Aparece en: Capítulo 441: Iluminación junto al Artefacto de Origen del Dao"
+        },
+        {
+          "chapterId": "cap442",
+          "chapterNumber": 442,
+          "note": "Aparece en: El Reino de la Espada al Setenta y Cinco por Ciento"
+        },
+        {
+          "chapterId": "cap443",
+          "chapterNumber": 443,
+          "note": "Aparece en: La Reunión de los Cuatro Hegemones"
+        },
+        {
+          "chapterId": "cap444",
+          "chapterNumber": 444,
+          "note": "Aparece en: El Fin de la Guerra Tianjiao"
+        },
+        {
+          "chapterId": "cap445",
+          "chapterNumber": 445,
+          "note": "Aparece en: Capítulo 445 - El Pozo de Suerte de Qi de Nueve Pies y la Ciudad Gigante Inmortal"
+        },
+        {
+          "chapterId": "cap446",
+          "chapterNumber": 446,
+          "note": "Aparece en: Capítulo 446 - El Metaverso de Alto Nivel y el Impacto al Vigésimo Límite Físico"
+        },
+        {
+          "chapterId": "cap447",
+          "chapterNumber": 447,
+          "note": "Aparece en: Capítulo 447 - Hijo del Universo: Ye Tian Trasciende"
+        },
+        {
+          "chapterId": "cap448",
+          "chapterNumber": 448,
+          "note": "Aparece en: Su Alteza Wanfa"
+        },
+        {
+          "chapterId": "cap449",
+          "chapterNumber": 449,
+          "note": "Aparece en: Regreso a la Vía Láctea"
+        },
+        {
+          "chapterId": "cap450",
+          "chapterNumber": 450,
+          "note": "Aparece en: El Enviado del Salón Supremo"
+        },
+        {
+          "chapterId": "cap451",
+          "chapterNumber": 451,
+          "note": "Aparece en: Unirse al Salón Supremo de la Raza Humana"
+        },
+        {
+          "chapterId": "cap452",
+          "chapterNumber": 452,
+          "note": "Aparece en: Entrando al Salón Supremo de la Raza Humana"
+        },
+        {
+          "chapterId": "cap453",
+          "chapterNumber": 453,
+          "note": "Aparece en: La Pagoda de Cultivo del Lago Bibo"
         }
       ]
     },
@@ -2713,6 +2788,11 @@
           "chapterId": "cap410",
           "chapterNumber": 410,
           "note": "Aparece en: Misterio del Tiempo Comprendido — Rumbo al Sistema de Hadas"
+        },
+        {
+          "chapterId": "cap449",
+          "chapterNumber": 449,
+          "note": "Aparece en: Regreso a la Vía Láctea"
         }
       ]
     },
@@ -6326,6 +6406,11 @@
           "chapterId": "cap361",
           "chapterNumber": 361,
           "note": "Aparece en: El Colapso del Metaverso — 19.° Límite Físico"
+        },
+        {
+          "chapterId": "cap443",
+          "chapterNumber": 443,
+          "note": "Aparece en: La Reunión de los Cuatro Hegemones"
         }
       ]
     },
@@ -6956,6 +7041,11 @@
           "chapterId": "cap430",
           "chapterNumber": 430,
           "note": "Aparece en: Fragmentos del Mundo del Sable"
+        },
+        {
+          "chapterId": "cap449",
+          "chapterNumber": 449,
+          "note": "Aparece en: Regreso a la Vía Láctea"
         }
       ]
     },
@@ -7866,6 +7956,11 @@
           "chapterId": "cap344",
           "chapterNumber": 344,
           "note": "Aparece en: Palma del Vacío Súper Divina — Tianjiao Sin Igual"
+        },
+        {
+          "chapterId": "cap443",
+          "chapterNumber": 443,
+          "note": "Aparece en: La Reunión de los Cuatro Hegemones"
         }
       ]
     },
@@ -9098,6 +9193,11 @@
           "chapterId": "cap413",
           "chapterNumber": 413,
           "note": "Aparece en: El Imperio Mi Lan — La Última Página del Sutra Mira"
+        },
+        {
+          "chapterId": "cap443",
+          "chapterNumber": 443,
+          "note": "Aparece en: La Reunión de los Cuatro Hegemones"
         }
       ]
     },
@@ -9391,6 +9491,416 @@
           "chapterId": "cap438",
           "chapterNumber": 438,
           "note": "Aparece en: Capítulo 438: Fortalecimiento del Alma copiado"
+        }
+      ]
+    },
+    {
+      "id": "senor-guerra-inmortal",
+      "name": "Senor Guerra Inmortal",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 450.",
+      "info": {
+        "primerAparicion": "Capítulo 450"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap450",
+          "chapterNumber": 450,
+          "note": "Aparece en: El Enviado del Salón Supremo"
+        }
+      ]
+    },
+    {
+      "id": "monarca-sombra-negra",
+      "name": "Monarca Sombra Negra",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 440.",
+      "info": {
+        "primerAparicion": "Capítulo 440"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap440",
+          "chapterNumber": 440,
+          "note": "Aparece en: Capítulo 440: El Monarca Espada de la Sombra Negra"
+        },
+        {
+          "chapterId": "cap441",
+          "chapterNumber": 441,
+          "note": "Aparece en: Capítulo 441: Iluminación junto al Artefacto de Origen del Dao"
+        }
+      ]
+    },
+    {
+      "id": "qin-chen",
+      "name": "Qin Chen",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 450.",
+      "info": {
+        "primerAparicion": "Capítulo 450"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap450",
+          "chapterNumber": 450,
+          "note": "Aparece en: El Enviado del Salón Supremo"
+        },
+        {
+          "chapterId": "cap451",
+          "chapterNumber": 451,
+          "note": "Aparece en: Unirse al Salón Supremo de la Raza Humana"
+        },
+        {
+          "chapterId": "cap452",
+          "chapterNumber": 452,
+          "note": "Aparece en: Entrando al Salón Supremo de la Raza Humana"
+        }
+      ]
+    },
+    {
+      "id": "bai-gu",
+      "name": "Bai Gu",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 451.",
+      "info": {
+        "primerAparicion": "Capítulo 451"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap451",
+          "chapterNumber": 451,
+          "note": "Aparece en: Unirse al Salón Supremo de la Raza Humana"
+        },
+        {
+          "chapterId": "cap452",
+          "chapterNumber": 452,
+          "note": "Aparece en: Entrando al Salón Supremo de la Raza Humana"
+        },
+        {
+          "chapterId": "cap453",
+          "chapterNumber": 453,
+          "note": "Aparece en: La Pagoda de Cultivo del Lago Bibo"
+        }
+      ]
+    },
+    {
+      "id": "ziya",
+      "name": "Ziya",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 452.",
+      "info": {
+        "primerAparicion": "Capítulo 452"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap452",
+          "chapterNumber": 452,
+          "note": "Aparece en: Entrando al Salón Supremo de la Raza Humana"
+        },
+        {
+          "chapterId": "cap453",
+          "chapterNumber": 453,
+          "note": "Aparece en: La Pagoda de Cultivo del Lago Bibo"
+        }
+      ]
+    },
+    {
+      "id": "tianjiao-luna-creciente",
+      "name": "Tianjiao Luna Creciente",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 439.",
+      "info": {
+        "primerAparicion": "Capítulo 439"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap439",
+          "chapterNumber": 439,
+          "note": "Aparece en: Capítulo 439: El desafío del Tianjiao de la Espada Verdadera"
+        },
+        {
+          "chapterId": "cap441",
+          "chapterNumber": 441,
+          "note": "Aparece en: Capítulo 441: Iluminación junto al Artefacto de Origen del Dao"
+        },
+        {
+          "chapterId": "cap445",
+          "chapterNumber": 445,
+          "note": "Aparece en: Capítulo 445 - El Pozo de Suerte de Qi de Nueve Pies y la Ciudad Gigante Inmortal"
+        },
+        {
+          "chapterId": "cap446",
+          "chapterNumber": 446,
+          "note": "Aparece en: Capítulo 446 - El Metaverso de Alto Nivel y el Impacto al Vigésimo Límite Físico"
+        },
+        {
+          "chapterId": "cap447",
+          "chapterNumber": 447,
+          "note": "Aparece en: Capítulo 447 - Hijo del Universo: Ye Tian Trasciende"
+        }
+      ]
+    },
+    {
+      "id": "bai-gu-tianjiao",
+      "name": "Bai Gu Tianjiao",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 448.",
+      "info": {
+        "primerAparicion": "Capítulo 448"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap448",
+          "chapterNumber": 448,
+          "note": "Aparece en: Su Alteza Wanfa"
+        }
+      ]
+    },
+    {
+      "id": "tianjiao-sol-abrasador",
+      "name": "Tianjiao Sol Abrasador",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 439.",
+      "info": {
+        "primerAparicion": "Capítulo 439"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap439",
+          "chapterNumber": 439,
+          "note": "Aparece en: Capítulo 439: El desafío del Tianjiao de la Espada Verdadera"
+        },
+        {
+          "chapterId": "cap441",
+          "chapterNumber": 441,
+          "note": "Aparece en: Capítulo 441: Iluminación junto al Artefacto de Origen del Dao"
+        },
+        {
+          "chapterId": "cap445",
+          "chapterNumber": 445,
+          "note": "Aparece en: Capítulo 445 - El Pozo de Suerte de Qi de Nueve Pies y la Ciudad Gigante Inmortal"
+        },
+        {
+          "chapterId": "cap446",
+          "chapterNumber": 446,
+          "note": "Aparece en: Capítulo 446 - El Metaverso de Alto Nivel y el Impacto al Vigésimo Límite Físico"
+        },
+        {
+          "chapterId": "cap447",
+          "chapterNumber": 447,
+          "note": "Aparece en: Capítulo 447 - Hijo del Universo: Ye Tian Trasciende"
+        }
+      ]
+    },
+    {
+      "id": "maestro-secta-yan",
+      "name": "Maestro Secta Yan",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 448.",
+      "info": {
+        "primerAparicion": "Capítulo 448"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap448",
+          "chapterNumber": 448,
+          "note": "Aparece en: Su Alteza Wanfa"
+        },
+        {
+          "chapterId": "cap449",
+          "chapterNumber": 449,
+          "note": "Aparece en: Regreso a la Vía Láctea"
+        }
+      ]
+    },
+    {
+      "id": "rey-matanza",
+      "name": "Rey Matanza",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 444.",
+      "info": {
+        "primerAparicion": "Capítulo 444"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap444",
+          "chapterNumber": 444,
+          "note": "Aparece en: El Fin de la Guerra Tianjiao"
+        },
+        {
+          "chapterId": "cap445",
+          "chapterNumber": 445,
+          "note": "Aparece en: Capítulo 445 - El Pozo de Suerte de Qi de Nueve Pies y la Ciudad Gigante Inmortal"
+        },
+        {
+          "chapterId": "cap446",
+          "chapterNumber": 446,
+          "note": "Aparece en: Capítulo 446 - El Metaverso de Alto Nivel y el Impacto al Vigésimo Límite Físico"
+        },
+        {
+          "chapterId": "cap447",
+          "chapterNumber": 447,
+          "note": "Aparece en: Capítulo 447 - Hijo del Universo: Ye Tian Trasciende"
+        },
+        {
+          "chapterId": "cap448",
+          "chapterNumber": 448,
+          "note": "Aparece en: Su Alteza Wanfa"
+        }
+      ]
+    },
+    {
+      "id": "yun-sheng",
+      "name": "Yun Sheng",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 452.",
+      "info": {
+        "primerAparicion": "Capítulo 452"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap452",
+          "chapterNumber": 452,
+          "note": "Aparece en: Entrando al Salón Supremo de la Raza Humana"
+        }
+      ]
+    },
+    {
+      "id": "tianjiao-hueso-blanco",
+      "name": "Tianjiao Hueso Blanco",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 447.",
+      "info": {
+        "primerAparicion": "Capítulo 447"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap447",
+          "chapterNumber": 447,
+          "note": "Aparece en: Capítulo 447 - Hijo del Universo: Ye Tian Trasciende"
+        }
+      ]
+    },
+    {
+      "id": "monarca-espada-sombra-negra",
+      "name": "Monarca Espada Sombra Negra",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 442.",
+      "info": {
+        "primerAparicion": "Capítulo 442"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap442",
+          "chapterNumber": 442,
+          "note": "Aparece en: El Reino de la Espada al Setenta y Cinco por Ciento"
+        }
+      ]
+    },
+    {
+      "id": "senor-ejercito-inmortal",
+      "name": "Senor Ejercito Inmortal",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 443.",
+      "info": {
+        "primerAparicion": "Capítulo 443"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap443",
+          "chapterNumber": 443,
+          "note": "Aparece en: La Reunión de los Cuatro Hegemones"
+        },
+        {
+          "chapterId": "cap444",
+          "chapterNumber": 444,
+          "note": "Aparece en: El Fin de la Guerra Tianjiao"
+        }
+      ]
+    },
+    {
+      "id": "tianjiao-espada-verdadera",
+      "name": "Tianjiao Espada Verdadera",
+      "nameChinese": "",
+      "role": "mencion",
+      "bio": "Aparece desde capítulo 439.",
+      "info": {
+        "primerAparicion": "Capítulo 439"
+      },
+      "abilities": [],
+      "relationships": [],
+      "chapterAppearances": [
+        {
+          "chapterId": "cap439",
+          "chapterNumber": 439,
+          "note": "Aparece en: Capítulo 439: El desafío del Tianjiao de la Espada Verdadera"
+        },
+        {
+          "chapterId": "cap440",
+          "chapterNumber": 440,
+          "note": "Aparece en: Capítulo 440: El Monarca Espada de la Sombra Negra"
+        },
+        {
+          "chapterId": "cap441",
+          "chapterNumber": 441,
+          "note": "Aparece en: Capítulo 441: Iluminación junto al Artefacto de Origen del Dao"
+        },
+        {
+          "chapterId": "cap445",
+          "chapterNumber": 445,
+          "note": "Aparece en: Capítulo 445 - El Pozo de Suerte de Qi de Nueve Pies y la Ciudad Gigante Inmortal"
+        },
+        {
+          "chapterId": "cap446",
+          "chapterNumber": 446,
+          "note": "Aparece en: Capítulo 446 - El Metaverso de Alto Nivel y el Impacto al Vigésimo Límite Físico"
+        },
+        {
+          "chapterId": "cap447",
+          "chapterNumber": 447,
+          "note": "Aparece en: Capítulo 447 - Hijo del Universo: Ye Tian Trasciende"
         }
       ]
     }
