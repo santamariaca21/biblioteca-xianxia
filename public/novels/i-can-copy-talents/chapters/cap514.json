@@ -1,0 +1,260 @@
+{
+  "id": "cap514",
+  "number": 514,
+  "title": "Capítulo 514",
+  "content": "",
+  "talents": [],
+  "stats": {
+    "label": "Stats — Cap. 514",
+    "reino": "Nivel Emperador",
+    "reinoClass": "gold",
+    "talento": "40+",
+    "talentoClass": "gold",
+    "fuerza": "20.000+ poderes de dragón (16.° límite físico roto)",
+    "ubicacion": "Por determinar",
+    "abilities": [],
+    "copiedTalents": "Cultivo Páramo + Aurora Divino + Sable Estrella Matutina + Sombra Supremo + Curación Supremo + Fuerza Arcano + Defensa Arcano + Formación Supremo + Dominio Fuego Arcano + Camuflaje Pseudo-Arcano + Espacial Pseudo-Arcano (40%) + Ojo Sangre Medio + Barrera Agua Arcano + Espinas Tierra Arcano + Enredadera Arcano + Tormenta Arcano + Lunar Arcano + Hipnosis Supremo + Muerte Suspendida Supremo + Sustitución Muerte Supremo + Transferencia Alma Supremo + Tiempo Alto + Inmortal Supremo + Lanza Trueno Arcano + Hielo Arcano + Necromántico Supremo",
+    "edad": "~18 años",
+    "golpeMax": "72.000+ poderes de dragón",
+    "dominioCerebral": "100%",
+    "talentos": [
+      {
+        "nombre": "Cultivo",
+        "nivel": "Páramo",
+        "tipo": "cultivation",
+        "estado": ""
+      },
+      {
+        "nombre": "Aurora",
+        "nivel": "Divino",
+        "tipo": "aurora",
+        "estado": ""
+      },
+      {
+        "nombre": "Sable",
+        "nivel": "Estrella Matutina",
+        "tipo": "blade",
+        "estado": ""
+      },
+      {
+        "nombre": "Sombra",
+        "nivel": "Supremo",
+        "tipo": "shadow",
+        "estado": ""
+      },
+      {
+        "nombre": "Curación",
+        "nivel": "Supremo",
+        "tipo": "healing",
+        "estado": ""
+      },
+      {
+        "nombre": "Fuerza",
+        "nivel": "Divino",
+        "tipo": "strength",
+        "estado": ""
+      },
+      {
+        "nombre": "Defensa",
+        "nivel": "Divino",
+        "tipo": "defense",
+        "estado": ""
+      },
+      {
+        "nombre": "Hueso Vajra",
+        "nivel": "Pseudo-Arcano (70%)",
+        "tipo": "bone",
+        "estado": ""
+      },
+      {
+        "nombre": "Devorador Sangre",
+        "nivel": "Arcano",
+        "tipo": "blood",
+        "estado": ""
+      },
+      {
+        "nombre": "Espacial",
+        "nivel": "Pseudo-Arcano (50%)",
+        "tipo": "space",
+        "estado": ""
+      },
+      {
+        "nombre": "Tiempo",
+        "nivel": "Alto",
+        "tipo": "time",
+        "estado": ""
+      },
+      {
+        "nombre": "Dominio de Fuego",
+        "nivel": "Arcano",
+        "tipo": "fire",
+        "estado": ""
+      },
+      {
+        "nombre": "Sustitución Muerte",
+        "nivel": "Supremo",
+        "tipo": "death-sub",
+        "estado": ""
+      },
+      {
+        "nombre": "Formación",
+        "nivel": "Supremo",
+        "tipo": "formation",
+        "estado": ""
+      },
+      {
+        "nombre": "Espada",
+        "nivel": "Sol Naciente",
+        "tipo": "sword",
+        "estado": ""
+      },
+      {
+        "nombre": "Vuelo",
+        "nivel": "Alto",
+        "tipo": "flight",
+        "estado": ""
+      },
+      {
+        "nombre": "Hueso Sangre",
+        "nivel": "Medio",
+        "tipo": "blood-bone",
+        "estado": ""
+      },
+      {
+        "nombre": "Transferencia Alma",
+        "nivel": "Supremo",
+        "tipo": "soul",
+        "estado": ""
+      },
+      {
+        "nombre": "Rastreo",
+        "nivel": "Alto",
+        "tipo": "tracking",
+        "estado": ""
+      },
+      {
+        "nombre": "Hielo",
+        "nivel": "Arcano",
+        "tipo": "ice",
+        "estado": ""
+      },
+      {
+        "nombre": "Resistencia",
+        "nivel": "Supremo",
+        "tipo": "endurance",
+        "estado": ""
+      },
+      {
+        "nombre": "Búsqueda Tesoros",
+        "nivel": "Alto",
+        "tipo": "treasure",
+        "estado": ""
+      },
+      {
+        "nombre": "Control Bestias",
+        "nivel": "Supremo",
+        "tipo": "beast-control",
+        "estado": ""
+      },
+      {
+        "nombre": "Camuflaje",
+        "nivel": "Pseudo-Arcano (30%)",
+        "tipo": "camouflage",
+        "estado": ""
+      },
+      {
+        "nombre": "Ojo Sangre",
+        "nivel": "Medio",
+        "tipo": "blood-eye",
+        "estado": ""
+      },
+      {
+        "nombre": "Barrera de Agua",
+        "nivel": "Arcano",
+        "tipo": "water",
+        "estado": ""
+      },
+      {
+        "nombre": "Espinas de Tierra",
+        "nivel": "Arcano",
+        "tipo": "earth",
+        "estado": ""
+      },
+      {
+        "nombre": "Enredadera",
+        "nivel": "Arcano",
+        "tipo": "vine",
+        "estado": ""
+      },
+      {
+        "nombre": "Tormenta",
+        "nivel": "Arcano",
+        "tipo": "storm",
+        "estado": ""
+      },
+      {
+        "nombre": "Lunar",
+        "nivel": "Arcano",
+        "tipo": "lunar",
+        "estado": ""
+      },
+      {
+        "nombre": "Hipnosis",
+        "nivel": "Supremo",
+        "tipo": "hypnosis",
+        "estado": ""
+      },
+      {
+        "nombre": "Muerte Suspendida",
+        "nivel": "Supremo",
+        "tipo": "suspended-death",
+        "estado": ""
+      },
+      {
+        "nombre": "Copia",
+        "nivel": "A distancia · 2000m · 2/día",
+        "tipo": "copy",
+        "estado": ""
+      },
+      {
+        "nombre": "Clon Sombra",
+        "nivel": "Supremo",
+        "tipo": "shadow-clone",
+        "estado": ""
+      },
+      {
+        "nombre": "Contrato",
+        "nivel": "Supremo",
+        "tipo": "contract",
+        "estado": ""
+      },
+      {
+        "nombre": "Garra",
+        "nivel": "Sol Naciente",
+        "tipo": "claw",
+        "estado": ""
+      },
+      {
+        "nombre": "Inmortal",
+        "nivel": "Supremo",
+        "tipo": "immortal",
+        "estado": ""
+      },
+      {
+        "nombre": "Lanza Trueno",
+        "nivel": "Arcano",
+        "tipo": "thunder",
+        "estado": ""
+      },
+      {
+        "nombre": "Necromántico",
+        "nivel": "Supremo",
+        "tipo": "necromancy",
+        "estado": ""
+      }
+    ]
+  },
+  "characters": [
+    "ye-tian"
+  ]
+}
