@@ -246,20 +246,8 @@ export class ReaderComponent implements OnInit, OnDestroy {
 
     this.novelService.getNovel(this.novelId).subscribe(novel => {
       this.novel.set(novel);
-      const chapterIds = novel.chapters as any as string[];
-      chapterIds.forEach(chId => {
-        this.novelService.getChapter(this.novelId, chId).subscribe(ch => {
-          this.chapters.update(map => {
-            const newMap = new Map(map);
-            newMap.set(chId, ch);
-            return newMap;
-          });
-          // Restore scroll position after the active chapter loads
-          if (chId === this.activeChapterId.call(this)) {
-            this.restoreScrollPosition();
-          }
-        });
-      });
+      // Only load the active chapter, not all of them
+      this.loadChapter(this.activeChapterId());
     });
     window.addEventListener('scroll', this.scrollHandler, { passive: true });
   }
@@ -298,7 +286,44 @@ export class ReaderComponent implements OnInit, OnDestroy {
     this.mobileSidebar.set(false);
     localStorage.setItem(this.storageKey, id);
     localStorage.removeItem(this.scrollKey);
+    this.loadChapter(id);
     this.scrollToTop();
+  }
+
+  private loadChapter(id: string) {
+    if (!id || id === 'portada') return;
+    // Skip if already loaded
+    if (this.chapters().has(id)) {
+      this.restoreScrollPosition();
+      this.preloadAdjacent();
+      return;
+    }
+    this.novelService.getChapter(this.novelId, id).subscribe(ch => {
+      this.chapters.update(map => {
+        const newMap = new Map(map);
+        newMap.set(id, ch);
+        return newMap;
+      });
+      if (id === this.activeChapterId()) {
+        this.restoreScrollPosition();
+        this.preloadAdjacent();
+      }
+    });
+  }
+
+  private preloadAdjacent() {
+    const prev = this.prevChapterId();
+    const next = this.nextChapterId();
+    if (prev && !this.chapters().has(prev)) {
+      this.novelService.getChapter(this.novelId, prev).subscribe(ch => {
+        this.chapters.update(map => { const m = new Map(map); m.set(prev, ch); return m; });
+      });
+    }
+    if (next && !this.chapters().has(next)) {
+      this.novelService.getChapter(this.novelId, next).subscribe(ch => {
+        this.chapters.update(map => { const m = new Map(map); m.set(next!, ch); return m; });
+      });
+    }
   }
 
   scrollToTop() {
