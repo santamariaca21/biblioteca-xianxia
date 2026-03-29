@@ -2,7 +2,17 @@
   "buildCommand": "ng build",
   "outputDirectory": "dist/biblioteca-xianxia/browser",
   "framework": null,
+  "headers": [
+    {
+      "source": "/novels/(.*).json",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600" },
+        { "key": "Content-Type", "value": "application/json" }
+      ]
+    }
+  ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/novels/(.*)", "destination": "/novels/$1" },
+    { "source": "/((?!novels/).*)", "destination": "/index.html" }
   ]
 }
