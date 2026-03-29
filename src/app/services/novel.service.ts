@@ -1,7 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Novel, Chapter, CharactersData } from '../models/novel.model';
+import { Novel, Chapter } from '../models/novel.model';
 
 @Injectable({ providedIn: 'root' })
 export class NovelService {
@@ -17,16 +17,5 @@ export class NovelService {
 
   getChapter(novelId: string, chapterId: string): Observable<Chapter> {
     return this.http.get<Chapter>(`/novels/${novelId}/chapters/${chapterId}.json`);
-  }
-
-  getCharacters(novelId: string): Observable<CharactersData> {
-    return this.http.get<CharactersData>(`/novels/${novelId}/characters.json`);
-  }
-
-  getCharacterImageUrl(novelId: string, imageName: string | undefined): string {
-    if (!imageName) {
-      return `/novels/${novelId}/characters/placeholder.svg`;
-    }
-    return `/novels/${novelId}/characters/${imageName}`;
   }
 }

@@ -1,14 +1,13 @@
 import { Component, inject, OnInit, OnDestroy, signal, computed } from '@angular/core';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { NgStyle } from '@angular/common';
 import { NovelService } from '../../services/novel.service';
 import { SettingsService } from '../../services/settings.service';
-import { Novel, Chapter, NovelCharacter, resolveLocalized, SupportedLanguage } from '../../models/novel.model';
+import { Novel, Chapter, resolveLocalized } from '../../models/novel.model';
 import { HeaderComponent } from '../../components/header/header';
 import { ChapterSidebarComponent } from '../../components/chapter-sidebar/chapter-sidebar';
 import { StatsSidebarComponent } from '../../components/stats-sidebar/stats-sidebar';
 import { SettingsPanelComponent } from '../../components/settings-panel/settings-panel';
-import { CharacterCardComponent } from '../../components/character-card/character-card';
 import { IconComponent } from '../../components/icon/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 
@@ -17,12 +16,10 @@ import { DomSanitizer } from '@angular/platform-browser';
   standalone: true,
   imports: [
     NgStyle,
-    RouterLink,
     HeaderComponent,
     ChapterSidebarComponent,
     StatsSidebarComponent,
     SettingsPanelComponent,
-    CharacterCardComponent,
     IconComponent,
   ],
   template: `
@@ -62,24 +59,12 @@ import { DomSanitizer } from '@angular/platform-browser';
 
             <div class="chapter-section">
               <div class="section-header">
-                <div class="section-icon"><app-icon name="globe" [size]="16" /></div>
-                <div class="section-title">El Mundo</div>
-              </div>
-              <ul class="world-info-list">
-                @for (info of novel()?.worldInfo; track info) {
-                  <li>{{ info }}</li>
-                }
-              </ul>
-            </div>
-
-            <div class="chapter-section">
-              <div class="section-header">
                 <div class="section-icon"><app-icon name="swords" [size]="16" /></div>
                 <div class="section-title">Reinos de Cultivo</div>
               </div>
               <ul class="realm-list">
                 @for (realm of novel()?.realms; track realm.name) {
-                  <li class="realm-item" [class.current]="realm.current">▸ {{ realm.name }}</li>
+                  <li class="realm-item" [class.current]="realm.current">{{ realm.name }}</li>
                 }
               </ul>
             </div>
@@ -98,35 +83,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 
             <div class="ornament">―――</div>
 
-            <!-- TALENTS LIST -->
-            @if (settings.settings().showTalents && ch.talents.length > 0) {
-              <div class="chapter-section">
-                <div class="section-header">
-                  <div class="section-icon"><app-icon name="sparkles" [size]="16" /></div>
-                  <div class="section-title">Talentos Descubiertos — Capítulo {{ ch.number }}</div>
-                </div>
-                <div class="talent-list">
-                  @for (talent of ch.talents; track talent.owner + talent.name) {
-                    <div class="talent-item">
-                      <div class="talent-owner">{{ talent.owner }}</div>
-                      <div class="talent-details">
-                        <div class="talent-name">{{ talent.name }}</div>
-                        @if (talent.description) {
-                          <div class="talent-description">{{ talent.description }}</div>
-                        }
-                        <div class="talent-tags">
-                          @for (tag of talent.tags; track tag.label) {
-                            <span class="talent-tag" [attr.data-type]="tag.type">{{ tag.label }}</span>
-                          }
-                        </div>
-                      </div>
-                    </div>
-                  }
-                </div>
-              </div>
-            }
-
-            <!-- CHARACTERS IN THIS CHAPTER -->
+            <!-- MOBILE STATS SECTION -->
             <!-- MOBILE STATS -->
             @if (settings.settings().showStats) {
               <div class="mobile-stats">
@@ -189,7 +146,6 @@ export class ReaderComponent implements OnInit, OnDestroy {
   novelId = '';
   novel = signal<Novel | null>(null);
   chapters = signal<Map<string, Chapter>>(new Map());
-  allCharacters = signal<NovelCharacter[]>([]);
   activeChapterId = signal('portada');
   showSettings = signal(false);
   mobileSidebar = signal(false);
@@ -261,13 +217,6 @@ export class ReaderComponent implements OnInit, OnDestroy {
     };
   });
 
-  chapterCharacters = computed(() => {
-    const ch = this.currentChapter();
-    if (!ch || !ch.characters) return [];
-    const charIds = ch.characters;
-    return this.allCharacters().filter(c => charIds.includes(c.id));
-  });
-
   constructor() {
     SettingsPanelComponent.onClose(() => this.showSettings.set(false));
 
@@ -312,10 +261,6 @@ export class ReaderComponent implements OnInit, OnDestroy {
         });
       });
     });
-    this.novelService.getCharacters(this.novelId).subscribe(data => {
-      this.allCharacters.set(data.characters);
-    });
-
     window.addEventListener('scroll', this.scrollHandler, { passive: true });
   }
 

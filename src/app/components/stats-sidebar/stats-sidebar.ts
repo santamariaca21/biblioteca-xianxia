@@ -91,10 +91,6 @@ import { IconComponent } from '../icon/icon';
           </div>
         }
 
-        @if (novel(); as n) {
-          <!-- REMOVED: Talent Ranks, Base Info, Characters -->
-          </div>
-        }
       </aside>
     }
   `,
@@ -349,28 +345,4 @@ export class StatsSidebarComponent {
     return 'default';
   }
 
-  filteredTalentRanks = computed(() => {
-    const n = this.novel();
-    const num = this.chapterNumber();
-    if (!n) return [];
-    return n.talentRanks.filter(tr => !tr.revealedAt || tr.revealedAt <= num);
-  });
-
-  filteredTalentRanksByCategory(category: string) {
-    return this.filteredTalentRanks().filter(tr => (tr.category ?? 'cultivation') === category);
-  }
-
-  filteredBaseInfo = computed(() => {
-    const n = this.novel();
-    const num = this.chapterNumber();
-    if (!n?.baseInfoProgressive) {
-      if (!n?.baseInfo) return [];
-      return Object.entries(n.baseInfo).map(([key, value]) => ({ key, value }));
-    }
-    return n.baseInfoProgressive.filter(item => {
-      const revealed = !item.revealedAt || item.revealedAt <= num;
-      const notReplaced = !item.replacedAt || item.replacedAt > num;
-      return revealed && notReplaced;
-    });
-  });
 }
