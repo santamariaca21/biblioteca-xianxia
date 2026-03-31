@@ -151,27 +151,27 @@ import { IconComponent } from '../icon/icon';
       &:hover { background: var(--t-sys-bg, rgba(201,168,76,0.1)); }
     }
     .range-selector {
-      display: flex;
-      overflow-x: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       gap: 0.2rem;
-      padding: 0.4rem 0.8rem;
+      padding: 0.4rem 0.6rem;
       border-bottom: 1px solid var(--t-border, #1e2230);
-      scrollbar-width: none;
-      &::-webkit-scrollbar { display: none; }
+      max-height: 120px;
+      overflow-y: auto;
+      &::-webkit-scrollbar { width: 2px; }
+      &::-webkit-scrollbar-thumb { background: var(--t-border, #1e2230); }
     }
     .range-btn {
       background: var(--t-hover, rgba(255,255,255,0.03));
       border: 1px solid var(--t-border, #1e2230);
       color: var(--t-dim, #8a8070);
       font-size: 0.55rem;
-      padding: 0.2rem 0.4rem;
+      padding: 0.2rem 0.3rem;
       border-radius: 3px;
       cursor: pointer;
       font-family: 'Cinzel', serif;
-      letter-spacing: 0.02em;
+      text-align: center;
       transition: all 0.15s;
-      white-space: nowrap;
-      flex-shrink: 0;
       &:hover { border-color: var(--t-gold-dim, #7a6330); color: var(--t-text, #e8e0d0); }
       &.active {
         background: var(--t-sys-bg, rgba(201,168,76,0.1));
