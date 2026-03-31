@@ -50,23 +50,9 @@ import { IconComponent } from '../icon/icon';
         </div>
       </div>
 
-      <div class="setting-group">
-        <label>Visibilidad</label>
+      <div class="setting-group" style="display:none">
         <div class="toggle-row">
-          <span>Talentos</span>
-          <button
-            class="toggle-btn"
-            [class.on]="settings.settings().showTalents"
-            (click)="settings.update({ showTalents: !settings.settings().showTalents })"
-          >{{ settings.settings().showTalents ? 'Visible' : 'Oculto' }}</button>
-        </div>
-        <div class="toggle-row">
-          <span>Stats</span>
-          <button
-            class="toggle-btn"
-            [class.on]="settings.settings().showStats"
-            (click)="settings.update({ showStats: !settings.settings().showStats })"
-          >{{ settings.settings().showStats ? 'Visible' : 'Oculto' }}</button>
+          <button class="toggle-btn"></button>
         </div>
       </div>
     </div>

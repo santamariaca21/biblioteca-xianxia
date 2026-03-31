@@ -23,36 +23,6 @@ export interface Chapter {
   number: number;
   title: LocalizedString;
   content: LocalizedString;
-  stats: CharacterStats;
-}
-
-export interface CharacterStats {
-  label: string;
-  reino: string;
-  reinoClass: string;
-  talento: string;
-  talentoClass: string;
-  fuerza: string;
-  ubicacion: string;
-  abilities: string[];
-  copiedTalents: string | null;
-  talentos?: TalentStat[];
-  edad?: string;
-  golpeMax?: string;
-  dominioCerebral?: string;
-}
-
-export interface TalentStat {
-  nombre: string;
-  nivel: string;
-  tipo: string;
-  estado: string;
-}
-
-export interface Realm {
-  name: string;
-  current: boolean;
-  revealedAt?: number;
 }
 
 export interface ChapterIndexEntry {
@@ -60,6 +30,12 @@ export interface ChapterIndexEntry {
   n: number;
   es?: string;
   en?: string;
+}
+
+export interface Realm {
+  name: string;
+  current: boolean;
+  revealedAt?: number;
 }
 
 export interface ReaderSettings {

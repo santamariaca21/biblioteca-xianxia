@@ -6,7 +6,6 @@ import { SettingsService } from '../../services/settings.service';
 import { Novel, Chapter, ChapterIndexEntry, resolveLocalized } from '../../models/novel.model';
 import { HeaderComponent } from '../../components/header/header';
 import { ChapterSidebarComponent } from '../../components/chapter-sidebar/chapter-sidebar';
-import { StatsSidebarComponent } from '../../components/stats-sidebar/stats-sidebar';
 import { SettingsPanelComponent } from '../../components/settings-panel/settings-panel';
 import { IconComponent } from '../../components/icon/icon';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -18,7 +17,6 @@ import { DomSanitizer } from '@angular/platform-browser';
     NgStyle,
     HeaderComponent,
     ChapterSidebarComponent,
-    StatsSidebarComponent,
     SettingsPanelComponent,
     IconComponent,
   ],
@@ -83,37 +81,6 @@ import { DomSanitizer } from '@angular/platform-browser';
 
             <div class="ornament">―――</div>
 
-            <!-- MOBILE STATS SECTION -->
-            <!-- MOBILE STATS -->
-            @if (settings.settings().showStats) {
-              <div class="mobile-stats">
-                <div class="chapter-section">
-                  <div class="section-header">
-                    <div class="section-icon"><app-icon name="swords" [size]="16" /></div>
-                    <div class="section-title">{{ ch.stats.label }}</div>
-                  </div>
-                  <div class="stat-row"><span>Reino</span><span [class]="ch.stats.reinoClass">{{ ch.stats.reino }}</span></div>
-                  <div class="stat-row"><span>Fuerza</span><span>{{ ch.stats.fuerza }}</span></div>
-                  @if (ch.stats.dominioCerebral) {
-                    <div class="stat-row"><span>Dominio Cerebral</span><span class="teal">{{ ch.stats.dominioCerebral }}</span></div>
-                  }
-                  <div class="stat-row"><span>Ubicación</span><span>{{ ch.stats.ubicacion }}</span></div>
-                  @if (ch.stats.talentos && ch.stats.talentos.length > 0) {
-                    <div class="mobile-talents-label">TALENTOS</div>
-                    @for (t of ch.stats.talentos; track t.nombre) {
-                      <div class="mobile-talent-row">
-                        <span class="mobile-talent-name">{{ t.nombre }}</span>
-                        <span class="mobile-talent-nivel">{{ t.nivel }}</span>
-                        @if (t.estado) {
-                          <span class="mobile-talent-estado" [attr.data-estado]="t.estado">{{ t.estado }}</span>
-                        }
-                      </div>
-                    }
-                  }
-                </div>
-              </div>
-            }
-
             <!-- CHAPTER NAVIGATION -->
             <div class="chapter-nav">
               <button class="nav-btn" [disabled]="!prevChapterId()" (click)="onChapterSelected(prevChapterId()!)"><app-icon name="chevron-left" [size]="14" /> Anterior</button>
@@ -124,7 +91,6 @@ import { DomSanitizer } from '@angular/platform-browser';
         }
       </main>
 
-      <app-stats-sidebar [chapter]="currentChapter()" [novel]="novel()" />
     </div>
 
     @if (showSettings()) {
