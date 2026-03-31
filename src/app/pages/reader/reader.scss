@@ -1,7 +1,7 @@
 // ── LAYOUT ──
 .app-layout {
   display: grid;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 260px 1fr 260px;
   min-height: calc(100vh - 56px);
   margin: 0 auto;
   transition: background 0.3s ease;
@@ -17,14 +17,25 @@
   transition: color 0.3s ease;
 }
 
+// Empty right spacer to visually center the content
+.right-spacer {
+  // no styles needed — just occupies grid space
+}
+
 @media (max-width: 1200px) {
-  .app-layout { grid-template-columns: 220px 1fr; }
+  .app-layout { grid-template-columns: 220px 1fr 220px; }
   .main-content { padding: 2rem 2rem; }
+}
+
+@media (max-width: 1000px) {
+  .app-layout { grid-template-columns: 220px 1fr; }
+  .right-spacer { display: none; }
 }
 
 @media (max-width: 900px) {
   .app-layout { grid-template-columns: 1fr; }
   .main-content { padding: 1.5rem 1.2rem; max-width: 100%; }
+  .right-spacer { display: none; }
 }
 
 // ── HERO / PORTADA ──

@@ -91,6 +91,7 @@ import { DomSanitizer } from '@angular/platform-browser';
         }
       </main>
 
+      <div class="right-spacer"></div>
     </div>
 
     @if (showSettings()) {
