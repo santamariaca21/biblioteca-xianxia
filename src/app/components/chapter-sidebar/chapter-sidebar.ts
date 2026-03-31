@@ -73,16 +73,29 @@ import { IconComponent } from '../icon/icon';
   `,
   styles: [`
     .sidebar-left {
-      border-right: 1px solid var(--t-border, #1e2230);
-      padding: 0;
-      position: sticky;
-      top: 56px;
-      height: calc(100vh - 56px);
-      overflow-y: auto;
-      display: flex;
-      flex-direction: column;
-      &::-webkit-scrollbar { width: 3px; }
-      &::-webkit-scrollbar-thumb { background: var(--t-sys-border, rgba(201,168,76,0.25)); border-radius: 2px; }
+      display: none;
+      &.open {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0; left: 0; bottom: 0;
+        width: 320px;
+        max-width: 85vw;
+        background: var(--t-card, #0f1218);
+        border-right: 1px solid var(--t-border, #1e2230);
+        z-index: 200;
+        box-shadow: 4px 0 20px rgba(0,0,0,0.3);
+        animation: slideInLeft 0.25s ease;
+        height: 100vh;
+        padding: 0;
+        overflow: hidden;
+        &::-webkit-scrollbar { width: 3px; }
+        &::-webkit-scrollbar-thumb { background: var(--t-sys-border, rgba(201,168,76,0.25)); border-radius: 2px; }
+      }
+    }
+    @keyframes slideInLeft {
+      from { transform: translateX(-100%); }
+      to { transform: translateX(0); }
     }
     .sidebar-header {
       display: flex;
@@ -226,23 +239,8 @@ import { IconComponent } from '../icon/icon';
       font-style: italic;
     }
     @media (max-width: 900px) {
-      .sidebar-left {
-        display: none;
-        &.open {
-          display: flex;
-          position: fixed;
-          top: 0; left: 0; bottom: 0;
-          width: 300px;
-          max-width: 85vw;
-          background: var(--t-card, #0f1218);
-          z-index: 200;
-          box-shadow: 4px 0 20px rgba(0,0,0,0.3);
-          animation: slideInLeft 0.25s ease;
-          height: 100vh;
-          padding-top: 0.5rem;
-        }
-      }
-      @keyframes slideInLeft {
+      // sidebar already handled as fixed overlay above
+      @keyframes _unused {
         from { transform: translateX(-100%); }
         to { transform: translateX(0); }
       }

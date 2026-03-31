@@ -34,14 +34,14 @@ import { DomSanitizer } from '@angular/platform-browser';
       <div class="mobile-overlay" (click)="mobileSidebar.set(false)"></div>
     }
 
-    <div class="app-layout" [ngStyle]="themeVars()">
-      <app-chapter-sidebar
-        [chapters]="chapterIndex()"
-        [activeChapter]="activeChapterId()"
-        [mobileOpen]="mobileSidebar()"
-        (chapterSelected)="onChapterSelected($event)"
-      />
+    <app-chapter-sidebar
+      [chapters]="chapterIndex()"
+      [activeChapter]="activeChapterId()"
+      [mobileOpen]="mobileSidebar()"
+      (chapterSelected)="onChapterSelected($event)"
+    />
 
+    <div class="app-layout" [ngStyle]="themeVars()">
       <main class="main-content" [style.font-size.px]="settings.settings().fontSize" [style.line-height]="settings.settings().lineHeight ?? 1.9">
         <!-- PORTADA -->
         @if (activeChapterId() === 'portada') {
@@ -91,7 +91,6 @@ import { DomSanitizer } from '@angular/platform-browser';
         }
       </main>
 
-      <div class="right-spacer"></div>
     </div>
 
     @if (showSettings()) {
