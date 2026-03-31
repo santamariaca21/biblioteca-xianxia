@@ -1,0 +1,67 @@
+{
+  "_descripcion": "Términos fijos para sustitución automática post-traducción. Se aplican en orden (los más largos primero).",
+
+  "nombres_personajes": {
+    "Emperador Luna": "Emperatriz Luna",
+    "Emperatriz Yue": "Emperatriz Luna",
+    "Emperor Moon": "Emperatriz Luna",
+    "Moon Emperor": "Emperatriz Luna",
+    "Emperador del Hacha": "Emperador Hacha de Guerra",
+    "Emperador Tomahawk": "Emperador Hacha de Guerra",
+    "Tomahawk Emperor": "Emperador Hacha de Guerra",
+    "Yueling": "Yue Ling",
+    "Xiaoxue": "Xiao Xue",
+    "Xiaojin": "Xiao Jin",
+    "Xiaozi": "Xiao Zi"
+  },
+
+  "terminos_chinos": {
+    "Wanfa Tianjiao": "Tianjiao de las Diez Mil Leyes",
+    "Tianjiao Wanfa": "Tianjiao de las Diez Mil Leyes",
+    "Wanfa": "Diez Mil Leyes",
+    "Dacheng": "Gran Perfección",
+    "Xiaocheng": "Pequeña Perfección",
+    "Huiyue": "Luna Brillante",
+    "Xiri": "Sol Naciente",
+    "Yicheng": "10%",
+    "Ercheng": "20%",
+    "Sancheng": "30%",
+    "Wucheng": "50%",
+    "Liucheng": "60%",
+    "Qicheng": "70%",
+    "Bacheng": "80%",
+    "Jiucheng": "90%"
+  },
+
+  "capitalizacion": {
+    "nivel rey": "Nivel Rey",
+    "nivel santo": "Nivel Santo",
+    "nivel emperador": "Nivel Emperador",
+    "nivel divino": "Nivel Divino",
+    "gran maestro": "Gran Maestro"
+  },
+
+  "variantes_terminos": {
+    "Espinas de Tierra": "Tierra",
+    "Barrera de Agua": "Agua",
+    "Escape Acuático": "Agua",
+    "Inmortalidad": "Inmortal",
+    "guerrero marcial": "artista marcial",
+    "bestia feroz": "bestia salvaje",
+    "fiera bestia": "bestia salvaje",
+    "Amanecer": "Sol Naciente",
+    "Prodigio Celestial": "Tianjiao"
+  },
+
+  "niveles_talento": {
+    "Talento de Cultivo: Superior": "Talento de Cultivo: Alto",
+    "cultivo de nivel superior": "cultivo de nivel alto"
+  },
+
+  "dobles": {
+    "Emperatriz Emperatriz": "Emperatriz",
+    "Emperador Emperador": "Emperador",
+    "Gran Gran": "Gran",
+    "Nivel Nivel": "Nivel"
+  }
+}
