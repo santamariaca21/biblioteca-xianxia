@@ -40,6 +40,14 @@ Los JSON ya tienen content.en. Agrega content.es y title.es.
 
 REGLAS INAMOVIBLES:
 - Párrafo por párrafo 1:1. NO condensar.
+- La traducción debe ser NATURAL y COMPRENSIBLE en español. NO traducir literalmente.
+- El source en inglés es MTL (traducción automática del chino) y tiene gramática rota, 
+  tiempos verbales incorrectos y frases sin sentido. TÚ debes adaptar cada frase para 
+  que suene natural en español, como si un hispanohablante la hubiera escrito.
+- Si el inglés dice "began" pero el contexto es futuro, usa futuro en español.
+- Si una frase no tiene sentido traducida literal, reescríbela manteniendo el significado.
+- Porcentajes SIEMPRE en texto: "setenta y siete por ciento" (NO "77%", NO "setenta-siete").
+- Concordancia de género: "otro medio mes" (NO "otra media mes").
 - «» con span class="dialogue" para diálogos
 - span class="emphasis" para términos clave
 - class="gold-text" para niveles dorados
