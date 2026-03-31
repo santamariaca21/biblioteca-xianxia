@@ -40,6 +40,18 @@ def fix_inverted_pct(text):
         text, flags=re.IGNORECASE
     )
 
+def fix_hyphenated_pct(text):
+    """Fix 'setenta-ocho' or 'setenta-ochenta' → 'setenta y ocho por ciento'."""
+    import re
+    tens = 'veinte|treinta|cuarenta|cincuenta|sesenta|setenta|ochenta|noventa'
+    ones = 'uno|dos|tres|cuatro|cinco|seis|siete|ocho|nueve'
+    weird = {'ochenta':'ocho','noventa':'nueve','diez':'diez'}
+    def _fix(m):
+        t, o = m.group(1), m.group(2).lower()
+        o = weird.get(o, o)
+        return f"{t} y {o} por ciento"
+    return re.sub(rf'({tens})-({ones}|ochenta|noventa|diez)', _fix, text, flags=re.IGNORECASE)
+
 def convert_pct_to_text(text):
     """Convert standalone numeric percentages to Spanish text."""
     import re
@@ -88,6 +100,8 @@ def fix_chapter(filepath, replacements):
 
     # Fix inverted percentages: "setenta por ciento siete" → "setenta y siete por ciento"
     es = fix_inverted_pct(es)
+    # Fix hyphenated numbers: "setenta-ocho" → "setenta y ocho por ciento"
+    es = fix_hyphenated_pct(es)
     # Convert numeric percentages to text (e.g., "70%" → "setenta por ciento")
     es = convert_pct_to_text(es)
 

@@ -53,14 +53,6 @@ import { IconComponent } from '../icon/icon';
 
       <!-- Chapter list -->
       <nav class="chapter-list">
-        <div
-          class="chapter-item"
-          [class.active]="activeChapter() === 'portada'"
-          (click)="chapterSelected.emit('portada')"
-        >
-          <span class="chapter-num">~</span>
-          <span class="chapter-title-nav">Portada</span>
-        </div>
         @for (ch of visibleChapters(); track ch.id) {
           <div
             class="chapter-item"
@@ -191,8 +183,8 @@ import { IconComponent } from '../icon/icon';
       &::-webkit-scrollbar-thumb { background: var(--t-sys-border, rgba(201,168,76,0.25)); border-radius: 2px; }
     }
     .chapter-item {
-      display: flex; align-items: center; gap: 0.6rem;
-      padding: 0.55rem 1rem;
+      display: flex; align-items: baseline; gap: 0.5rem;
+      padding: 0.35rem 0.8rem;
       cursor: pointer;
       transition: all 0.15s ease;
       border-left: 2px solid transparent;
@@ -208,15 +200,16 @@ import { IconComponent } from '../icon/icon';
     }
     .chapter-num {
       font-family: 'Cinzel', serif;
-      font-size: 0.6rem;
+      font-size: 0.55rem;
       color: var(--t-gold, #c9a84c);
-      min-width: 32px;
+      min-width: 26px;
       text-align: right;
+      flex-shrink: 0;
     }
     .chapter-title-nav {
-      font-size: 0.78rem;
+      font-size: 0.72rem;
       color: var(--t-dim, #8a8070);
-      line-height: 1.3;
+      line-height: 1.25;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
