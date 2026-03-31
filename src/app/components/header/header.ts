@@ -13,9 +13,7 @@ import { IconComponent } from '../icon/icon';
         <span class="logo-text"><span class="highlight">Biblioteca</span> Xianxia</span>
       </a>
       <div class="header-title">{{ title() }}</div>
-      <button class="settings-toggle" (click)="settingsClick.emit()">
-        <app-icon name="settings" [size]="16" />
-      </button>
+      <div></div>
     </header>
   `,
   styles: [`
