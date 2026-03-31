@@ -91,10 +91,11 @@ import { DomSanitizer } from '@angular/platform-browser';
         }
       </main>
 
-      <div class="settings-column">
-        <app-settings-panel [inline]="true" />
-      </div>
     </div>
+
+    @if (showSettings()) {
+      <app-settings-panel />
+    }
 
     <button class="scroll-top" [class.visible]="showScrollTop()" (click)="scrollToTop()"><app-icon name="chevron-up" [size]="18" /></button>
   `,

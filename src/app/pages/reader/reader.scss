@@ -1,7 +1,7 @@
 // ── LAYOUT ──
 .app-layout {
   display: grid;
-  grid-template-columns: 260px 1fr 260px;
+  grid-template-columns: 260px 1fr;
   min-height: calc(100vh - 56px);
   margin: 0 auto;
   transition: background 0.3s ease;
@@ -17,28 +17,14 @@
   transition: color 0.3s ease;
 }
 
-.settings-column {
-  position: sticky;
-  top: 56px;
-  height: calc(100vh - 56px);
-  overflow: hidden;
-  border-left: 1px solid var(--t-border, #1e2230);
-}
-
 @media (max-width: 1200px) {
-  .app-layout { grid-template-columns: 220px 1fr 220px; }
-  .main-content { padding: 2rem 2rem; }
-}
-
-@media (max-width: 1000px) {
   .app-layout { grid-template-columns: 220px 1fr; }
-  .settings-column { display: none; }
+  .main-content { padding: 2rem 2rem; }
 }
 
 @media (max-width: 900px) {
   .app-layout { grid-template-columns: 1fr; }
   .main-content { padding: 1.5rem 1.2rem; max-width: 100%; }
-  .settings-column { display: none; }
 }
 
 // ── HERO / PORTADA ──
