@@ -40,6 +40,7 @@ export interface Realm {
 
 export interface ReaderSettings {
   fontSize: number;
+  lineHeight: number;
   bgColor: string;
   showTalents: boolean;
   showStats: boolean;

@@ -105,7 +105,7 @@ export class SettingsService {
       const saved = localStorage.getItem(this.STORAGE_KEY);
       if (saved) return JSON.parse(saved);
     } catch {}
-    return { fontSize: 18, bgColor: '#0a0c10', showTalents: true, showStats: true, language: 'es' as SupportedLanguage };
+    return { fontSize: 18, lineHeight: 1.9, bgColor: '#0a0c10', showTalents: true, showStats: true, language: 'es' as SupportedLanguage };
   }
 
   update(partial: Partial<ReaderSettings>) {

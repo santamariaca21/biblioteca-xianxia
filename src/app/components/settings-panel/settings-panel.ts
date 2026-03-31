@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, input } from '@angular/core';
 import { SettingsService } from '../../services/settings.service';
 import { IconComponent } from '../icon/icon';
 
@@ -7,12 +7,19 @@ import { IconComponent } from '../icon/icon';
   standalone: true,
   imports: [IconComponent],
   template: `
-    <div class="panel-overlay" (click)="close()"></div>
-    <div class="settings-panel">
-      <div class="panel-header">
-        <span>Ajustes de Lectura</span>
-        <button (click)="close()"><app-icon name="x" [size]="16" /></button>
-      </div>
+    @if (!inline()) {
+      <div class="panel-overlay" (click)="close()"></div>
+    }
+    <div class="settings-panel" [class.inline-mode]="inline()">
+      @if (!inline()) {
+        <div class="panel-header">
+          <span>Ajustes de Lectura</span>
+          <button (click)="close()"><app-icon name="x" [size]="16" /></button>
+        </div>
+      }
+      @if (inline()) {
+        <div class="inline-header">Ajustes</div>
+      }
 
       <div class="setting-group">
         <label>Idioma / Language</label>
@@ -32,6 +39,15 @@ import { IconComponent } from '../icon/icon';
           <button (click)="changeFontSize(-1)">A-</button>
           <span class="font-size-display">{{ settings.settings().fontSize }}px</span>
           <button (click)="changeFontSize(1)">A+</button>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <label>Interlineado</label>
+        <div class="font-controls">
+          <button (click)="changeLineHeight(-0.1)">-</button>
+          <span class="font-size-display">{{ settings.settings().lineHeight.toFixed(1) }}</span>
+          <button (click)="changeLineHeight(0.1)">+</button>
         </div>
       </div>
 
@@ -66,12 +82,33 @@ import { IconComponent } from '../icon/icon';
     .settings-panel {
       position: fixed; top: 0; right: 0; bottom: 0;
       width: 320px; max-width: 90vw;
-      background: #13161e;
-      border-left: 1px solid rgba(201,168,76,0.25);
+      background: var(--t-card, #13161e);
+      border-left: 1px solid var(--t-border, rgba(201,168,76,0.25));
       z-index: 201;
       padding: 1.5rem;
       overflow-y: auto;
       animation: slideIn 0.3s ease;
+      &.inline-mode {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        border-left: 1px solid var(--t-border, rgba(201,168,76,0.25));
+        z-index: auto;
+        animation: none;
+        padding: 1rem 0.8rem;
+        height: calc(100vh - 56px);
+        overflow-y: auto;
+      }
+    }
+    .inline-header {
+      font-family: 'Cinzel', serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      color: var(--t-gold-dim, #7a6330);
+      text-transform: uppercase;
+      padding-bottom: 0.8rem;
+      border-bottom: 1px solid var(--t-border, #1e2230);
+      margin-bottom: 0.8rem;
     }
     @keyframes slideIn {
       from { transform: translateX(100%); }
@@ -134,13 +171,13 @@ import { IconComponent } from '../icon/icon';
       }
     }
     .bg-options {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem;
+      display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.3rem;
       .bg-swatch {
-        padding: 0.5rem; border-radius: 6px;
+        padding: 0.35rem 0.2rem; border-radius: 4px;
         border: 2px solid transparent;
-        font-size: 0.7rem; cursor: pointer;
+        font-size: 0.55rem; cursor: pointer;
         transition: all 0.2s;
-        &.active { border-color: #c9a84c; }
+        &.active { border-color: var(--t-gold, #c9a84c); }
         &:hover { opacity: 0.8; }
       }
     }
@@ -161,6 +198,7 @@ import { IconComponent } from '../icon/icon';
 })
 export class SettingsPanelComponent {
   settings = inject(SettingsService);
+  inline = input(false);
   private static closeCallback: (() => void) | null = null;
 
   static onClose(fn: () => void) { this.closeCallback = fn; }
@@ -175,7 +213,13 @@ export class SettingsPanelComponent {
     this.settings.update({ fontSize: next });
   }
 
+  changeLineHeight(delta: number) {
+    const current = this.settings.settings().lineHeight ?? 1.95;
+    const next = Math.max(1.2, Math.min(3.0, Math.round((current + delta) * 10) / 10));
+    this.settings.update({ lineHeight: next });
+  }
+
   isLight(color: string): boolean {
-    return ['#f4ecd8', '#f5f5f5', '#e8dcc8'].includes(color);
+    return ['#f4ecd8', '#f5f5f5', '#e8dcc8', '#f0ead6', '#ffffff'].includes(color);
   }
 }

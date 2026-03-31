@@ -42,7 +42,7 @@ import { DomSanitizer } from '@angular/platform-browser';
         (chapterSelected)="onChapterSelected($event)"
       />
 
-      <main class="main-content" [style.font-size.px]="settings.settings().fontSize">
+      <main class="main-content" [style.font-size.px]="settings.settings().fontSize" [style.line-height]="settings.settings().lineHeight ?? 1.9">
         <!-- PORTADA -->
         @if (activeChapterId() === 'portada') {
           <div class="novel-hero">
@@ -91,11 +91,10 @@ import { DomSanitizer } from '@angular/platform-browser';
         }
       </main>
 
+      <div class="settings-column">
+        <app-settings-panel [inline]="true" />
+      </div>
     </div>
-
-    @if (showSettings()) {
-      <app-settings-panel />
-    }
 
     <button class="scroll-top" [class.visible]="showScrollTop()" (click)="scrollToTop()"><app-icon name="chevron-up" [size]="18" /></button>
   `,
