@@ -29,6 +29,17 @@ def _num_to_spanish(n):
     ones = {1:'uno',2:'dos',3:'tres',4:'cuatro',5:'cinco',6:'seis',7:'siete',8:'ocho',9:'nueve'}
     return f"{tens.get(t, str(t))} y {ones.get(o, str(o))}"
 
+def fix_inverted_pct(text):
+    """Fix 'setenta por ciento siete' → 'setenta y siete por ciento'."""
+    import re
+    tens = 'veinte|treinta|cuarenta|cincuenta|sesenta|setenta|ochenta|noventa'
+    ones = 'uno|dos|tres|cuatro|cinco|seis|siete|ocho|nueve'
+    return re.sub(
+        rf'({tens}) por ciento ({ones})',
+        r'\1 y \2 por ciento',
+        text, flags=re.IGNORECASE
+    )
+
 def convert_pct_to_text(text):
     """Convert standalone numeric percentages to Spanish text."""
     import re
@@ -75,6 +86,8 @@ def fix_chapter(filepath, replacements):
     for wrong, right in replacements:
         es = es.replace(wrong, right)
 
+    # Fix inverted percentages: "setenta por ciento siete" → "setenta y siete por ciento"
+    es = fix_inverted_pct(es)
     # Convert numeric percentages to text (e.g., "70%" → "setenta por ciento")
     es = convert_pct_to_text(es)
 
