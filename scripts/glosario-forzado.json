@@ -1,6 +1,5 @@
 {
   "_descripcion": "Términos fijos para sustitución automática post-traducción. Se aplican en orden (los más largos primero).",
-
   "nombres_personajes": {
     "Emperador Luna": "Emperatriz Luna",
     "Emperatriz Yue": "Emperatriz Luna",
@@ -18,7 +17,6 @@
     "Terrano": "Humano",
     "Terrana": "Humana"
   },
-
   "terminos_chinos": {
     "Wanfa Tianjiao": "Tianjiao de las Diez Mil Leyes",
     "Tianjiao Wanfa": "Tianjiao de las Diez Mil Leyes",
@@ -36,7 +34,6 @@
     "Bacheng": "80%",
     "Jiucheng": "90%"
   },
-
   "capitalizacion": {
     "nivel rey": "Nivel Rey",
     "nivel santo": "Nivel Santo",
@@ -44,7 +41,6 @@
     "nivel divino": "Nivel Divino",
     "gran maestro": "Gran Maestro"
   },
-
   "variantes_terminos": {
     "Espinas de Tierra": "Tierra",
     "Barrera de Agua": "Agua",
@@ -54,16 +50,17 @@
     "bestia feroz": "bestia salvaje",
     "fiera bestia": "bestia salvaje",
     "Amanecer": "Sol Naciente",
-    "Prodigio Celestial": "Tianjiao"
+    "Prodigio Celestial": "Tianjiao",
+    "Escritura Divina": "Canon Divino",
+    "Escrituras Divinas": "Cánones Divinos",
+    "escritura divina": "canon divino",
+    "escrituras divinas": "cánones divinos"
   },
-
   "_porcentajes_nota": "Los porcentajes se escriben en TEXTO (setenta por ciento), NO en números (70%). El script fix-consistency.py convierte automáticamente N% a texto español.",
-
   "niveles_talento": {
     "Talento de Cultivo: Superior": "Talento de Cultivo: Alto",
     "cultivo de nivel superior": "cultivo de nivel alto"
   },
-
   "dobles": {
     "Emperatriz Emperatriz": "Emperatriz",
     "Emperador Emperador": "Emperador",
