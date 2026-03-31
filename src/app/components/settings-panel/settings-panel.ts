@@ -46,7 +46,7 @@ import { IconComponent } from '../icon/icon';
         <label>Interlineado</label>
         <div class="font-controls">
           <button (click)="changeLineHeight(-0.1)">-</button>
-          <span class="font-size-display">{{ settings.settings().lineHeight.toFixed(1) }}</span>
+          <span class="font-size-display">{{ (settings.settings().lineHeight ?? 1.9).toFixed(1) }}</span>
           <button (click)="changeLineHeight(0.1)">+</button>
         </div>
       </div>
