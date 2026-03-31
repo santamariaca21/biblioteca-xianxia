@@ -152,22 +152,26 @@ import { IconComponent } from '../icon/icon';
     }
     .range-selector {
       display: flex;
-      flex-wrap: wrap;
-      gap: 0.25rem;
-      padding: 0.5rem 0.8rem;
+      overflow-x: auto;
+      gap: 0.2rem;
+      padding: 0.4rem 0.8rem;
       border-bottom: 1px solid var(--t-border, #1e2230);
+      scrollbar-width: none;
+      &::-webkit-scrollbar { display: none; }
     }
     .range-btn {
       background: var(--t-hover, rgba(255,255,255,0.03));
       border: 1px solid var(--t-border, #1e2230);
       color: var(--t-dim, #8a8070);
-      font-size: 0.6rem;
-      padding: 0.25rem 0.5rem;
+      font-size: 0.55rem;
+      padding: 0.2rem 0.4rem;
       border-radius: 3px;
       cursor: pointer;
       font-family: 'Cinzel', serif;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.02em;
       transition: all 0.15s;
+      white-space: nowrap;
+      flex-shrink: 0;
       &:hover { border-color: var(--t-gold-dim, #7a6330); color: var(--t-text, #e8e0d0); }
       &.active {
         background: var(--t-sys-bg, rgba(201,168,76,0.1));
@@ -255,7 +259,7 @@ export class ChapterSidebarComponent {
   searchQuery = signal('');
   activeRange = signal('');
 
-  private RANGE_SIZE = 100;
+  private RANGE_SIZE = 200;
 
   activeChapterNumber = computed(() => {
     const id = this.activeChapter();
