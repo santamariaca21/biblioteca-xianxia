@@ -47,6 +47,14 @@ REGLAS INAMOVIBLES:
 - Si el inglés dice "began" pero el contexto es futuro, usa futuro en español.
 - Si una frase no tiene sentido traducida literal, reescríbela manteniendo el significado.
 - Porcentajes SIEMPRE en texto: "setenta y siete por ciento" (NO "77%", NO "setenta-siete").
+- CUIDADO CON PORCENTAJES DEL SISTEMA CHINO 成 (chéng): El chino usa 成 donde 1成=10%.
+  El MTL inglés lo traduce MAL. Debes interpretar por CONTEXTO:
+  - "ninety percent of seven" = 九成七 = 97% → "noventa y siete por ciento"
+  - "ninety percent eight" = 九成八 = 98% → "noventa y ocho por ciento"
+  - "ten percent realm" = 十成 = 100% → "cien por ciento" (plenitud del Dao)
+  - "three percent" en contexto de Pseudo-Arcano = 三成 = 30% → "treinta por ciento"
+  - Si el contexto habla de reinos del Dao/Espada y dice "X percent", multiplica por 10.
+  - Si el contexto habla de probabilidad/cerebro/cultivo real, el porcentaje es literal.
 - Concordancia de género: "otro medio mes" (NO "otra media mes").
 - «» con span class="dialogue" para diálogos
 - span class="emphasis" para términos clave
