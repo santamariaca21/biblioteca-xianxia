@@ -62,7 +62,12 @@
     "Unificación Inmortal": "Normalización Inmortal",
     "unificación inmortal": "normalización inmortal",
     "Normalización de la Longevidad": "Normalización Inmortal",
-    "Técnica de Unificación Inmortal": "Técnica de Normalización Inmortal"
+    "Técnica de Unificación Inmortal": "Técnica de Normalización Inmortal",
+    "nivel cumbre": "nivel pico",
+    "Nivel Cumbre": "Nivel Pico",
+    "etapa cumbre": "etapa pico",
+    "nivel cúspide": "nivel pico",
+    "Nivel Cúspide": "Nivel Pico"
   },
   "_porcentajes_nota": "Los porcentajes se escriben en TEXTO (setenta por ciento), NO en números (70%). El script fix-consistency.py convierte automáticamente N% a texto español.",
   "niveles_talento": {
