@@ -28,7 +28,9 @@ import { IconComponent } from '../icon/icon';
       top: 0;
       z-index: 100;
       height: 56px;
-      will-change: transform;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      transform: translateZ(0);
     }
     .logo {
       display: flex;

@@ -444,14 +444,16 @@
   }
 }
 
-// ── MOBILE NAV ──
+// ── NAV BAR ──
 .mobile-nav {
   display: flex;
   position: sticky;
   top: 56px;
   z-index: 90;
   background: var(--t-card, #0f1218);
-  backdrop-filter: blur(12px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
   border-bottom: 1px solid var(--t-border, #1e2230);
   padding: 0.5rem 1rem;
   align-items: center;
