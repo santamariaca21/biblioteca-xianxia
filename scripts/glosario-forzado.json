@@ -54,7 +54,9 @@
     "Escritura Divina": "Canon Divino",
     "Escrituras Divinas": "Cánones Divinos",
     "escritura divina": "canon divino",
-    "escrituras divinas": "cánones divinos"
+    "escrituras divinas": "cánones divinos",
+    "Unificación Inmortal": "Normalización Inmortal",
+    "unificación inmortal": "normalización inmortal"
   },
   "_porcentajes_nota": "Los porcentajes se escriben en TEXTO (setenta por ciento), NO en números (70%). El script fix-consistency.py convierte automáticamente N% a texto español.",
   "niveles_talento": {
