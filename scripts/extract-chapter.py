@@ -12,6 +12,19 @@ import json, os, sys, re
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 WTR_DIR = os.path.join(SCRIPT_DIR, '..', '..', 'scripts', 'wtr-comparisons')
+WTR_INDEX_PATH = os.path.join(WTR_DIR, 'wtr-index.json')
+
+# Load index if available (chapter_num → wtr file number)
+_WTR_INDEX = None
+def _load_index():
+    global _WTR_INDEX
+    if _WTR_INDEX is None and os.path.exists(WTR_INDEX_PATH):
+        try:
+            data = json.load(open(WTR_INDEX_PATH, encoding='utf-8'))
+            _WTR_INDEX = {int(k): v for k, v in data.get('chapter_to_file', {}).items()}
+        except:
+            _WTR_INDEX = {}
+    return _WTR_INDEX or {}
 
 # Junk patterns to strip
 JUNK_PATTERNS = [
@@ -27,8 +40,16 @@ JUNK_PATTERNS = [
 
 def find_chapter_source(cap_num):
     """Find which wtr file contains 第N章 and return (wtr_num, content, start_pos, end_pos)."""
-    # Search in wtr files near the chapter number
-    for wtr_n in range(cap_num - 2, cap_num + 3):
+    # Use index for accurate lookup, fall back to ±2 search
+    index = _load_index()
+    if cap_num in index:
+        indexed_file = index[cap_num]  # e.g. 'wtr_cap493.json'
+        wtr_n = int(re.search(r'\d+', indexed_file).group())
+        search_range = [wtr_n] + [n for n in range(cap_num - 2, cap_num + 3) if n != wtr_n]
+    else:
+        search_range = range(cap_num - 2, cap_num + 3)
+
+    for wtr_n in search_range:
         f = os.path.join(WTR_DIR, f'wtr_cap{wtr_n}.json')
         if not os.path.exists(f):
             continue
