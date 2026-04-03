@@ -110,6 +110,9 @@ Usa EXACTAMENTE estos términos. No uses sinónimos ni variantes.
 - Los nombres propios se mantienen en pinyin (Ye Tian, no "Hoja Cielo")
 - Porcentajes con 成: SIEMPRE en texto → 七成 = "setenta por ciento", 七成七 = "setenta y siete por ciento"
 - Unidades de fuerza: 斤 = catties (NUNCA "jin")
+- 绝世天骄 = "Tianjiao sin par" (NUNCA "peerless", es inglés)
+- Clasificación por estrellas: "Tianjiao sin par de nueve estrellas" (NO agregar "nivel nueve" después, es redundante)
+- Etapas dentro de un nivel: "Nivel Divino de novena etapa" (NO "nivel nueve del Nivel Divino")
 
 ### Contenido a OMITIR (basura editorial del source)
 NUNCA incluyas en la traducción:
