@@ -23,14 +23,18 @@ echo "3️⃣  harvest-new-terms.py (auto-guardar términos nuevos)"
 python3 scripts/harvest-new-terms.py "$START" "$END"
 
 echo ""
-echo "4️⃣  validate-translation.py"
+echo "4️⃣  detect-new-characters.py (detectar inconsistencias y términos nuevos)"
+python3 scripts/detect-new-characters.py "$START" "$END" --fix
+
+echo ""
+echo "5️⃣  validate-translation.py"
 python3 scripts/validate-translation.py "$START" "$END"
 
 echo ""
-echo "5️⃣  Regenerar prompt con glosario actualizado"
+echo "6️⃣  Regenerar prompt con glosario actualizado"
 python3 scripts/build-prompt.py > /tmp/translation-prompt.txt
 TOTAL=$(python3 -c "import json; g=json.load(open('scripts/glosario-maestro.json')); print(sum(len(v) for k,v in g.items() if not k.startswith('_') and isinstance(v,dict)))")
 echo "   Prompt regenerado (${TOTAL} términos)"
 
 echo ""
-echo "✅ Pipeline completo"
+echo "✅ Pipeline completo (6 pasos)"
