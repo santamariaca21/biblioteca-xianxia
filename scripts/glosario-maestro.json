@@ -74,7 +74,8 @@
     "金鹰域": "Dominio del Águila Dorada",
     "金鹰神": "Dios Águila Dorada",
     "金刚族": "Clan del Jin Gang",
-    "云墨珠": "Perla de Tinta Nube"
+    "云墨珠": "Perla de Tinta Nube",
+    "周天": "Zhou Tian (nombre propio de un Tianjiao reclutado por el Salón Supremo de la Raza Humana)"
   },
   "reinos_cultivo": {
     "武徒": "Aprendiz Marcial",
@@ -770,7 +771,9 @@
     "绝咒至尊": "Supremo Juézhòu",
     "苍羽之主": "Señor de las Alas Azure",
     "昆吾至尊": "Supremo Kunwu",
-    "玄门关": "Barrera de la Puerta Xuan"
+    "玄门关": "Barrera de la Puerta Xuan",
+    "五行神轮": "Rueda de los Cinco Elementos (gran Poder Divino de los cinco elementos)",
+    "古晟": "Gucheng (nombre propio del gran poder creador de la técnica de compresión)"
   },
   "tecnicas": {
     "混沌炼体术": "Técnica de Refinamiento Corporal del Caos",
@@ -824,7 +827,8 @@
     "混元藤蔓术": "Arte de las Enredaderas del Hundiyuan",
     "混沌炼身诀": "Técnica de Refinamiento Corporal del Caos (similar a 混沌炼体术 del glosario; se usa el mismo término)",
     "三千剑诀": "Tres Mil Preceptos de la Espada",
-    "人仙诀": "Arte de la Eternidad Humana"
+    "人仙诀": "Arte de la Eternidad Humana",
+    "混沌掌": "Palma del Caos (técnica de Canon Divino ofensiva creada por Ye Tian basada en la Palma Xumi)"
   },
   "zonas": {
     "临海": "Linhai",
