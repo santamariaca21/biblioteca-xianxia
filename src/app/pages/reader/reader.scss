@@ -165,27 +165,85 @@
     }
     .system-box {
       display: block;
-      background: var(--t-sys-bg);
-      border: 1px solid var(--t-sys-border);
-      border-radius: 4px;
-      padding: 1rem 1.5rem;
-      margin: 1rem 0;
-      font-family: 'Noto Serif SC', serif;
-      font-size: 0.9em;
+      max-width: 420px;
+      margin: 1.8rem auto;
+      background: var(--t-card);
+      border: 1px solid var(--t-teal);
+      border-radius: 3px;
+      padding: 0;
+      font-family: 'EB Garamond', serif;
+      font-size: 0.88em;
       color: var(--t-text);
-      line-height: 1.8;
+      line-height: 1.6;
       text-indent: 0;
+      position: relative;
+      overflow: hidden;
+
+      // Corner brackets
+      &::before, &::after {
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        border-color: var(--t-teal);
+        border-style: solid;
+        opacity: 0.45;
+      }
+      &::before {
+        top: 4px; left: 4px;
+        border-width: 1.5px 0 0 1.5px;
+      }
+      &::after {
+        bottom: 4px; right: 4px;
+        border-width: 0 1.5px 1.5px 0;
+      }
+
       .sys-title {
         font-family: 'Cinzel', serif;
-        font-size: 0.65rem;
+        font-size: 0.55rem;
         letter-spacing: 0.25em;
-        color: var(--t-gold);
+        color: var(--t-teal);
         text-transform: uppercase;
-        margin-bottom: 0.5rem;
+        margin: 0;
+        padding: 0.5rem 1.1rem 0.35rem;
+        border-bottom: 1px solid var(--t-border);
         display: block;
+        background: var(--t-hover);
       }
-      .sys-name { color: var(--t-gold-light); }
+
+      .sys-row {
+        display: flex;
+        gap: 0.5rem;
+        align-items: baseline;
+        padding: 0.3rem 1.1rem;
+        border-bottom: 1px solid var(--t-faint);
+        flex-wrap: wrap;
+        &:last-child { border-bottom: none; }
+      }
+
+      .sys-label {
+        color: var(--t-dim);
+        font-size: 0.82em;
+        min-width: 0;
+      }
+
+      .sys-value {
+        color: var(--t-text);
+        font-weight: 600;
+        margin-left: auto;
+        text-align: right;
+        &.gold { color: var(--t-gold); }
+        &.teal { color: var(--t-teal); }
+      }
+
+      .sys-name { color: var(--t-gold); font-weight: 700; }
       .sys-talent { color: var(--t-teal); }
+      p { margin: 0; text-indent: 0; padding: 0.3rem 1.1rem; font-size: 0.85em; color: var(--t-dim); }
+
+      .emphasis {
+        color: var(--t-teal);
+        font-weight: 600;
+      }
     }
   }
 }

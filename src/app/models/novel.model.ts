@@ -1,4 +1,4 @@
-export type SupportedLanguage = 'es' | 'en';
+export type SupportedLanguage = 'es' | 'en' | 'zh';
 export type LocalizedString = string | Record<string, string>;
 
 export function resolveLocalized(value: LocalizedString | undefined, lang: SupportedLanguage): string {
@@ -30,6 +30,7 @@ export interface ChapterIndexEntry {
   n: number;
   es?: string;
   en?: string;
+  zh?: string;
 }
 
 export interface Realm {

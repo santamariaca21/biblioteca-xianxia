@@ -30,6 +30,9 @@ import { IconComponent } from '../icon/icon';
           <button class="lang-btn" [class.active]="settings.settings().language === 'en'" (click)="settings.update({ language: 'en' })">
             <span class="lang-flag">EN</span> English
           </button>
+          <button class="lang-btn" [class.active]="settings.settings().language === 'zh'" (click)="settings.update({ language: 'zh' })">
+            <span class="lang-flag">ZH</span> 中文
+          </button>
         </div>
       </div>
 
@@ -119,7 +122,7 @@ import { IconComponent } from '../icon/icon';
       }
     }
     .lang-options {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem;
     }
     .lang-btn {
       display: flex; align-items: center; gap: 0.5rem;

@@ -1,4 +1,4 @@
-import { Component, inject, OnInit, OnDestroy, signal, computed } from '@angular/core';
+import { Component, inject, OnInit, OnDestroy, signal, computed, HostListener } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { NgStyle } from '@angular/common';
 import { NovelService } from '../../services/novel.service';
@@ -126,7 +126,7 @@ export class ReaderComponent implements OnInit, OnDestroy {
     return idx.map(entry => ({
       id: entry.id,
       number: entry.n,
-      title: (l === 'en' ? entry.en : entry.es) || entry.es || entry.en || `Cap ${entry.n}`,
+      title: entry[l] ?? entry.es ?? entry.en ?? `Cap ${entry.n}`,
     }));
   });
 
@@ -148,6 +148,18 @@ export class ReaderComponent implements OnInit, OnDestroy {
     const raw = resolveLocalized(ch.content, this.lang());
     return this.sanitizer.bypassSecurityTrustHtml(raw);
   });
+
+  @HostListener('window:keydown', ['$event'])
+  onKeydown(event: KeyboardEvent) {
+    if (event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement) return;
+    if (event.key === 'ArrowLeft') {
+      const prev = this.prevChapterId();
+      if (prev) this.onChapterSelected(prev);
+    } else if (event.key === 'ArrowRight') {
+      const next = this.nextChapterId();
+      if (next) this.onChapterSelected(next);
+    }
+  }
 
   prevChapterId = computed(() => {
     const idx = this.chapterIndex();

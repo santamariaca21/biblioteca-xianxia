@@ -5,7 +5,7 @@ Uso: python3 scripts/fix-consistency.py [START] [END]
   Sin args: aplica a TODOS los capítulos con español
   Con args: aplica solo al rango especificado
 """
-import json, os, sys
+import json, os, sys, re
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
@@ -63,23 +63,48 @@ def convert_pct_to_text(text):
     return re.sub(r'(?<!["\w])(\d{1,3})%', _replace, text)
 
 def load_glosario():
-    """Load and flatten the glossary into ordered replacement pairs."""
+    """Load and flatten the glossary into ordered replacement pairs + regex rules."""
     with open(GLOSARIO_PATH) as f:
         raw = json.load(f)
 
-    # Collect all replacements, longer strings first to avoid partial matches
+    # Collect all string replacements, longer strings first to avoid partial matches
     replacements = []
+    regex_rules = []
     for category, pairs in raw.items():
         if category.startswith("_"):
             continue
+        if category == "regex_rules":
+            for pattern, rule in pairs.items():
+                if pattern.startswith("_"):
+                    continue
+                flags = 0
+                if isinstance(rule, dict):
+                    if rule.get("flags", "").upper() == "IGNORECASE":
+                        flags = re.IGNORECASE
+                    replace_str = rule["replace"]
+                else:
+                    replace_str = rule
+                try:
+                    compiled = re.compile(pattern, flags)
+                    regex_rules.append((compiled, replace_str))
+                except re.error:
+                    pass
+            continue
         for wrong, right in pairs.items():
+            if wrong.startswith("_"):
+                continue
             replacements.append((wrong, right))
 
     # Sort by length descending (apply longer replacements first)
     replacements.sort(key=lambda x: -len(x[0]))
-    return replacements
+    return replacements, regex_rules
 
-def fix_chapter(filepath, replacements):
+def detect_chinese_remnants(text):
+    """Find Chinese characters remaining in Spanish text."""
+    return re.findall(r'[\u4e00-\u9fff]+', text)
+
+
+def fix_chapter(filepath, replacements, regex_rules=None):
     """Apply replacements to a chapter's Spanish content. Returns True if modified."""
     with open(filepath) as f:
         d = json.load(f)
@@ -98,6 +123,11 @@ def fix_chapter(filepath, replacements):
     for wrong, right in replacements:
         es = es.replace(wrong, right)
 
+    # Apply regex rules
+    if regex_rules:
+        for compiled_re, replace_str in regex_rules:
+            es = compiled_re.sub(replace_str, es)
+
     # Fix inverted percentages: "setenta por ciento siete" → "setenta y siete por ciento"
     es = fix_inverted_pct(es)
     # Fix hyphenated numbers: "setenta-ocho" → "setenta y ocho por ciento"
@@ -115,7 +145,7 @@ def fix_chapter(filepath, replacements):
         return True
     return False
 
-def audit_chapter(filepath, replacements):
+def audit_chapter(filepath, replacements, regex_rules=None):
     """Check if a chapter has any terms that need fixing (dry run)."""
     with open(filepath) as f:
         d = json.load(f)
@@ -130,17 +160,32 @@ def audit_chapter(filepath, replacements):
         if wrong in es:
             count = es.count(wrong)
             issues.append(f"'{wrong}' → '{right}' ({count}x)")
+
+    # Audit regex rules
+    if regex_rules:
+        for compiled_re, replace_str in regex_rules:
+            matches = compiled_re.findall(es)
+            if matches:
+                issues.append(f"regex '{compiled_re.pattern}' → '{replace_str}' ({len(matches)}x)")
+
+    # Check for Chinese remnants in ES content
+    zh_remnants = detect_chinese_remnants(es)
+    if zh_remnants:
+        issues.append(f"⚠️  Chino residual: {', '.join(zh_remnants[:5])}")
+
     return issues
 
 def main():
-    replacements = load_glosario()
-    print(f"Loaded {len(replacements)} replacement rules")
-
-    start = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    end = int(sys.argv[2]) if len(sys.argv) > 2 else 9999
+    replacements, regex_rules = load_glosario()
+    print(f"Loaded {len(replacements)} string rules + {len(regex_rules)} regex rules")
 
     # Determine mode
     audit_only = "--audit" in sys.argv
+
+    # Parse numeric args (skip flags)
+    nums = [a for a in sys.argv[1:] if not a.startswith("--")]
+    start = int(nums[0]) if len(nums) > 0 else 1
+    end = int(nums[1]) if len(nums) > 1 else 9999
 
     fixed = 0
     total_issues = 0
@@ -150,12 +195,12 @@ def main():
             continue
 
         if audit_only:
-            issues = audit_chapter(filepath, replacements)
+            issues = audit_chapter(filepath, replacements, regex_rules)
             if issues:
                 print(f"  cap{i}: {', '.join(issues)}")
                 total_issues += len(issues)
         else:
-            if fix_chapter(filepath, replacements):
+            if fix_chapter(filepath, replacements, regex_rules):
                 fixed += 1
 
     if audit_only:
