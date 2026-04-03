@@ -135,6 +135,10 @@
     "(?i)\\bmaestría\\b(?!\\s+(?:de|en|del))": {
       "replace": "Consumación",
       "context": "En contexto de nivel de técnica marcial, maestría → Consumación."
+    },
+    "(?i)(etapa|estrellas),?\\s+nivel\\s+(?:uno|dos|tres|cuatro|cinco|seis|siete|ocho|nueve)\\b": {
+      "replace": "\\1",
+      "context": "Elimina 'nivel N' redundante tras 'etapa/estrellas'. Ej: 'novena etapa, nivel nueve' → 'novena etapa'."
     }
   }
 }
