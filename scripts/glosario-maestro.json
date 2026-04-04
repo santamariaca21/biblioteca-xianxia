@@ -1011,5 +1011,9 @@
   "medidas": {
     "斤": "catties",
     "千斤": "mil catties"
-  }
+  },
+  "月牙": "Luna Creciente",
+  "裂阳": "Sol Ardiente",
+  "月牙天骄": "Tianjiao Luna Creciente",
+  "裂阳天骄": "Tianjiao Sol Ardiente"
 }
